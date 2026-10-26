@@ -119,6 +119,57 @@ window.STUDIO_THEMES = {
         "collection.psd @ 100%",
         "RGB / 8 · Demo"
       ]
+    },
+    {
+      "id": "file-explorer",
+      "name": "File Explorer",
+      "description": "Light file browser, yellow folders and breadcrumb navigation",
+      "color": "#f3f6fb",
+      "tone": "light",
+      "family": "workspace",
+      "workspace": ["LITTLE / File Explorer", "Home / Documents / Studio", "9 sample files"]
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "description": "Quiet document workspace, warm white and minimal page cards",
+      "color": "#fbfaf7",
+      "tone": "light",
+      "family": "workspace",
+      "workspace": ["Little workspace", "Pages / Creative collection", "Fictional demo"]
+    },
+    {
+      "id": "burpsuite",
+      "name": "Burp Suite",
+      "description": "Charcoal utility panels, orange tabs and monospace details",
+      "color": "#202124",
+      "tone": "dark",
+      "family": "workspace",
+      "workspace": ["LITTLE / Project workspace", "Resources / Preview", "Local demo only"]
+    },
+    {
+      "id": "halloween",
+      "name": "Halloween",
+      "description": "Midnight plum, pumpkin orange and playful autumn details",
+      "color": "#191322",
+      "tone": "dark",
+      "family": "seasonal"
+    },
+    {
+      "id": "christmas",
+      "name": "Christmas",
+      "description": "Evergreen, warm ivory, red ribbons and golden stars",
+      "color": "#faf7ef",
+      "tone": "light",
+      "family": "seasonal"
+    },
+    {
+      "id": "tet",
+      "name": "Tết Holiday",
+      "description": "Vietnamese New Year: lacquer red, gold and apricot blossoms",
+      "color": "#fff5e8",
+      "tone": "light",
+      "family": "seasonal"
     }
   ]
 };

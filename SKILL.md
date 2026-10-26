@@ -1,17 +1,17 @@
 ---
 name: creative-theme-system
-description: Create or extend selectable website themes, including monochrome terminal, editor/workspace-inspired styles, and pastel retro neo-brutalism. Use for multi-theme UI systems or recreating this eleven-theme collection while preserving an existing application.
+description: Create or extend selectable website themes, including monochrome terminal, app-inspired workspaces, retro neo-brutalism, and holiday styles. Use for multi-theme UI systems or recreating this seventeen-theme collection while preserving an existing application.
 ---
 
 # Creative Theme System
 
-Build selectable visual themes that preserve the user's application, default theme, content and business logic. This package includes eleven working reference themes and a dependency-free demo. Brand names describe visual inspiration, not those applications' capabilities.
+Build selectable visual themes that preserve the user's application, default theme, content and business logic. This package includes seventeen working reference themes and a dependency-free demo. Brand names describe visual inspiration, not those applications' capabilities.
 
 ## Choose the implementation path
 
 - **Existing application:** inspect its theme registry/provider, root selector, CSS tokens, persistence, SSR/bootstrap strategy, localization and selector UI. Extend those mechanisms. Read [integration.md](references/integration.md) before adapting the references. Do not replace a working provider with the starter controller.
 - **New demo or starting point:** run `node scripts/create_demo.mjs <new-empty-directory>` from this skill folder. Serve it with `node scripts/serve.mjs <directory> --port 4173`. No package installation or build step is needed.
-- **Requested styles:** read the relevant entries in [theme-recipes.md](references/theme-recipes.md). For “these themes,” include all eleven; for a bounded addition, add only the requested themes.
+- **Requested styles:** read the relevant entries in [theme-recipes.md](references/theme-recipes.md). For “these themes,” include all seventeen; for a bounded addition, add only the requested themes.
 
 ## Visual and integration rules
 
@@ -22,6 +22,8 @@ Preserve defaults, URLs, filters, sorting, forms, checkout destinations, localiz
 **Command line means black/white/gray in this collection.** Use black canvas, dark gray panels, fine gray borders, light monospace text and monochrome controls. Do not introduce green terminal accents unless requested. Product images retain their original color unless grayscale artwork is requested.
 
 Retro uses cream plus yellow/pink/blue/mint, 2–3px black borders, `4px 4px 0` hard shadows, rounded cards and pill controls. Keep hover/pressed effects subtle and respect reduced motion. Workspace decorations are presentation-only and must not look like unsupported functional controls.
+
+Holiday themes are explicit user selections. Preserve the current theme until the user changes it; do not switch automatically based on the calendar. Tết uses Vietnamese New Year styling with red/gold, apricot/peach blossoms and correctly accented Vietnamese greetings. Avoid inventing holiday dates, promotions or current-year claims.
 
 Use supplied or verified product content. Starter products and SVGs are fictional visual-testing samples; do not turn sample prices, ratings, counts or statements into real business claims.
 

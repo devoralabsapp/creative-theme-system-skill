@@ -6,6 +6,7 @@
   const id=valid(requested)?requested:valid(stored)?stored:config.defaultTheme;
   const theme=config.themes.find(item=>item.id===id);
   document.documentElement.dataset.theme=id;
-  document.documentElement.dataset.workspace=String(theme.family==='workspace');
+  document.documentElement.dataset.workspace=String(theme.family==='workspace'||theme.family==='seasonal');
+  document.documentElement.dataset.family=theme.family;
   document.documentElement.dataset.tone=theme.tone;
 })();

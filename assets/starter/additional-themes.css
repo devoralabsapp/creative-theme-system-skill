@@ -1,0 +1,208 @@
+/* Additional workspace and holiday themes; the existing provider stays shared. */
+/* File Explorer — a light file library with yellow folder tabs. */
+html[data-theme="file-explorer"]{--paper:#f3f6fb;--ink:#253141;--olive:#2865b1;--line:#d7dfe9;--ws-panel:#fff;--ws-top:#fbfcfe;--ws-soft:#e8eef7;--ws-muted:#647187;--ws-accent:#2865b1;--ws-on-accent:#fff;--ws-radius:9px;--ws-shadow:0 4px 14px #243d6410;--serif:'Manrope',Arial,sans-serif;--swatch-one:#f6cd59;--swatch-two:#dbeafe;--swatch-three:#fff}
+[data-theme="file-explorer"] .announcement{background:#dfeafb;color:#36577e;font-size:9px}
+[data-theme="file-explorer"] .workspace-chrome-inner{min-height:46px}
+[data-theme="file-explorer"] #workspace-title:before{content:'▰ ';color:#c49b22;font-size:16px;vertical-align:middle}
+[data-theme="file-explorer"] #workspace-path{background:#fff;border:1px solid #d7dfe9;border-radius:6px;flex:1;padding:5px 13px;color:#56677c}
+[data-theme="file-explorer"] .workspace-dots i{background:#f3c648;opacity:1}
+[data-theme="file-explorer"] .header{height:87px}
+[data-theme="file-explorer"] .header nav a{padding:8px 14px;border-radius:6px}
+[data-theme="file-explorer"] .nav-active{background:#dfeafb;color:#275d9c}
+[data-theme="file-explorer"] .nav-active:after{display:none}
+[data-theme="file-explorer"] .hero{gap:48px}
+[data-theme="file-explorer"] .hero h1{font-size:clamp(53px,5.5vw,76px);font-weight:700}
+[data-theme="file-explorer"] .hero-art{background:#fff1bb;border:1px solid #e0c66f;border-radius:0 18px 18px 18px;isolation:isolate;box-shadow:0 12px 30px #8c77381a}
+[data-theme="file-explorer"] .hero-art:before{content:'';position:absolute;left:-1px;top:-25px;width:43%;height:27px;border:1px solid #e0c66f;border-bottom:0;border-radius:11px 18px 0 0;background:#f6d56b;z-index:-1}
+[data-theme="file-explorer"] .hero-art-label{top:18px;color:#886c25;font-size:8px;font-weight:700}
+[data-theme="file-explorer"] .hero-print{background:#fff;transform:rotate(-4deg);border:0;border-radius:7px;top:79px;overflow:hidden}
+[data-theme="file-explorer"] .hero-book{background:#fff;transform:rotate(6deg);border:0;border-radius:7px;overflow:hidden;right:2%;top:231px}
+[data-theme="file-explorer"] .round-stamp{background:#dbeafe;color:#285d99;border:0;border-radius:11px;transform:none}
+[data-theme="file-explorer"] .spark-one{display:none}
+[data-theme="file-explorer"] .art-caption{color:#826c32}
+[data-theme="file-explorer"] .product-category:before{content:'▰ ';color:#a88114}
+[data-theme="file-explorer"] .product-label{border-color:#e9dca7;background:#fff8dd;color:#80651d}
+[data-theme="file-explorer"] .product-open{background:#e3edfd;color:#2865b1;border-radius:6px}
+[data-theme="file-explorer"] .feature-image{background:#fff1c7}
+[data-theme="file-explorer"] .how{background:#e6edf8}
+/* Notion — a quiet, readable page collection. */
+html[data-theme="notion"]{--paper:#fbfaf7;--ink:#32312e;--olive:#32312e;--line:#e4e1da;--ws-panel:#fffefa;--ws-top:#fbfaf7;--ws-soft:#efede7;--ws-muted:#77746b;--ws-accent:#3a3935;--ws-on-accent:#fffefa;--ws-radius:4px;--ws-shadow:none;--serif:'Manrope',Arial,sans-serif;--swatch-one:#32312e;--swatch-two:#d5d0c4;--swatch-three:#fbfaf7}
+[data-theme="notion"] .announcement{background:#eeece6;color:#77746b;font-size:9px}
+[data-theme="notion"] .workspace-dots{display:none}
+[data-theme="notion"] #workspace-title:before{content:'▣ ';color:#32312e}
+[data-theme="notion"] #workspace-path{color:#8e8a80}
+[data-theme="notion"] .header{border:0;height:89px}
+[data-theme="notion"] .header .brand>svg{display:none}
+[data-theme="notion"] .header .brand:before{content:'L';font:700 24px Georgia,serif;background:#fffefa;border:2px solid #3a3935;border-radius:3px;padding:6px 10px;box-shadow:2px 2px 0 #3a3935;line-height:1;margin-right:4px}
+[data-theme="notion"] .hero{gap:55px;padding-top:24px;min-height:590px}
+[data-theme="notion"] .hero h1{font-size:clamp(52px,5.4vw,75px);font-weight:750;letter-spacing:-3px}
+[data-theme="notion"] .hero h1 em{color:#7b776d;text-decoration:underline;text-decoration-color:#d6d0c3;text-underline-offset:8px;text-decoration-thickness:2px}
+[data-theme="notion"] .hero .eyebrow{letter-spacing:.04em}
+[data-theme="notion"] .tiny-spark{display:none}
+[data-theme="notion"] .hero-art{background:#f0ede5;border-color:#e5dfd3;box-shadow:none;height:480px;border-radius:6px}
+[data-theme="notion"] .hero-art-label{top:18px;font-size:8px;color:#8c867a;font-weight:500;letter-spacing:.06em}
+[data-theme="notion"] .hero-print{top:75px;left:7%;width:65%;transform:none;border:1px solid #ddd6c8;box-shadow:0 3px 9px #00000008;background:#fffefa;padding:9px 9px 0}
+[data-theme="notion"] .hero-book{top:235px;right:3%;width:43%;transform:none;border:1px solid #ddd6c8;box-shadow:0 3px 9px #00000008;background:#fffefa}
+[data-theme="notion"] :is(.round-stamp,.art-spark){display:none}
+[data-theme="notion"] .art-caption{font:italic 11px Georgia,serif;color:#8c867a}
+[data-theme="notion"] .button.primary{background:#f0ede6;color:#3a3935;border:1px solid #d9d4c8}
+[data-theme="notion"] .button:hover{background:#e4e0d7;color:#32312e}
+[data-theme="notion"] .benefits{background:#f4f2ec}
+[data-theme="notion"] .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+[data-theme="notion"] .product-image{aspect-ratio:1.3}
+[data-theme="notion"] .product-image img{object-fit:contain;background:#eeece5}
+[data-theme="notion"] .product{border-color:#e4dfd4}
+[data-theme="notion"] .product-category:before{content:'▧ ';color:#8c867a}
+[data-theme="notion"] .product-open{background:#f2efe8;color:#55514a}
+[data-theme="notion"] .product-label{background:#fffdf6e8;color:#777065;border-color:#e5dfd3}
+[data-theme="notion"] .feature{background:#f2efe8;border:0}
+[data-theme="notion"] .how{background:#f1eee7}
+[data-theme="notion"] .steps h3{font-size:18px}
+[data-theme="notion"] .closing{background:#f1eee7}
+/* Burp Suite — utility styling only; this demo performs no security operations. */
+html[data-theme="burpsuite"]{--paper:#202124;--ink:#e9e9eb;--olive:#ff9868;--line:#49494e;--ws-panel:#2b2c30;--ws-top:#25262a;--ws-soft:#35363b;--ws-muted:#b8b8bf;--ws-accent:#ff9868;--ws-on-accent:#2a1a10;--ws-radius:2px;--ws-shadow:none;--serif:'Consolas','Courier New',monospace;--swatch-one:#ff6633;--swatch-two:#202124;--swatch-three:#888992}
+[data-theme="burpsuite"] .announcement{background:#e66c36;color:#1f1712;font-size:9px;font-weight:700}
+[data-theme="burpsuite"] .workspace-dots i{border-radius:1px;background:#ff9868;opacity:1}
+[data-theme="burpsuite"] #workspace-path{padding:11px 14px;border-bottom:2px solid #ff9868;background:#303136;color:#f7c2a8;align-self:stretch;display:flex;align-items:center}
+[data-theme="burpsuite"] .header .brand>span{font-family:'Manrope',sans-serif;font-size:36px}
+[data-theme="burpsuite"] .header .brand>svg{display:none}
+[data-theme="burpsuite"] .header .brand:before{content:'◈';color:#ff9868;font-size:33px;line-height:1;margin-right:6px}
+[data-theme="burpsuite"] .nav-active:after{height:2px;background:#ff9868}
+[data-theme="burpsuite"] .hero h1{font-size:clamp(42px,4.7vw,66px);letter-spacing:-2px;font-weight:600}
+[data-theme="burpsuite"] .hero .eyebrow{font-family:'Consolas',monospace;color:#e8bda8}
+[data-theme="burpsuite"] .hero-art{background:#28292d;border:1px solid #56565c;height:480px}
+[data-theme="burpsuite"] .hero-art-label{top:0;left:0;right:0;padding:13px 15px;text-align:left;background:#36373c;border-bottom:2px solid #ff9868;font:9px 'Consolas',monospace;color:#ddd}
+[data-theme="burpsuite"] .hero-art-label:before{content:'RESOURCE / ';color:#ff9868}
+[data-theme="burpsuite"] .hero-print{top:72px;transform:none;left:6%;background:#35363b;border-color:#5a5b60;box-shadow:none}
+[data-theme="burpsuite"] .hero-book{top:233px;right:3%;transform:none;background:#35363b;border-color:#ff9868;box-shadow:none}
+[data-theme="burpsuite"] .round-stamp{top:350px;border-radius:2px;transform:none;background:#402c24;color:#ffbc99;border-color:#ad653e}
+[data-theme="burpsuite"] .spark-one{display:none}
+[data-theme="burpsuite"] .product-category{font-family:'Consolas',monospace;letter-spacing:0}
+[data-theme="burpsuite"] .product-category:before{content:'item_' counter(workspace-product,decimal-leading-zero) ' / ';color:#b9b9c2}
+[data-theme="burpsuite"] .product h3{font-family:'Manrope',sans-serif}
+[data-theme="burpsuite"] .filter.active{background:#ff9868;color:#2a1a10}
+[data-theme="burpsuite"] .product-label{background:#303136e8;border-color:#626268;color:#e6e6eb}
+[data-theme="burpsuite"] .feature-image{background:#4c4440}
+/* Holiday family reuses semantic components, with no editor chrome. */
+[data-family="seasonal"] .workspace-chrome,[data-family="seasonal"] .workspace-rail{display:none}
+[data-family="seasonal"] .header{height:103px}
+[data-family="seasonal"] .hero{padding-top:42px;gap:50px;min-height:625px}
+[data-family="seasonal"] .hero h1{font-size:clamp(56px,5.8vw,81px);line-height:1.09;letter-spacing:-2.8px}
+[data-family="seasonal"] .hero-art{height:520px;overflow:visible}
+[data-family="seasonal"] .hero-art-label{top:23px;font-size:8px}
+[data-family="seasonal"] .hero-print{top:92px;left:6%;width:66%;transform:rotate(-6deg)}
+[data-family="seasonal"] .hero-book{top:250px;right:0;transform:rotate(8deg)}
+[data-family="seasonal"] .round-stamp{top:372px;width:80px;height:80px}
+[data-family="seasonal"] .button{padding:14px 24px;font-size:12px}
+[data-family="seasonal"] .section-top h2{font-size:39px}
+[data-family="seasonal"] .product h3{font-size:22px}
+[data-family="seasonal"] .feature h2{font-size:39px}
+/* Halloween — soft spooky colors and an original pumpkin line drawing. */
+html[data-theme="halloween"]{--paper:#191322;--ink:#f4e9db;--olive:#ffb162;--line:#4b3857;--ws-panel:#261b30;--ws-top:#201627;--ws-soft:#3a2647;--ws-muted:#c5b3ca;--ws-accent:#ffb162;--ws-on-accent:#301b0d;--ws-radius:17px;--ws-shadow:0 6px 19px #00000015;--serif:'Fredoka',Arial,sans-serif;--sans:'Nunito',Arial,sans-serif;--swatch-one:#ffb162;--swatch-two:#70438b;--swatch-three:#191322}
+[data-theme="halloween"] .announcement{background:#7d492c;color:#ffe8c4;font-weight:700}
+[data-theme="halloween"] .header .brand>span{font-weight:500;font-size:46px}
+[data-theme="halloween"] .hero h1{font-weight:500;letter-spacing:-1.5px;font-size:clamp(61px,6vw,84px)}
+[data-theme="halloween"] .hero .eyebrow{color:#d9bded}
+[data-theme="halloween"] .hero-art{background-color:#352241;background-image:radial-gradient(#9c74b13d 1px,transparent 1px);background-size:23px 23px;border:1px solid #78548b;border-radius:100px 100px 24px 24px}
+[data-theme="halloween"] .hero-art:before{content:'';position:absolute;right:20px;top:59px;width:87px;height:87px;background:center/contain no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='none' stroke='%23ffb162' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M51 30C44 14 58 11 61 6M50 31C20 16 6 43 15 65s25 24 35 19c12 7 35-2 39-24s-8-42-39-29Z'/%3E%3Cellipse cx='50' cy='57' rx='16' ry='29'/%3E%3Cpath d='m28 48 8-8 7 9Zm32 1 7-9 8 8ZM31 65l9 7 10-5 10 5 10-8'/%3E%3C/svg%3E");transform:rotate(12deg)}
+[data-theme="halloween"] .hero-art-label{color:#e6c4f1;top:24px;font-weight:800;font-size:7px}
+[data-theme="halloween"] .hero-print{background:#efdfca;border:1px solid #f0ca98;box-shadow:4px 12px 24px #0003;border-radius:11px;overflow:hidden}
+[data-theme="halloween"] .hero-print figcaption,[data-theme="halloween"] .hero-book figcaption{color:#594332;font-family:'Nunito',sans-serif}
+[data-theme="halloween"] .hero-book{background:#ddc1e9;border-color:#d0a9e6;border-radius:11px;overflow:hidden}
+[data-theme="halloween"] .round-stamp{background:#ffb162;color:#40220e;border:0;transform:rotate(-12deg)}
+[data-theme="halloween"] .spark-one{display:none}
+[data-theme="halloween"] .art-caption{color:#dfc9e8;font-size:10px}
+[data-theme="halloween"] .button{border-radius:99px;font-weight:900}
+[data-theme="halloween"] .product-label{background:#6c3c83;color:#f8e8ff;border-color:#9969ad;border-radius:99px}
+[data-theme="halloween"] .product-open{border-radius:50%}
+[data-theme="halloween"] .product-category{color:#efbd91;font-weight:800}
+[data-theme="halloween"] .how{background:#2b1b35}
+[data-theme="halloween"] .step-number{color:#ffb162}
+[data-theme="halloween"] .closing{background:#392343;border-color:#775187}
+/* Christmas — evergreen, ivory paper, ribbon red and quiet golden stars. */
+html[data-theme="christmas"]{--paper:#faf7ef;--ink:#233d32;--olive:#23523e;--line:#d9dfd3;--ws-panel:#fffdf6;--ws-top:#faf7ef;--ws-soft:#e6eddf;--ws-muted:#6d7869;--ws-accent:#23523e;--ws-on-accent:#fff8e9;--ws-radius:9px;--ws-shadow:none;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;--swatch-one:#23523e;--swatch-two:#b03d3b;--swatch-three:#d1b473}
+[data-theme="christmas"] .announcement{background:#23523e;color:#f6e8c5;letter-spacing:.07em}
+[data-theme="christmas"] .header .brand>span{font-weight:500;font-size:46px}
+[data-theme="christmas"] .hero h1{font-weight:400;letter-spacing:-3px;font-size:clamp(62px,6.2vw,87px)}
+[data-theme="christmas"] .hero h1 em{font-style:italic;color:#a3473b}
+[data-theme="christmas"] .hero-art{background:#254936;border:1px solid #55775d;border-radius:140px 140px 10px 10px;background-image:radial-gradient(#c5b68455 1px,transparent 1px);background-size:29px 29px}
+[data-theme="christmas"] .hero-art:before{content:'✦';position:absolute;top:54px;right:28px;color:#dec58d;font-size:64px;line-height:1;transform:rotate(11deg)}
+[data-theme="christmas"] .hero-art-label{color:#e3d0a5;letter-spacing:.13em;font-size:7px;top:30px}
+[data-theme="christmas"] .hero-print{background:#fbf1d9;border:1px solid #dbc693;border-radius:3px;box-shadow:5px 14px 25px #10251b55}
+[data-theme="christmas"] .hero-print figcaption,[data-theme="christmas"] .hero-book figcaption{color:#6c654b;font:italic 12px Georgia,serif}
+[data-theme="christmas"] .hero-book{background:#f4e5c3;border:6px solid #ad4d44;border-radius:3px;box-shadow:4px 12px 20px #10251b66}
+[data-theme="christmas"] .round-stamp{background:#a8493e;color:#fff1cb;border:1px solid #e2bc7e;outline:4px solid #a8493e;transform:rotate(-14deg)}
+[data-theme="christmas"] .spark-one{display:none}
+[data-theme="christmas"] .art-caption{color:#e3d0a5;font:italic 12px Georgia,serif}
+[data-theme="christmas"] .button.primary{background:#23523e;color:#fff8e9}
+[data-theme="christmas"] .product{border-color:#e1d7c0}
+[data-theme="christmas"] .product-label{background:#f8eed6;border-color:#d6be84;color:#735b2d}
+[data-theme="christmas"] .product-category{color:#a3473b}
+[data-theme="christmas"] .product-open{background:#a8493e;color:#fff5de;border-radius:50%}
+[data-theme="christmas"] .product h3{font-weight:400;font-size:24px}
+[data-theme="christmas"] .feature-image{background:#e7dfc8}
+[data-theme="christmas"] .story-decoration svg{stroke:#a3473b}
+[data-theme="christmas"] .how{background:#e9ede1}
+[data-theme="christmas"] .closing{background:#254936;color:#fff3db;border-color:#55775d}
+[data-theme="christmas"] .closing em,[data-theme="christmas"] .closing>span{color:#e5c887}
+[data-theme="christmas"] .closing p{color:#d4decc}
+/* Tết — Vietnamese New Year, with apricot/peach blossoms and red-gold paper. */
+html[data-theme="tet"]{--paper:#fff5e8;--ink:#663126;--olive:#a22b28;--line:#e6ccaa;--ws-panel:#fffaf0;--ws-top:#fff5e8;--ws-soft:#fae6c8;--ws-muted:#94705a;--ws-accent:#a22b28;--ws-on-accent:#fff2d5;--ws-radius:11px;--ws-shadow:0 4px 15px #8f381009;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;--swatch-one:#b8342e;--swatch-two:#e5b951;--swatch-three:#f6cbd0}
+[data-theme="tet"] .announcement{background:#aa302a;color:#ffe6a2;font-weight:600;letter-spacing:.08em}
+[data-theme="tet"] .header{border-bottom:1px solid #e6c99f}
+[data-theme="tet"] .header .brand>span{font-size:46px;font-weight:500}
+[data-theme="tet"] .hero h1{font-size:clamp(62px,6.2vw,86px);font-weight:400;letter-spacing:-3px}
+[data-theme="tet"] .hero h1 em{font-style:italic;color:#b8342e}
+[data-theme="tet"] .hero .eyebrow{color:#ac7529;letter-spacing:.1em}
+[data-theme="tet"] .hero-art{background-color:#b53830;background-image:radial-gradient(#f1cc8050 1px,transparent 1px);background-size:25px 25px;border:2px solid #d0a24c;border-radius:120px 120px 13px 13px;box-shadow:0 10px 25px #a22b2814}
+[data-theme="tet"] .hero-art:before{content:'✿';position:absolute;right:24px;top:62px;color:#f6d36e;font:82px/1 Georgia,serif;transform:rotate(14deg)}
+[data-theme="tet"] .hero-art:after{content:'CHÚC MỪNG NĂM MỚI';position:absolute;left:23px;bottom:17px;color:#ffe7a9;font-size:8px;letter-spacing:.13em}
+[data-theme="tet"] .hero-art-label{top:29px;font-size:7px;color:#ffe6ae;font-weight:600;letter-spacing:.12em}
+[data-theme="tet"] .hero-print{background:#fff0cf;border:1px solid #e6c27b;border-radius:5px;box-shadow:4px 13px 25px #74241c44}
+[data-theme="tet"] .hero-print figcaption,[data-theme="tet"] .hero-book figcaption{color:#95662f;font:italic 12px Georgia,serif}
+[data-theme="tet"] .hero-book{background:#f8dce0;border:4px solid #edc67d;border-radius:5px;box-shadow:5px 13px 25px #74241c55}
+[data-theme="tet"] .round-stamp{background:#f2cc6f;color:#8b2f23;border:1px solid #ffe6a9;outline:4px solid #f2cc6f;transform:rotate(-13deg)}
+[data-theme="tet"] .spark-one{display:none}
+[data-theme="tet"] .art-caption{color:#ffe7a9;font:italic 11px Georgia,serif;bottom:36px;right:14px}
+[data-theme="tet"] .button.primary{background:#aa302a;border-color:#aa302a;color:#fff2d5}
+[data-theme="tet"] .benefits{background:#faeacb;border-block-color:#e7c792}
+[data-theme="tet"] .product{border-color:#e6cd9e;background:#fffaf0}
+[data-theme="tet"] .product-label{background:#fbe6b0;color:#955d28;border-color:#dfb96e}
+[data-theme="tet"] .product-open{background:#b8342e;color:#fff1ce;border-radius:50%}
+[data-theme="tet"] .product-category{color:#ac7529}
+[data-theme="tet"] .product h3{font-weight:400;font-size:24px}
+[data-theme="tet"] .feature-image{background:#fae4bc}
+[data-theme="tet"] .story-decoration svg{stroke:#b8342e}
+[data-theme="tet"] .how{background:#fae9ca}
+[data-theme="tet"] .closing{background:#b53830;border-color:#d0a24c;color:#fff0d5}
+[data-theme="tet"] .closing em,[data-theme="tet"] .closing>span{color:#f4d485}
+[data-theme="tet"] .closing p{color:#f4d6ba}
+/* Compact layouts: keep decorations separate from controls and readable copy. */
+@media(max-width:1100px){
+ [data-theme="file-explorer"] .hero-art,[data-theme="notion"] .hero-art,[data-theme="burpsuite"] .hero-art{height:454px}
+ [data-theme="notion"] .hero{gap:35px}[data-theme="notion"] .hero-print{top:72px}[data-theme="notion"] .hero-book{top:215px}
+ [data-family="seasonal"] .hero{gap:35px;min-height:600px}[data-family="seasonal"] .hero-art{height:485px}[data-family="seasonal"] .hero-book{top:224px}[data-family="seasonal"] .round-stamp{top:342px}
+}
+@media(max-width:800px){
+ [data-theme="file-explorer"] .hero h1,[data-theme="notion"] .hero h1{font-size:48px}[data-theme="burpsuite"] .hero h1{font-size:40px}
+ [data-theme="file-explorer"] .hero-art,[data-theme="notion"] .hero-art,[data-theme="burpsuite"] .hero-art{height:385px}
+ [data-theme="file-explorer"] .hero{gap:28px}[data-theme="file-explorer"] .hero-art:before{top:-20px;height:22px}[data-theme="file-explorer"] .hero-book{top:183px}
+ [data-theme="notion"] .hero{gap:27px}[data-theme="notion"] .hero-book{top:184px}
+ [data-theme="burpsuite"] .hero-art-label{font-size:7px;padding:11px}[data-theme="burpsuite"] .hero-print{top:66px}[data-theme="burpsuite"] .hero-book{top:186px}[data-theme="burpsuite"] .round-stamp{top:269px}
+ [data-family="seasonal"] .hero{min-height:535px;gap:26px;padding-top:35px}[data-family="seasonal"] .hero h1{font-size:53px;letter-spacing:-2px}[data-family="seasonal"] .hero-art{height:410px}[data-family="seasonal"] .hero-print{top:81px}[data-family="seasonal"] .hero-book{top:191px}[data-family="seasonal"] .round-stamp{top:286px;width:65px;height:65px}[data-family="seasonal"] .hero-art-label{font-size:6px;letter-spacing:.06em;top:23px}[data-family="seasonal"] .hero-art:before{top:52px;right:15px;font-size:50px;width:63px;height:63px}[data-family="seasonal"] .hero-print figcaption,[data-family="seasonal"] .hero-book figcaption{font-size:8px}[data-family="seasonal"] .hero-art{border-top-left-radius:85px;border-top-right-radius:85px}[data-family="seasonal"] .section-top h2{font-size:31px}[data-family="seasonal"] .product h3{font-size:21px}[data-family="seasonal"] .feature h2{font-size:31px}[data-theme="tet"] .hero-art:after{font-size:6px;left:15px;letter-spacing:.07em}
+}
+@media(max-width:570px){
+ [data-theme="file-explorer"] .workspace-chrome-inner{min-height:39px}[data-theme="file-explorer"] #workspace-path{font-size:7px;padding:4px 8px}[data-theme="file-explorer"] .header{height:78px}[data-theme="file-explorer"] .header nav a{padding:0}[data-theme="file-explorer"] .nav-active{background:transparent}
+ [data-theme="file-explorer"] .hero,[data-theme="notion"] .hero,[data-theme="burpsuite"] .hero{gap:35px;padding-top:31px;min-height:0}
+ [data-theme="file-explorer"] .hero h1,[data-theme="notion"] .hero h1{font-size:clamp(43px,13.6vw,56px);letter-spacing:-2px}
+ [data-theme="file-explorer"] .hero-art{height:395px;overflow:visible;margin-top:10px;width:calc(100% - 5px);margin-left:0;border-radius:0 15px 15px 15px}[data-theme="file-explorer"] .hero-print{top:75px;left:6%;overflow:hidden}[data-theme="file-explorer"] .hero-book{top:193px;right:3%;width:42%}[data-theme="file-explorer"] .hero-art-label{font-size:7px}[data-theme="file-explorer"] .round-stamp{top:282px}[data-theme="file-explorer"] .product h3{font-size:17px}
+ [data-theme="notion"] .header{height:78px}[data-theme="notion"] .header .brand:before{font-size:20px;padding:5px 8px}[data-theme="notion"] .header .brand>span{font-size:30px}[data-theme="notion"] .hero-art{height:390px;overflow:hidden}[data-theme="notion"] .hero-print{top:70px}[data-theme="notion"] .hero-book{top:196px}[data-theme="notion"] .hero-art-label{font-size:7px}[data-theme="notion"] .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 13px}[data-theme="notion"] .product-image{aspect-ratio:1}[data-theme="notion"] .product h3{font-size:17px}
+ [data-theme="burpsuite"] #workspace-path{padding:10px 8px;font-size:7px}[data-theme="burpsuite"] .header .brand>span{font-size:32px}[data-theme="burpsuite"] .header .brand:before{font-size:27px}[data-theme="burpsuite"] .hero h1{font-size:clamp(36px,11.3vw,47px);letter-spacing:-1.8px}[data-theme="burpsuite"] .hero-art{height:395px;overflow:hidden}[data-theme="burpsuite"] .hero-art-label{top:0;font-size:6px}[data-theme="burpsuite"] .hero-print{top:67px}[data-theme="burpsuite"] .hero-book{top:194px}[data-theme="burpsuite"] .round-stamp{top:283px}
+ [data-family="seasonal"] .header{height:81px}[data-family="seasonal"] .header nav{top:190px}[data-family="seasonal"] .hero{grid-template-columns:minmax(0,1fr);min-height:0;gap:32px;padding-top:32px;padding-bottom:38px}[data-family="seasonal"] .hero h1{font-size:clamp(47px,14.9vw,61px);letter-spacing:-2.3px}[data-family="seasonal"] .hero-art{height:410px;max-width:400px;width:100%;overflow:hidden;border-top-left-radius:95px;border-top-right-radius:95px}[data-family="seasonal"] .hero-art-label{top:24px;font-size:6px;letter-spacing:.08em}[data-family="seasonal"] .hero-print{top:83px;left:6%;width:67%;padding:8px 8px 0}[data-family="seasonal"] .hero-book{top:201px;right:2%;width:43%;padding:6px 6px 0}[data-family="seasonal"] .round-stamp{top:294px;left:5%;width:69px;height:69px}[data-family="seasonal"] .hero-art:before{top:55px;right:17px;font-size:53px;width:61px;height:61px}[data-family="seasonal"] .hero-print figcaption,[data-family="seasonal"] .hero-book figcaption{font-size:9px}[data-family="seasonal"] .hero .button{font-size:11px;gap:30px;padding:14px 21px}[data-family="seasonal"] .section-top h2{font-size:31px}[data-family="seasonal"] .product h3{font-size:19px;line-height:1.3}[data-family="seasonal"] .feature h2{font-size:32px}[data-family="seasonal"] .product-label{font-size:5px}[data-family="seasonal"] .closing h2{font-size:29px}
+ [data-theme="halloween"] .header .brand>span,[data-theme="christmas"] .header .brand>span,[data-theme="tet"] .header .brand>span{font-size:37px}
+ [data-theme="halloween"] .hero h1{font-size:clamp(47px,14.9vw,61px);letter-spacing:-1.4px}[data-theme="halloween"] .hero-art:before{width:65px;height:65px}
+ [data-theme="tet"] .hero-art:after{left:15px;bottom:15px;font-size:6px;letter-spacing:.09em}[data-theme="tet"] .art-caption{font-size:9px;right:12px;bottom:33px}
+}
+@media(prefers-reduced-motion:reduce){
+ :is([data-theme="file-explorer"],[data-theme="notion"],[data-theme="burpsuite"],[data-family="seasonal"]) *{transition:none!important}
+}

@@ -1,4 +1,4 @@
-# Eleven theme recipes
+# Seventeen theme recipes
 
 Adapt these visual recipes to the host app. Executable references are in `assets/starter/`; names express inspiration, not exact third-party replicas.
 
@@ -15,11 +15,19 @@ Adapt these visual recipes to the host app. Executable references are in `assets
 | `canva` | Canvas `#f5f3fc`, white cards, purple `#7d2ae8`, cyan, soft pink; Manrope | Cyan-purple banner, rounded canvas, gentle shadows and layered previews. Maintain text contrast. |
 | `figma` | Canvas `#f2f2f3`, white frames, purple `#7850d0`, dotted grid; Manrope | Selection outlines, small handles, component labels and thin rail. Handles are decorative, not resize controls. |
 | `photoshop` | Charcoal `#242424`, panels `#303030`, borders `#454545`, blue `#72b6ff`; Manrope | Document tab, activity rail, checkerboard behind artwork, layer labels. Overlays must not obscure real controls. |
+| `file-explorer` | Light blue-white `#f3f6fb`, white panels, folder yellow `#f6d56b`, blue `#2865b1`; Manrope | Breadcrumb/address strip, yellow folder-tab hero, file-style tiles and restrained rounded controls. |
+| `notion` | Warm white `#fbfaf7`, charcoal `#32312e`, paper gray `#efede7`; Manrope | Quiet page breadcrumbs, minimal document cards, thin borders, two-column gallery and low visual noise. |
+| `burpsuite` | Charcoal `#202124`, panels `#2b2c30`, orange `#ff9868`; monospace headings | Utility tabs, orange selection rules, dense metadata and a resource preview frame. Visual styling only: no scanning, interception or network tooling. |
+| `halloween` | Midnight plum `#191322`, pumpkin orange `#ffb162`, purple panels `#352241`; Fredoka + Nunito | Original pumpkin line drawing, dotted night canvas, rounded autumn cards and playful stamps. No flashing or frightening effects. |
+| `christmas` | Ivory `#faf7ef`, evergreen `#23523e`, red `#a8493e`, gold `#dec58d`; Playfair Display | Golden stars, evergreen arch, warm paper previews and ribbon accents; static snow-like speckles. |
+| `tet` | Cream `#fff5e8`, lacquer red `#b53830`, gold `#f2cc6f`, blossom pink; Playfair Display | Vietnamese New Year red/gold arch, apricot/peach blossom cues and “CHÚC MỪNG NĂM MỚI”. Preserve accents and avoid a hard-coded year or date. |
 
 ## Token mapping
 
 The reference baseline uses `--paper`, `--ink`, `--line`, `--olive`, `--serif`, `--sans`. Workspace themes add `--ws-panel`, `--ws-top`, `--ws-soft`, `--ws-muted`, `--ws-accent`, `--ws-on-accent`, `--ws-radius`, `--ws-shadow`. Retro uses `--retro-*`, `--retro-border`, `--hard-shadow`, `--card-radius`, `--control-radius`.
 
 Translate these into the app's semantic tokens. Avoid scattering hard-coded colors through business components. Inputs, dialogs, tooltips, cards and focus rings should resolve through the selected theme.
+
+The seasonal family reuses `--ws-*` semantic surface tokens and hides workspace chrome. Its holiday appearance remains scoped to each theme ID; shared seasonal geometry is scoped under `data-family="seasonal"`. Holiday selection is manual, never a calendar-triggered behavior.
 
 Do not copy another project's products, screenshots, checkout URLs or customer information. Bundled SVGs are fictional original illustrations. Replace them only with authorized assets. Google Fonts are optional network-loaded typography; retain system fallbacks and the host app's font strategy.

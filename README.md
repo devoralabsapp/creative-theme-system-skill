@@ -1,12 +1,12 @@
 # Creative Theme System — AI Agent Skill
 
-A portable skill for creating and integrating **11 selectable website themes**, with working CSS, a safe starter generator, and a complete browser demo. Instructions are in English so different AI agents can reuse them.
+A portable skill for creating and integrating **17 selectable website themes**, with working CSS, a safe starter generator, and a complete browser demo. Instructions are in English so different AI agents can reuse them.
 
 **Entry point: [SKILL.md](SKILL.md).** Any agent with filesystem access can read it; agents with an existing application should follow the integration path rather than replacing the app.
 
 ## Included themes
 
-Botanical · Editorial · Playroom · Midnight · Playful Retro Neo-Brutalism · Command line (black/white/gray) · Visual Studio Code · Excel · Canva · Figma · Photoshop.
+Botanical · Editorial · Playroom · Midnight · Playful Retro Neo-Brutalism · Command line (black/white/gray) · Visual Studio Code · Excel · Canva · Figma · Photoshop · File Explorer · Notion · Burp Suite · Halloween · Christmas · Tết Holiday.
 
 The app-inspired styles are visual references, not integrations with or replicas of those products. Sample products are fictional; SVG artwork is original. There are no store credentials, original product photographs, customer data, account identifiers or payment functionality in the starter.
 
@@ -25,6 +25,15 @@ Actual desktop screenshots of the bundled starter, captured at the same viewport
 | **06 · Command line**<br>[![Command line — black, white and gray terminal](docs/screenshots/commandline.jpg)](docs/screenshots/commandline.jpg) | **07 · Visual Studio Code**<br>[![Visual Studio Code — dark editor and syntax accents](docs/screenshots/vscode.jpg)](docs/screenshots/vscode.jpg) |
 | **08 · Excel**<br>[![Excel — green workbook and cell grids](docs/screenshots/excel.jpg)](docs/screenshots/excel.jpg) | **09 · Canva**<br>[![Canva — light cyan and purple creative canvas](docs/screenshots/canva.jpg)](docs/screenshots/canva.jpg) |
 | **10 · Figma**<br>[![Figma — dotted canvas and purple selection frames](docs/screenshots/figma.jpg)](docs/screenshots/figma.jpg) | **11 · Photoshop**<br>[![Photoshop — charcoal panels and transparency canvas](docs/screenshots/photoshop.jpg)](docs/screenshots/photoshop.jpg) |
+| **12 · File Explorer**<br>[![File Explorer — light file library and yellow folders](docs/screenshots/file-explorer.jpg)](docs/screenshots/file-explorer.jpg) | **13 · Notion**<br>[![Notion — warm white document workspace](docs/screenshots/notion.jpg)](docs/screenshots/notion.jpg) |
+| **14 · Burp Suite**<br>[![Burp Suite — charcoal utility panels and orange accents](docs/screenshots/burpsuite.jpg)](docs/screenshots/burpsuite.jpg) | |
+
+| Holiday collection | Holiday collection |
+| --- | --- |
+| **15 · Halloween**<br>[![Halloween — plum, pumpkin orange and an original pumpkin illustration](docs/screenshots/halloween.jpg)](docs/screenshots/halloween.jpg) | **16 · Christmas**<br>[![Christmas — evergreen, ivory, red ribbons and gold stars](docs/screenshots/christmas.jpg)](docs/screenshots/christmas.jpg) |
+| **17 · Tết Holiday**<br>[![Tết Holiday — Vietnamese New Year red, gold and apricot blossoms](docs/screenshots/tet.jpg)](docs/screenshots/tet.jpg) | |
+
+Holiday themes are selected manually and use the same shared demo state. They do not trigger calendar changes, promotions or external integrations.
 
 ## Use with an AI agent
 
@@ -60,4 +69,4 @@ The generator refuses non-empty destinations. The preview server binds only to l
 
 Static validation checks registry metadata, assets, UI hooks and script syntax. Browser review remains necessary; see [verification](references/verification.md).
 
-Initial package verification: all 11 theme selections, sample search across theme changes, preview dialog, stored selection and invalid-theme fallback were checked in a browser. Layouts were checked at 320px, 390px and 768px. The generator refused an occupied destination; the validator rejected duplicate IDs; the localhost server rejected POST and hidden-file requests.
+Initial package verification: all 17 theme selections, sample search across theme changes, preview dialog, stored selection and invalid-theme fallback were checked in a browser. Layouts were checked at 320px, 390px and 768px. The generator refused an occupied destination; the validator rejected duplicate IDs; the localhost server rejected POST and hidden-file requests.

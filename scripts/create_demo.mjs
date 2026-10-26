@@ -1,4 +1,4 @@
-import {cpSync,existsSync,lstatSync,mkdirSync,readdirSync,realpathSync} from 'node:fs';
+import {cpSync,existsSync,lstatSync,mkdirSync,readdirSync,realpathSync,readFileSync} from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 
@@ -13,4 +13,6 @@ const relative=path.relative(source,destination);
 if(relative===''||(!relative.startsWith('..'+path.sep)&&relative!=='..'&&!path.isAbsolute(relative))){console.error('Destination must be outside the bundled starter.');process.exit(1);}
 mkdirSync(destination,{recursive:true});
 cpSync(source,destination,{recursive:true,errorOnExist:true,force:false});
-console.log(JSON.stringify({directory:realpathSync(destination),themes:11,next:'Run scripts/validate_demo.mjs with this directory, then scripts/serve.mjs.'}));
+const registrySource=readFileSync(path.join(source,'theme-registry.js'),'utf8');
+const registry=JSON.parse(registrySource.match(/^window\.STUDIO_THEMES\s*=\s*([\s\S]*);\s*$/)[1]);
+console.log(JSON.stringify({directory:realpathSync(destination),themes:registry.themes.length,next:'Run scripts/validate_demo.mjs with this directory, then scripts/serve.mjs.'}));
