@@ -1,14 +1,21 @@
 # Creative Theme System — AI Agent Skill
 
-A portable skill for creating and integrating **17 selectable website themes**, with working CSS, a safe starter generator, and a complete browser demo. Instructions are in English so different AI agents can reuse them.
+A portable skill for creating and integrating **27 selectable website themes**, with working CSS, a safe starter generator, and a complete browser demo. Instructions are in English so different AI agents can reuse them.
 
 **Entry point: [SKILL.md](SKILL.md).** Any agent with filesystem access can read it; agents with an existing application should follow the integration path rather than replacing the app.
 
-## Included themes
+## Theme classification
 
-Botanical · Editorial · Playroom · Midnight · Playful Retro Neo-Brutalism · Command line (black/white/gray) · Visual Studio Code · Excel · Canva · Figma · Photoshop · File Explorer · Notion · Burp Suite · Halloween · Christmas · Tết Holiday.
+| Family / dropdown group | Count | Styles |
+| --- | ---: | --- |
+| **Studio** — original art direction | 5 | Botanical (natural), Editorial (magazine), Playroom (soft playful), Midnight (dark elegant), Playful Retro Neo-Brutalism (pastel outlines) |
+| **Workspace** — familiar software environments | 9 | Command line, Visual Studio Code, Excel, Canva, Figma, Photoshop, File Explorer, Notion, Burp Suite |
+| **Holiday** — seasonal and cultural celebrations | 3 | Halloween, Christmas, Tết Holiday |
+| **Creative Lab** — experimental material and layout studies | 10 | Riso Post Office, Tidal Atlas, Type Foundry, Solar Glasshouse, Velvet Orbit, Porcelain Index, Magnetic Poetry, Infrared Herbarium, Night Transit, Paper Circuit |
 
-The app-inspired styles are visual references, not integrations with or replicas of those products. Sample products are fictional; SVG artwork is original. There are no store credentials, original product photographs, customer data, account identifiers or payment functionality in the starter.
+Workspace subgroups: **developer & utility** (Command line, Visual Studio Code, Burp Suite); **documents & organization** (Excel, File Explorer, Notion); **design tools** (Canva, Figma, Photoshop). Existing theme IDs and the Botanical default are preserved.
+
+The app-inspired styles are visual references, not integrations with or replicas of those products. Sample products are fictional; SVG artwork is original. The starter includes no store credentials, original product photographs, customer data or payment functionality. Creative Lab contains original compositions for this package; no claim of worldwide novelty or exclusivity is made.
 
 ## Theme screenshots
 
@@ -34,6 +41,18 @@ Actual desktop screenshots of the bundled starter, captured at the same viewport
 | **17 · Tết Holiday**<br>[![Tết Holiday — Vietnamese New Year red, gold and apricot blossoms](docs/screenshots/tet.jpg)](docs/screenshots/tet.jpg) | |
 
 Holiday themes are selected manually and use the same shared demo state. They do not trigger calendar changes, promotions or external integrations.
+
+## Creative Lab themes
+
+Ten material-led directions, with scoped tokens, responsive compositions and the same functional sample collection.
+
+| Creative Lab | Creative Lab |
+| --- | --- |
+| **18 · Riso Post Office**<br>[![Riso Post Office — Vermilion ink, postal perforations and offset paper](docs/screenshots/riso-post.jpg)](docs/screenshots/riso-post.jpg) | **19 · Tidal Atlas**<br>[![Tidal Atlas — Deep sea contours, chart coordinates and tide-blue frames](docs/screenshots/tidal-atlas.jpg)](docs/screenshots/tidal-atlas.jpg) |
+| **20 · Type Foundry**<br>[![Type Foundry — Acid yellow, oversized type and a typesetter specimen grid](docs/screenshots/type-foundry.jpg)](docs/screenshots/type-foundry.jpg) | **21 · Solar Glasshouse**<br>[![Solar Glasshouse — Transparent green panes, structural ribs and warm citrus](docs/screenshots/solar-glass.jpg)](docs/screenshots/solar-glass.jpg) |
+| **22 · Velvet Orbit**<br>[![Velvet Orbit — Aubergine velvet, copper orbital rings and curved gallery cards](docs/screenshots/velvet-orbit.jpg)](docs/screenshots/velvet-orbit.jpg) | **23 · Porcelain Index**<br>[![Porcelain Index — Cobalt ceramic tiles, fine blue borders and museum labels](docs/screenshots/porcelain.jpg)](docs/screenshots/porcelain.jpg) |
+| **24 · Magnetic Poetry**<br>[![Magnetic Poetry — Scattered word tiles, fridge-silver surfaces and cherry magnets](docs/screenshots/magnetic-poetry.jpg)](docs/screenshots/magnetic-poetry.jpg) | **25 · Infrared Herbarium**<br>[![Infrared Herbarium — Hot pink specimen sheets and dark botanical registration marks](docs/screenshots/infrared.jpg)](docs/screenshots/infrared.jpg) |
+| **26 · Night Transit**<br>[![Night Transit — Midnight navy, route diagrams and amber ticket details](docs/screenshots/night-transit.jpg)](docs/screenshots/night-transit.jpg) | **27 · Paper Circuit**<br>[![Paper Circuit — Folded drafting paper, electric blue traces and lime contacts](docs/screenshots/paper-circuit.jpg)](docs/screenshots/paper-circuit.jpg) |
 
 ## Use with an AI agent
 
@@ -69,4 +88,4 @@ The generator refuses non-empty destinations. The preview server binds only to l
 
 Static validation checks registry metadata, assets, UI hooks and script syntax. Browser review remains necessary; see [verification](references/verification.md).
 
-Initial package verification: all 17 theme selections, sample search across theme changes, preview dialog, stored selection and invalid-theme fallback were checked in a browser. Layouts were checked at 320px, 390px and 768px. The generator refused an occupied destination; the validator rejected duplicate IDs; the localhost server rejected POST and hidden-file requests.
+Package verification: all 27 theme selections and sample search across theme changes were checked in a browser. All themes were checked at 320px, 390px and 768px; the ten Creative Lab themes also passed filter/sort persistence, preview-dialog and text-bound checks. Stored selection, invalid-theme fallback, URL/hash preservation, empty state and mobile navigation were exercised. Earlier package checks verified that the generator refuses occupied destinations, the validator rejects duplicate IDs, and the localhost server rejects POST and hidden-file requests. Static validation and these browser checks do not constitute a full accessibility audit.

@@ -1,4 +1,4 @@
-# Seventeen theme recipes
+# Twenty-seven theme recipes
 
 Adapt these visual recipes to the host app. Executable references are in `assets/starter/`; names express inspiration, not exact third-party replicas.
 
@@ -22,6 +22,17 @@ Adapt these visual recipes to the host app. Executable references are in `assets
 | `christmas` | Ivory `#faf7ef`, evergreen `#23523e`, red `#a8493e`, gold `#dec58d`; Playfair Display | Golden stars, evergreen arch, warm paper previews and ribbon accents; static snow-like speckles. |
 | `tet` | Cream `#fff5e8`, lacquer red `#b53830`, gold `#f2cc6f`, blossom pink; Playfair Display | Vietnamese New Year red/gold arch, apricot/peach blossom cues and “CHÚC MỪNG NĂM MỚI”. Preserve accents and avoid a hard-coded year or date. |
 
+| `riso-post` | Riso Post Office: `#f6eddb`, accent `#c43e2d`; Manrope | Perforated stamp frames, diagonal ink hatching, offset type shadow and dashed postal cards. |
+| `tidal-atlas` | Tidal Atlas: `#eaf2ed`, accent `#236c77`; Playfair Display | Original SVG depth contours, calibrated chart grid, coordinates and double-rule borders. |
+| `type-foundry` | Type Foundry: `#f0ff5b`, accent `#232323`; Manrope | Oversized outline type, Aa specimen board, asymmetric hero and two-column ruled gallery. |
+| `solar-glass` | Solar Glasshouse: `#edf5dc`, accent `#366c3f`; Manrope | Ribbed glasshouse arch, citrus sun disc, translucent paper and arched product cards. |
+| `velvet-orbit` | Velvet Orbit: `#201923`, accent `#e4af85`; Playfair Display | Copper elliptical orbits, velvet radial surfaces and two-column arched gallery. |
+| `porcelain` | Porcelain Index: `#f2f4ef`, accent `#244d9c`; Playfair Display | Cobalt fretwork, glazed ceramic borders, museum labels and asymmetric tile corners. |
+| `magnetic-poetry` | Magnetic Poetry: `#e5e8e7`, accent `#a52c3b`; Nunito | Magnetic word strip, silver fridge, red magnet and subtly rotated paper cards. |
+| `infrared` | Infrared Herbarium: `#251d2e`, accent `#ff9ac6`; Manrope | Pink registration frame, technical crosshairs, specimen labels and charcoal cards. Preserve artwork colors. |
+| `night-transit` | Night Transit: `#101f2b`, accent `#f6bf59`; Manrope | Original SVG transit map, amber tickets, colored route stripes and dashed platform labels. |
+| `paper-circuit` | Paper Circuit: `#f5f1e7`, accent `#2454b4`; Manrope | Original SVG circuit traces, lime contacts, folded corner and blue drafting rules. |
+
 ## Token mapping
 
 The reference baseline uses `--paper`, `--ink`, `--line`, `--olive`, `--serif`, `--sans`. Workspace themes add `--ws-panel`, `--ws-top`, `--ws-soft`, `--ws-muted`, `--ws-accent`, `--ws-on-accent`, `--ws-radius`, `--ws-shadow`. Retro uses `--retro-*`, `--retro-border`, `--hard-shadow`, `--card-radius`, `--control-radius`.
@@ -31,3 +42,5 @@ Translate these into the app's semantic tokens. Avoid scattering hard-coded colo
 The seasonal family reuses `--ws-*` semantic surface tokens and hides workspace chrome. Its holiday appearance remains scoped to each theme ID; shared seasonal geometry is scoped under `data-family="seasonal"`. Holiday selection is manual, never a calendar-triggered behavior.
 
 Do not copy another project's products, screenshots, checkout URLs or customer information. Bundled SVGs are fictional original illustrations. Replace them only with authorized assets. Google Fonts are optional network-loaded typography; retain system fallbacks and the host app's font strategy.
+
+The `creative` family shares semantic surface tokens and hides workspace chrome. `creative-themes.css` contains its geometry and original SVG/CSS decorations. Reuse material cues on the host app’s actual screens rather than importing demo-only hero compositions. Decorative pseudo-element labels live inside an `aria-hidden` container. Preserve readable product artwork, visible focus, and reduced-motion behavior.

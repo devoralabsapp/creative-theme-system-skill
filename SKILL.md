@@ -1,17 +1,19 @@
 ---
 name: creative-theme-system
-description: Create or extend selectable website themes, including monochrome terminal, app-inspired workspaces, retro neo-brutalism, and holiday styles. Use for multi-theme UI systems or recreating this seventeen-theme collection while preserving an existing application.
+description: Create or extend selectable website themes, including monochrome terminal, app-inspired workspaces, retro neo-brutalism, and holiday styles. Use for multi-theme UI systems or recreating this twenty-seven-theme collection while preserving an existing application.
 ---
 
 # Creative Theme System
 
-Build selectable visual themes that preserve the user's application, default theme, content and business logic. This package includes seventeen working reference themes and a dependency-free demo. Brand names describe visual inspiration, not those applications' capabilities.
+Build selectable visual themes that preserve the user's application, default theme, content and business logic. This package includes twenty-seven working reference themes and a dependency-free demo. Brand names describe visual inspiration, not those applications' capabilities.
 
 ## Choose the implementation path
 
 - **Existing application:** inspect its theme registry/provider, root selector, CSS tokens, persistence, SSR/bootstrap strategy, localization and selector UI. Extend those mechanisms. Read [integration.md](references/integration.md) before adapting the references. Do not replace a working provider with the starter controller.
 - **New demo or starting point:** run `node scripts/create_demo.mjs <new-empty-directory>` from this skill folder. Serve it with `node scripts/serve.mjs <directory> --port 4173`. No package installation or build step is needed.
-- **Requested styles:** read the relevant entries in [theme-recipes.md](references/theme-recipes.md). For “these themes,” include all seventeen; for a bounded addition, add only the requested themes.
+- **Requested styles:** read the relevant entries in [theme-recipes.md](references/theme-recipes.md). For “these themes,” include all twenty-seven; for a bounded addition, add only the requested themes.
+
+For the four theme families and workspace subgroups, see the [classification](README.md#theme-classification). The Creative Lab family adds material-led compositions; treat originality as a design aim, not a claim that no similar work exists.
 
 ## Visual and integration rules
 

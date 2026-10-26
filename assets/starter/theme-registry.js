@@ -127,7 +127,11 @@ window.STUDIO_THEMES = {
       "color": "#f3f6fb",
       "tone": "light",
       "family": "workspace",
-      "workspace": ["LITTLE / File Explorer", "Home / Documents / Studio", "9 sample files"]
+      "workspace": [
+        "LITTLE / File Explorer",
+        "Home / Documents / Studio",
+        "9 sample files"
+      ]
     },
     {
       "id": "notion",
@@ -136,7 +140,11 @@ window.STUDIO_THEMES = {
       "color": "#fbfaf7",
       "tone": "light",
       "family": "workspace",
-      "workspace": ["Little workspace", "Pages / Creative collection", "Fictional demo"]
+      "workspace": [
+        "Little workspace",
+        "Pages / Creative collection",
+        "Fictional demo"
+      ]
     },
     {
       "id": "burpsuite",
@@ -145,7 +153,11 @@ window.STUDIO_THEMES = {
       "color": "#202124",
       "tone": "dark",
       "family": "workspace",
-      "workspace": ["LITTLE / Project workspace", "Resources / Preview", "Local demo only"]
+      "workspace": [
+        "LITTLE / Project workspace",
+        "Resources / Preview",
+        "Local demo only"
+      ]
     },
     {
       "id": "halloween",
@@ -170,6 +182,86 @@ window.STUDIO_THEMES = {
       "color": "#fff5e8",
       "tone": "light",
       "family": "seasonal"
+    },
+    {
+      "id": "riso-post",
+      "name": "Riso Post Office",
+      "description": "Vermilion ink, postal perforations and offset paper",
+      "color": "#f6eddb",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "tidal-atlas",
+      "name": "Tidal Atlas",
+      "description": "Deep sea contours, chart coordinates and tide-blue frames",
+      "color": "#eaf2ed",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "type-foundry",
+      "name": "Type Foundry",
+      "description": "Acid yellow, oversized type and a typesetter specimen grid",
+      "color": "#f0ff5b",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "solar-glass",
+      "name": "Solar Glasshouse",
+      "description": "Transparent green panes, structural ribs and warm citrus",
+      "color": "#edf5dc",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "velvet-orbit",
+      "name": "Velvet Orbit",
+      "description": "Aubergine velvet, copper orbital rings and curved gallery cards",
+      "color": "#201923",
+      "tone": "dark",
+      "family": "creative"
+    },
+    {
+      "id": "porcelain",
+      "name": "Porcelain Index",
+      "description": "Cobalt ceramic tiles, fine blue borders and museum labels",
+      "color": "#f2f4ef",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "magnetic-poetry",
+      "name": "Magnetic Poetry",
+      "description": "Scattered word tiles, fridge-silver surfaces and cherry magnets",
+      "color": "#e5e8e7",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "infrared",
+      "name": "Infrared Herbarium",
+      "description": "Hot pink specimen sheets and dark botanical registration marks",
+      "color": "#251d2e",
+      "tone": "dark",
+      "family": "creative"
+    },
+    {
+      "id": "night-transit",
+      "name": "Night Transit",
+      "description": "Midnight navy, route diagrams and amber ticket details",
+      "color": "#101f2b",
+      "tone": "dark",
+      "family": "creative"
+    },
+    {
+      "id": "paper-circuit",
+      "name": "Paper Circuit",
+      "description": "Folded drafting paper, electric blue traces and lime contacts",
+      "color": "#f5f1e7",
+      "tone": "light",
+      "family": "creative"
     }
   ]
 };

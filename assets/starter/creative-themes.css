@@ -1,0 +1,270 @@
+/* Creative Lab: semantic components are shared; compositions remain scoped. */
+.creative-mark{display:none}
+[data-family="creative"]{color-scheme:light}
+[data-family="creative"][data-tone="dark"]{color-scheme:dark}
+[data-family="creative"] :is(.workspace-chrome,.workspace-rail){display:none}
+[data-family="creative"] .announcement{background:var(--ws-accent);color:var(--ws-on-accent);font-size:10px}
+[data-family="creative"] .hero{grid-template-columns:1fr 1fr;gap:42px;min-height:610px}
+[data-family="creative"] .hero h1{font-family:var(--serif);font-size:clamp(54px,6vw,82px);line-height:1.08;letter-spacing:-3.5px;font-weight:500}
+[data-family="creative"] .hero-art{height:500px;overflow:hidden}
+[data-family="creative"] .hero-art-label{top:24px;font-size:7px;letter-spacing:.16em;z-index:2}
+[data-family="creative"] .hero-print{top:90px;left:7%;width:65%;z-index:2}
+[data-family="creative"] .hero-book{top:245px;right:3%;width:42%;z-index:3}
+[data-family="creative"] .round-stamp{top:355px;left:5%;z-index:4}
+[data-family="creative"] .art-spark{display:none}
+[data-family="creative"] .creative-mark{display:block;position:absolute;inset:0;pointer-events:none;z-index:0}
+[data-family="creative"] .creative-mark:before,[data-family="creative"] .creative-mark:after{position:absolute;display:block}
+[data-family="creative"] .art-caption{z-index:4}
+[data-family="creative"] .button:active{transform:translate(1px,2px)}
+[data-family="creative"] .product{transition:transform .2s,box-shadow .2s}
+[data-family="creative"] .product:hover{transform:translateY(-3px)}
+[data-family="creative"] .product h3{font-family:var(--serif)}
+[data-family="creative"] :is(.hero-copy,.hero-art,.feature-copy){min-width:0}
+[data-family="creative"] dialog{background:var(--ws-panel);border-radius:var(--ws-radius);box-shadow:var(--ws-shadow)}
+[data-family="creative"] .menu-toggle span{background:var(--ink)}
+
+/* Riso Post Office */
+html[data-theme="riso-post"]{--paper:#f6eddb;--ink:#342e4a;--olive:#c43e2d;--muted:#746557;--line:#cfbda2;--ws-panel:#fff9ed;--ws-top:#f6eddb;--ws-soft:#e9dfcb;--ws-muted:#746557;--ws-accent:#c43e2d;--ws-on-accent:#fffdf4;--ws-radius:2px;--ws-shadow:4px 4px 0 #342e4a;--serif:'Manrope',Arial,sans-serif;--sans:'DM Sans',Arial,sans-serif;--swatch-one:#c43e2d;--swatch-two:#e9dfcb;--swatch-three:#f6eddb}
+
+/* Tidal Atlas */
+html[data-theme="tidal-atlas"]{--paper:#eaf2ed;--ink:#183f43;--olive:#236c77;--muted:#526f70;--line:#a8c9c5;--ws-panel:#f8fcf5;--ws-top:#eaf2ed;--ws-soft:#c9e1db;--ws-muted:#526f70;--ws-accent:#236c77;--ws-on-accent:#fffdf4;--ws-radius:4px;--ws-shadow:none;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;--swatch-one:#236c77;--swatch-two:#c9e1db;--swatch-three:#eaf2ed}
+
+/* Type Foundry */
+html[data-theme="type-foundry"]{--paper:#f0ff5b;--ink:#232323;--olive:#232323;--muted:#555b36;--line:#929a51;--ws-panel:#f9ffd8;--ws-top:#f0ff5b;--ws-soft:#e4ee96;--ws-muted:#555b36;--ws-accent:#232323;--ws-on-accent:#f0ff5b;--ws-radius:0px;--ws-shadow:none;--serif:'Manrope',Arial,sans-serif;--sans:'DM Sans',Arial,sans-serif;--swatch-one:#232323;--swatch-two:#e4ee96;--swatch-three:#f0ff5b}
+
+/* Solar Glasshouse */
+html[data-theme="solar-glass"]{--paper:#edf5dc;--ink:#24412a;--olive:#366c3f;--muted:#60744c;--line:#afc48c;--ws-panel:#faffed;--ws-top:#edf5dc;--ws-soft:#dbe9bc;--ws-muted:#60744c;--ws-accent:#366c3f;--ws-on-accent:#fffdf4;--ws-radius:24px;--ws-shadow:0 12px 32px #4c663012;--serif:'Manrope',Arial,sans-serif;--sans:'DM Sans',Arial,sans-serif;--swatch-one:#366c3f;--swatch-two:#dbe9bc;--swatch-three:#edf5dc}
+
+/* Velvet Orbit */
+html[data-theme="velvet-orbit"]{--paper:#201923;--ink:#f3e2d7;--olive:#e4af85;--muted:#c4aebd;--line:#685164;--ws-panel:#2d2232;--ws-top:#201923;--ws-soft:#3d2c3d;--ws-muted:#c4aebd;--ws-accent:#e4af85;--ws-on-accent:#251d2e;--ws-radius:28px;--ws-shadow:0 15px 40px #0003;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;--swatch-one:#e4af85;--swatch-two:#3d2c3d;--swatch-three:#201923}
+
+/* Porcelain Index */
+html[data-theme="porcelain"]{--paper:#f2f4ef;--ink:#263d73;--olive:#244d9c;--muted:#647185;--line:#a9bad2;--ws-panel:#ffffff;--ws-top:#f2f4ef;--ws-soft:#dce5ed;--ws-muted:#647185;--ws-accent:#244d9c;--ws-on-accent:#fffdf4;--ws-radius:12px;--ws-shadow:inset 0 0 0 4px #ffffff;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;--swatch-one:#244d9c;--swatch-two:#dce5ed;--swatch-three:#f2f4ef}
+
+/* Magnetic Poetry */
+html[data-theme="magnetic-poetry"]{--paper:#e5e8e7;--ink:#2e3334;--olive:#a52c3b;--muted:#626c69;--line:#a3b0aa;--ws-panel:#fafaf5;--ws-top:#e5e8e7;--ws-soft:#d3d9d6;--ws-muted:#626c69;--ws-accent:#a52c3b;--ws-on-accent:#fffdf4;--ws-radius:3px;--ws-shadow:2px 3px 0 #9ca9a2;--serif:'Nunito',Arial,sans-serif;--sans:'DM Sans',Arial,sans-serif;--swatch-one:#a52c3b;--swatch-two:#d3d9d6;--swatch-three:#e5e8e7}
+
+/* Infrared Herbarium */
+html[data-theme="infrared"]{--paper:#251d2e;--ink:#ffe2ef;--olive:#ff9ac6;--muted:#cdb3ce;--line:#7b536e;--ws-panel:#38263f;--ws-top:#251d2e;--ws-soft:#573348;--ws-muted:#cdb3ce;--ws-accent:#ff9ac6;--ws-on-accent:#251d2e;--ws-radius:0px;--ws-shadow:none;--serif:'Manrope',Arial,sans-serif;--sans:'DM Sans',Arial,sans-serif;--swatch-one:#ff9ac6;--swatch-two:#573348;--swatch-three:#251d2e}
+
+/* Night Transit */
+html[data-theme="night-transit"]{--paper:#101f2b;--ink:#edf2df;--olive:#f6bf59;--muted:#b1c4c9;--line:#4c6772;--ws-panel:#192d3b;--ws-top:#101f2b;--ws-soft:#243d48;--ws-muted:#b1c4c9;--ws-accent:#f6bf59;--ws-on-accent:#251d2e;--ws-radius:8px;--ws-shadow:none;--serif:'Manrope',Arial,sans-serif;--sans:'DM Sans',Arial,sans-serif;--swatch-one:#f6bf59;--swatch-two:#243d48;--swatch-three:#101f2b}
+
+/* Paper Circuit */
+html[data-theme="paper-circuit"]{--paper:#f5f1e7;--ink:#263c48;--olive:#2454b4;--muted:#68776f;--line:#b7c4b4;--ws-panel:#fffdf7;--ws-top:#f5f1e7;--ws-soft:#e7ecdf;--ws-muted:#68776f;--ws-accent:#2454b4;--ws-on-accent:#fffdf4;--ws-radius:0px;--ws-shadow:5px 5px 0 #d9e0ce;--serif:'Manrope',Arial,sans-serif;--sans:'DM Sans',Arial,sans-serif;--swatch-one:#2454b4;--swatch-two:#e7ecdf;--swatch-three:#f5f1e7}
+
+/* Postal print shop: offset ink, perforations and stamp-sheet layout. */
+[data-theme="riso-post"] .header{border-bottom:3px double var(--ink)}
+[data-theme="riso-post"] .hero h1{font-weight:800;text-shadow:2px 2px #e8a196;letter-spacing:-4px}
+[data-theme="riso-post"] .hero h1 em{font-weight:800}
+[data-theme="riso-post"] .hero-art{background:#e5c4ae;border:12px solid #fff8e7;outline:1px dashed #b07458;outline-offset:-7px;transform:rotate(2deg);box-shadow:8px 8px 0 #cc4e3830}
+[data-theme="riso-post"] .creative-mark{background:repeating-linear-gradient(-35deg,transparent 0 19px,#a23c3333 20px 21px)}
+[data-theme="riso-post"] .creative-mark:after{content:'POST / 018';top:47px;right:12px;border:3px double #9d3c2d;border-radius:50%;padding:25px 10px;color:#9d3c2d;font:10px monospace;transform:rotate(18deg)}
+[data-theme="riso-post"] .hero-print{transform:rotate(-8deg);box-shadow:5px 5px 0 #c43e2d}
+[data-theme="riso-post"] .hero-book{transform:rotate(5deg);border:6px dotted #fff7e6;background:#fff7e6}
+[data-theme="riso-post"] .round-stamp{border:2px dashed #fff9ed;outline:4px solid #c43e2d;transform:rotate(-17deg)}
+[data-theme="riso-post"] .product{border:1px dashed #a78e74;border-top:7px dotted #b8a78c}
+[data-theme="riso-post"] .product-label{transform:rotate(-5deg)}
+[data-theme="riso-post"] .closing{border:2px dashed var(--ws-accent)}
+/* Nautical atlas: contour engraving and calibrated edges. */
+[data-theme="tidal-atlas"] .hero h1{font-weight:400;letter-spacing:-3px}
+[data-theme="tidal-atlas"] .hero h1 em{font-style:italic}
+[data-theme="tidal-atlas"] .hero-art{border:1px solid #236c77;box-shadow:inset 0 0 0 10px #eaf2ed,inset 0 0 0 11px #8ab0ad}
+[data-theme="tidal-atlas"] .creative-mark{background:repeating-linear-gradient(0deg,transparent 0 49px,#236c7718 50px 51px),repeating-linear-gradient(90deg,transparent 0 49px,#236c7718 50px 51px)}
+[data-theme="tidal-atlas"] .creative-mark:after{content:'N 23° / E 108°';bottom:32px;left:24px;font:9px monospace;letter-spacing:.12em;color:#236c77}
+[data-theme="tidal-atlas"] .hero-print{transform:rotate(0deg);left:11%;width:63%;top:79px;border:5px solid #f6faf1;outline:1px solid #6a9898}
+[data-theme="tidal-atlas"] .hero-book{transform:rotate(-9deg);top:264px;border-radius:50% 50% 4px 4px}
+[data-theme="tidal-atlas"] .round-stamp{width:70px;height:70px;border:5px double #83b2af;background:#163e48;color:#f3faf2}
+[data-theme="tidal-atlas"] .product-grid{gap:32px}
+[data-theme="tidal-atlas"] .product-category{font-family:monospace}
+[data-theme="tidal-atlas"] .how{border-block:4px double #7c9c98}
+/* Typesetter: enormous typography and an asymmetrical specimen board. */
+[data-theme="type-foundry"] .hero{grid-template-columns:1.15fr .85fr;gap:28px}
+[data-theme="type-foundry"] .header{border-bottom:3px solid #232323}
+[data-theme="type-foundry"] .hero h1{font-weight:800;font-size:clamp(60px,7vw,96px);letter-spacing:-6px;line-height:.98}
+[data-theme="type-foundry"] .hero h1 em{font-weight:800;font-style:normal;color:transparent;-webkit-text-stroke:1.5px #232323}
+[data-theme="type-foundry"] .hero-art{background:#232323;border:0;min-width:0}
+[data-theme="type-foundry"] .hero-art-label{color:#f0ff5b;text-align:left;left:20px;font-family:monospace}
+[data-theme="type-foundry"] .creative-mark:before{content:'Aa';font:800 225px/.8 Arial,sans-serif;letter-spacing:-25px;color:#f0ff5b;left:12px;top:60px}
+[data-theme="type-foundry"] .hero-print{width:50%;left:9%;top:220px;transform:none;padding:7px;box-shadow:none}
+[data-theme="type-foundry"] .hero-book{width:41%;top:296px;right:0;transform:none;padding:5px;box-shadow:none}
+[data-theme="type-foundry"] :is(.round-stamp,.art-caption){display:none}
+[data-theme="type-foundry"] .hero-print figcaption{font-size:8px}
+[data-theme="type-foundry"] .hero-book figcaption{font-size:7px}
+[data-theme="type-foundry"] .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border:1px solid #232323}
+[data-theme="type-foundry"] .product{border:0;border-bottom:1px solid #232323;padding:18px;background:transparent}
+[data-theme="type-foundry"] .product:nth-child(odd){border-right:1px solid #232323}
+[data-theme="type-foundry"] .product h3{font-weight:800;font-size:27px}
+[data-theme="type-foundry"] .product-image{border:1px solid #232323}
+[data-theme="type-foundry"] .benefits{border-block:2px solid #232323}
+/* Sunlit greenhouse: glass ribs and organic arching panes. */
+[data-theme="solar-glass"] .hero-art{border-radius:180px 180px 26px 26px;background:linear-gradient(145deg,#d5e6a6,#eff8d6 60%,#d5e9cc);border:1px solid #a6bd78}
+[data-theme="solar-glass"] .creative-mark{background:repeating-linear-gradient(90deg,transparent 0 23%,#647e4240 23.2% 23.5%,transparent 23.7% 25%),linear-gradient(transparent 49.6%,#647e4240 49.8% 50.2%,transparent 50.4%)}
+[data-theme="solar-glass"] .creative-mark:before{content:'';width:120px;height:120px;border-radius:50%;right:24px;top:44px;background:#e8c563;box-shadow:0 0 70px #f2df9c}
+[data-theme="solar-glass"] .hero-art-label{top:39px;color:#405c2d;font-weight:700}
+[data-theme="solar-glass"] .hero-print{border-radius:70px 70px 8px 8px;overflow:hidden;top:101px;transform:rotate(-4deg);background:#fcfff1e8;backdrop-filter:blur(8px)}
+[data-theme="solar-glass"] .hero-book{border-radius:18px;overflow:hidden;transform:rotate(6deg)}
+[data-theme="solar-glass"] .round-stamp{background:#e7bf52;color:#344725;border-color:#e7bf52}
+[data-theme="solar-glass"] .button{border-radius:99px}
+[data-theme="solar-glass"] .product{border-radius:80px 80px 15px 15px}
+[data-theme="solar-glass"] .product-label{left:50%;transform:translateX(-50%);white-space:nowrap;top:32px}
+[data-theme="solar-glass"] .how{background:#dfeac7}
+/* Orbital salon: velvet panels, elliptical orbits and copper edging. */
+[data-theme="velvet-orbit"] .hero h1{font-weight:400;letter-spacing:-3px}
+[data-theme="velvet-orbit"] .hero h1 em{font-style:italic}
+[data-theme="velvet-orbit"] .hero-art{border-radius:48% 48% 12px 12px;background:radial-gradient(ellipse at 40% 35%,#604054,#2b2033 72%);border:1px solid #8b6679}
+[data-theme="velvet-orbit"] .creative-mark:before{content:'';inset:44px -15%;border:1px solid #c28d6690;border-radius:50%;transform:rotate(-30deg)}
+[data-theme="velvet-orbit"] .creative-mark:after{content:'';inset:85px -19%;border:1px solid #c28d6690;border-radius:50%;transform:rotate(35deg)}
+[data-theme="velvet-orbit"] .hero-print{border-radius:120px 120px 4px 4px;overflow:hidden;background:#f4e2d0;border:1px solid #cca17e;transform:rotate(-5deg);top:85px}
+[data-theme="velvet-orbit"] .hero-print figcaption,[data-theme="velvet-orbit"] .hero-book figcaption{color:#735446}
+[data-theme="velvet-orbit"] .hero-book{border-radius:50%;overflow:hidden;background:#eed6c3;padding:12px;width:40%}
+[data-theme="velvet-orbit"] .hero-book figcaption{display:none}
+[data-theme="velvet-orbit"] .round-stamp{background:#392a3c;color:#e4af85;border:1px solid #b7866b}
+[data-theme="velvet-orbit"] .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px}
+[data-theme="velvet-orbit"] .product{border-radius:150px 150px 12px 12px}
+[data-theme="velvet-orbit"] .product-label{top:45px;left:50%;transform:translateX(-50%);white-space:nowrap}
+[data-theme="velvet-orbit"] .closing{background:linear-gradient(120deg,#473045,#2d2232)}
+/* Ceramic index: cobalt fretwork, white glazing and catalog numbers. */
+[data-theme="porcelain"] .header{border-bottom:4px double #244d9c}
+[data-theme="porcelain"] .hero h1{font-weight:400;letter-spacing:-3px}
+[data-theme="porcelain"] .hero-art{background-color:#fff;border:8px solid #dce5ed;outline:1px solid #244d9c;outline-offset:-12px;border-radius:110px 110px 12px 12px}
+[data-theme="porcelain"] .creative-mark{background:repeating-conic-gradient(#244d9c12 0 25%,transparent 0 50%) 0/30px 30px}
+[data-theme="porcelain"] .creative-mark:after{content:'CATALOGUE / 023';bottom:24px;left:25px;font:9px monospace;color:#244d9c}
+[data-theme="porcelain"] .hero-print{transform:none;border:1px solid #6583b5;border-radius:60px 60px 4px 4px;overflow:hidden;top:80px}
+[data-theme="porcelain"] .hero-book{border:4px double #244d9c;transform:rotate(8deg);background:#fdfdf7}
+[data-theme="porcelain"] .round-stamp{background:#244d9c;color:#fff;border:4px double #fff}
+[data-theme="porcelain"] .product{border:4px double #9db0cf;border-radius:12px 12px 40px 12px}
+[data-theme="porcelain"] .product-category{font-family:monospace}
+[data-theme="porcelain"] .how{border-block:4px double #244d9c}
+/* Fridge collage: magnetic words and imperfectly aligned paper. */
+[data-theme="magnetic-poetry"] .hero h1{line-height:1.45;font-size:clamp(49px,5vw,68px);font-weight:800;letter-spacing:-2px}
+[data-theme="magnetic-poetry"] .hero h1 em{font-weight:800;background:#fffef5;box-shadow:4px 5px 0 #a6b0a9;padding:0 10px;box-decoration-break:clone;-webkit-box-decoration-break:clone;color:#a52c3b}
+[data-theme="magnetic-poetry"] .hero-art{background:linear-gradient(100deg,#d4dbd8,#f1f3ed 40%,#d4dbd8);border:1px solid #9ba9a1;box-shadow:inset -8px 0 0 #c5cec7}
+[data-theme="magnetic-poetry"] .creative-mark:before{content:'make / little / magic';left:20px;top:52px;font:800 15px 'Nunito',Arial,sans-serif;background:#fcfcf5;padding:7px 12px;box-shadow:3px 4px 0 #a6b0a9;transform:rotate(-5deg);color:#38423d}
+[data-theme="magnetic-poetry"] .creative-mark:after{content:'';width:25px;height:25px;background:#b43748;border-radius:50%;right:24px;top:53px;box-shadow:2px 3px 0 #762332}
+[data-theme="magnetic-poetry"] .hero-print{top:115px;transform:rotate(-7deg);box-shadow:4px 6px 0 #9ca9a2}
+[data-theme="magnetic-poetry"] .hero-book{top:261px;transform:rotate(11deg);box-shadow:4px 6px 0 #9ca9a2}
+[data-theme="magnetic-poetry"] .round-stamp{background:#244e57;border:0;color:#fff}
+[data-theme="magnetic-poetry"] .product-grid{gap:34px 28px}
+[data-theme="magnetic-poetry"] .product:nth-child(3n+1){transform:rotate(-1deg)}
+[data-theme="magnetic-poetry"] .product:nth-child(3n+2){transform:rotate(1deg)}
+[data-theme="magnetic-poetry"] .product:hover{transform:rotate(0deg) translateY(-3px)}
+[data-theme="magnetic-poetry"] .product-category{background:#e5e8e7;display:inline-block;padding:2px 6px;color:#663a44}
+/* Infrared specimen: technical registration frame and vivid botanical ink. */
+[data-theme="infrared"] .hero{grid-template-columns:.95fr 1.05fr}
+[data-theme="infrared"] .hero h1{font-weight:700;letter-spacing:-4px}
+[data-theme="infrared"] .hero-art{background:#e794bd;border:1px solid #eab4d1;box-shadow:inset 0 0 0 13px #251d2e}
+[data-theme="infrared"] .creative-mark{inset:22px;border:1px solid #653b6d;background:linear-gradient(90deg,transparent 49.8%,#60396255 50% 50.2%,transparent 50.4%),linear-gradient(transparent 49.8%,#60396255 50% 50.2%,transparent 50.4%)}
+[data-theme="infrared"] .creative-mark:after{content:'SPECIMEN / IR-025';color:#502b59;left:12px;bottom:12px;font:9px monospace;letter-spacing:.1em}
+[data-theme="infrared"] .hero-art-label{color:#402148;top:34px}
+[data-theme="infrared"] .hero-print{top:86px;transform:rotate(-3deg);background:#37243f;border:1px solid #f3b2d3;padding:8px}
+[data-theme="infrared"] .hero-print figcaption{color:#ffe2ef}
+[data-theme="infrared"] .hero-book{background:#37243f;border:1px solid #f3b2d3;transform:rotate(5deg)}
+[data-theme="infrared"] .round-stamp{background:#302038;border:1px solid #ff9ac6;color:#ffe2ef;border-radius:0;width:72px;height:72px}
+[data-theme="infrared"] .art-caption{color:#502b59;bottom:22px}
+[data-theme="infrared"] .product{border:1px solid #88607e;padding:10px 10px 18px}
+[data-theme="infrared"] .product-image{border:1px solid #b77f9d}
+[data-theme="infrared"] .product-category{font-family:monospace}
+[data-theme="infrared"] .product-label{border-radius:0;left:0;top:0}
+/* Transit at night: route geometry, ticket stubs and platform typography. */
+[data-theme="night-transit"] .hero h1{font-weight:750;letter-spacing:-3.5px}
+[data-theme="night-transit"] .hero-art{background:#122936;border:1px solid #66848b;border-radius:4px}
+[data-theme="night-transit"] .hero-art-label{color:#f6bf59;text-align:left;left:22px;font:10px monospace}
+[data-theme="night-transit"] .hero-print{top:110px;left:8%;width:60%;transform:none;border:0;border-left:8px solid #f6bf59;box-shadow:none;padding:8px 8px 0}
+[data-theme="night-transit"] .hero-book{top:267px;right:3%;transform:none;border:0;border-left:7px solid #a3d9bc;border-radius:0;padding:7px 7px 0}
+[data-theme="night-transit"] .round-stamp{border-radius:3px;border:1px dashed #f6bf59;background:#122936;color:#f6bf59;width:65px;height:65px;top:365px}
+[data-theme="night-transit"] .product{border:1px solid #5a7178;border-top:5px solid #f6bf59}
+[data-theme="night-transit"] .product:nth-child(3n+2){border-top-color:#9cd4ba}
+[data-theme="night-transit"] .product:nth-child(3n){border-top-color:#ef8f9b}
+[data-theme="night-transit"] .product-category{font:10px monospace}
+[data-theme="night-transit"] .benefits{border-block:1px dashed #66848b}
+[data-theme="night-transit"] .steps article{border-left:3px solid #f6bf59;padding-left:20px;text-align:left}
+[data-theme="night-transit"] .closing{border:1px dashed #f6bf59}
+/* Folded circuitry: blue drafting traces and a paper-corner detail. */
+[data-theme="paper-circuit"] .hero h1{font-weight:650;letter-spacing:-3px}
+[data-theme="paper-circuit"] .header{border-bottom:2px solid #2454b4}
+[data-theme="paper-circuit"] .hero-art{border:1px solid #8faaa5;background:#edf0df;clip-path:polygon(0 0,calc(100% - 37px) 0,100% 37px,100% 100%,0 100%)}
+[data-theme="paper-circuit"] .creative-mark:after{content:'';right:0;top:0;border-top:37px solid #f5f1e7;border-left:37px solid #bad0d0}
+[data-theme="paper-circuit"] .hero-print{top:87px;left:10%;width:62%;transform:none;box-shadow:7px 7px 0 #b2c4ae;border:1px solid #2454b4}
+[data-theme="paper-circuit"] .hero-book{top:255px;right:3%;transform:none;box-shadow:6px 6px 0 #b2c4ae;border:1px solid #2454b4}
+[data-theme="paper-circuit"] .round-stamp{background:#d6e854;color:#284143;border:1px solid #6f8b49;border-radius:12px;transform:rotate(0deg)}
+[data-theme="paper-circuit"] .product{border-top:3px solid #2454b4;border-radius:0 0 17px 0}
+[data-theme="paper-circuit"] .product-category{font-family:monospace}
+[data-theme="paper-circuit"] .button.primary{box-shadow:4px 4px 0 #c4d260}
+[data-theme="paper-circuit"] .how{background:#e8eddb;border-block:1px solid #a3b5a4}
+
+[data-theme="tidal-atlas"] .creative-mark{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22460%22%20height%3D%22500%22%20viewBox%3D%220%200%20460%20500%22%20fill%3D%22none%22%20stroke%3D%22%23548e8b%22%20stroke-width%3D%221%22%3E%3Cpath%20d%3D%22M-80%20120C40%205%20210%2020%20275%20118S490%20174%20530%2025M-80%20145C40%2030%20210%2045%20275%20143S490%20199%20530%2050M-80%20170C40%2055%20210%2070%20275%20168S490%20224%20530%2075M-80%20195C40%2080%20210%2095%20275%20193S490%20249%20530%20100M-80%20220C40%20105%20210%20120%20275%20218S490%20274%20530%20125M-80%20245C40%20130%20210%20145%20275%20243S490%20299%20530%20150M-80%20270C40%20155%20210%20170%20275%20268S490%20324%20530%20175M-80%20295C40%20180%20210%20195%20275%20293S490%20349%20530%20200M-80%20320C40%20205%20210%20220%20275%20318S490%20374%20530%20225M-80%20345C40%20230%20210%20245%20275%20343S490%20399%20530%20250M-80%20370C40%20255%20210%20270%20275%20368S490%20424%20530%20275M-80%20395C40%20280%20210%20295%20275%20393S490%20449%20530%20300M-80%20420C40%20305%20210%20320%20275%20418S490%20474%20530%20325%22%2F%3E%3C%2Fsvg%3E");background-size:100% 100%}
+
+[data-theme="night-transit"] .creative-mark{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22460%22%20height%3D%22500%22%20viewBox%3D%220%200%20460%20500%22%20fill%3D%22none%22%3E%3Cg%20stroke-width%3D%223%22%3E%3Cpath%20stroke%3D%22%23e7af53%22%20d%3D%22M-20%20460h70l300-300V-20%22%2F%3E%3Cpath%20stroke%3D%22%23a3d9bc%22%20d%3D%22M-10%2070h100l300%20300h90%22%2F%3E%3Cpath%20stroke%3D%22%23d7839e%22%20d%3D%22M150%20520V320l150-150h180%22%2F%3E%3C%2Fg%3E%3Cg%20stroke%3D%22%23102a35%22%20stroke-width%3D%223%22%20fill%3D%22%23edf2df%22%3E%3Ccircle%20cx%3D%2290%22%20cy%3D%2270%22%20r%3D%226%22%2F%3E%3Ccircle%20cx%3D%22350%22%20cy%3D%22110%22%20r%3D%226%22%2F%3E%3Ccircle%20cx%3D%22350%22%20cy%3D%22160%22%20r%3D%226%22%2F%3E%3Ccircle%20cx%3D%22390%22%20cy%3D%22370%22%20r%3D%226%22%2F%3E%3Ccircle%20cx%3D%22150%22%20cy%3D%22320%22%20r%3D%226%22%2F%3E%3Ccircle%20cx%3D%22150%22%20cy%3D%22420%22%20r%3D%226%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");background-size:100% 100%}
+
+[data-theme="paper-circuit"] .creative-mark{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22460%22%20height%3D%22500%22%20viewBox%3D%220%200%20460%20500%22%20fill%3D%22none%22%20stroke%3D%22%232454b4%22%20stroke-width%3D%221.5%22%3E%3Cpath%20d%3D%22M0%2065h110l35%2035h200V40h115M30%200v145l50%2050v200h100v105M460%20440H320l-30-30V245h170M0%20460h65l40-40h135V0M390%20500V300l-30-30V160h100%22%2F%3E%3Cg%20fill%3D%22%23d6e854%22%3E%3Ccircle%20cx%3D%22345%22%20cy%3D%2240%22%20r%3D%227%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%22395%22%20r%3D%227%22%2F%3E%3Ccircle%20cx%3D%22290%22%20cy%3D%22245%22%20r%3D%227%22%2F%3E%3Ccircle%20cx%3D%22240%22%20cy%3D%2295%22%20r%3D%227%22%2F%3E%3Ccircle%20cx%3D%22390%22%20cy%3D%22440%22%20r%3D%227%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");background-size:100% 100%}
+
+/* Reflow the compositions; decorative geometry never enlarges the document. */
+@media(max-width:1100px){
+ [data-family="creative"] .hero{gap:30px;min-height:590px}
+ [data-family="creative"] .hero-art{height:470px}
+ [data-family="creative"] .hero-book{top:232px}
+ [data-family="creative"] .round-stamp{top:333px}
+ [data-theme="type-foundry"] .hero-print{top:214px}
+ [data-theme="type-foundry"] .hero-book{top:292px}
+}
+@media(max-width:800px){
+ [data-family="creative"] .hero{gap:22px;grid-template-columns:minmax(0,1fr) minmax(0,1fr);min-height:510px}
+ [data-family="creative"] .hero h1{font-size:clamp(40px,6.5vw,55px);letter-spacing:-2.4px}
+ [data-family="creative"] .hero-art{height:390px}
+ [data-family="creative"] .hero-print{top:80px}
+ [data-family="creative"] .hero-book{top:200px;width:44%}
+ [data-family="creative"] .round-stamp{top:275px;width:62px;height:62px;left:6%}
+ [data-family="creative"] .hero-art-label{font-size:6px;letter-spacing:.07em}
+ [data-family="creative"] .hero-print figcaption{font-size:8px}
+ [data-family="creative"] .hero-book figcaption{font-size:7px}
+ [data-theme="type-foundry"] .creative-mark:before{font-size:170px;top:65px}
+ [data-theme="type-foundry"] .hero-print{top:185px}
+ [data-theme="type-foundry"] .hero-book{top:252px}
+ [data-theme="magnetic-poetry"] .creative-mark:before{font-size:10px;left:12px}
+ [data-theme="magnetic-poetry"] .hero-print{top:111px}
+ [data-theme="tidal-atlas"] .creative-mark:after,[data-theme="porcelain"] .creative-mark:after{font-size:7px;bottom:18px}
+ [data-theme="solar-glass"] .hero-art{border-top-left-radius:120px;border-top-right-radius:120px}
+ [data-theme="solar-glass"] .hero-art-label{top:33px;font-size:5px}
+ [data-theme="riso-post"] .hero-art{transform:none}
+}
+@media(max-width:570px){
+ [data-family="creative"] .header{height:80px}
+ [data-family="creative"] .header nav{top:190px;background:var(--ws-panel);color:var(--ink);border-color:var(--line)}
+ [data-family="creative"] .header .brand>span{font-size:35px}
+ [data-family="creative"] .hero{grid-template-columns:minmax(0,1fr);gap:30px;padding-block:32px 40px;min-height:0}
+ [data-family="creative"] .hero h1{font-size:clamp(46px,13vw,62px);letter-spacing:-2.7px;line-height:1.1}
+ [data-family="creative"] .hero-art{width:100%;max-width:410px;height:410px;justify-self:center}
+ [data-family="creative"] .hero-print{top:84px;width:64%;left:7%}
+ [data-family="creative"] .hero-book{top:214px;width:43%;right:3%}
+ [data-family="creative"] .round-stamp{top:300px}
+ [data-family="creative"] .hero-art-label{top:25px;font-size:6px}
+ [data-family="creative"] .section-top h2{font-size:30px}
+ [data-family="creative"] .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 12px}
+ [data-family="creative"] .product h3{font-size:17px;letter-spacing:-.3px}
+ [data-family="creative"] .product-meta{padding-inline:10px}
+ [data-family="creative"] .product-desc{padding-inline:10px}
+ [data-family="creative"] .product-label{font-size:5px;padding:4px 6px}
+ [data-family="creative"] .feature h2{font-size:31px}
+ [data-family="creative"] .closing h2{font-size:27px}
+ [data-family="creative"] .hero .button{font-size:11px;gap:25px}
+ [data-theme="type-foundry"] .hero h1{font-size:clamp(43px,13vw,61px);font-weight:800;letter-spacing:-3px}
+ [data-theme="type-foundry"] .hero-print{top:204px;left:8%;width:51%}
+ [data-theme="type-foundry"] .hero-book{top:269px;width:40%;right:0}
+ [data-theme="type-foundry"] .product-grid{gap:0}
+ [data-theme="type-foundry"] .product{padding:8px 8px 14px}
+ [data-theme="type-foundry"] .product-meta,[data-theme="type-foundry"] .product-desc{padding-inline:0}
+ [data-theme="magnetic-poetry"] .hero h1{line-height:1.5;font-size:clamp(41px,11.4vw,55px)}
+ [data-theme="magnetic-poetry"] .hero-print{top:111px}
+ [data-theme="magnetic-poetry"] .hero-book{top:237px}
+ [data-theme="solar-glass"] .hero-art-label{top:34px;font-size:5px}
+ [data-theme="solar-glass"] .product{border-radius:55px 55px 12px 12px}
+ [data-theme="solar-glass"] .product-label,[data-theme="velvet-orbit"] .product-label{top:24px}
+ [data-theme="velvet-orbit"] .product{border-radius:80px 80px 10px 10px}
+ [data-theme="velvet-orbit"] .hero-book{border-radius:50%;overflow:hidden}
+ [data-theme="infrared"] .hero-art-label{top:34px}
+ [data-theme="porcelain"] .hero-art-label{top:29px}
+}
+@media(prefers-reduced-motion:reduce){
+ [data-family="creative"] *,[data-family="creative"] *:before,[data-family="creative"] *:after{transition:none!important;animation:none!important}
+}
