@@ -1,0 +1,8 @@
+.product-image{padding:0;width:100%;font:inherit;text-align:left;color:inherit;cursor:pointer}
+dialog{max-width:min(480px,calc(100vw - 40px));background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:30px;box-shadow:0 20px 60px #0005}
+dialog::backdrop{background:#0008}dialog h2{font-size:27px;margin-bottom:18px}dialog p{margin-bottom:24px;color:var(--ws-muted,var(--muted));font-size:13px}
+@media(max-width:570px){dialog{padding:23px}dialog h2{font-size:23px}}
+@media(min-width:571px) and (max-width:800px){
+ :is([data-theme="botanical"],[data-theme="midnight"]) .hero-orbit{width:80%;height:70%;left:10%;top:15%}
+ :is([data-theme="botanical"],[data-theme="midnight"]) .hero-book{right:4%;width:43%}
+}

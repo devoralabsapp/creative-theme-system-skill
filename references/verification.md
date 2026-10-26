@@ -1,0 +1,22 @@
+# Meaningful verification
+
+Run the host app's relevant existing checks. For the generated starter:
+
+```sh
+node scripts/validate_demo.mjs /absolute/path/to/demo
+```
+
+This parses registry data without evaluating it, checks assets and script syntax. It is not visual or full accessibility verification.
+
+Use the environment's supported browser tools. When layout changes, sample 320px/390px phones, 768px tablet and desktop. Scale the matrix to the real change.
+
+- Open each requested theme by URL; check selection, root state, contrast, imagery, card text and controls.
+- Switch a dark workspace theme back to an original light theme; rails and title bars must disappear.
+- Search/filter/sort before switching; results and user input must survive. Verify real navigation/checkout destinations without ordering.
+- Reload/reopen without `?theme=`. Check invalid values and storage failure. Do not reset an existing app's storage key.
+- Check keyboard use, mobile menu, focus, reduced motion, a dialog and an empty state.
+- Inspect document width **and text/card bounds**: `scrollWidth` alone can hide defects under `overflow: clip`.
+- Verify image loads. Do not use placeholders to claim real assets were verified.
+- Remove temporary QA routes before publication; confirm final source excludes them and check 404 when relevant.
+
+The sample dialog is a preview, not checkout/download functionality. Report actual checks and unverified limits. Save representative screenshots when useful. A successful hosting build does not prove a working browser UI.
