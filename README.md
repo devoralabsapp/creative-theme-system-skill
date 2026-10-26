@@ -10,6 +10,22 @@ Botanical · Editorial · Playroom · Midnight · Playful Retro Neo-Brutalism ·
 
 The app-inspired styles are visual references, not integrations with or replicas of those products. Sample products are fictional; SVG artwork is original. There are no store credentials, original product photographs, customer data, account identifiers or payment functionality in the starter.
 
+## Theme screenshots
+
+Actual desktop screenshots of the bundled starter, captured at the same viewport with the same fictional sample content. Click any preview to open the full-size image.
+
+| Studio collection | Studio collection |
+| --- | --- |
+| **01 · Botanical**<br>[![Botanical — warm cream and olive](docs/screenshots/botanical.jpg)](docs/screenshots/botanical.jpg) | **02 · Editorial**<br>[![Editorial — minimal magazine layout](docs/screenshots/editorial.jpg)](docs/screenshots/editorial.jpg) |
+| **03 · Playroom**<br>[![Playroom — soft rounded colorful blocks](docs/screenshots/playroom.jpg)](docs/screenshots/playroom.jpg) | **04 · Midnight**<br>[![Midnight — ink surfaces and warm gold](docs/screenshots/midnight.jpg)](docs/screenshots/midnight.jpg) |
+| **05 · Playful Retro Neo-Brutalism**<br>[![Retro — pastel blocks, black outlines and hard shadows](docs/screenshots/retro.jpg)](docs/screenshots/retro.jpg) | |
+
+| Creative workspace collection | Creative workspace collection |
+| --- | --- |
+| **06 · Command line**<br>[![Command line — black, white and gray terminal](docs/screenshots/commandline.jpg)](docs/screenshots/commandline.jpg) | **07 · Visual Studio Code**<br>[![Visual Studio Code — dark editor and syntax accents](docs/screenshots/vscode.jpg)](docs/screenshots/vscode.jpg) |
+| **08 · Excel**<br>[![Excel — green workbook and cell grids](docs/screenshots/excel.jpg)](docs/screenshots/excel.jpg) | **09 · Canva**<br>[![Canva — light cyan and purple creative canvas](docs/screenshots/canva.jpg)](docs/screenshots/canva.jpg) |
+| **10 · Figma**<br>[![Figma — dotted canvas and purple selection frames](docs/screenshots/figma.jpg)](docs/screenshots/figma.jpg) | **11 · Photoshop**<br>[![Photoshop — charcoal panels and transparency canvas](docs/screenshots/photoshop.jpg)](docs/screenshots/photoshop.jpg) |
+
 ## Use with an AI agent
 
 ```text
