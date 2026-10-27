@@ -1,121 +1,81 @@
-# Creative Theme System — AI Agent Skill
+# Creative Theme System — Design Lab
 
-A portable skill for creating and integrating **38 selectable website themes**, with working CSS, a safe starter generator, and a complete browser demo. Instructions are in English so different AI agents can reuse them.
+**38 themes. One working collection. Two ways to explore.**
 
-**Entry point: [SKILL.md](SKILL.md).** Any agent with filesystem access can read it; agents with an existing application should follow the integration path rather than replacing the app.
+A portable AI agent skill with original theme recipes, reusable CSS and interactive English demos. Design Lab is the default experience: compare each theme's layout, typography and color on the same project workspace.
 
-**Live demo: [theme.devoralabs.tech](https://theme.devoralabs.tech/)** — explore all 38 themes in Design Lab and Website Demo.
+**[Open Design Lab →](https://theme.devoralabs.tech/)** · [Website Demo](https://theme.devoralabs.tech/?view=website) · [AI agent instructions](SKILL.md)
 
-## Preview modes
+[![Devora Signal in Design Lab — white, red and black workbench with the Website Demo tab beside it](docs/screenshots/design-lab/devora-signal.jpg)](https://theme.devoralabs.tech/?theme=devora-signal)
 
-**[Design Lab](https://theme.devoralabs.tech/)** is the default view and includes all 38 themes. **[Website Demo](https://theme.devoralabs.tech/?view=website)** sits beside it as a second tab. Select a theme in either preview to synchronize both views. The Lab project session and the website search/filter/sort state remain intact when switching tabs. Interface copy is in English.
+## Explore Design Lab
 
-Share the Lab with `/?theme=vscode`, or the website with `/?view=website&theme=vscode`. An explicit URL theme takes priority over the saved theme; a fresh visit always opens Design Lab unless the URL asks for Website Demo. The previous `/lab/` entry remains available.
+Choose any of the 38 themes using the shared selector. Search projects, filter the collection, save ideas, read notes and add a project for the current session. Switching themes keeps your work. The adjacent **Website Demo** tab shows the same theme on the sample catalog and retains its own search, filters and sorting.
 
-[![All-theme Design Lab with adjacent Website Demo tab](docs/screenshots/theme-explorer.png)](https://theme.devoralabs.tech/)
+Share a theme with `/?theme=vscode`, or open its catalog with `/?view=website&theme=vscode`. The URL selection takes priority over the saved theme. New visits open Design Lab by default; the previous `/lab/` entry remains available.
 
-Explorer verification: all 38 Lab compositions and all 38 website themes passed layout checks at 320, 390, 768 and 1440px. Theme synchronization, default/deep-link behavior, keyboard tabs, retained project drafts and filters, dialog placement, independent tab scroll positions, website anchors and back-to-top were exercised. These checks cover the bundled sample content, not arbitrary host applications.
+## All 38 Design Lab previews
 
-## Theme classification
+Actual screenshots of the bundled Design Lab at the same desktop size. **Click a preview to open that theme live.** Each theme uses the same fictional projects, making differences in composition, type and color easier to compare.
 
-| Family / dropdown group | Count | Styles |
-| --- | ---: | --- |
-| **Studio** — original art direction | 5 | Botanical (natural), Editorial (magazine), Playroom (soft playful), Midnight (dark elegant), Playful Retro Neo-Brutalism (pastel outlines) |
-| **Workspace** — familiar software environments | 9 | Command line, Visual Studio Code, Excel, Canva, Figma, Photoshop, File Explorer, Notion, Burp Suite |
-| **Holiday** — seasonal and cultural celebrations | 3 | Halloween, Christmas, Tết Holiday |
-| **Creative Lab** — experimental material and layout studies | 21 | Riso Post Office, Tidal Atlas, Type Foundry, Solar Glasshouse, Velvet Orbit, Porcelain Index, Magnetic Poetry, Infrared Herbarium, Night Transit, Paper Circuit, SẮC / 01, Devora Press, Devora Signal, Devora Folio, Index Bureau, Specimen Press, Grid Assembly, Margin Notes, Afterhours FM, Chapter Desk, Mono OS |
+### Studio collection
 
-Workspace subgroups: **developer & utility** (Command line, Visual Studio Code, Burp Suite); **documents & organization** (Excel, File Explorer, Notion); **design tools** (Canva, Figma, Photoshop). Existing theme IDs and the Botanical default are preserved.
+Five directions, from a warm botanical workspace to a dark library and playful paper compositions.
 
-The app-inspired styles are visual references, not integrations with or replicas of those products. Sample products are fictional; SVG artwork is original. The starter includes no store credentials, original product photographs, customer data or payment functionality. Creative Lab contains original compositions for this package; no claim of worldwide novelty or exclusivity is made.
-
-## Theme screenshots
-
-Actual desktop screenshots of the bundled starter, with the same fictional sample content. Click any preview to open the full-size image. The SẮC section also links to its separate original showcase.
-
-| Studio collection | Studio collection |
+| Design Lab | Design Lab |
 | --- | --- |
-| **01 · Botanical**<br>[![Botanical — warm cream and olive](docs/screenshots/botanical.jpg)](docs/screenshots/botanical.jpg) | **02 · Editorial**<br>[![Editorial — minimal magazine layout](docs/screenshots/editorial.jpg)](docs/screenshots/editorial.jpg) |
-| **03 · Playroom**<br>[![Playroom — soft rounded colorful blocks](docs/screenshots/playroom.jpg)](docs/screenshots/playroom.jpg) | **04 · Midnight**<br>[![Midnight — ink surfaces and warm gold](docs/screenshots/midnight.jpg)](docs/screenshots/midnight.jpg) |
-| **05 · Playful Retro Neo-Brutalism**<br>[![Retro — pastel blocks, black outlines and hard shadows](docs/screenshots/retro.jpg)](docs/screenshots/retro.jpg) | |
+| **01 · [Botanical](https://theme.devoralabs.tech/?theme=botanical)**<br>[![Botanical — Design Lab workspace](docs/screenshots/design-lab/botanical.jpg)](https://theme.devoralabs.tech/?theme=botanical)<br>Warm cream and olive | **02 · [Editorial](https://theme.devoralabs.tech/?theme=editorial)**<br>[![Editorial — Design Lab workspace](docs/screenshots/design-lab/editorial.jpg)](https://theme.devoralabs.tech/?theme=editorial)<br>Minimal magazine layout |
+| **03 · [Playroom](https://theme.devoralabs.tech/?theme=playroom)**<br>[![Playroom — Design Lab workspace](docs/screenshots/design-lab/playroom.jpg)](https://theme.devoralabs.tech/?theme=playroom)<br>Soft rounded colorful blocks | **04 · [Midnight](https://theme.devoralabs.tech/?theme=midnight)**<br>[![Midnight — Design Lab workspace](docs/screenshots/design-lab/midnight.jpg)](https://theme.devoralabs.tech/?theme=midnight)<br>Ink surfaces and warm gold |
+| **05 · [Playful Retro Neo-Brutalism](https://theme.devoralabs.tech/?theme=retro)**<br>[![Playful Retro Neo-Brutalism — Design Lab workspace](docs/screenshots/design-lab/retro.jpg)](https://theme.devoralabs.tech/?theme=retro)<br>Pastels, black outlines, hard shadows |  |
 
-| Creative workspace collection | Creative workspace collection |
+### Workspace collection
+
+Nine environments inspired by developer tools, documents, organization and creative canvases.
+
+| Design Lab | Design Lab |
 | --- | --- |
-| **06 · Command line**<br>[![Command line — black, white and gray terminal](docs/screenshots/commandline.jpg)](docs/screenshots/commandline.jpg) | **07 · Visual Studio Code**<br>[![Visual Studio Code — dark editor and syntax accents](docs/screenshots/vscode.jpg)](docs/screenshots/vscode.jpg) |
-| **08 · Excel**<br>[![Excel — green workbook and cell grids](docs/screenshots/excel.jpg)](docs/screenshots/excel.jpg) | **09 · Canva**<br>[![Canva — light cyan and purple creative canvas](docs/screenshots/canva.jpg)](docs/screenshots/canva.jpg) |
-| **10 · Figma**<br>[![Figma — dotted canvas and purple selection frames](docs/screenshots/figma.jpg)](docs/screenshots/figma.jpg) | **11 · Photoshop**<br>[![Photoshop — charcoal panels and transparency canvas](docs/screenshots/photoshop.jpg)](docs/screenshots/photoshop.jpg) |
-| **12 · File Explorer**<br>[![File Explorer — light file library and yellow folders](docs/screenshots/file-explorer.jpg)](docs/screenshots/file-explorer.jpg) | **13 · Notion**<br>[![Notion — warm white document workspace](docs/screenshots/notion.jpg)](docs/screenshots/notion.jpg) |
-| **14 · Burp Suite**<br>[![Burp Suite — charcoal utility panels and orange accents](docs/screenshots/burpsuite.jpg)](docs/screenshots/burpsuite.jpg) | |
+| **06 · [Command line](https://theme.devoralabs.tech/?theme=commandline)**<br>[![Command line — Design Lab workspace](docs/screenshots/design-lab/commandline.jpg)](https://theme.devoralabs.tech/?theme=commandline)<br>Black, white and gray monospace terminal | **07 · [Visual Studio Code](https://theme.devoralabs.tech/?theme=vscode)**<br>[![Visual Studio Code — Design Lab workspace](docs/screenshots/design-lab/vscode.jpg)](https://theme.devoralabs.tech/?theme=vscode)<br>Dark editor and syntax accents |
+| **08 · [Excel](https://theme.devoralabs.tech/?theme=excel)**<br>[![Excel — Design Lab workspace](docs/screenshots/design-lab/excel.jpg)](https://theme.devoralabs.tech/?theme=excel)<br>Green workbook and cell grids | **09 · [Canva](https://theme.devoralabs.tech/?theme=canva)**<br>[![Canva — Design Lab workspace](docs/screenshots/design-lab/canva.jpg)](https://theme.devoralabs.tech/?theme=canva)<br>Light cyan and purple creative canvas |
+| **10 · [Figma](https://theme.devoralabs.tech/?theme=figma)**<br>[![Figma — Design Lab workspace](docs/screenshots/design-lab/figma.jpg)](https://theme.devoralabs.tech/?theme=figma)<br>Dotted canvas and purple selection frames | **11 · [Photoshop](https://theme.devoralabs.tech/?theme=photoshop)**<br>[![Photoshop — Design Lab workspace](docs/screenshots/design-lab/photoshop.jpg)](https://theme.devoralabs.tech/?theme=photoshop)<br>Charcoal panels and transparency canvas |
+| **12 · [File Explorer](https://theme.devoralabs.tech/?theme=file-explorer)**<br>[![File Explorer — Design Lab workspace](docs/screenshots/design-lab/file-explorer.jpg)](https://theme.devoralabs.tech/?theme=file-explorer)<br>Light file browser, yellow folders and breadcrumb navigation | **13 · [Notion](https://theme.devoralabs.tech/?theme=notion)**<br>[![Notion — Design Lab workspace](docs/screenshots/design-lab/notion.jpg)](https://theme.devoralabs.tech/?theme=notion)<br>Quiet document workspace, warm white and minimal page cards |
+| **14 · [Burp Suite](https://theme.devoralabs.tech/?theme=burpsuite)**<br>[![Burp Suite — Design Lab workspace](docs/screenshots/design-lab/burpsuite.jpg)](https://theme.devoralabs.tech/?theme=burpsuite)<br>Charcoal utility panels, orange tabs and monospace details |  |
 
-| Holiday collection | Holiday collection |
+### Holiday collection
+
+Three manually selected seasonal identities. They share the same project session and never change automatically by date.
+
+| Design Lab | Design Lab |
 | --- | --- |
-| **15 · Halloween**<br>[![Halloween — plum, pumpkin orange and an original pumpkin illustration](docs/screenshots/halloween.jpg)](docs/screenshots/halloween.jpg) | **16 · Christmas**<br>[![Christmas — evergreen, ivory, red ribbons and gold stars](docs/screenshots/christmas.jpg)](docs/screenshots/christmas.jpg) |
-| **17 · Tết Holiday**<br>[![Tết Holiday — Vietnamese New Year red, gold and apricot blossoms](docs/screenshots/tet.jpg)](docs/screenshots/tet.jpg) | |
+| **15 · [Halloween](https://theme.devoralabs.tech/?theme=halloween)**<br>[![Halloween — Design Lab workspace](docs/screenshots/design-lab/halloween.jpg)](https://theme.devoralabs.tech/?theme=halloween)<br>Midnight plum, pumpkin orange and playful autumn details | **16 · [Christmas](https://theme.devoralabs.tech/?theme=christmas)**<br>[![Christmas — Design Lab workspace](docs/screenshots/design-lab/christmas.jpg)](https://theme.devoralabs.tech/?theme=christmas)<br>Evergreen, warm ivory, red ribbons and golden stars |
+| **17 · [Tết Holiday](https://theme.devoralabs.tech/?theme=tet)**<br>[![Tết Holiday — Design Lab workspace](docs/screenshots/design-lab/tet.jpg)](https://theme.devoralabs.tech/?theme=tet)<br>Vietnamese New Year: lacquer red, gold and apricot blossoms |  |
 
-Holiday themes are selected manually and use the same shared demo state. They do not trigger calendar changes, promotions or external integrations.
+### Creative Lab collection
 
-## Creative Lab themes
+Twenty-one material, editorial, spatial and personal signature directions.
 
-Ten material-led directions, with scoped tokens, responsive compositions and the same functional sample collection.
-
-| Creative Lab | Creative Lab |
+| Design Lab | Design Lab |
 | --- | --- |
-| **18 · Riso Post Office**<br>[![Riso Post Office — Vermilion ink, postal perforations and offset paper](docs/screenshots/riso-post.jpg)](docs/screenshots/riso-post.jpg) | **19 · Tidal Atlas**<br>[![Tidal Atlas — Deep sea contours, chart coordinates and tide-blue frames](docs/screenshots/tidal-atlas.jpg)](docs/screenshots/tidal-atlas.jpg) |
-| **20 · Type Foundry**<br>[![Type Foundry — Acid yellow, oversized type and a typesetter specimen grid](docs/screenshots/type-foundry.jpg)](docs/screenshots/type-foundry.jpg) | **21 · Solar Glasshouse**<br>[![Solar Glasshouse — Transparent green panes, structural ribs and warm citrus](docs/screenshots/solar-glass.jpg)](docs/screenshots/solar-glass.jpg) |
-| **22 · Velvet Orbit**<br>[![Velvet Orbit — Aubergine velvet, copper orbital rings and curved gallery cards](docs/screenshots/velvet-orbit.jpg)](docs/screenshots/velvet-orbit.jpg) | **23 · Porcelain Index**<br>[![Porcelain Index — Cobalt ceramic tiles, fine blue borders and museum labels](docs/screenshots/porcelain.jpg)](docs/screenshots/porcelain.jpg) |
-| **24 · Magnetic Poetry**<br>[![Magnetic Poetry — Scattered word tiles, fridge-silver surfaces and cherry magnets](docs/screenshots/magnetic-poetry.jpg)](docs/screenshots/magnetic-poetry.jpg) | **25 · Infrared Herbarium**<br>[![Infrared Herbarium — Hot pink specimen sheets and dark botanical registration marks](docs/screenshots/infrared.jpg)](docs/screenshots/infrared.jpg) |
-| **26 · Night Transit**<br>[![Night Transit — Midnight navy, route diagrams and amber ticket details](docs/screenshots/night-transit.jpg)](docs/screenshots/night-transit.jpg) | **27 · Paper Circuit**<br>[![Paper Circuit — Folded drafting paper, electric blue traces and lime contacts](docs/screenshots/paper-circuit.jpg)](docs/screenshots/paper-circuit.jpg) |
+| **18 · [Riso Post Office](https://theme.devoralabs.tech/?theme=riso-post)**<br>[![Riso Post Office — Design Lab workspace](docs/screenshots/design-lab/riso-post.jpg)](https://theme.devoralabs.tech/?theme=riso-post)<br>Vermilion ink, postal perforations and offset paper | **19 · [Tidal Atlas](https://theme.devoralabs.tech/?theme=tidal-atlas)**<br>[![Tidal Atlas — Design Lab workspace](docs/screenshots/design-lab/tidal-atlas.jpg)](https://theme.devoralabs.tech/?theme=tidal-atlas)<br>Deep sea contours, chart coordinates and tide-blue frames |
+| **20 · [Type Foundry](https://theme.devoralabs.tech/?theme=type-foundry)**<br>[![Type Foundry — Design Lab workspace](docs/screenshots/design-lab/type-foundry.jpg)](https://theme.devoralabs.tech/?theme=type-foundry)<br>Acid yellow, oversized type and a typesetter specimen grid | **21 · [Solar Glasshouse](https://theme.devoralabs.tech/?theme=solar-glass)**<br>[![Solar Glasshouse — Design Lab workspace](docs/screenshots/design-lab/solar-glass.jpg)](https://theme.devoralabs.tech/?theme=solar-glass)<br>Transparent green panes, structural ribs and warm citrus |
+| **22 · [Velvet Orbit](https://theme.devoralabs.tech/?theme=velvet-orbit)**<br>[![Velvet Orbit — Design Lab workspace](docs/screenshots/design-lab/velvet-orbit.jpg)](https://theme.devoralabs.tech/?theme=velvet-orbit)<br>Aubergine velvet, copper orbital rings and curved gallery cards | **23 · [Porcelain Index](https://theme.devoralabs.tech/?theme=porcelain)**<br>[![Porcelain Index — Design Lab workspace](docs/screenshots/design-lab/porcelain.jpg)](https://theme.devoralabs.tech/?theme=porcelain)<br>Cobalt ceramic tiles, fine blue borders and museum labels |
+| **24 · [Magnetic Poetry](https://theme.devoralabs.tech/?theme=magnetic-poetry)**<br>[![Magnetic Poetry — Design Lab workspace](docs/screenshots/design-lab/magnetic-poetry.jpg)](https://theme.devoralabs.tech/?theme=magnetic-poetry)<br>Scattered word tiles, fridge-silver surfaces and cherry magnets | **25 · [Infrared Herbarium](https://theme.devoralabs.tech/?theme=infrared)**<br>[![Infrared Herbarium — Design Lab workspace](docs/screenshots/design-lab/infrared.jpg)](https://theme.devoralabs.tech/?theme=infrared)<br>Hot pink specimen sheets and dark botanical registration marks |
+| **26 · [Night Transit](https://theme.devoralabs.tech/?theme=night-transit)**<br>[![Night Transit — Design Lab workspace](docs/screenshots/design-lab/night-transit.jpg)](https://theme.devoralabs.tech/?theme=night-transit)<br>Midnight navy, route diagrams and amber ticket details | **27 · [Paper Circuit](https://theme.devoralabs.tech/?theme=paper-circuit)**<br>[![Paper Circuit — Design Lab workspace](docs/screenshots/design-lab/paper-circuit.jpg)](https://theme.devoralabs.tech/?theme=paper-circuit)<br>Folded drafting paper, electric blue traces and lime contacts |
+| **28 · [SẮC / 01 — Paper / Brutalist](https://theme.devoralabs.tech/?theme=sac-01)**<br>[![SẮC / 01 — Paper / Brutalist — Design Lab workspace](docs/screenshots/design-lab/sac-01.jpg)](https://theme.devoralabs.tech/?theme=sac-01)<br>Paper, black window frames, hard shadows and restrained red accents | **29 · [Devora Press](https://theme.devoralabs.tech/?theme=devora-press)**<br>[![Devora Press — Design Lab workspace](docs/screenshots/design-lab/devora-press.jpg)](https://theme.devoralabs.tech/?theme=devora-press)<br>Warm editorial paper, persimmon actions, cobalt details and a cut-corner signature |
+| **30 · [Devora Signal](https://theme.devoralabs.tech/?theme=devora-signal)**<br>[![Devora Signal — Design Lab workspace](docs/screenshots/design-lab/devora-signal.jpg)](https://theme.devoralabs.tech/?theme=devora-signal)<br>White workbench, red index tabs, black utility rail and square controls | **31 · [Devora Folio](https://theme.devoralabs.tech/?theme=devora-folio)**<br>[![Devora Folio — Design Lab workspace](docs/screenshots/design-lab/devora-folio.jpg)](https://theme.devoralabs.tech/?theme=devora-folio)<br>White editorial space, red notebook spines, black feature band and soft corners |
+| **32 · [Index Bureau](https://theme.devoralabs.tech/?theme=index-bureau)**<br>[![Index Bureau — Design Lab workspace](docs/screenshots/design-lab/index-bureau.jpg)](https://theme.devoralabs.tech/?theme=index-bureau)<br>A ruled monochrome archive with a three-column information hierarchy | **33 · [Specimen Press](https://theme.devoralabs.tech/?theme=specimen-press)**<br>[![Specimen Press — Design Lab workspace](docs/screenshots/design-lab/specimen-press.jpg)](https://theme.devoralabs.tech/?theme=specimen-press)<br>Publication-like objects, metadata tables and outlined display type |
+| **34 · [Grid Assembly](https://theme.devoralabs.tech/?theme=grid-assembly)**<br>[![Grid Assembly — Design Lab workspace](docs/screenshots/design-lab/grid-assembly.jpg)](https://theme.devoralabs.tech/?theme=grid-assembly)<br>Exposed structural cells and stepped architectural content modules | **35 · [Margin Notes](https://theme.devoralabs.tech/?theme=margin-notes)**<br>[![Margin Notes — Design Lab workspace](docs/screenshots/design-lab/margin-notes.jpg)](https://theme.devoralabs.tech/?theme=margin-notes)<br>Layered editorial paper, serif notes and soft printed colors |
+| **36 · [Afterhours FM](https://theme.devoralabs.tech/?theme=afterhours-fm)**<br>[![Afterhours FM — Design Lab workspace](docs/screenshots/design-lab/afterhours-fm.jpg)](https://theme.devoralabs.tech/?theme=afterhours-fm)<br>A dark creative queue with bright cover blocks and rounded controls | **37 · [Chapter Desk](https://theme.devoralabs.tech/?theme=chapter-desk)**<br>[![Chapter Desk — Design Lab workspace](docs/screenshots/design-lab/chapter-desk.jpg)](https://theme.devoralabs.tech/?theme=chapter-desk)<br>Warm reading desk, book-shaped records and compact annotations |
+| **38 · [Mono OS](https://theme.devoralabs.tech/?theme=mono-os)**<br>[![Mono OS — Design Lab workspace](docs/screenshots/design-lab/mono-os.jpg)](https://theme.devoralabs.tech/?theme=mono-os)<br>A grayscale desktop with white window chrome and shallow ink edges |  |
 
-## SẮC / 01 personal signature
+## Theme recipes and original showcases
 
-**28 · SẮC / 01 — Paper / Brutalist:** monochrome paper, bold typography, square retro windows, hard black shadows and a small red accent. Included in the Creative Lab dropdown. [Read its integration recipe](references/sac-01.md) or serve the [standalone showcase](assets/sac-01).
+AI agents can adapt the visual system through the host application's current theme provider. Existing themes, business behavior, localization and persistence should remain intact.
 
-[![SẮC / 01 shared catalog preview](docs/screenshots/sac-01.jpg)](docs/screenshots/sac-01.jpg)
+- [All-theme Design Lab rules](references/design-lab.md) — composition families, semantic tokens and the seven experimental identity recipes.
+- [Theme recipes](references/theme-recipes.md) and [integration guide](references/integration.md) — palette, typography and adaptation to an existing app.
+- [SẮC / 01](references/sac-01.md), [Devora Press](references/devora-press.md), and [Devora Signal / Folio](references/devora-signatures.md) — personal signature specifications and standalone showcases.
 
-## Devora Press personal theme
-
-**29 · Devora Press:** warm paper, persimmon actions, cobalt navigation, sage highlights, a cut-corner identity tile, and restrained hard shadows. [Read the design specification](references/devora-press.md) or serve `assets/devora-press/` and open `showcase.html` for the original interactive light/night showcase. The catalog registers the light appearance and preserves the existing default and theme controller.
-
-[![Devora Press — original workspace showcase](docs/screenshots/devora-press-workspace.png)](docs/screenshots/devora-press-workspace.png)
-
-[Shared catalog preview](docs/screenshots/devora-press-catalog.png) · [Night appearance](docs/screenshots/devora-press-night.png) · [Mobile layout](docs/screenshots/devora-press-mobile.png)
-
-Devora Press verification: the original showcase passed layout checks at 320, 390, 768, 1024 and 1168px in both appearances and both views. All 28 designated text/background token pairs reached at least 4.73:1 contrast. Idea creation, empty-name validation, Vietnamese and special-character input, Escape dismissal, focus restoration and reduced motion were exercised. The catalog passed layout checks at 320, 390, 768, 1024 and 1440px, all 29 theme transitions with search preserved, URL/hash preservation, reload, dialogs, empty state and mobile navigation. These checks cover the supplied samples, not every future host application.
-
-## Devora Signal and Devora Folio
-
-Two white/red/black personal signatures with English interface copy. [Read their design and integration rules](references/devora-signatures.md).
-
-| Devora Signal | Devora Folio |
-| --- | --- |
-| **30 · Signal:** a square, flat workbench with a black rail, red index tab and ruled project rows. | **31 · Folio:** an open editorial workspace with top navigation, a red notebook spine and soft collection cards. |
-| [![Devora Signal original workspace](docs/screenshots/devora-signal.png)](docs/screenshots/devora-signal.png) | [![Devora Folio original workspace](docs/screenshots/devora-folio.png)](docs/screenshots/devora-folio.png) |
-
-Serve the repository root and open `assets/devora-signal/index.html` or `assets/devora-folio/index.html` for their original interactive showcases. Both appear in the Creative Lab catalog dropdown. Portable tokens and shared component CSS are included; the previous default and all existing themes remain available.
-
-[Signal mobile](docs/screenshots/devora-signal-mobile.png) · [Folio mobile](docs/screenshots/devora-folio-mobile.png)
-
-Signal/Folio verification: both original showcases passed horizontal layout and text-bound checks at 320, 390, 768, 1024 and 1168px in their workspace and component views (20 combinations). All 20 designated text/background pairs reached at least 5.15:1 contrast. Idea creation, empty-name errors, long and special-character titles, slug validation/reset, dialogs, Escape, return focus, visible focus and reduced motion were exercised. Both catalog adaptations passed at 320, 390, 768, 1024 and 1440px with sample images loaded. All 31 theme transitions preserved search, filter and sort; stored selection, mobile navigation, dialogs and empty states were checked for the two additions. These checks apply to the supplied examples, not arbitrary future host apps.
-
-## Seven experimental Design Lab directions
-
-[Open the Design Lab](https://theme.devoralabs.tech/) to compare all 38 themes on the same working project collection. These seven experimental additions retain their original compositions. Search, filter, save, read and add session-only projects; switching themes preserves the session. All new interface copy is in English. Each direction also appears in the full 38-theme catalog.
-
-| Theme / original workspace | Design direction |
-| --- | --- |
-| [Index Bureau](https://theme.devoralabs.tech/?theme=index-bureau) | A ruled monochrome archive with a three-column information hierarchy. |
-| [Specimen Press](https://theme.devoralabs.tech/?theme=specimen-press) | Publication-like objects, metadata tables and outlined display type. |
-| [Grid Assembly](https://theme.devoralabs.tech/?theme=grid-assembly) | Exposed structural cells and stepped architectural content modules. |
-| [Margin Notes](https://theme.devoralabs.tech/?theme=margin-notes) | Layered editorial paper, serif notes and soft printed colors. |
-| [Afterhours FM](https://theme.devoralabs.tech/?theme=afterhours-fm) | A dark creative queue with bright cover blocks and rounded controls. |
-| [Chapter Desk](https://theme.devoralabs.tech/?theme=chapter-desk) | Warm reading desk, book-shaped records and compact annotations. |
-| [Mono OS](https://theme.devoralabs.tech/?theme=mono-os) | A grayscale desktop with white window chrome and shallow ink edges. |
-
-[Read the agent design rules](references/design-lab.md). The reference images informed broad visual principles; their artwork, brands, quoted text and layouts are not reproduced. All preview projects and CSS graphics are original fictional samples.
-
-[![Seven original Design Lab workspaces](docs/screenshots/design-lab-overview.png)](docs/screenshots/design-lab-overview.png)
-
-Design Lab verification: all seven original workspaces passed document-width and text-bound checks at 320, 390, 768, 1024 and 1440px (35 combinations). Their catalog adaptations passed at 320, 390, 768 and 1440px (28 combinations). All 38 catalog selections preserved active search, filter and sorting. The Lab passed session-only project creation, blank-title validation, special-character input, search/filter/save preservation across layouts, empty results, read/save dialogs, Escape/return focus and reduced motion. A rendered-text contrast pass sampled 418 visible elements across the seven initial screens; none fell below its size-specific threshold (lowest measured ratio 5.26:1). These checks cover the samples, not arbitrary host integrations.
+The app-inspired themes are visual references, not third-party integrations. Projects and products are fictional; artwork and CSS graphics are original samples. The demos have no checkout, account backend or real product sales.
 
 ## Use with an AI agent
 
@@ -167,4 +127,4 @@ Use the intended Vercel account/team and existing project when already linked. T
 
 Static validation checks registry metadata, assets, UI hooks and script syntax. Browser review remains necessary; see [verification](references/verification.md).
 
-Prior package verification: all 28 theme selections and sample search across theme changes were checked in a browser. All themes were checked at 320px, 390px and 768px; the original ten experimental Creative Lab themes also passed filter/sort persistence, preview-dialog and text-bound checks. Stored selection, invalid-theme fallback, URL/hash preservation, empty state and mobile navigation were exercised. Earlier package checks verified that the generator refuses occupied destinations, the validator rejects duplicate IDs, and the localhost server rejects POST and hidden-file requests. Static validation and these browser checks do not constitute a full accessibility audit.
+Explorer verification: all 38 Lab compositions and all 38 website themes passed layout checks at 320, 390, 768 and 1440px. Theme synchronization, default/deep-link behavior, keyboard tabs, retained drafts and filters, dialog placement, independent tab scroll positions, anchors and back-to-top were exercised. Static validation checks registry metadata, assets, UI hooks and script syntax. These checks cover the bundled samples and are not a full accessibility audit.
