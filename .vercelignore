@@ -1,0 +1,16 @@
+.git
+.vercel
+node_modules
+.env
+.env.*
+docs
+references
+agents
+scripts
+assets/sac-01
+assets/devora-press
+assets/devora-signal
+assets/devora-folio
+assets/devora-signatures
+SKILL.md
+README.md

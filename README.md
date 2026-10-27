@@ -109,6 +109,22 @@ Open `http://127.0.0.1:4173/?theme=commandline`. Use the dropdown to switch them
 
 The generator refuses non-empty destinations. The preview server binds only to localhost. Publishing is optional and requires the user's authorization; [publishing guidance](references/publishing.md) covers GitHub/Vercel without embedding accounts or tokens.
 
+## Deploy the live gallery on Vercel
+
+The root `vercel.json` publishes `assets/starter/` as the website. It uses the Other framework preset, skips dependency installation and builds, and serves the existing 31-theme demo at `/`. Import this GitHub repository into Vercel with the repository root as Root Directory; keep the included settings. No environment variables or backend are required.
+
+The theme dropdown preserves the shared demo state. Share a selected theme with `/?theme=devora-signal`, `/?theme=devora-folio` or any registered theme ID. The catalog is an English fictional demonstration, with no checkout or real product sales. Standalone signature showcases remain available in the repository; only the shared catalog is published by this configuration.
+
+For a CLI deployment from this repository root:
+
+```sh
+npx vercel link
+npx vercel git connect https://github.com/devoralabsapp/creative-theme-system-skill.git
+npx vercel deploy --prod
+```
+
+Use the intended Vercel account/team and existing project when already linked. The local `.vercel/` link is ignored by Git. `.vercelignore` omits skill instructions, documentation and standalone source showcases from CLI uploads; Vercel only serves the configured output folder. The Git connection supports subsequent deployments from the production branch.
+
 ## Layout
 
 - `SKILL.md` — agent instructions and routing.
