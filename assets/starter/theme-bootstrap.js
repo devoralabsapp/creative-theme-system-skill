@@ -9,4 +9,5 @@
   document.documentElement.dataset.workspace=String((theme.styleFamily||theme.family)!=='studio');
   document.documentElement.dataset.family=theme.styleFamily||theme.family;
   document.documentElement.dataset.tone=theme.tone;
+  document.documentElement.dataset.edition=theme.edition||'';
 })();

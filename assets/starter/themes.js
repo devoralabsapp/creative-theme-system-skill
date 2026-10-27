@@ -17,10 +17,11 @@
     tet:['Welcome<br><em>new beginnings.</em>','TẾT / A FRESH CHAPTER','Gather what matters. Make room for fresh plans, familiar warmth and good things to grow.','Fresh starts. Good fortune. Room to grow.'],
     'black-friday':['BIG IDEAS.<br><em>BLACK FRIDAY.</em>','THE CREATIVE EDIT / DEVORA EDITION','A bold collection of tools for the plans you are making and the things you want to create.','Find your next good direction.']
   };
-  function decorateHoliday(id){const copy=holidays[id];heroNodes.forEach((node,index)=>node.innerHTML=copy?copy[index]:originalHero[index]);if(copy)document.querySelector('.holiday-scene').src=`assets/holidays/${id}.svg`;}
+  function decorateHoliday(id){const copy=holidays[id]||window.STUDIO_VOLUME_FIVE?.[id];heroNodes.forEach((node,index)=>node.innerHTML=copy?copy[index]:originalHero[index]);if(holidays[id])document.querySelector('.holiday-scene').src=`assets/holidays/${id}.svg`;}
+  function decorateVolumeFive(id){if(window.STUDIO_VOLUME_FIVE?.[id])document.querySelector('.volume-five-scene').src=`assets/volume-five/${id}.svg`;}
   function applyTheme(id,{save=true,url=true}={}){
     const theme=byId.get(id)||byId.get(config.defaultTheme),root=document.documentElement;
-    decorateHoliday(theme.id);
+    decorateHoliday(theme.id);decorateVolumeFive(theme.id);root.dataset.edition=theme.edition||'';
     root.dataset.theme=theme.id;root.dataset.workspace=String((theme.styleFamily||theme.family)!=='studio');root.dataset.family=theme.styleFamily||theme.family;root.dataset.tone=theme.tone;select.value=theme.id;
     document.querySelector('#design-description').textContent=theme.description;
     document.querySelector('#theme-status').textContent=`Selected theme: ${theme.name}`;

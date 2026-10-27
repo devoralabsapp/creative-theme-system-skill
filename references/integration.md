@@ -51,10 +51,14 @@ Fix overflow through wrapping, widths and grid minimums. Do not hide content def
 
 `avant-theme.css` adapts the seven Design Lab directions to the shared catalog; `lab/tokens.css` is their canonical semantic palette. `lab/` is also a self-contained browser-local project workspace served at `/lab/`, with separate per-theme compositions and real demo interactions. Its state is independent of the catalog provider, never imported into a host app as production business logic. See `design-lab.md` for choosing the appropriate source.
 
-`lab/profiles.css` supplies the 28 non-holiday Lab palettes and typography, adapted from their catalog tokens with readable muted roles. `lab/profile-layouts.css` contains their family compositions. `lab/tokens.css` retains the seven experimental palettes. All 39 IDs use the existing registry and selection storage key. The Lab picker groups the same four families as Website Demo.
+`lab/profiles.css` supplies the 28 non-holiday Lab palettes and typography, adapted from their catalog tokens with readable muted roles. `lab/profile-layouts.css` contains their family compositions. `lab/tokens.css` retains the seven experimental palettes. All 50 IDs use the existing registry and selection storage key. The Lab picker groups the same four families as Website Demo.
 
 `holiday-tokens.css` defines the four holiday palettes used by both previews. Load it after baseline profiles. `lab/holiday-layouts.css` supplies separate Halloween, Christmas, Tết and Black Friday working compositions; `holiday-themes.css` applies their catalog treatments after other catalog styles. See `holidays.md`.
 
 `all-themes.js` builds the overview from the existing registry, with a real preview image at `assets/previews/<theme-id>.jpg` for each theme. `all-themes.css` is isolated to that view. Gallery links are real theme URLs; ordinary clicks use the shell selection authority and preserve mounted preview sessions. Card navigation supports browser Back, and each view retains its own scroll position. The overview keeps its search and collection filter while hidden. Refresh the matching preview image after a visual theme change; capture the actual Lab rather than generating an approximate mockup.
 
 The current browse order is Creative Lab, Studio, Workspace, Holiday. Creative Lab starts with Retro, followed by Mono OS through Riso Post Office in registry order. All, the searchable picker and both standalone selectors use the same order. Keep stable theme IDs and the existing default when reordering.
+
+## Volume Five extension
+
+The eleven additional Creative themes use `volume-five-tokens.css`, `lab/volume-five.js` and `lab/volume-five-layouts.css`. Catalog adaptation uses `volume-five-themes.css` and `volume-five-catalog.js`. Their optional registry `edition` value is reflected in the catalog root attribute and cleared when another theme is selected. Keep the same provider and storage key. Read [volume-five.md](volume-five.md) for composition constraints; edition metadata does not change the four collection families.

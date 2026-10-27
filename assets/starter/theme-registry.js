@@ -12,6 +12,105 @@ window.STUDIO_THEMES = {
       "styleFamily": "studio"
     },
     {
+      "id": "redline-atelier",
+      "name": "Redline Atelier",
+      "description": "White architectural sheets, red construction arcs and oversized annotated type",
+      "color": "#FAFAF7",
+      "tone": "light",
+      "family": "creative",
+      "edition": "volume-five"
+    },
+    {
+      "id": "cobalt-court",
+      "name": "Cobalt Court",
+      "description": "Electric blue sports typography, court lines and a numbered starting lineup",
+      "color": "#173CD7",
+      "tone": "dark",
+      "family": "creative",
+      "edition": "volume-five"
+    },
+    {
+      "id": "darkroom-zero",
+      "name": "Darkroom Zero",
+      "description": "A photographic lightbox, burnt-orange safelight and perforated contact sheets",
+      "color": "#171715",
+      "tone": "dark",
+      "family": "creative",
+      "edition": "volume-five"
+    },
+    {
+      "id": "fold-theory",
+      "name": "Fold Theory",
+      "description": "Vermilion paper sculpture, asymmetric folds and faceted white project sheets",
+      "color": "#F6F4EF",
+      "tone": "light",
+      "family": "creative",
+      "edition": "volume-five"
+    },
+    {
+      "id": "motion-manifesto",
+      "name": "Motion Manifesto",
+      "description": "Red-and-black condensed statements, graphic arrows and a bold typographic work list",
+      "color": "#F5F5F0",
+      "tone": "light",
+      "family": "creative",
+      "edition": "volume-five"
+    },
+    {
+      "id": "pixel-riot",
+      "name": "Pixel Riot",
+      "description": "Red-and-black pixel graphics, stepped window frames and an interactive idea inventory",
+      "color": "#F5F5ED",
+      "tone": "light",
+      "family": "creative",
+      "edition": "volume-five"
+    },
+    {
+      "id": "cutout-dept",
+      "name": "Cutout Dept.",
+      "description": "Acid-lime cut-paper collage, black tape and a torn-edge creative pinboard",
+      "color": "#D9EF73",
+      "tone": "light",
+      "family": "creative",
+      "edition": "volume-five"
+    },
+    {
+      "id": "overprint-studio",
+      "name": "Overprint Studio",
+      "description": "Vermilion-and-cobalt print layers, registration marks and oversized graphic editions",
+      "color": "#F5EEE2",
+      "tone": "light",
+      "family": "creative",
+      "edition": "volume-five"
+    },
+    {
+      "id": "carbon-bureau",
+      "name": "Carbon Bureau",
+      "description": "A red-backed filing desk, numbered dossier tabs and typewritten working records",
+      "color": "#E7E7E2",
+      "tone": "light",
+      "family": "creative",
+      "edition": "volume-five"
+    },
+    {
+      "id": "foundry-floor",
+      "name": "Foundry Floor",
+      "description": "Industrial orange panels, mechanical forms and heavy workshop labels",
+      "color": "#DDDCD5",
+      "tone": "light",
+      "family": "creative",
+      "edition": "volume-five"
+    },
+    {
+      "id": "frame-shift",
+      "name": "Frame Shift",
+      "description": "A black-and-crimson editing room with graphic film frames and a real project shot list",
+      "color": "#141515",
+      "tone": "dark",
+      "family": "creative",
+      "edition": "volume-five"
+    },
+    {
       "id": "mono-os",
       "name": "Mono OS",
       "description": "A grayscale desktop with white window chrome and shallow ink edges",

@@ -1,15 +1,15 @@
-# Design Lab — all thirty-nine themes
+# Design Lab — all fifty themes
 
 Use when the user wants to compare or adapt any theme in the all-theme Design Lab. The seven experimental directions retain their original compositions. The 28 non-holiday original styles retain their established identities; Halloween, Christmas, Tết and Black Friday have separate holiday compositions. All interface copy is English.
 
 ## Choose the right resource
 
-- **Working reference:** `assets/starter/lab/` is an original browser-local project workspace. Open `/?theme=<id>` on the hosted demo, or serve `assets/starter/` locally and open `/?view=lab`. All 39 layouts share the same in-memory project records, filters, query, bookmarks and selection. The neighboring Website Demo tab uses the same selected theme and retains its own catalog state. The previous `/lab/` route still works. Refresh intentionally resets project changes. The workspace makes no network writes and does not read the filesystem, play audio or simulate unavailable services.
+- **Working reference:** `assets/starter/lab/` is an original browser-local project workspace. Open `/?theme=<id>` on the hosted demo, or serve `assets/starter/` locally and open `/?view=lab`. All 50 layouts share the same in-memory project records, filters, query, bookmarks and selection. The neighboring Website Demo tab uses the same selected theme and retains its own catalog state. The previous `/lab/` route still works. Refresh intentionally resets project changes. The workspace makes no network writes and does not read the filesystem, play audio or simulate unavailable services.
 - **Existing shared catalog:** `assets/starter/avant-theme.css` adapts each direction to the existing product catalog while preserving its real controls and business state. Both views use the same stable theme IDs. The website remains accessible directly at `website.html`, or through the shell with `?view=website`.
 - **Canonical semantic tokens:** `assets/starter/lab/tokens.css` defines the common roles and seven experimental palettes; `lab/profiles.css` defines the original non-holiday identities. These include canvas, surface, foreground, muted foreground, structural/soft borders, accent/on-accent, focus, radius, shadow, display/body/metadata type and motion. Import only the selected theme's tokens or translate them into the host provider.
 - **Original layout examples:** `lab.css` and the named renderers in `lab.js` demonstrate composition. Their generic selectors are isolated to the Lab page. Do not import its global reset, session controller or HTML renderers into a production app wholesale.
 
-The overview shows Creative Lab first (22 themes), led by Playful Retro Neo-Brutalism, then Mono OS, Chapter Desk and Afterhours FM. Studio has four themes, Workspace nine and Holiday four. Browse order comes from `familyOrder` and the registry theme array; it is separate from each composition’s visual grammar.
+The overview shows Creative Lab first (33 themes), led by Playful Retro Neo-Brutalism, then the eleven Volume Five directions, followed by Mono OS and the earlier reverse-ordered Creative themes. Studio has four themes, Workspace nine and Holiday four. Browse order comes from `familyOrder` and the registry theme array; it is separate from each composition’s visual grammar.
 
 ## Original theme composition families
 
@@ -39,6 +39,8 @@ The overview shows Creative Lab first (22 themes), led by Playful Retro Neo-Brut
 Read their existing entries in `theme-recipes.md` and the dedicated signature references for identity constraints. `profile-layouts.css` preserves differences inside a family: artboards vary from cyan/purple creative space to purple selection canvas to charcoal checkerboard; seasonal cues are static and never choose dates automatically. Command line remains monochrome. No layout implies real spreadsheet editing, executable shell commands, scanning, file access or third-party integrations.
 
 Read [holidays.md](holidays.md) for the four distinct holiday compositions and their canonical palette source, `holiday-tokens.css`.
+
+Read [volume-five.md](volume-five.md) for the eleven additional composition recipes, their canonical palette file and their separate Lab renderers.
 
 ## Three-tab preview behavior
 
