@@ -3,12 +3,12 @@
  const frames={lab:document.getElementById('lab-preview'),website:document.getElementById('website-preview')};
  const tabs=[...document.querySelectorAll('.explorer-tabs [data-view]')],views=tabs.map(tab=>tab.dataset.view),status=document.getElementById('preview-status');
  const names={all:'All Themes',lab:'Design Lab',website:'Website Demo'};
- const ready={lab:false,website:false},scrollPositions={all:0,lab:0,website:0};let state={theme:config.defaultTheme,view:'lab'},scrollPending=false,pendingRestore=null,anchorApplied=false;
+ const ready={lab:false,website:false},scrollPositions={all:0,lab:0,website:0};let state={theme:config.defaultTheme,view:'all'},scrollPending=false,pendingRestore=null,anchorApplied=false;
  const themeSelect=document.getElementById('explorer-theme');
  const familyLabels={studio:'Studio themes',workspace:'Workspace themes',seasonal:'Holiday themes',creative:'Creative Lab themes'};
  for(const family of config.familyOrder||Object.keys(familyLabels)){const group=document.createElement('optgroup');group.label=familyLabels[family];for(const theme of config.themes.filter(t=>t.family===family)){const option=document.createElement('option');option.value=theme.id;option.textContent=theme.name;group.append(option);}themeSelect.append(group);}
- const valid=id=>byId.has(id),validView=view=>views.includes(view)?view:'lab';
- function fromUrl(){const q=new URLSearchParams(location.search);let stored;try{stored=localStorage.getItem(config.storageKey);}catch{}return {theme:valid(q.get('theme'))?q.get('theme'):valid(stored)?stored:config.defaultTheme,view:validView(q.get('view'))};}
+ const valid=id=>byId.has(id),validView=view=>views.includes(view)?view:'all';
+ function fromUrl(){const q=new URLSearchParams(location.search);let stored;try{stored=localStorage.getItem(config.storageKey);}catch{}return {theme:valid(q.get('theme'))?q.get('theme'):valid(stored)?stored:config.defaultTheme,view:views.includes(q.get('view'))?q.get('view'):valid(q.get('theme'))?'lab':'all'};}
  function send(view,message){frames[view]?.contentWindow?.postMessage(message,location.origin==='null'?'*':location.origin);}
  function remember(){try{localStorage.setItem(config.storageKey,state.theme);}catch{}}
  function viewport(){const frame=frames[state.view];if(!frame)return;const rect=frame.getBoundingClientRect(),header=document.querySelector('.explorer-header').getBoundingClientRect().bottom;const top=Math.max(0,header-rect.top),bottom=Math.min(frame.clientHeight,innerHeight-rect.top);send(state.view,{type:'theme-explorer:viewport',top:top+16,height:Math.max(160,bottom-top-32)});}

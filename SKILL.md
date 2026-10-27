@@ -23,7 +23,7 @@ For Devora Press, read [devora-press.md](references/devora-press.md) for the war
 
 For the white/red/black Devora Signal and Devora Folio signatures, read [devora-signatures.md](references/devora-signatures.md). Their examples use English copy and distinct workbench/editorial layouts.
 
-For Design Lab, read [design-lab.md](references/design-lab.md). All thirty-nine themes have working Lab compositions, including the seven experimental directions (Index Bureau through Mono OS). The bundled explorer defaults to Design Lab, with an All overview and Website Demo in neighboring tabs. The overview groups one preview card per registry theme. Theme selection is shared; each preview retains its own working state. Keep the All gallery image at `assets/starter/assets/previews/<id>.jpg` in sync when adding or visually changing a theme; use an actual Lab capture.
+For Design Lab, read [design-lab.md](references/design-lab.md). All thirty-nine themes have working Lab compositions, including the seven experimental directions (Index Bureau through Mono OS). The bundled explorer defaults to the All overview, with Design Lab and Website Demo in neighboring tabs. Direct theme links still open Design Lab. The overview groups one preview card per registry theme. Theme selection is shared; each preview retains its own working state. Keep the All gallery image at `assets/starter/assets/previews/<id>.jpg` in sync when adding or visually changing a theme; use an actual Lab capture.
 
 ## Visual and integration rules
 

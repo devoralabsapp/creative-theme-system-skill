@@ -2,9 +2,9 @@
 
 **39 themes. One working collection. Three ways to explore.**
 
-A portable AI agent skill with original theme recipes, reusable CSS and interactive English demos. Design Lab is the default experience: compare each theme's layout, typography and color on the same project workspace.
+A portable AI agent skill with original theme recipes, reusable CSS and interactive English demos. All is the default experience: browse every theme by collection, then open Design Lab to compare layout, typography and color on the same project workspace.
 
-**[Open Design Lab →](https://theme.devoralabs.tech/)** · [Browse All 39 Themes](https://theme.devoralabs.tech/?view=all) · [Website Demo](https://theme.devoralabs.tech/?view=website) · [AI agent instructions](SKILL.md)
+**[Browse All 39 Themes →](https://theme.devoralabs.tech/)** · [Design Lab](https://theme.devoralabs.tech/?view=lab) · [Website Demo](https://theme.devoralabs.tech/?view=website) · [AI agent instructions](SKILL.md)
 
 [![Devora Signal in Design Lab — white, red and black workbench with the Website Demo tab beside it](docs/screenshots/design-lab/devora-signal.jpg)](https://theme.devoralabs.tech/?theme=devora-signal)
 
@@ -18,7 +18,7 @@ The **[All](https://theme.devoralabs.tech/?view=all)** tab shows one real previe
 
 Choose any of the 39 themes using the shared selector. Search projects, filter the collection, save ideas, read notes and add a project for the current session. Switching themes keeps your work. The adjacent **Website Demo** tab shows the same theme on the sample catalog and retains its own search, filters and sorting.
 
-Share a theme with `/?theme=vscode`, or open its catalog with `/?view=website&theme=vscode`. The URL selection takes priority over the saved theme. New visits open Design Lab by default; the previous `/lab/` entry remains available.
+Share a theme with `/?theme=vscode`, or open its catalog with `/?view=website&theme=vscode`. The URL selection takes priority over the saved theme. New visits open All by default, even when a theme selection was saved. A direct `?theme=` link still opens that theme in Design Lab; the previous `/lab/` entry remains available.
 
 ## All 39 Design Lab previews
 
@@ -110,7 +110,7 @@ The generator refuses non-empty destinations. The preview server binds only to l
 
 ## Deploy the live gallery on Vercel
 
-The root `vercel.json` publishes `assets/starter/` as the website. It uses the Other framework preset, skips dependency installation and builds, and serves the three-tab explorer at `/`, defaulting to Design Lab. The retained catalog is `website.html`; the standalone Lab is `lab/index.html`. Import this GitHub repository into Vercel with the repository root as Root Directory; keep the included settings. No environment variables or backend are required.
+The root `vercel.json` publishes `assets/starter/` as the website. It uses the Other framework preset, skips dependency installation and builds, and serves the three-tab explorer at `/`, defaulting to All. The retained catalog is `website.html`; the standalone Lab is `lab/index.html`. Import this GitHub repository into Vercel with the repository root as Root Directory; keep the included settings. No environment variables or backend are required.
 
 The official demo is hosted at [theme.devoralabs.tech](https://theme.devoralabs.tech/). The theme dropdown preserves the shared demo state. Share a selected theme directly, such as [Devora Signal](https://theme.devoralabs.tech/?theme=devora-signal) or [Devora Folio](https://theme.devoralabs.tech/?theme=devora-folio), using `?theme=` with any registered theme ID. The catalog is an English fictional demonstration, with no checkout or real product sales. Standalone signature showcases remain available in the repository; the explorer, retained website catalog and all-theme Lab are published by this configuration.
 
