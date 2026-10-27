@@ -4,6 +4,8 @@ A portable skill for creating and integrating **31 selectable website themes**, 
 
 **Entry point: [SKILL.md](SKILL.md).** Any agent with filesystem access can read it; agents with an existing application should follow the integration path rather than replacing the app.
 
+**Live demo: [theme.devoralabs.tech](https://theme.devoralabs.tech/)** — explore all 31 themes in the interactive gallery.
+
 ## Theme classification
 
 | Family / dropdown group | Count | Styles |
@@ -113,7 +115,7 @@ The generator refuses non-empty destinations. The preview server binds only to l
 
 The root `vercel.json` publishes `assets/starter/` as the website. It uses the Other framework preset, skips dependency installation and builds, and serves the existing 31-theme demo at `/`. Import this GitHub repository into Vercel with the repository root as Root Directory; keep the included settings. No environment variables or backend are required.
 
-The theme dropdown preserves the shared demo state. Share a selected theme with `/?theme=devora-signal`, `/?theme=devora-folio` or any registered theme ID. The catalog is an English fictional demonstration, with no checkout or real product sales. Standalone signature showcases remain available in the repository; only the shared catalog is published by this configuration.
+The official demo is hosted at [theme.devoralabs.tech](https://theme.devoralabs.tech/). The theme dropdown preserves the shared demo state. Share a selected theme directly, such as [Devora Signal](https://theme.devoralabs.tech/?theme=devora-signal) or [Devora Folio](https://theme.devoralabs.tech/?theme=devora-folio), using `?theme=` with any registered theme ID. The catalog is an English fictional demonstration, with no checkout or real product sales. Standalone signature showcases remain available in the repository; only the shared catalog is published by this configuration.
 
 For a CLI deployment from this repository root:
 
