@@ -4,7 +4,7 @@ import {spawnSync} from 'node:child_process';
 
 const args=process.argv.slice(2);if(args.length!==1){console.error('Usage: node scripts/validate_demo.mjs <demo-directory>');process.exit(2);}
 const root=path.resolve(args[0]),errors=[];
-const files=['index.html','styles.css','themes.css','workspace-themes.css','additional-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css','devora-duo-theme.css','demo.css','theme-registry.js','theme-bootstrap.js','themes.js','demo.js'];
+const files=['index.html','styles.css','themes.css','workspace-themes.css','additional-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css','devora-duo-theme.css','avant-theme.css','demo.css','theme-registry.js','theme-bootstrap.js','themes.js','demo.js','lab/index.html','lab/tokens.css','lab/lab.css','lab/lab.js'];
 for(const file of files)if(!existsSync(path.join(root,file)))errors.push(`Missing ${file}`);
 let registry;
 try{
@@ -15,7 +15,7 @@ try{
   if(ids.length!==new Set(ids).size)errors.push('Duplicate theme IDs.');
   if(!ids.includes(registry.defaultTheme))errors.push('Default theme missing from registry.');
   if(typeof registry.storageKey!=='string'||!registry.storageKey)errors.push('Storage key missing.');
-  const css=['themes.css','workspace-themes.css','additional-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css','devora-duo-theme.css'].map(file=>readFileSync(path.join(root,file),'utf8')).join('\n');
+  const css=['themes.css','workspace-themes.css','additional-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css','devora-duo-theme.css','avant-theme.css'].map(file=>readFileSync(path.join(root,file),'utf8')).join('\n');
   for(const theme of registry.themes){
     if(!/^[a-z][a-z0-9-]*$/.test(theme.id))errors.push(`Invalid ID: ${theme.id}`);
     if(!theme.name||!theme.description||!/^#[a-f\d]{6}$/i.test(theme.color)||!['light','dark'].includes(theme.tone)||!['studio','workspace','seasonal','creative'].includes(theme.family))errors.push(`Invalid metadata: ${theme.id}`);
@@ -26,7 +26,7 @@ try{
 }catch(error){errors.push(error.message);}
 if(existsSync(path.join(root,'index.html'))){
   const html=readFileSync(path.join(root,'index.html'),'utf8');
-  for(const match of html.matchAll(/(?:src|href)="([^"#?]+)"/g)){if(!/^[a-z]+:/i.test(match[1])&&!existsSync(path.resolve(root,match[1])))errors.push(`Broken local reference: ${match[1]}`);}
+  for(const relative of ['index.html','lab/index.html']){const source=path.join(root,relative);if(!existsSync(source))continue;for(const match of readFileSync(source,'utf8').matchAll(/(?:src|href)="([^"#?]+)"/g)){if(!/^[a-z]+:/i.test(match[1])&&!existsSync(path.resolve(path.dirname(source),match[1])))errors.push(`Broken local reference in ${relative}: ${match[1]}`);}}
   for(const id of ['theme-select','design-description','theme-status','products','search','sort','demo-dialog','demo-title','close-demo'])if(!html.includes(`id="${id}"`))errors.push(`Missing UI element #${id}`);
 }
 for(const file of ['planner','journal','ocean','garden','flowers','seed','water','sunflower','butterfly'])if(!existsSync(path.join(root,'assets',file+'.svg')))errors.push(`Missing sample SVG: ${file}`);

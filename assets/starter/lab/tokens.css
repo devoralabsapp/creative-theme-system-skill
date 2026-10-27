@@ -1,0 +1,17 @@
+/* Canonical Design Lab tokens. Scoped to the requested theme only. */
+:is([data-theme="index-bureau"],[data-theme="specimen-press"],[data-theme="grid-assembly"],[data-theme="margin-notes"],[data-theme="afterhours-fm"],[data-theme="chapter-desk"],[data-theme="mono-os"]) {
+ --lab-font:'Be Vietnam Pro',system-ui,sans-serif;
+ --lab-mono:'IBM Plex Mono',ui-monospace,monospace;
+ --lab-background:#FFFFFF;--lab-surface:#FFFFFF;--lab-foreground:#151515;--lab-muted:#5E5E5E;
+ --lab-line:#151515;--lab-line-soft:#C5C5C5;--lab-soft:#F1F1F1;
+ --lab-accent:#151515;--lab-on-accent:#FFFFFF;--lab-focus:#151515;
+ --lab-radius:0px;--lab-shadow:none;--lab-motion:120ms;--lab-danger:#A71930;
+ --lab-display:var(--lab-font);--lab-space:24px;
+}
+[data-theme="index-bureau"] {color-scheme:light;--lab-soft:#F3F3F0;--lab-display:var(--lab-font)}
+[data-theme="specimen-press"] {color-scheme:light;--lab-background:#F6F6F2;--lab-surface:#FFFFFF;--lab-soft:#E9E9E4;--lab-accent:#212121;--lab-on-accent:#FFFFFF}
+[data-theme="grid-assembly"] {color-scheme:light;--lab-background:#F7F5EF;--lab-surface:#F7F5EF;--lab-soft:#E8E5DC;--lab-accent:#A92030;--lab-on-accent:#FFFFFF;--lab-focus:#A92030}
+[data-theme="margin-notes"] {color-scheme:light;--lab-background:#F0E9DF;--lab-surface:#FFFCF5;--lab-foreground:#30262B;--lab-muted:#695C63;--lab-line:#30262B;--lab-line-soft:#B9AAAC;--lab-soft:#E7DCCF;--lab-accent:#713346;--lab-on-accent:#FFFFFF;--lab-focus:#713346;--lab-radius:2px;--lab-shadow:3px 4px 0 #30262B;--lab-display:Georgia,serif;--lab-card-a:#F2C7BC;--lab-card-b:#DED8EB;--lab-card-c:#C5D9CD;--lab-card-d:#F2D978;--lab-on-card:#30262B}
+[data-theme="afterhours-fm"] {color-scheme:dark;--lab-background:#101010;--lab-surface:#1D1D1D;--lab-foreground:#FAF9F3;--lab-muted:#B7B7B1;--lab-line:#555551;--lab-line-soft:#454542;--lab-soft:#292928;--lab-accent:#F7D449;--lab-on-accent:#101010;--lab-focus:#F7D449;--lab-radius:16px;--lab-danger:#FFABB9;--lab-card-a:#F7D449;--lab-card-b:#F7A36A;--lab-card-c:#71D6C8;--lab-card-d:#DBABDF;--lab-on-card:#101010}
+[data-theme="chapter-desk"] {color-scheme:light;--lab-background:#F4E9D5;--lab-surface:#FFF5E2;--lab-foreground:#29271F;--lab-muted:#655F50;--lab-line:#29271F;--lab-line-soft:#BFB49F;--lab-soft:#E8D9BB;--lab-accent:#A34018;--lab-on-accent:#FFFFFF;--lab-focus:#A34018;--lab-radius:0px;--lab-card-a:#B65432;--lab-card-b:#3C665B;--lab-card-c:#E6BD4F;--lab-card-d:#5C5C88;--lab-on-card:#FFFFFF}
+[data-theme="mono-os"] {color-scheme:light;--lab-background:#D9D9D9;--lab-surface:#FFFFFF;--lab-foreground:#111111;--lab-muted:#555555;--lab-line:#111111;--lab-line-soft:#AAAAAA;--lab-soft:#EDEDED;--lab-accent:#111111;--lab-on-accent:#FFFFFF;--lab-radius:7px;--lab-shadow:2px 3px 0 #111111;--lab-font:'IBM Plex Mono',ui-monospace,monospace}

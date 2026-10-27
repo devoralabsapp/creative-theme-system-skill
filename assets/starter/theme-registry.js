@@ -294,6 +294,62 @@ window.STUDIO_THEMES = {
       "color": "#FFFFFF",
       "tone": "light",
       "family": "creative"
+    },
+    {
+      "id": "index-bureau",
+      "name": "Index Bureau",
+      "description": "A ruled monochrome archive with a three-column information hierarchy",
+      "color": "#FFFFFF",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "specimen-press",
+      "name": "Specimen Press",
+      "description": "Publication-like objects, metadata tables and outlined display type",
+      "color": "#F6F6F2",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "grid-assembly",
+      "name": "Grid Assembly",
+      "description": "Exposed structural cells and stepped architectural content modules",
+      "color": "#F7F5EF",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "margin-notes",
+      "name": "Margin Notes",
+      "description": "Layered editorial paper, serif notes and soft printed colors",
+      "color": "#F0E9DF",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "afterhours-fm",
+      "name": "Afterhours FM",
+      "description": "A dark creative queue with bright cover blocks and rounded controls",
+      "color": "#101010",
+      "tone": "dark",
+      "family": "creative"
+    },
+    {
+      "id": "chapter-desk",
+      "name": "Chapter Desk",
+      "description": "Warm reading desk, book-shaped records and compact annotations",
+      "color": "#F4E9D5",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "mono-os",
+      "name": "Mono OS",
+      "description": "A grayscale desktop with white window chrome and shallow ink edges",
+      "color": "#D9D9D9",
+      "tone": "light",
+      "family": "creative"
     }
   ]
 };

@@ -1,4 +1,4 @@
-# Thirty-one theme recipes
+# Thirty-eight theme recipes
 
 Adapt these visual recipes to the host app. Executable references are in `assets/starter/`; names express inspiration, not exact third-party replicas.
 
@@ -38,6 +38,14 @@ Adapt these visual recipes to the host app. Executable references are in `assets
 
 | `devora-signal` | White `#FFFFFF`, red `#C81E32`, black `#141414`; Be Vietnam Pro | Flat workbench, black navigation rail, red index tab, ruled rows and square controls. See [signature recipes](devora-signatures.md). |
 | `devora-folio` | White `#FFFFFF`, red `#B91C30`, black `#141414`; Be Vietnam Pro | Airy editorial composition, red notebook spine, black featured strip, top navigation and soft corners. See [signature recipes](devora-signatures.md). |
+
+| `index-bureau` | Index Bureau: `#FFFFFF`; Be Vietnam Pro / IBM Plex Mono | A ruled monochrome archive with a three-column information hierarchy. See [Design Lab recipes](design-lab.md). |
+| `specimen-press` | Specimen Press: `#F6F6F2`; Be Vietnam Pro / IBM Plex Mono | Publication-like objects, metadata tables and outlined display type. See [Design Lab recipes](design-lab.md). |
+| `grid-assembly` | Grid Assembly: `#F7F5EF`; Be Vietnam Pro / IBM Plex Mono | Exposed structural cells and stepped architectural content modules. See [Design Lab recipes](design-lab.md). |
+| `margin-notes` | Margin Notes: `#F0E9DF`; Be Vietnam Pro / IBM Plex Mono / Georgia | Layered editorial paper, serif notes and soft printed colors. See [Design Lab recipes](design-lab.md). |
+| `afterhours-fm` | Afterhours FM: `#101010`; Be Vietnam Pro / IBM Plex Mono | A dark creative queue with bright cover blocks and rounded controls. See [Design Lab recipes](design-lab.md). |
+| `chapter-desk` | Chapter Desk: `#F4E9D5`; Be Vietnam Pro / IBM Plex Mono | Warm reading desk, book-shaped records and compact annotations. See [Design Lab recipes](design-lab.md). |
+| `mono-os` | Mono OS: `#D9D9D9`; Be Vietnam Pro / IBM Plex Mono | A grayscale desktop with white window chrome and shallow ink edges. See [Design Lab recipes](design-lab.md). |
 
 ## Token mapping
 

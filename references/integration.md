@@ -44,3 +44,5 @@ Fix overflow through wrapping, widths and grid minimums. Do not hide content def
 `devora-press-theme.css` adds the Devora Press personal theme with scoped semantic tokens and catalog-specific rules. `assets/devora-press/` holds its independent light/night showcase and portable assets; the starter catalog registers the light appearance.
 
 `devora-duo-theme.css` adds the scoped white/red/black Signal and Folio signatures. Portable per-theme tokens are in `assets/devora-signal/` and `assets/devora-folio/`, with shared component examples in `assets/devora-signatures/`. The separate original showcases use English copy and local-only interactions.
+
+`avant-theme.css` adapts the seven Design Lab directions to the shared catalog; `lab/tokens.css` is their canonical semantic palette. `lab/` is also a self-contained browser-local project workspace served at `/lab/`, with separate per-theme compositions and real demo interactions. Its state is independent of the catalog provider, never imported into a host app as production business logic. See `design-lab.md` for choosing the appropriate source.
