@@ -262,6 +262,14 @@ window.STUDIO_THEMES = {
       "color": "#f5f1e7",
       "tone": "light",
       "family": "creative"
+    },
+    {
+      "id": "sac-01",
+      "name": "SẮC / 01 — Paper / Brutalist",
+      "description": "Paper, black window frames, hard shadows and restrained red accents",
+      "color": "#F3F2EE",
+      "tone": "light",
+      "family": "creative"
     }
   ]
 };

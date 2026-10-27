@@ -12,7 +12,7 @@ For React/Next/Vue/Svelte, extend the existing provider/store and SSR/cookie/cli
 
 `themes.js` derives four dropdown groups from the registry, updates root `data-theme`, `data-family`, `data-workspace`, `data-tone`, announces selection, updates browser theme color and saves explicit selections. It preserves other query parameters, hashes and catalog state. The legacy `data-workspace` attribute enables shared semantic component styles for all non-studio families; seasonal and creative CSS hide editor chrome.
 
-`styles.css` is the baseline layout. `themes.css` contains the first five themes plus shared gallery rules. `workspace-themes.css` adds the first six workspace themes and shared semantic component rules. `additional-themes.css` adds three more workspaces and three holidays. `creative-themes.css` adds ten experimental compositions and shared Creative Lab geometry. These selectors target the starter DOM; **do not import them blindly into an unrelated app**.
+`styles.css` is the baseline layout. `themes.css` contains the first five themes plus shared gallery rules. `workspace-themes.css` adds the first six workspace themes and shared semantic component rules. `additional-themes.css` adds three more workspaces and three holidays. `creative-themes.css` adds ten experimental compositions and shared Creative Lab geometry. `sac-theme.css` adds the SẮC / 01 signature, scoped to `data-theme="sac-01"`. These selectors target the starter DOM; **do not import them blindly into an unrelated app**.
 
 ## Existing app workflow
 

@@ -1,6 +1,6 @@
 # Creative Theme System — AI Agent Skill
 
-A portable skill for creating and integrating **27 selectable website themes**, with working CSS, a safe starter generator, and a complete browser demo. Instructions are in English so different AI agents can reuse them.
+A portable skill for creating and integrating **28 selectable website themes**, with working CSS, a safe starter generator, and a complete browser demo. Instructions are in English so different AI agents can reuse them.
 
 **Entry point: [SKILL.md](SKILL.md).** Any agent with filesystem access can read it; agents with an existing application should follow the integration path rather than replacing the app.
 
@@ -11,7 +11,7 @@ A portable skill for creating and integrating **27 selectable website themes**, 
 | **Studio** — original art direction | 5 | Botanical (natural), Editorial (magazine), Playroom (soft playful), Midnight (dark elegant), Playful Retro Neo-Brutalism (pastel outlines) |
 | **Workspace** — familiar software environments | 9 | Command line, Visual Studio Code, Excel, Canva, Figma, Photoshop, File Explorer, Notion, Burp Suite |
 | **Holiday** — seasonal and cultural celebrations | 3 | Halloween, Christmas, Tết Holiday |
-| **Creative Lab** — experimental material and layout studies | 10 | Riso Post Office, Tidal Atlas, Type Foundry, Solar Glasshouse, Velvet Orbit, Porcelain Index, Magnetic Poetry, Infrared Herbarium, Night Transit, Paper Circuit |
+| **Creative Lab** — experimental material and layout studies | 11 | Riso Post Office, Tidal Atlas, Type Foundry, Solar Glasshouse, Velvet Orbit, Porcelain Index, Magnetic Poetry, Infrared Herbarium, Night Transit, Paper Circuit, SẮC / 01 |
 
 Workspace subgroups: **developer & utility** (Command line, Visual Studio Code, Burp Suite); **documents & organization** (Excel, File Explorer, Notion); **design tools** (Canva, Figma, Photoshop). Existing theme IDs and the Botanical default are preserved.
 
@@ -19,7 +19,7 @@ The app-inspired styles are visual references, not integrations with or replicas
 
 ## Theme screenshots
 
-Actual desktop screenshots of the bundled starter, captured at the same viewport with the same fictional sample content. Click any preview to open the full-size image.
+Actual desktop screenshots of the bundled starter, with the same fictional sample content. Click any preview to open the full-size image. The SẮC section also links to its separate original showcase.
 
 | Studio collection | Studio collection |
 | --- | --- |
@@ -53,6 +53,12 @@ Ten material-led directions, with scoped tokens, responsive compositions and the
 | **22 · Velvet Orbit**<br>[![Velvet Orbit — Aubergine velvet, copper orbital rings and curved gallery cards](docs/screenshots/velvet-orbit.jpg)](docs/screenshots/velvet-orbit.jpg) | **23 · Porcelain Index**<br>[![Porcelain Index — Cobalt ceramic tiles, fine blue borders and museum labels](docs/screenshots/porcelain.jpg)](docs/screenshots/porcelain.jpg) |
 | **24 · Magnetic Poetry**<br>[![Magnetic Poetry — Scattered word tiles, fridge-silver surfaces and cherry magnets](docs/screenshots/magnetic-poetry.jpg)](docs/screenshots/magnetic-poetry.jpg) | **25 · Infrared Herbarium**<br>[![Infrared Herbarium — Hot pink specimen sheets and dark botanical registration marks](docs/screenshots/infrared.jpg)](docs/screenshots/infrared.jpg) |
 | **26 · Night Transit**<br>[![Night Transit — Midnight navy, route diagrams and amber ticket details](docs/screenshots/night-transit.jpg)](docs/screenshots/night-transit.jpg) | **27 · Paper Circuit**<br>[![Paper Circuit — Folded drafting paper, electric blue traces and lime contacts](docs/screenshots/paper-circuit.jpg)](docs/screenshots/paper-circuit.jpg) |
+
+## SẮC / 01 personal signature
+
+**28 · SẮC / 01 — Paper / Brutalist:** monochrome paper, bold typography, square retro windows, hard black shadows and a small red accent. Included in the Creative Lab dropdown. [Read its integration recipe](references/sac-01.md) or serve the [standalone showcase](assets/sac-01).
+
+[![SẮC / 01 shared catalog preview](docs/screenshots/sac-01.jpg)](docs/screenshots/sac-01.jpg)
 
 ## Use with an AI agent
 
@@ -88,4 +94,4 @@ The generator refuses non-empty destinations. The preview server binds only to l
 
 Static validation checks registry metadata, assets, UI hooks and script syntax. Browser review remains necessary; see [verification](references/verification.md).
 
-Package verification: all 27 theme selections and sample search across theme changes were checked in a browser. All themes were checked at 320px, 390px and 768px; the ten Creative Lab themes also passed filter/sort persistence, preview-dialog and text-bound checks. Stored selection, invalid-theme fallback, URL/hash preservation, empty state and mobile navigation were exercised. Earlier package checks verified that the generator refuses occupied destinations, the validator rejects duplicate IDs, and the localhost server rejects POST and hidden-file requests. Static validation and these browser checks do not constitute a full accessibility audit.
+Package verification: all 28 theme selections and sample search across theme changes were checked in a browser. All themes were checked at 320px, 390px and 768px; the original ten experimental Creative Lab themes also passed filter/sort persistence, preview-dialog and text-bound checks. Stored selection, invalid-theme fallback, URL/hash preservation, empty state and mobile navigation were exercised. Earlier package checks verified that the generator refuses occupied destinations, the validator rejects duplicate IDs, and the localhost server rejects POST and hidden-file requests. Static validation and these browser checks do not constitute a full accessibility audit.

@@ -1,0 +1,27 @@
+/* SẮC / 01 — Paper / Brutalist. Scope :root to the host theme selector. */
+:root {
+ --sac-ink:#111111;
+ --sac-paper:#F3F2EE;
+ --sac-white:#FFFFFF;
+ --sac-gray:#D8D8D5;
+ --sac-red:#E3322B;
+ --sac-on-red:#000000;
+ --sac-red-text:#B92721;
+ --background:var(--sac-paper);
+ --surface:var(--sac-white);
+ --foreground:var(--sac-ink);
+ --muted-foreground:#5B5B58;
+ --border:var(--sac-ink);
+ --subtle-border:#A9A9A4;
+ --accent:var(--sac-ink);
+ --accent-foreground:var(--sac-white);
+ --focus:var(--sac-red-text);
+ --danger:var(--sac-red-text);
+ --radius:0px;
+ --shadow-raised:4px 4px 0 var(--sac-ink);
+ --font-display:'Arial Black','Manrope',Arial,sans-serif;
+ --font-body:'Manrope',Arial,sans-serif;
+ --font-meta:'Cascadia Code',Consolas,'Courier New',monospace;
+ --space-unit:4px;
+ --motion-fast:120ms;
+}

@@ -1,4 +1,4 @@
-# Twenty-seven theme recipes
+# Twenty-eight theme recipes
 
 Adapt these visual recipes to the host app. Executable references are in `assets/starter/`; names express inspiration, not exact third-party replicas.
 
@@ -32,6 +32,8 @@ Adapt these visual recipes to the host app. Executable references are in `assets
 | `infrared` | Infrared Herbarium: `#251d2e`, accent `#ff9ac6`; Manrope | Pink registration frame, technical crosshairs, specimen labels and charcoal cards. Preserve artwork colors. |
 | `night-transit` | Night Transit: `#101f2b`, accent `#f6bf59`; Manrope | Original SVG transit map, amber tickets, colored route stripes and dashed platform labels. |
 | `paper-circuit` | Paper Circuit: `#f5f1e7`, accent `#2454b4`; Manrope | Original SVG circuit traces, lime contacts, folded corner and blue drafting rules. |
+
+| `sac-01` | Paper `#F3F2EE`, black `#111111`, white, gray `#D8D8D5`, red `#E3322B`; Arial Black + Manrope | Square retro windows, 2px borders, 3–6px hard shadows, bold type and small red accents. See [full signature recipe](sac-01.md). |
 
 ## Token mapping
 
