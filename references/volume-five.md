@@ -1,6 +1,6 @@
 # Volume Five — eleven new directions
 
-Eleven original compositions extend the collection from 39 to 50. They belong to Creative Lab. Playful Retro remains the first theme; the eleven additions follow it before the previously ordered Creative themes. Their reference demos use English copy.
+Eleven original compositions extend the collection from 39 to 50. They belong to Creative Lab. Playful Retro remains the first theme. The eleven additions form a continuous group immediately after SẮC / 01 — Paper / Brutalist, preserving their internal order from Redline Atelier through Frame Shift. Their reference demos use English copy.
 
 ## Sources and adaptation
 

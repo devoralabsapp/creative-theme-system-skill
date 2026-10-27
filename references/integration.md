@@ -57,7 +57,7 @@ Fix overflow through wrapping, widths and grid minimums. Do not hide content def
 
 `all-themes.js` builds the overview from the existing registry, with a real preview image at `assets/previews/<theme-id>.jpg` for each theme. `all-themes.css` is isolated to that view. Gallery links are real theme URLs; ordinary clicks use the shell selection authority and preserve mounted preview sessions. Card navigation supports browser Back, and each view retains its own scroll position. The overview keeps its search and collection filter while hidden. Refresh the matching preview image after a visual theme change; capture the actual Lab rather than generating an approximate mockup.
 
-The current browse order is Creative Lab, Studio, Workspace, Holiday. Creative Lab starts with Retro, followed by Mono OS through Riso Post Office in registry order. All, the searchable picker and both standalone selectors use the same order. Keep stable theme IDs and the existing default when reordering.
+The current browse order is Creative Lab, Studio, Workspace, Holiday. Creative Lab starts with Retro, followed by Mono OS and the existing Creative themes. The eleven Volume Five studies appear together immediately after SẮC / 01 — Paper / Brutalist, from Redline Atelier through Frame Shift, before Paper Circuit. All, the searchable picker and both standalone selectors use the same order. Keep stable theme IDs and the existing default when reordering.
 
 ## Volume Five extension
 
