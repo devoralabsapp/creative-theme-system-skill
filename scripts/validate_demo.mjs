@@ -4,7 +4,7 @@ import {spawnSync} from 'node:child_process';
 
 const args=process.argv.slice(2);if(args.length!==1){console.error('Usage: node scripts/validate_demo.mjs <demo-directory>');process.exit(2);}
 const root=path.resolve(args[0]),errors=[];
-const files=['index.html','website.html','explorer.css','explorer.js','preview-bridge.css','preview-bridge.js','styles.css','themes.css','workspace-themes.css','additional-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css','devora-duo-theme.css','avant-theme.css','demo.css','theme-registry.js','theme-bootstrap.js','themes.js','demo.js','lab/index.html','lab/tokens.css','lab/profiles.css','lab/profile-layouts.css','lab/lab.css','lab/lab.js'];
+const files=['index.html','website.html','explorer.css','explorer.js','theme-picker.js','assets/devoralabs-mark.svg','preview-bridge.css','preview-bridge.js','styles.css','themes.css','workspace-themes.css','additional-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css','devora-duo-theme.css','avant-theme.css','demo.css','theme-registry.js','theme-bootstrap.js','themes.js','demo.js','lab/index.html','lab/tokens.css','lab/profiles.css','lab/profile-layouts.css','lab/lab.css','lab/lab.js'];
 for(const file of files)if(!existsSync(path.join(root,file)))errors.push(`Missing ${file}`);
 let registry;
 try{

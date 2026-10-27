@@ -8,6 +8,8 @@ For React/Next/Vue/Svelte, extend the existing provider/store and SSR/cookie/cli
 
 `index.html`, `explorer.css` and `explorer.js` form the demo-only two-tab shell. Design Lab is the default; `?view=website` selects Website Demo. The retained same-origin frames are `lab/index.html` and `website.html`, allowing each preview to preserve its in-memory content and filters. `preview-bridge.js` synchronizes only validated theme IDs, intrinsic content height and local anchor navigation, checking both origin and source window. This shell is for comparing demos, not a replacement theme provider for a host app.
 
+`theme-picker.js` progressively enhances the shell's native selector with a searchable, grouped popover. It uses the same selector's change event rather than creating another selection store. The shell emits `theme:sync` when URL or preview initialization updates selection; this notification must not echo a new change. The Devoralabs mark in `assets/devoralabs-mark.svg` is shared by the shell header and demo favicons.
+
 `theme-registry.js` is the single data registry. Records contain `id`, `name`, `description`, browser `color`, `tone`, `family` (`studio`, `workspace`, `seasonal` or `creative`), and optionally a three-string decorative `workspace` array for the workspace family.
 
 `theme-bootstrap.js` validates `?theme=`, then saved selection, then default before styles paint. Storage failure falls back cleanly. Invalid IDs never become selectors or executable code.

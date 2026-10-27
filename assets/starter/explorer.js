@@ -14,6 +14,7 @@
  function render(){
   tabs.forEach(tab=>{const selected=tab.dataset.view===state.view;tab.setAttribute('aria-selected',String(selected));tab.tabIndex=selected?0:-1;document.getElementById(tab.getAttribute('aria-controls')).hidden=!selected;});
   const theme=byId.get(state.theme);themeSelect.value=state.theme;document.getElementById('explorer-theme-name').textContent=theme.name;document.getElementById('explorer-theme-count').textContent=`${config.themes.length} themes`;
+  themeSelect.dispatchEvent(new Event('theme:sync'));
   document.title=`${state.view==='lab'?'Design Lab':'Website Demo'} — Devoralabs Theme Explorer`;
   status.hidden=ready[state.view];status.textContent=`Loading ${state.view==='lab'?'Design Lab':'Website Demo'}…`;
   for(const view of ['lab','website'])if(ready[view])send(view,{type:'theme-explorer:theme',theme:state.theme});

@@ -4,21 +4,33 @@
  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
  <title>Design Lab — Devoralabs Theme Explorer</title>
  <meta name="description" content="Explore every Devoralabs theme in Design Lab, then compare the same theme in Website Demo. One collection, two ways to see it.">
+ <meta name="theme-color" content="#B91C30"><link rel="icon" type="image/svg+xml" href="assets/devoralabs-mark.svg">
  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="explorer.css"><script src="theme-registry.js"></script><script src="explorer.js" defer></script>
+ <link rel="stylesheet" href="explorer.css"><script src="theme-registry.js"></script><script src="explorer.js" defer></script><script src="theme-picker.js" defer></script>
 </head>
 <body>
  <a class="explorer-skip" href="#preview-panels">Skip to preview</a>
  <header class="explorer-header">
-  <a class="explorer-brand" href="./" aria-label="Devoralabs Theme Explorer home">devoralabs<span>.</span><small>THEME EXPLORER</small></a>
+  <a class="explorer-brand" href="./" aria-label="Devoralabs Theme Explorer home"><img class="explorer-logo" src="assets/devoralabs-mark.svg" width="40" height="40" alt=""><span class="explorer-wordmark">devoralabs<span>.</span><small>THEME EXPLORER</small></span></a>
   <div class="explorer-tabs" role="tablist" aria-label="Preview type">
    <button id="lab-tab" type="button" role="tab" aria-selected="true" aria-controls="lab-panel" data-view="lab">Design Lab</button>
    <button id="website-tab" type="button" role="tab" aria-selected="false" aria-controls="website-panel" data-view="website" tabindex="-1">Website Demo</button>
   </div>
-  <div class="explorer-context"><label for="explorer-theme">Theme</label><select id="explorer-theme" aria-describedby="explorer-theme-count"></select><small id="explorer-theme-count"></small><span id="explorer-theme-name" hidden></span></div>
+  <div class="explorer-context">
+   <div class="explorer-context-label"><label for="explorer-theme">Theme library</label><small id="explorer-theme-count"></small></div>
+   <select id="explorer-theme" aria-describedby="explorer-theme-count"></select>
+   <button id="theme-picker-trigger" class="theme-picker-trigger" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="theme-picker" hidden><span class="theme-swatch trigger-swatch" id="theme-picker-swatch" aria-hidden="true"></span><span class="theme-trigger-copy"><strong id="explorer-theme-name"></strong><small id="theme-picker-family"></small></span><svg class="picker-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+  </div>
   <a class="explorer-repo" href="https://github.com/devoralabsapp/creative-theme-system-skill" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
  </header>
+ <div id="theme-picker" class="theme-picker" popover="auto" role="dialog" aria-labelledby="theme-picker-title">
+  <div class="picker-heading"><div><span class="picker-eyebrow">MAKE IT YOURS</span><h2 id="theme-picker-title">Find your next look.</h2></div><span class="picker-total">38 styles</span></div>
+  <div class="picker-search-wrap"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="theme-picker-search" type="search" placeholder="Search themes…" autocomplete="off" spellcheck="false" aria-label="Search themes" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="theme-picker-list"><kbd aria-hidden="true">ESC</kbd></div>
+  <div id="theme-picker-list" class="theme-picker-list" role="listbox" aria-label="Themes"></div>
+  <div id="theme-picker-empty" class="picker-empty" hidden><strong>No themes found.</strong><p>Try a name, color or style.</p><button id="theme-picker-reset" type="button">Clear search</button></div>
+  <div class="picker-footer"><span id="theme-picker-results" role="status" aria-live="polite"></span><span class="picker-keyboard-hint">↑ ↓ to browse · Enter to select</span></div>
+ </div>
  <main id="preview-panels">
   <p id="preview-status" role="status" aria-live="polite">Loading Design Lab…</p>
   <section id="lab-panel" role="tabpanel" aria-labelledby="lab-tab"><iframe id="lab-preview" title="Design Lab workspace" height="900" scrolling="no"></iframe></section>
