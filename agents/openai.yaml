@@ -1,4 +1,4 @@
 interface:
   display_name: "Creative Theme System"
-  short_description: "Build and extend twenty-eight switchable website themes"
+  short_description: "Build and extend twenty-nine switchable website themes"
   default_prompt: "Use $creative-theme-system to add selectable themes while preserving my existing application."

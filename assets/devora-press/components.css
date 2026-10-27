@@ -1,0 +1,30 @@
+/* Framework-independent examples; import after tokens.css. */
+[data-theme="devora-press"] .dp-button {
+  display: inline-flex; align-items: center; justify-content: center; gap: 12px;
+  min-height: 44px; padding: 10px 16px; border: var(--dp-border) solid var(--dp-line);
+  border-radius: var(--dp-radius-control); background: var(--dp-surface); color: var(--dp-ink);
+  font: 650 14px/1.4 var(--dp-font); text-decoration: none;
+  transition: transform var(--dp-motion), box-shadow var(--dp-motion), background var(--dp-motion);
+}
+[data-theme="devora-press"] .dp-button-primary { background: var(--dp-orange); color: var(--dp-on-orange); box-shadow: var(--dp-shadow); }
+@media (hover:hover) {
+  [data-theme="devora-press"] .dp-button:not(:disabled):hover { background: var(--dp-blue-soft); }
+  [data-theme="devora-press"] .dp-button-primary:not(:disabled):hover { background: var(--dp-orange); transform: translate(-1px,-1px); box-shadow: 5px 5px 0 var(--dp-shadow-color); }
+}
+[data-theme="devora-press"] .dp-button-primary:not(:disabled):active { transform: translate(3px,3px); box-shadow: 1px 1px 0 var(--dp-shadow-color); }
+[data-theme="devora-press"] .dp-button:disabled { background: var(--dp-disabled); color: var(--dp-on-disabled); border-color: var(--dp-line-soft); box-shadow: none; cursor: not-allowed; }
+[data-theme="devora-press"] :is(button,a,input,select,textarea,summary):focus-visible { outline: 3px solid var(--dp-focus); outline-offset: 3px; }
+[data-theme="devora-press"] .dp-panel { background: var(--dp-surface); border: var(--dp-border) solid var(--dp-line); border-radius: var(--dp-radius-panel); }
+[data-theme="devora-press"] .dp-panel-raised { box-shadow: var(--dp-shadow); }
+[data-theme="devora-press"] .dp-field { display: grid; gap: 8px; color: var(--dp-ink); font: 500 14px/1.5 var(--dp-font); }
+[data-theme="devora-press"] .dp-input { min-height: 44px; min-width: 0; width: 100%; padding: 10px 12px; border: 2px solid var(--dp-line); border-radius: var(--dp-radius-control); background: var(--dp-surface); color: var(--dp-ink); font: 400 16px/1.5 var(--dp-font); }
+[data-theme="devora-press"] .dp-input[aria-invalid="true"] { border-color: var(--dp-danger); }
+[data-theme="devora-press"] .dp-error { color: var(--dp-danger); font-size: 13px; }
+[data-theme="devora-press"] .dp-link { color: var(--dp-blue); text-decoration: underline; text-underline-offset: 3px; }
+[data-theme="devora-press"] .dp-badge { display: inline-flex; padding: 4px 8px; border-radius: 4px; background: var(--dp-blue-soft); color: var(--dp-blue); font: 600 12px/1.5 var(--dp-font); }
+[data-theme="devora-press"] .dp-badge-success { color: var(--dp-success); background: var(--dp-success-soft); }
+[data-theme="devora-press"] .dp-badge-warning { color: var(--dp-warning); background: var(--dp-warning-soft); }
+[data-theme="devora-press"] .dp-badge-danger { color: var(--dp-danger); background: var(--dp-danger-soft); }
+@media (prefers-reduced-motion: reduce) {
+  [data-theme="devora-press"] .dp-button { transition: none; }
+}

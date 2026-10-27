@@ -1,6 +1,6 @@
 # Creative Theme System — AI Agent Skill
 
-A portable skill for creating and integrating **28 selectable website themes**, with working CSS, a safe starter generator, and a complete browser demo. Instructions are in English so different AI agents can reuse them.
+A portable skill for creating and integrating **29 selectable website themes**, with working CSS, a safe starter generator, and a complete browser demo. Instructions are in English so different AI agents can reuse them.
 
 **Entry point: [SKILL.md](SKILL.md).** Any agent with filesystem access can read it; agents with an existing application should follow the integration path rather than replacing the app.
 
@@ -11,7 +11,7 @@ A portable skill for creating and integrating **28 selectable website themes**, 
 | **Studio** — original art direction | 5 | Botanical (natural), Editorial (magazine), Playroom (soft playful), Midnight (dark elegant), Playful Retro Neo-Brutalism (pastel outlines) |
 | **Workspace** — familiar software environments | 9 | Command line, Visual Studio Code, Excel, Canva, Figma, Photoshop, File Explorer, Notion, Burp Suite |
 | **Holiday** — seasonal and cultural celebrations | 3 | Halloween, Christmas, Tết Holiday |
-| **Creative Lab** — experimental material and layout studies | 11 | Riso Post Office, Tidal Atlas, Type Foundry, Solar Glasshouse, Velvet Orbit, Porcelain Index, Magnetic Poetry, Infrared Herbarium, Night Transit, Paper Circuit, SẮC / 01 |
+| **Creative Lab** — experimental material and layout studies | 12 | Riso Post Office, Tidal Atlas, Type Foundry, Solar Glasshouse, Velvet Orbit, Porcelain Index, Magnetic Poetry, Infrared Herbarium, Night Transit, Paper Circuit, SẮC / 01, Devora Press |
 
 Workspace subgroups: **developer & utility** (Command line, Visual Studio Code, Burp Suite); **documents & organization** (Excel, File Explorer, Notion); **design tools** (Canva, Figma, Photoshop). Existing theme IDs and the Botanical default are preserved.
 
@@ -60,6 +60,16 @@ Ten material-led directions, with scoped tokens, responsive compositions and the
 
 [![SẮC / 01 shared catalog preview](docs/screenshots/sac-01.jpg)](docs/screenshots/sac-01.jpg)
 
+## Devora Press personal theme
+
+**29 · Devora Press:** warm paper, persimmon actions, cobalt navigation, sage highlights, a cut-corner identity tile, and restrained hard shadows. [Read the design specification](references/devora-press.md) or serve `assets/devora-press/` and open `showcase.html` for the original interactive light/night showcase. The catalog registers the light appearance and preserves the existing default and theme controller.
+
+[![Devora Press — original workspace showcase](docs/screenshots/devora-press-workspace.png)](docs/screenshots/devora-press-workspace.png)
+
+[Shared catalog preview](docs/screenshots/devora-press-catalog.png) · [Night appearance](docs/screenshots/devora-press-night.png) · [Mobile layout](docs/screenshots/devora-press-mobile.png)
+
+Devora Press verification: the original showcase passed layout checks at 320, 390, 768, 1024 and 1168px in both appearances and both views. All 28 designated text/background token pairs reached at least 4.73:1 contrast. Idea creation, empty-name validation, Vietnamese and special-character input, Escape dismissal, focus restoration and reduced motion were exercised. The catalog passed layout checks at 320, 390, 768, 1024 and 1440px, all 29 theme transitions with search preserved, URL/hash preservation, reload, dialogs, empty state and mobile navigation. These checks cover the supplied samples, not every future host application.
+
 ## Use with an AI agent
 
 ```text
@@ -94,4 +104,4 @@ The generator refuses non-empty destinations. The preview server binds only to l
 
 Static validation checks registry metadata, assets, UI hooks and script syntax. Browser review remains necessary; see [verification](references/verification.md).
 
-Package verification: all 28 theme selections and sample search across theme changes were checked in a browser. All themes were checked at 320px, 390px and 768px; the original ten experimental Creative Lab themes also passed filter/sort persistence, preview-dialog and text-bound checks. Stored selection, invalid-theme fallback, URL/hash preservation, empty state and mobile navigation were exercised. Earlier package checks verified that the generator refuses occupied destinations, the validator rejects duplicate IDs, and the localhost server rejects POST and hidden-file requests. Static validation and these browser checks do not constitute a full accessibility audit.
+Prior package verification: all 28 theme selections and sample search across theme changes were checked in a browser. All themes were checked at 320px, 390px and 768px; the original ten experimental Creative Lab themes also passed filter/sort persistence, preview-dialog and text-bound checks. Stored selection, invalid-theme fallback, URL/hash preservation, empty state and mobile navigation were exercised. Earlier package checks verified that the generator refuses occupied destinations, the validator rejects duplicate IDs, and the localhost server rejects POST and hidden-file requests. Static validation and these browser checks do not constitute a full accessibility audit.

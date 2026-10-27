@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Devora Press — Theme Preview</title><style>body{margin:0;padding:24px;background:#e6e6df}main.preview{max-width:1120px;margin:auto}@media(max-width:600px){body{padding:8px}}</style></head><body><main class="preview"><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Devora Press v1.0. Opt-in semantic tokens; no global reset or font download. */
+[data-theme="devora-press"] {
+  color-scheme: light;
+  --dp-paper: #F4F1E8;
+  --dp-surface: #FFFDF7;
+  --dp-ink: #202A30;
+  --dp-muted: #5D6669;
+  --dp-line: #202A30;
+  --dp-line-soft: #C3C6BE;
+  --dp-orange: #F36643;
+  --dp-on-orange: #202A30;
+  --dp-orange-soft: #FBE0D5;
+  --dp-orange-text: #963B24;
+  --dp-blue: #2D4CF3;
+  --dp-on-blue: #FFFFFF;
+  --dp-blue-soft: #E5E9FF;
+  --dp-sage: #CAD9C9;
+  --dp-on-sage: #202A30;
+  --dp-yellow: #F2CF69;
+  --dp-success: #216146;
+  --dp-success-soft: #DFEFE3;
+  --dp-warning: #795200;
+  --dp-warning-soft: #FFF0C4;
+  --dp-danger: #AE303B;
+  --dp-danger-soft: #FBE6E7;
+  --dp-disabled: #E2E3DC;
+  --dp-on-disabled: #626B6D;
+  --dp-shadow-color: #202A30;
+  --dp-focus: #2D4CF3;
+  --dp-font: 'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --dp-mono: ui-monospace, 'SFMono-Regular', Consolas, monospace;
+  --dp-space-1: 4px; --dp-space-2: 8px; --dp-space-3: 12px;
+  --dp-space-4: 16px; --dp-space-6: 24px; --dp-space-8: 32px;
+  --dp-space-12: 48px; --dp-space-16: 64px;
+  --dp-radius-control: 4px; --dp-radius-panel: 8px;
+  --dp-border: 2px; --dp-shadow: 4px 4px 0 var(--dp-shadow-color);
+  --dp-motion: 120ms;
+}
+[data-theme="devora-press"][data-appearance="night"] {
+  color-scheme: dark;
+  --dp-paper: #192329;
+  --dp-surface: #232F36;
+  --dp-ink: #F4F1E8;
+  --dp-muted: #B8C2C3;
+  --dp-line: #C2CBC8;
+  --dp-line-soft: #52636B;
+  --dp-orange: #FF9677;
+  --dp-on-orange: #192329;
+  --dp-orange-soft: #442E29;
+  --dp-orange-text: #FFAA90;
+  --dp-blue: #A7B9FF;
+  --dp-on-blue: #192329;
+  --dp-blue-soft: #293654;
+  --dp-sage: #344D40;
+  --dp-on-sage: #E0EDDF;
+  --dp-yellow: #EED38A;
+  --dp-success: #9FD9B5;
+  --dp-success-soft: #263F33;
+  --dp-warning: #F2D086;
+  --dp-warning-soft: #41371E;
+  --dp-danger: #FFADB6;
+  --dp-danger-soft: #472C34;
+  --dp-disabled: #34434A;
+  --dp-on-disabled: #B3BEC1;
+  --dp-shadow-color: #0B1216;
+  --dp-focus: #A7B9FF;
+}
+
+/* Framework-independent examples; import after tokens.css. */
+[data-theme="devora-press"] .dp-button {
+  display: inline-flex; align-items: center; justify-content: center; gap: 12px;
+  min-height: 44px; padding: 10px 16px; border: var(--dp-border) solid var(--dp-line);
+  border-radius: var(--dp-radius-control); background: var(--dp-surface); color: var(--dp-ink);
+  font: 650 14px/1.4 var(--dp-font); text-decoration: none;
+  transition: transform var(--dp-motion), box-shadow var(--dp-motion), background var(--dp-motion);
+}
+[data-theme="devora-press"] .dp-button-primary { background: var(--dp-orange); color: var(--dp-on-orange); box-shadow: var(--dp-shadow); }
+@media (hover:hover) {
+  [data-theme="devora-press"] .dp-button:not(:disabled):hover { background: var(--dp-blue-soft); }
+  [data-theme="devora-press"] .dp-button-primary:not(:disabled):hover { background: var(--dp-orange); transform: translate(-1px,-1px); box-shadow: 5px 5px 0 var(--dp-shadow-color); }
+}
+[data-theme="devora-press"] .dp-button-primary:not(:disabled):active { transform: translate(3px,3px); box-shadow: 1px 1px 0 var(--dp-shadow-color); }
+[data-theme="devora-press"] .dp-button:disabled { background: var(--dp-disabled); color: var(--dp-on-disabled); border-color: var(--dp-line-soft); box-shadow: none; cursor: not-allowed; }
+[data-theme="devora-press"] :is(button,a,input,select,textarea,summary):focus-visible { outline: 3px solid var(--dp-focus); outline-offset: 3px; }
+[data-theme="devora-press"] .dp-panel { background: var(--dp-surface); border: var(--dp-border) solid var(--dp-line); border-radius: var(--dp-radius-panel); }
+[data-theme="devora-press"] .dp-panel-raised { box-shadow: var(--dp-shadow); }
+[data-theme="devora-press"] .dp-field { display: grid; gap: 8px; color: var(--dp-ink); font: 500 14px/1.5 var(--dp-font); }
+[data-theme="devora-press"] .dp-input { min-height: 44px; min-width: 0; width: 100%; padding: 10px 12px; border: 2px solid var(--dp-line); border-radius: var(--dp-radius-control); background: var(--dp-surface); color: var(--dp-ink); font: 400 16px/1.5 var(--dp-font); }
+[data-theme="devora-press"] .dp-input[aria-invalid="true"] { border-color: var(--dp-danger); }
+[data-theme="devora-press"] .dp-error { color: var(--dp-danger); font-size: 13px; }
+[data-theme="devora-press"] .dp-link { color: var(--dp-blue); text-decoration: underline; text-underline-offset: 3px; }
+[data-theme="devora-press"] .dp-badge { display: inline-flex; padding: 4px 8px; border-radius: 4px; background: var(--dp-blue-soft); color: var(--dp-blue); font: 600 12px/1.5 var(--dp-font); }
+[data-theme="devora-press"] .dp-badge-success { color: var(--dp-success); background: var(--dp-success-soft); }
+[data-theme="devora-press"] .dp-badge-warning { color: var(--dp-warning); background: var(--dp-warning-soft); }
+[data-theme="devora-press"] .dp-badge-danger { color: var(--dp-danger); background: var(--dp-danger-soft); }
+@media (prefers-reduced-motion: reduce) {
+  [data-theme="devora-press"] .dp-button { transition: none; }
+}
+
+#devora-press-demo{font:400 14px/1.6 var(--dp-font);color:var(--dp-ink);background:var(--dp-paper);border:2px solid var(--dp-line);border-radius:8px;isolation:isolate;text-align:left}
+#devora-press-demo *{box-sizing:border-box}
+#devora-press-demo [hidden]{display:none!important}
+#devora-press-demo :is(h1,h2,h3,p){margin:0;color:inherit}
+#devora-press-demo button,#devora-press-demo input{font-family:inherit}
+#devora-press-demo button{cursor:inherit}
+#devora-press-demo .dp-topbar{min-height:76px;padding:14px 114px 14px 22px;display:flex;gap:20px;align-items:center;border-bottom:2px solid var(--dp-line);background:var(--dp-surface);border-radius:6px 6px 0 0}
+#devora-press-demo .dp-wordmark{display:flex;align-items:center;gap:10px;font-size:19px;font-weight:800;letter-spacing:-.6px;white-space:nowrap}
+#devora-press-demo .dp-logo{display:grid;place-items:center;width:32px;height:36px;background:var(--dp-ink);color:var(--dp-paper);clip-path:polygon(0 0,72% 0,100% 24%,100% 100%,0 100%);font-weight:800;font-size:25px;line-height:1}
+#devora-press-demo .dp-logo span{color:var(--dp-orange)}
+#devora-press-demo .dp-edition{font:11px/1.5 var(--dp-mono);color:var(--dp-muted);border-left:1px solid var(--dp-line-soft);padding-left:20px;letter-spacing:.02em}
+#devora-press-demo .dp-appearance{margin-left:auto;white-space:nowrap;font-size:12px;padding:8px 12px;box-shadow:none}
+#devora-press-demo .dp-shell{display:grid;grid-template-columns:174px minmax(0,1fr)}
+#devora-press-demo .dp-sidebar{padding:25px 14px 16px;border-right:1px solid var(--dp-line-soft);display:flex;flex-direction:column;gap:6px}
+#devora-press-demo .dp-navtitle{font:11px var(--dp-mono);color:var(--dp-muted);padding:0 10px 14px;letter-spacing:.05em}
+#devora-press-demo .dp-nav{display:flex;flex-direction:column;gap:6px}
+#devora-press-demo .dp-nav button{border:0;border-radius:4px;padding:11px 10px;text-align:left;background:transparent;color:var(--dp-muted);display:flex;gap:10px;align-items:center;min-height:44px;font-size:13px;font-weight:500;white-space:nowrap}
+#devora-press-demo .dp-nav button[aria-pressed="true"]{background:var(--dp-blue-soft);color:var(--dp-blue);font-weight:700}
+#devora-press-demo .dp-navglyph{font-family:var(--dp-mono);font-size:17px;width:18px;text-align:center}
+#devora-press-demo .dp-side-note{margin-top:auto;padding:24px 10px 0;color:var(--dp-muted);font-size:12px}
+#devora-press-demo .dp-mini-rule{display:block;height:3px;width:24px;background:var(--dp-blue);margin-bottom:14px}
+#devora-press-demo .dp-side-note strong{display:block;color:var(--dp-ink);font-size:13px;margin-bottom:5px}
+#devora-press-demo .dp-main{padding:28px 28px 24px;min-width:0}
+#devora-press-demo .dp-pagehead{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:26px}
+#devora-press-demo .dp-kicker{font:11px/1.5 var(--dp-mono);letter-spacing:.05em;color:var(--dp-muted);margin-bottom:7px}
+#devora-press-demo h1{font-size:clamp(26px,3.2vw,34px);line-height:1.3;font-weight:800;letter-spacing:-1.1px}
+#devora-press-demo .dp-pagehead p{font-size:13px;color:var(--dp-muted);margin-top:7px}
+#devora-press-demo .dp-featured{display:grid;grid-template-columns:minmax(0,1fr) 140px;background:var(--dp-sage);color:var(--dp-on-sage);border:2px solid var(--dp-line);border-radius:8px;box-shadow:var(--dp-shadow);padding:25px 24px;gap:20px;margin-bottom:30px;position:relative}
+#devora-press-demo .dp-featured .dp-kicker{color:var(--dp-on-sage);font-size:11px}
+#devora-press-demo .dp-featured h2{font-size:clamp(26px,3.2vw,36px);line-height:1.25;letter-spacing:-1px;font-weight:800;max-width:390px;margin:10px 0 12px}
+#devora-press-demo .dp-featured p{font-size:13px;max-width:360px;line-height:1.7;margin-bottom:18px}
+#devora-press-demo .dp-featured .dp-button{box-shadow:none;font-size:12px;padding:8px 12px;min-height:44px}
+#devora-press-demo .dp-print-art{position:relative;align-self:center;min-height:178px;display:grid;place-items:center}
+#devora-press-demo .dp-print-back{position:absolute;width:105px;height:145px;border:2px solid var(--dp-ink);border-radius:4px;background:var(--dp-orange);transform:rotate(7deg);left:24px;top:13px}
+#devora-press-demo .dp-print-sheet{position:relative;width:112px;height:150px;background:var(--dp-surface);color:var(--dp-ink);border:2px solid var(--dp-ink);border-radius:4px;transform:rotate(-5deg);padding:13px 11px;display:flex;flex-direction:column;justify-content:space-between}
+#devora-press-demo .dp-print-sheet small{font:9px var(--dp-mono);border-bottom:1px solid var(--dp-ink);padding-bottom:5px}
+#devora-press-demo .dp-print-sheet b{font-size:22px;letter-spacing:-.7px;line-height:1.05}
+#devora-press-demo .dp-print-sheet em{font-style:normal;font:10px var(--dp-mono);color:var(--dp-blue)}
+#devora-press-demo .dp-sectionhead{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:0 0 12px}
+#devora-press-demo .dp-sectionhead h2{font-size:17px;font-weight:700;display:flex;gap:10px;align-items:center}
+#devora-press-demo .dp-sectionhead h2:before{content:'';width:20px;height:3px;background:var(--dp-blue);flex:none}
+#devora-press-demo .dp-smalllabel{color:var(--dp-muted);font:11px var(--dp-mono)}
+#devora-press-demo .dp-list{border:1px solid var(--dp-line-soft);border-radius:8px;background:var(--dp-surface)}
+#devora-press-demo .dp-project{display:grid;grid-template-columns:40px minmax(0,1fr) auto 30px;gap:13px;align-items:center;padding:16px;border-bottom:1px solid var(--dp-line-soft)}
+#devora-press-demo .dp-project:last-child{border-bottom:0}
+#devora-press-demo .dp-project-mark{display:grid;place-items:center;width:38px;height:42px;border:1px solid var(--dp-line);border-radius:4px;background:var(--dp-paper);font-size:18px;font-weight:800}
+#devora-press-demo .dp-project h3{font-size:14px;font-weight:700;overflow-wrap:anywhere}
+#devora-press-demo .dp-project p{color:var(--dp-muted);font-size:12px;margin-top:3px}
+#devora-press-demo .dp-project-open{border:0;background:transparent;color:var(--dp-ink);min-height:44px;min-width:30px;font-size:20px;padding:0}
+#devora-press-demo .dp-bottomline{margin-top:26px;padding-top:16px;border-top:1px solid var(--dp-line-soft);display:flex;justify-content:space-between;gap:16px;align-items:center;font:11px/1.6 var(--dp-mono);color:var(--dp-muted)}
+#devora-press-demo .dp-color-dots{display:flex;gap:5px}
+#devora-press-demo .dp-color-dots span{width:15px;height:15px;border:1px solid var(--dp-line);border-radius:3px;background:var(--dot)}
+#devora-press-demo .dp-kit-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+#devora-press-demo .dp-kitbox{padding:20px;min-width:0}
+#devora-press-demo .dp-kitbox h2{font-size:15px;margin-bottom:17px}
+#devora-press-demo .dp-kitrow{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:16px}
+#devora-press-demo .dp-kitbox p{color:var(--dp-muted);font-size:12px}
+#devora-press-demo .dp-kitbox .dp-field+.dp-field{margin-top:16px}
+#devora-press-demo .dp-wide{grid-column:1/-1}
+#devora-press-demo .dp-palette{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+#devora-press-demo .dp-color{min-width:0}
+#devora-press-demo .dp-swatch{height:52px;background:var(--swatch);border:1px solid var(--dp-line-soft);border-radius:4px;margin-bottom:7px}
+#devora-press-demo .dp-color strong{display:block;font-size:11px}
+#devora-press-demo .dp-color code{font:10px var(--dp-mono);color:var(--dp-muted)}
+#devora-press-demo .dp-check{display:flex;gap:9px;align-items:center;min-height:44px;font-size:13px}
+#devora-press-demo .dp-check input{width:18px;height:18px;accent-color:var(--dp-blue)}
+#devora-press-demo .dp-notice{border-left:3px solid var(--dp-blue);padding:12px 14px;background:var(--dp-blue-soft);border-radius:0 4px 4px 0;font-size:13px;color:var(--dp-ink)}
+#devora-press-demo .dp-feedback{color:var(--dp-success);font-size:12px;min-height:20px;margin-top:8px}
+#devora-press-demo dialog{background:var(--dp-surface);color:var(--dp-ink);border:2px solid var(--dp-line);border-radius:8px;padding:24px;width:min(440px,calc(100% - 36px));max-height:90%;box-shadow:var(--dp-shadow);font:400 14px/1.6 var(--dp-font)}
+#devora-press-demo dialog::backdrop{background:rgb(14 23 29 / .5)}
+#devora-press-demo dialog h2{font-size:23px;margin-bottom:8px}
+#devora-press-demo dialog p{color:var(--dp-muted);font-size:13px;margin-bottom:20px}
+#devora-press-demo .dp-dialog-actions{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:12px;margin-top:24px}
+#devora-press-demo .dp-dialog-close{margin-left:auto}
+@media(max-width:800px){
+ #devora-press-demo .dp-shell{grid-template-columns:142px minmax(0,1fr)}
+ #devora-press-demo .dp-main{padding:24px 20px}
+ #devora-press-demo .dp-edition{display:none}
+ #devora-press-demo .dp-sidebar{padding-inline:10px}
+ #devora-press-demo .dp-featured{grid-template-columns:minmax(0,1fr) 105px;padding:20px;gap:5px}
+ #devora-press-demo .dp-print-back{left:0;width:88px;height:130px}
+ #devora-press-demo .dp-print-sheet{width:96px;height:140px}
+ #devora-press-demo .dp-print-sheet b{font-size:20px}
+ #devora-press-demo .dp-pagehead{flex-wrap:wrap;gap:16px}
+ #devora-press-demo .dp-kit-grid{grid-template-columns:1fr}
+ #devora-press-demo .dp-palette{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:600px){
+ #devora-press-demo .dp-topbar{padding:14px 16px;gap:8px;flex-wrap:wrap;min-height:70px}
+ #devora-press-demo .dp-wordmark{font-size:17px}
+ #devora-press-demo .dp-shell{display:block}
+ #devora-press-demo .dp-sidebar{border-right:0;border-bottom:1px solid var(--dp-line-soft);padding:8px 12px}
+ #devora-press-demo .dp-nav{flex-direction:row;flex-wrap:wrap;gap:6px}
+ #devora-press-demo .dp-nav button{font-size:12px;padding:10px;flex:1;justify-content:center}
+ #devora-press-demo .dp-navtitle,#devora-press-demo .dp-side-note{display:none}
+ #devora-press-demo .dp-main{padding:24px 16px 18px}
+ #devora-press-demo .dp-featured{grid-template-columns:1fr;padding:20px;margin-right:4px}
+ #devora-press-demo .dp-print-art{display:none}
+ #devora-press-demo .dp-featured h2{font-size:30px}
+ #devora-press-demo .dp-pagehead{margin-bottom:24px}
+ #devora-press-demo h1{font-size:27px}
+ #devora-press-demo .dp-project{grid-template-columns:32px minmax(0,1fr) 24px;padding:14px 12px;gap:10px}
+ #devora-press-demo .dp-project-mark{width:30px;height:36px;font-size:16px}
+ #devora-press-demo .dp-project .dp-badge{grid-column:2;grid-row:auto;justify-self:start}
+ #devora-press-demo .dp-project-open{grid-column:3;grid-row:1/3}
+ #devora-press-demo .dp-project p{font-size:12px}
+ #devora-press-demo .dp-bottomline{flex-wrap:wrap;font-size:10px}
+ #devora-press-demo .dp-sectionhead h2{font-size:16px}
+ #devora-press-demo .dp-smalllabel{font-size:10px}
+ #devora-press-demo .dp-kitbox{padding:16px}
+}
+</style>
+<div id="devora-press-demo" data-theme="devora-press" data-appearance="day" lang="vi" aria-label="Devora Press — thiết kế nhận diện">
+  <header class="dp-topbar">
+    <div class="dp-wordmark"><span class="dp-logo" aria-hidden="true"><span>D</span></span>devoralabs<span style="color:var(--dp-orange)">.</span></div>
+    <div class="dp-edition">DEVORA PRESS<br>PERSONAL THEME / 01</div>
+    <button class="dp-button dp-appearance cursor-interaction" type="button" aria-pressed="false">Chế độ tối ◐</button>
+  </header>
+  <div class="dp-shell">
+    <aside class="dp-sidebar">
+      <div class="dp-navtitle">YOUR LITTLE LAB</div>
+      <nav class="dp-nav" aria-label="Xem trước theme">
+        <button class="cursor-interaction" type="button" data-page="workspace" aria-pressed="true" aria-controls="dp-workspace"><span class="dp-navglyph" aria-hidden="true">▤</span>Không gian</button>
+        <button class="cursor-interaction" type="button" data-page="kit" aria-pressed="false" aria-controls="dp-kit"><span class="dp-navglyph" aria-hidden="true">◧</span>Thành phần</button>
+      </nav>
+      <div class="dp-side-note"><span class="dp-mini-rule"></span><strong>Make it useful.<br>Make it yours.</strong>Một dấu ấn chung.<br>Nhiều ý tưởng riêng.</div>
+    </aside>
+    <main class="dp-main">
+      <section id="dp-workspace" aria-label="Không gian làm việc mẫu">
+        <div class="dp-pagehead"><div><div class="dp-kicker">DEVORALABS / WORKSPACE</div><h1>Chỗ cho ý tưởng hay.</h1><p>Từ một ghi chú nhỏ đến ứng dụng tiếp theo.</p></div><button class="dp-button dp-button-primary cursor-interaction" id="dp-create" type="button">Tạo ý tưởng <span aria-hidden="true">+</span></button></div>
+        <article class="dp-featured">
+          <div><div class="dp-kicker">ĐANG PHÁC THẢO / 01</div><h2>Ít nhiễu hơn.<br>Nhiều dấu ấn hơn.</h2><p>Một nơi gọn gàng để gom ý tưởng, giữ nhịp sáng tạo và làm ra thứ hữu ích.</p><button class="dp-button cursor-interaction" type="button" data-project="Devora Notes">Tiếp tục với Notes <span aria-hidden="true">↗</span></button></div>
+          <div class="dp-print-art" aria-hidden="true"><div class="dp-print-back"></div><div class="dp-print-sheet"><small>DEVORA / NOTES</small><b>Small<br>ideas.<br>Big start.</b><em>BUILD SOMETHING.</em></div></div>
+        </article>
+        <div class="dp-sectionhead"><h2>Trên bàn làm việc</h2><span class="dp-smalllabel" id="dp-project-count">03 PROJECTS</span></div>
+        <div class="dp-list" id="dp-projects">
+          <article class="dp-project"><div class="dp-project-mark" aria-hidden="true">N</div><div><h3>Devora Notes</h3><p>Giữ lại những ý nghĩ chưa thành hình.</p></div><span class="dp-badge">Đang làm</span><button class="dp-project-open cursor-interaction" type="button" data-project="Devora Notes" aria-label="Xem Devora Notes">↗</button></article>
+          <article class="dp-project"><div class="dp-project-mark" aria-hidden="true">F</div><div><h3>Focus Room</h3><p>Mỗi lần tập trung, một việc trọn vẹn.</p></div><span class="dp-badge dp-badge-success">✓ Sẵn sàng</span><button class="dp-project-open cursor-interaction" type="button" data-project="Focus Room" aria-label="Xem Focus Room">↗</button></article>
+          <article class="dp-project"><div class="dp-project-mark" aria-hidden="true">S</div><div><h3>Little Shelf</h3><p>Những thứ hay ho, để dành đúng chỗ.</p></div><span class="dp-badge dp-badge-warning">◇ Ý tưởng</span><button class="dp-project-open cursor-interaction" type="button" data-project="Little Shelf" aria-label="Xem Little Shelf">↗</button></article>
+        </div>
+        <p class="dp-feedback" id="dp-status" aria-live="polite"></p>
+      </section>
+      <section id="dp-kit" aria-label="Bộ thành phần Devora Press" hidden>
+        <div class="dp-pagehead"><div><div class="dp-kicker">DEVORA PRESS / THE INGREDIENTS</div><h1>Cùng một nét riêng.</h1><p>Các thành phần để dùng xuyên suốt mọi ứng dụng.</p></div></div>
+        <div class="dp-kit-grid">
+          <section class="dp-panel dp-kitbox dp-wide"><h2>Màu nhận diện · bản sáng</h2><div class="dp-palette">
+            <div class="dp-color"><div class="dp-swatch" style="--swatch:#F4F1E8"></div><strong>Paper</strong><code>#F4F1E8</code></div><div class="dp-color"><div class="dp-swatch" style="--swatch:#202A30"></div><strong>Ink</strong><code>#202A30</code></div><div class="dp-color"><div class="dp-swatch" style="--swatch:#F36643"></div><strong>Persimmon</strong><code>#F36643</code></div><div class="dp-color"><div class="dp-swatch" style="--swatch:#2D4CF3"></div><strong>Cobalt</strong><code>#2D4CF3</code></div><div class="dp-color"><div class="dp-swatch" style="--swatch:#CAD9C9"></div><strong>Sage</strong><code>#CAD9C9</code></div><div class="dp-color"><div class="dp-swatch" style="--swatch:#F2CF69"></div><strong>Highlight</strong><code>#F2CF69</code></div>
+          </div></section>
+          <section class="dp-panel dp-kitbox"><h2>Hành động có thứ bậc</h2><div class="dp-kitrow"><button type="button" class="dp-button dp-button-primary cursor-interaction" id="dp-kit-save">Lưu thay đổi ↗</button><button type="button" class="dp-button cursor-interaction" id="dp-kit-reset">Đặt lại</button><button type="button" class="dp-button" disabled>Chưa khả dụng</button></div><label class="dp-check"><input type="checkbox" checked>Nhận cập nhật về dự án</label><p id="dp-kit-feedback" aria-live="polite">Cam dẫn dắt. Các hành động phụ giữ yên.</p></section>
+          <section class="dp-panel dp-kitbox"><h2>Trường nhập rõ ràng</h2><label class="dp-field">Tên ứng dụng<input class="dp-input" value="Devora Notes"></label><label class="dp-field">Đường dẫn<input class="dp-input" value="devora notes" aria-invalid="true" aria-describedby="dp-kit-error"><span class="dp-error" id="dp-kit-error">Dùng dấu gạch ngang: devora-notes.</span></label></section>
+          <section class="dp-panel dp-kitbox dp-wide"><h2>Phản hồi dễ nhận biết</h2><div class="dp-kitrow"><span class="dp-badge dp-badge-success">✓ Đã lưu</span><span class="dp-badge dp-badge-warning">◇ Cần kiểm tra</span><span class="dp-badge dp-badge-danger">! Chưa thể đồng bộ</span><span class="dp-badge">Đang làm</span></div><div class="dp-notice">Một nét nhận diện đủ rõ, một không gian đủ thoáng.</div></section>
+        </div>
+      </section>
+      <footer class="dp-bottomline"><span>DEVORA PRESS — BUILT WITH CHARACTER.</span><div class="dp-color-dots" aria-label="Cam, cobalt và sage"><span style="--dot:var(--dp-orange)"></span><span style="--dot:var(--dp-blue)"></span><span style="--dot:var(--dp-sage)"></span></div><span>Bản mẫu · Dữ liệu minh họa</span></footer>
+    </main>
+  </div>
+  <dialog id="dp-create-dialog" aria-labelledby="dp-create-title"><form id="dp-create-form" novalidate><h2 id="dp-create-title">Một ý tưởng mới.</h2><p>Thêm vào bản xem trước này. Nội dung chỉ giữ trong phiên.</p><label class="dp-field" for="dp-new-name">Tên ý tưởng<input class="dp-input" id="dp-new-name" name="idea" maxlength="80" autocomplete="off" aria-describedby="dp-new-error" required></label><div class="dp-error" id="dp-new-error" role="alert"></div><div class="dp-dialog-actions"><button type="button" class="dp-button cursor-interaction" id="dp-cancel">Để sau</button><button type="submit" class="dp-button dp-button-primary cursor-interaction">Thêm ý tưởng +</button></div></form></dialog>
+  <dialog id="dp-detail-dialog" aria-labelledby="dp-detail-title"><h2 id="dp-detail-title"></h2><p>Đây là nội dung minh họa cho theme Devora Press. Bạn có thể thay bằng dự án và chức năng thật của mình.</p><button class="dp-button dp-dialog-close cursor-interaction" type="button" id="dp-detail-close">Đóng</button></dialog>
+</div>
+<script>
+(() => {
+  const root = document.getElementById('devora-press-demo');
+  const appearance = root.querySelector('.dp-appearance');
+  const pages = {workspace: root.querySelector('#dp-workspace'), kit: root.querySelector('#dp-kit')};
+  const state = {appearance:'day', page:'workspace', border:2};
+  const saved = globalThis.openai?.widgetState?.modelContent;
+  if (saved && ['day','night'].includes(saved.appearance)) state.appearance = saved.appearance;
+  if (saved && Object.hasOwn(pages,saved.page)) state.page = saved.page;
+  function render() {
+    root.dataset.appearance = state.appearance;
+    root.style.setProperty('--dp-border', state.border + 'px');
+    appearance.textContent = state.appearance === 'night' ? 'Chế độ sáng ◑' : 'Chế độ tối ◐';
+    appearance.setAttribute('aria-pressed', String(state.appearance === 'night'));
+    Object.entries(pages).forEach(([name,element])=>{element.hidden = name !== state.page;});
+    root.querySelectorAll('[data-page]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.page === state.page)));
+  }
+  function remember() { globalThis.openai?.setWidgetState?.({modelContent:{appearance:state.appearance,page:state.page},privateContent:null})?.catch(()=>{}); }
+  render();
+  appearance.addEventListener('click',()=>{state.appearance = state.appearance==='day'?'night':'day';render();remember();});
+  root.querySelectorAll('[data-page]').forEach(button=>button.addEventListener('click',()=>{state.page=button.dataset.page;render();remember();}));
+  globalThis.addEventListener('openai:set_globals',event=>{
+    const incoming=event.detail?.globals?.widgetState?.modelContent;
+    if(incoming && ['day','night'].includes(incoming.appearance)) state.appearance=incoming.appearance;
+    if(incoming && Object.hasOwn(pages,incoming.page)) state.page=incoming.page;
+    render();
+  });
+  const createDialog=root.querySelector('#dp-create-dialog');
+  const form=root.querySelector('#dp-create-form');
+  const nameInput=root.querySelector('#dp-new-name');
+  const error=root.querySelector('#dp-new-error');
+  root.querySelector('#dp-create').addEventListener('click',()=>{form.reset();error.textContent='';nameInput.removeAttribute('aria-invalid');createDialog.showModal();nameInput.focus();});
+  root.querySelector('#dp-cancel').addEventListener('click',()=>createDialog.close());
+  nameInput.addEventListener('input',()=>{error.textContent='';nameInput.removeAttribute('aria-invalid');});
+  form.addEventListener('submit',event=>{
+    event.preventDefault();
+    const name=nameInput.value.trim();
+    if(!name){error.textContent='Nhập tên để giữ lại ý tưởng này.';nameInput.setAttribute('aria-invalid','true');nameInput.focus();return;}
+    const row=document.createElement('article');row.className='dp-project';
+    const mark=document.createElement('div');mark.className='dp-project-mark';mark.setAttribute('aria-hidden','true');mark.textContent='I';
+    const copy=document.createElement('div');const title=document.createElement('h3');title.textContent=name;const desc=document.createElement('p');desc.textContent='Ý tưởng mới trong phiên xem trước.';copy.append(title,desc);
+    const badge=document.createElement('span');badge.className='dp-badge dp-badge-warning';badge.textContent='◇ Ý tưởng';
+    const open=document.createElement('button');open.className='dp-project-open cursor-interaction';open.type='button';open.dataset.project=name;open.setAttribute('aria-label','Xem '+name);open.textContent='↗';
+    row.append(mark,copy,badge,open);root.querySelector('#dp-projects').append(row);
+    root.querySelector('#dp-project-count').textContent=String(root.querySelectorAll('.dp-project').length).padStart(2,'0')+' PROJECTS';
+    root.querySelector('#dp-status').textContent='Đã thêm “'+name+'” vào bản xem trước.';createDialog.close();
+  });
+  const detailDialog=root.querySelector('#dp-detail-dialog');
+  root.addEventListener('click',event=>{const button=event.target.closest('[data-project]');if(button){root.querySelector('#dp-detail-title').textContent=button.dataset.project;detailDialog.showModal();}});
+  root.querySelector('#dp-detail-close').addEventListener('click',()=>detailDialog.close());
+  root.querySelector('#dp-kit-save').addEventListener('click',()=>{root.querySelector('#dp-kit-feedback').textContent='✓ Đã nhận thao tác trong bản mẫu.';});
+  root.querySelector('#dp-kit-reset').addEventListener('click',()=>{root.querySelector('#dp-kit input:not([type=checkbox])').value='Devora Notes';root.querySelector('#dp-kit input[type=checkbox]').checked=true;root.querySelector('#dp-kit-feedback').textContent='Cam dẫn dắt. Các hành động phụ giữ yên.';});
+  if(globalThis.Tweak){const tweak=new Tweak({container:root,onChange:render});tweak.addSlider(state,'border',{label:'Độ dày viền nút',min:1,max:2,step:1,unit:'px',reference:'--dp-border'});}
+})();
+</script>
+</main></body></html>

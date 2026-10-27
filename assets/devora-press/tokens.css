@@ -1,0 +1,67 @@
+/* Devora Press v1.0. Opt-in semantic tokens; no global reset or font download. */
+[data-theme="devora-press"] {
+  color-scheme: light;
+  --dp-paper: #F4F1E8;
+  --dp-surface: #FFFDF7;
+  --dp-ink: #202A30;
+  --dp-muted: #5D6669;
+  --dp-line: #202A30;
+  --dp-line-soft: #C3C6BE;
+  --dp-orange: #F36643;
+  --dp-on-orange: #202A30;
+  --dp-orange-soft: #FBE0D5;
+  --dp-orange-text: #963B24;
+  --dp-blue: #2D4CF3;
+  --dp-on-blue: #FFFFFF;
+  --dp-blue-soft: #E5E9FF;
+  --dp-sage: #CAD9C9;
+  --dp-on-sage: #202A30;
+  --dp-yellow: #F2CF69;
+  --dp-success: #216146;
+  --dp-success-soft: #DFEFE3;
+  --dp-warning: #795200;
+  --dp-warning-soft: #FFF0C4;
+  --dp-danger: #AE303B;
+  --dp-danger-soft: #FBE6E7;
+  --dp-disabled: #E2E3DC;
+  --dp-on-disabled: #626B6D;
+  --dp-shadow-color: #202A30;
+  --dp-focus: #2D4CF3;
+  --dp-font: 'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --dp-mono: ui-monospace, 'SFMono-Regular', Consolas, monospace;
+  --dp-space-1: 4px; --dp-space-2: 8px; --dp-space-3: 12px;
+  --dp-space-4: 16px; --dp-space-6: 24px; --dp-space-8: 32px;
+  --dp-space-12: 48px; --dp-space-16: 64px;
+  --dp-radius-control: 4px; --dp-radius-panel: 8px;
+  --dp-border: 2px; --dp-shadow: 4px 4px 0 var(--dp-shadow-color);
+  --dp-motion: 120ms;
+}
+[data-theme="devora-press"][data-appearance="night"] {
+  color-scheme: dark;
+  --dp-paper: #192329;
+  --dp-surface: #232F36;
+  --dp-ink: #F4F1E8;
+  --dp-muted: #B8C2C3;
+  --dp-line: #C2CBC8;
+  --dp-line-soft: #52636B;
+  --dp-orange: #FF9677;
+  --dp-on-orange: #192329;
+  --dp-orange-soft: #442E29;
+  --dp-orange-text: #FFAA90;
+  --dp-blue: #A7B9FF;
+  --dp-on-blue: #192329;
+  --dp-blue-soft: #293654;
+  --dp-sage: #344D40;
+  --dp-on-sage: #E0EDDF;
+  --dp-yellow: #EED38A;
+  --dp-success: #9FD9B5;
+  --dp-success-soft: #263F33;
+  --dp-warning: #F2D086;
+  --dp-warning-soft: #41371E;
+  --dp-danger: #FFADB6;
+  --dp-danger-soft: #472C34;
+  --dp-disabled: #34434A;
+  --dp-on-disabled: #B3BEC1;
+  --dp-shadow-color: #0B1216;
+  --dp-focus: #A7B9FF;
+}

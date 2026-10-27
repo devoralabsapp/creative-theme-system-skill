@@ -40,3 +40,5 @@ html[data-theme="commandline"] {
 Scope theme overrides, including media and reduced-motion rules. Shared rules are allowed only when intentionally system-wide or confined to a marked family. Keep real controls semantic. Decorative rails, file labels and handles are `aria-hidden`; avoid fake Save/Export/Login controls. Keep keyboard access, focus and contrast.
 
 Fix overflow through wrapping, widths and grid minimums. Do not hide content defects with root overflow clipping; clip decorative artwork only when intentional.
+
+`devora-press-theme.css` adds the Devora Press personal theme with scoped semantic tokens and catalog-specific rules. `assets/devora-press/` holds its independent light/night showcase and portable assets; the starter catalog registers the light appearance.

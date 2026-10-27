@@ -270,6 +270,14 @@ window.STUDIO_THEMES = {
       "color": "#F3F2EE",
       "tone": "light",
       "family": "creative"
+    },
+    {
+      "id": "devora-press",
+      "name": "Devora Press",
+      "description": "Warm editorial paper, persimmon actions, cobalt details and a cut-corner signature",
+      "color": "#F4F1E8",
+      "tone": "light",
+      "family": "creative"
     }
   ]
 };
