@@ -42,3 +42,5 @@ Scope theme overrides, including media and reduced-motion rules. Shared rules ar
 Fix overflow through wrapping, widths and grid minimums. Do not hide content defects with root overflow clipping; clip decorative artwork only when intentional.
 
 `devora-press-theme.css` adds the Devora Press personal theme with scoped semantic tokens and catalog-specific rules. `assets/devora-press/` holds its independent light/night showcase and portable assets; the starter catalog registers the light appearance.
+
+`devora-duo-theme.css` adds the scoped white/red/black Signal and Folio signatures. Portable per-theme tokens are in `assets/devora-signal/` and `assets/devora-folio/`, with shared component examples in `assets/devora-signatures/`. The separate original showcases use English copy and local-only interactions.

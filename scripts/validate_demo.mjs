@@ -4,7 +4,7 @@ import {spawnSync} from 'node:child_process';
 
 const args=process.argv.slice(2);if(args.length!==1){console.error('Usage: node scripts/validate_demo.mjs <demo-directory>');process.exit(2);}
 const root=path.resolve(args[0]),errors=[];
-const files=['index.html','styles.css','themes.css','workspace-themes.css','additional-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css','demo.css','theme-registry.js','theme-bootstrap.js','themes.js','demo.js'];
+const files=['index.html','styles.css','themes.css','workspace-themes.css','additional-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css','devora-duo-theme.css','demo.css','theme-registry.js','theme-bootstrap.js','themes.js','demo.js'];
 for(const file of files)if(!existsSync(path.join(root,file)))errors.push(`Missing ${file}`);
 let registry;
 try{
@@ -15,7 +15,7 @@ try{
   if(ids.length!==new Set(ids).size)errors.push('Duplicate theme IDs.');
   if(!ids.includes(registry.defaultTheme))errors.push('Default theme missing from registry.');
   if(typeof registry.storageKey!=='string'||!registry.storageKey)errors.push('Storage key missing.');
-  const css=['themes.css','workspace-themes.css','additional-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css'].map(file=>readFileSync(path.join(root,file),'utf8')).join('\n');
+  const css=['themes.css','workspace-themes.css','additional-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css','devora-duo-theme.css'].map(file=>readFileSync(path.join(root,file),'utf8')).join('\n');
   for(const theme of registry.themes){
     if(!/^[a-z][a-z0-9-]*$/.test(theme.id))errors.push(`Invalid ID: ${theme.id}`);
     if(!theme.name||!theme.description||!/^#[a-f\d]{6}$/i.test(theme.color)||!['light','dark'].includes(theme.tone)||!['studio','workspace','seasonal','creative'].includes(theme.family))errors.push(`Invalid metadata: ${theme.id}`);

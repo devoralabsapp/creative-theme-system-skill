@@ -1,0 +1,150 @@
+/* Devora Signal: white/red/black, opt-in, fixed light appearance. */
+[data-theme="devora-signal"] {
+ color-scheme:light;
+ --dv-canvas:#FFFFFF; --dv-surface:#FFFFFF; --dv-soft:#F4F4F4;
+ --dv-ink:#141414; --dv-muted:#606060; --dv-line:#141414; --dv-line-soft:#D7D7D7;
+ --dv-red:#C81E32; --dv-on-red:#FFFFFF; --dv-red-soft:#FFF0F2;
+ --dv-inverse:#141414; --dv-on-inverse:#FFFFFF; --dv-inverse-muted:#BCBCBC; --dv-inverse-soft:#292929;
+ --dv-danger:#A31328; --dv-danger-soft:#FFF0F2;
+ --dv-disabled:#E9E9E9; --dv-on-disabled:#626262;
+ --dv-focus:#C81E32; --dv-focus-on-inverse:#FFFFFF;
+ --dv-font:'Be Vietnam Pro',system-ui,-apple-system,'Segoe UI',sans-serif;
+ --dv-mono:ui-monospace,'SFMono-Regular',Consolas,monospace;
+ --dv-radius:0px; --dv-panel-radius:0px; --dv-border:1px;
+ --dv-shadow:none; --dv-control-height:44px; --dv-row-padding:16px;
+ --dv-space-1:4px; --dv-space-2:8px; --dv-space-3:12px;
+ --dv-space-4:16px; --dv-space-6:24px; --dv-space-8:32px; --dv-space-12:48px;
+ --dv-motion:120ms;
+}
+
+/* Devora Folio: white/red/black, opt-in, fixed light appearance. */
+[data-theme="devora-folio"] {
+ color-scheme:light;
+ --dv-canvas:#FFFFFF; --dv-surface:#FFFFFF; --dv-soft:#F5F5F5;
+ --dv-ink:#141414; --dv-muted:#606060; --dv-line:#141414; --dv-line-soft:#D7D7D7;
+ --dv-red:#B91C30; --dv-on-red:#FFFFFF; --dv-red-soft:#FFF0F2;
+ --dv-inverse:#141414; --dv-on-inverse:#FFFFFF; --dv-inverse-muted:#BCBCBC; --dv-inverse-soft:#292929;
+ --dv-danger:#A31328; --dv-danger-soft:#FFF0F2;
+ --dv-disabled:#E9E9E9; --dv-on-disabled:#626262;
+ --dv-focus:#B91C30; --dv-focus-on-inverse:#FFFFFF;
+ --dv-font:'Be Vietnam Pro',system-ui,-apple-system,'Segoe UI',sans-serif;
+ --dv-mono:ui-monospace,'SFMono-Regular',Consolas,monospace;
+ --dv-radius:6px; --dv-panel-radius:12px; --dv-border:1px;
+ --dv-shadow:none; --dv-control-height:44px; --dv-row-padding:20px;
+ --dv-space-1:4px; --dv-space-2:8px; --dv-space-3:12px;
+ --dv-space-4:16px; --dv-space-6:24px; --dv-space-8:32px; --dv-space-12:48px;
+ --dv-motion:140ms;
+}
+
+/* Host adaptation: two white/red/black themes, one unchanged catalog. */
+html:is([data-theme="devora-signal"],[data-theme="devora-folio"]){
+ --paper:var(--dv-canvas);--ink:var(--dv-ink);--olive:var(--dv-red);--muted:var(--dv-muted);--line:var(--dv-line-soft);
+ --ws-panel:var(--dv-surface);--ws-top:var(--dv-canvas);--ws-soft:var(--dv-soft);--ws-muted:var(--dv-muted);
+ --ws-accent:var(--dv-red);--ws-on-accent:var(--dv-on-red);--ws-radius:var(--dv-panel-radius);--ws-shadow:none;
+ --sans:var(--dv-font);--serif:var(--dv-font);--swatch-one:var(--dv-canvas);--swatch-two:var(--dv-red);--swatch-three:var(--dv-ink);
+}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) :is(.workspace-chrome,.workspace-rail,.hero-orbit,.art-spark,.creative-mark,.round-stamp,.art-caption){display:none}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) em{font-style:normal;color:var(--dv-red)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .design-switcher{border-bottom:1px solid var(--dv-line-soft);box-shadow:none}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) #theme-select{min-height:44px;font-size:12px;border-radius:var(--dv-radius)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .header{height:100px;border-bottom:1px solid var(--dv-line)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .header .brand>span{font-size:38px;letter-spacing:-1.5px;font-weight:800}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .header .brand>svg{color:var(--dv-red)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .header nav{font-size:12px}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .nav-active:after{height:2px;background:var(--dv-red)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero h1{font-weight:800;line-height:1.17;letter-spacing:-.045em}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero h1 em{font-weight:inherit}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero-copy>p{font-size:15px;line-height:1.8}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .eyebrow{font-size:11px;letter-spacing:.04em;color:var(--dv-muted)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero-art-label{color:var(--dv-muted);font:10px var(--dv-mono);top:22px}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero-print{border:1px solid var(--dv-line);box-shadow:none;transform:none;left:8%;top:65px;width:61%;border-radius:var(--dv-radius)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero-book{border:1px solid var(--dv-line);box-shadow:none;transform:none;right:5%;top:210px;width:36%;border-radius:var(--dv-radius)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero-print figcaption{font-size:11px}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero-book figcaption{font-size:10px}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .button{border:1px solid var(--dv-line);border-radius:var(--dv-radius);min-height:44px;box-shadow:none;font-size:13px;gap:18px;padding:11px 18px;transition:background var(--dv-motion),transform var(--dv-motion)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .button.primary{background:var(--dv-red);color:var(--dv-on-red);border-color:var(--dv-red)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .button:hover{background:var(--dv-soft);color:var(--dv-ink);filter:none;transform:none}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .button.primary:hover{background:var(--dv-inverse);border-color:var(--dv-inverse);color:var(--dv-on-inverse)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .button:active{transform:translateY(1px)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .benefits-inner>span{font-size:11px}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .filter{min-height:44px;border-radius:var(--dv-radius);font-size:12px;color:var(--dv-ink)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .filter.active{background:var(--dv-red-soft);color:var(--dv-red);border-color:var(--dv-red)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .search{min-height:44px;border-radius:var(--dv-radius)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .search input{font-size:16px;width:170px}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .sort select{min-height:44px;font-size:11px;max-width:160px;border-radius:var(--dv-radius)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .section-top h2{font-size:32px;font-weight:700}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .section-top>p{font-size:13px}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .product{box-shadow:none}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .product:hover{transform:none}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .product h3{font-size:21px;font-weight:700}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .product-category{font-size:10px;color:var(--dv-muted)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .product-desc{font-size:13px}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .product-label{font-size:10px;border-radius:var(--dv-radius);border-color:var(--dv-line-soft)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .product-open{border-radius:var(--dv-radius);background:var(--dv-red);color:var(--dv-on-red)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) :is(.feature-copy>p,.story-copy>p,.steps p,.faq-items p){font-size:14px;line-height:1.8}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .feature-details{font-size:13px}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .feature-tab{font-size:10px}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .faq-items summary{font-size:14px;min-height:44px}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .footer-main p,:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .footer-bottom{font-size:11px}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) dialog{background:var(--dv-surface);border:1px solid var(--dv-line);border-radius:var(--dv-panel-radius);box-shadow:none}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) dialog p{font-size:14px}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) :is(button,a,input,select,summary):focus-visible{outline:3px solid var(--dv-focus);outline-offset:3px}
+/* Signal is a flat workbench, not a window imitation. */
+html[data-theme="devora-signal"]{--ws-radius:0px}
+[data-theme="devora-signal"] .announcement{background:var(--dv-inverse);color:var(--dv-on-inverse);font:11px var(--dv-mono)}
+[data-theme="devora-signal"] .hero{grid-template-columns:1.05fr .95fr;gap:40px;min-height:550px;padding-block:40px;border-bottom:2px solid var(--dv-line)}
+[data-theme="devora-signal"] .hero h1{font-size:clamp(48px,5.2vw,72px)}
+[data-theme="devora-signal"] .hero-art{height:430px;background:var(--dv-soft);border:1px solid var(--dv-line);border-left:10px solid var(--dv-red);border-radius:0;box-shadow:none}
+[data-theme="devora-signal"] .product-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+[data-theme="devora-signal"] .product{border:0;border-top:2px solid var(--dv-line);padding-top:12px;padding-bottom:18px;border-radius:0}
+[data-theme="devora-signal"] .product-image{border:1px solid var(--dv-line-soft)}
+[data-theme="devora-signal"] .product-meta,[data-theme="devora-signal"] .product-desc{padding-inline:0}
+[data-theme="devora-signal"] .feature{border:1px solid var(--dv-line);border-left:10px solid var(--dv-red);box-shadow:none}
+[data-theme="devora-signal"] .closing{background:var(--dv-inverse);color:var(--dv-on-inverse);border:0;box-shadow:none}
+[data-theme="devora-signal"] .closing p{color:var(--dv-inverse-muted);font-size:13px}
+[data-theme="devora-signal"] .closing em{color:var(--dv-on-inverse)}
+[data-theme="devora-signal"] .closing>span{color:var(--dv-on-inverse)}
+[data-theme="devora-signal"] .closing .button:focus-visible{outline-color:var(--dv-focus-on-inverse)}
+/* Folio is an airy editorial spread, with soft corners and a bookmark spine. */
+[data-theme="devora-folio"] .announcement{background:var(--dv-canvas);color:var(--dv-muted);border-bottom:1px solid var(--dv-line-soft);font-size:11px}
+[data-theme="devora-folio"] .hero{grid-template-columns:1.2fr .8fr;gap:54px;min-height:590px;padding-block:58px}
+[data-theme="devora-folio"] .hero h1{font-weight:600;font-size:clamp(52px,5.7vw,80px)}
+[data-theme="devora-folio"] .hero-art{height:440px;background:var(--dv-soft);border:1px solid var(--dv-line-soft);border-left:9px solid var(--dv-red);border-radius:0 16px 16px 0;box-shadow:none}
+[data-theme="devora-folio"] .hero-print{transform:rotate(-3deg)}
+[data-theme="devora-folio"] .hero-book{transform:rotate(4deg)}
+[data-theme="devora-folio"] .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+[data-theme="devora-folio"] .product{border:1px solid var(--dv-line-soft);border-radius:12px;padding-bottom:22px}
+[data-theme="devora-folio"] .feature{border:1px solid var(--dv-line-soft);border-radius:12px;box-shadow:none}
+[data-theme="devora-folio"] .closing{background:var(--dv-soft);border:0;border-left:4px solid var(--dv-red);border-radius:0 12px 12px 0;box-shadow:none}
+[data-theme="devora-folio"] .closing p{color:var(--dv-muted);font-size:13px}
+@media(max-width:800px){
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero{gap:26px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero h1{font-size:clamp(42px,6.6vw,60px)}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero-art{height:355px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero-book{top:180px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero-art-label{font-size:8px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .tools{flex-wrap:wrap;justify-content:flex-start}
+ [data-theme="devora-signal"] .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:570px){
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .wrap{width:calc(100% - 32px)}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .header{height:82px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero{grid-template-columns:1fr;gap:28px;padding-block:30px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero h1{font-size:clamp(42px,11vw,58px);line-height:1.2}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero-art{height:345px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero-print{top:55px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .hero-book{top:173px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .filters{flex-wrap:wrap}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .filter{padding:8px 10px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .tools{width:100%;min-width:0;gap:12px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .search{flex-basis:100%}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .search input{min-width:0;width:100%;max-width:none}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .product-grid{grid-template-columns:1fr;gap:22px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .product h3{font-size:22px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .product-label{font-size:11px;padding:5px 8px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .feature-copy{padding:24px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .section-top h2{font-size:28px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .header .menu-toggle{width:44px;height:44px;padding:10px}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .back-top{width:44px;height:44px}
+}
+@media(prefers-reduced-motion:reduce){:is([data-theme="devora-signal"],[data-theme="devora-folio"]) *,:is([data-theme="devora-signal"],[data-theme="devora-folio"]) *:before,:is([data-theme="devora-signal"],[data-theme="devora-folio"]) *:after{transition:none!important;animation:none!important}}

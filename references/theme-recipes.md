@@ -1,4 +1,4 @@
-# Twenty-nine theme recipes
+# Thirty-one theme recipes
 
 Adapt these visual recipes to the host app. Executable references are in `assets/starter/`; names express inspiration, not exact third-party replicas.
 
@@ -35,6 +35,9 @@ Adapt these visual recipes to the host app. Executable references are in `assets
 
 | `sac-01` | Paper `#F3F2EE`, black `#111111`, white, gray `#D8D8D5`, red `#E3322B`; Arial Black + Manrope | Square retro windows, 2px borders, 3–6px hard shadows, bold type and small red accents. See [full signature recipe](sac-01.md). |
 | `devora-press` | Paper `#F4F1E8`, ink `#202A30`, persimmon `#F36643`, cobalt `#2D4CF3`, sage `#CAD9C9`; Be Vietnam Pro | Warm editorial modules, cut-corner D signature, cobalt chapter rules, 2px principal borders, 4/8px radii and selective 4px hard shadows. See [full signature recipe](devora-press.md), including portable light/night tokens. |
+
+| `devora-signal` | White `#FFFFFF`, red `#C81E32`, black `#141414`; Be Vietnam Pro | Flat workbench, black navigation rail, red index tab, ruled rows and square controls. See [signature recipes](devora-signatures.md). |
+| `devora-folio` | White `#FFFFFF`, red `#B91C30`, black `#141414`; Be Vietnam Pro | Airy editorial composition, red notebook spine, black featured strip, top navigation and soft corners. See [signature recipes](devora-signatures.md). |
 
 ## Token mapping
 

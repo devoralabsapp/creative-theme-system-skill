@@ -1,0 +1,26 @@
+/* Shared semantic examples for Signal and Folio. No app-wide reset. */
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .dv-button {
+ display:inline-flex;align-items:center;justify-content:center;gap:16px;
+ min-height:var(--dv-control-height);padding:11px 17px;
+ border:var(--dv-border) solid var(--dv-line);border-radius:var(--dv-radius);
+ background:var(--dv-surface);color:var(--dv-ink);box-shadow:var(--dv-shadow);
+ font:600 13px/1.5 var(--dv-font);text-decoration:none;
+ transition:background var(--dv-motion),transform var(--dv-motion);
+}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .dv-primary {background:var(--dv-red);color:var(--dv-on-red);border-color:var(--dv-red)}
+@media(hover:hover){
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .dv-button:not(:disabled):hover {background:var(--dv-soft)}
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .dv-primary:not(:disabled):hover {background:var(--dv-ink);color:var(--dv-on-inverse);border-color:var(--dv-ink)}
+}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .dv-button:not(:disabled):active {transform:translateY(1px)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .dv-button:disabled {background:var(--dv-disabled);color:var(--dv-on-disabled);border-color:var(--dv-line-soft);cursor:not-allowed}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) :is(button,a,input,textarea,select,summary):focus-visible {outline:3px solid var(--dv-focus);outline-offset:3px}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .dv-field {display:grid;gap:8px;font:500 13px/1.5 var(--dv-font);color:var(--dv-ink)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .dv-input {width:100%;min-width:0;min-height:44px;padding:10px 12px;background:var(--dv-surface);color:var(--dv-ink);border:1px solid var(--dv-line);border-radius:var(--dv-radius);font:400 16px/1.5 var(--dv-font)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .dv-input[aria-invalid="true"] {border:2px solid var(--dv-danger)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .dv-error {color:var(--dv-danger);font-size:13px}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .dv-status {display:inline-flex;gap:6px;align-items:center;border:1px solid var(--dv-line-soft);border-radius:var(--dv-radius);padding:4px 8px;background:var(--dv-surface);color:var(--dv-ink);font:500 11px/1.5 var(--dv-font)}
+:is([data-theme="devora-signal"],[data-theme="devora-folio"]) .dv-status-active {background:var(--dv-red-soft);color:var(--dv-red);border-color:var(--dv-red)}
+@media(prefers-reduced-motion:reduce){
+ :is([data-theme="devora-signal"],[data-theme="devora-folio"]) .dv-button {transition:none;transform:none!important}
+}

@@ -278,6 +278,22 @@ window.STUDIO_THEMES = {
       "color": "#F4F1E8",
       "tone": "light",
       "family": "creative"
+    },
+    {
+      "id": "devora-signal",
+      "name": "Devora Signal",
+      "description": "White workbench, red index tabs, black utility rail and square controls",
+      "color": "#FFFFFF",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "devora-folio",
+      "name": "Devora Folio",
+      "description": "White editorial space, red notebook spines, black feature band and soft corners",
+      "color": "#FFFFFF",
+      "tone": "light",
+      "family": "creative"
     }
   ]
 };

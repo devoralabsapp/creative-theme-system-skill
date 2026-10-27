@@ -1,0 +1,18 @@
+/* Devora Signal: white/red/black, opt-in, fixed light appearance. */
+[data-theme="devora-signal"] {
+ color-scheme:light;
+ --dv-canvas:#FFFFFF; --dv-surface:#FFFFFF; --dv-soft:#F4F4F4;
+ --dv-ink:#141414; --dv-muted:#606060; --dv-line:#141414; --dv-line-soft:#D7D7D7;
+ --dv-red:#C81E32; --dv-on-red:#FFFFFF; --dv-red-soft:#FFF0F2;
+ --dv-inverse:#141414; --dv-on-inverse:#FFFFFF; --dv-inverse-muted:#BCBCBC; --dv-inverse-soft:#292929;
+ --dv-danger:#A31328; --dv-danger-soft:#FFF0F2;
+ --dv-disabled:#E9E9E9; --dv-on-disabled:#626262;
+ --dv-focus:#C81E32; --dv-focus-on-inverse:#FFFFFF;
+ --dv-font:'Be Vietnam Pro',system-ui,-apple-system,'Segoe UI',sans-serif;
+ --dv-mono:ui-monospace,'SFMono-Regular',Consolas,monospace;
+ --dv-radius:0px; --dv-panel-radius:0px; --dv-border:1px;
+ --dv-shadow:none; --dv-control-height:44px; --dv-row-padding:16px;
+ --dv-space-1:4px; --dv-space-2:8px; --dv-space-3:12px;
+ --dv-space-4:16px; --dv-space-6:24px; --dv-space-8:32px; --dv-space-12:48px;
+ --dv-motion:120ms;
+}

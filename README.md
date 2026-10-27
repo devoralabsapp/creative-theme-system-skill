@@ -1,6 +1,6 @@
 # Creative Theme System — AI Agent Skill
 
-A portable skill for creating and integrating **29 selectable website themes**, with working CSS, a safe starter generator, and a complete browser demo. Instructions are in English so different AI agents can reuse them.
+A portable skill for creating and integrating **31 selectable website themes**, with working CSS, a safe starter generator, and a complete browser demo. Instructions are in English so different AI agents can reuse them.
 
 **Entry point: [SKILL.md](SKILL.md).** Any agent with filesystem access can read it; agents with an existing application should follow the integration path rather than replacing the app.
 
@@ -11,7 +11,7 @@ A portable skill for creating and integrating **29 selectable website themes**, 
 | **Studio** — original art direction | 5 | Botanical (natural), Editorial (magazine), Playroom (soft playful), Midnight (dark elegant), Playful Retro Neo-Brutalism (pastel outlines) |
 | **Workspace** — familiar software environments | 9 | Command line, Visual Studio Code, Excel, Canva, Figma, Photoshop, File Explorer, Notion, Burp Suite |
 | **Holiday** — seasonal and cultural celebrations | 3 | Halloween, Christmas, Tết Holiday |
-| **Creative Lab** — experimental material and layout studies | 12 | Riso Post Office, Tidal Atlas, Type Foundry, Solar Glasshouse, Velvet Orbit, Porcelain Index, Magnetic Poetry, Infrared Herbarium, Night Transit, Paper Circuit, SẮC / 01, Devora Press |
+| **Creative Lab** — experimental material and layout studies | 14 | Riso Post Office, Tidal Atlas, Type Foundry, Solar Glasshouse, Velvet Orbit, Porcelain Index, Magnetic Poetry, Infrared Herbarium, Night Transit, Paper Circuit, SẮC / 01, Devora Press, Devora Signal, Devora Folio |
 
 Workspace subgroups: **developer & utility** (Command line, Visual Studio Code, Burp Suite); **documents & organization** (Excel, File Explorer, Notion); **design tools** (Canva, Figma, Photoshop). Existing theme IDs and the Botanical default are preserved.
 
@@ -69,6 +69,21 @@ Ten material-led directions, with scoped tokens, responsive compositions and the
 [Shared catalog preview](docs/screenshots/devora-press-catalog.png) · [Night appearance](docs/screenshots/devora-press-night.png) · [Mobile layout](docs/screenshots/devora-press-mobile.png)
 
 Devora Press verification: the original showcase passed layout checks at 320, 390, 768, 1024 and 1168px in both appearances and both views. All 28 designated text/background token pairs reached at least 4.73:1 contrast. Idea creation, empty-name validation, Vietnamese and special-character input, Escape dismissal, focus restoration and reduced motion were exercised. The catalog passed layout checks at 320, 390, 768, 1024 and 1440px, all 29 theme transitions with search preserved, URL/hash preservation, reload, dialogs, empty state and mobile navigation. These checks cover the supplied samples, not every future host application.
+
+## Devora Signal and Devora Folio
+
+Two white/red/black personal signatures with English interface copy. [Read their design and integration rules](references/devora-signatures.md).
+
+| Devora Signal | Devora Folio |
+| --- | --- |
+| **30 · Signal:** a square, flat workbench with a black rail, red index tab and ruled project rows. | **31 · Folio:** an open editorial workspace with top navigation, a red notebook spine and soft collection cards. |
+| [![Devora Signal original workspace](docs/screenshots/devora-signal.png)](docs/screenshots/devora-signal.png) | [![Devora Folio original workspace](docs/screenshots/devora-folio.png)](docs/screenshots/devora-folio.png) |
+
+Serve the repository root and open `assets/devora-signal/index.html` or `assets/devora-folio/index.html` for their original interactive showcases. Both appear in the Creative Lab catalog dropdown. Portable tokens and shared component CSS are included; the previous default and all existing themes remain available.
+
+[Signal mobile](docs/screenshots/devora-signal-mobile.png) · [Folio mobile](docs/screenshots/devora-folio-mobile.png)
+
+Signal/Folio verification: both original showcases passed horizontal layout and text-bound checks at 320, 390, 768, 1024 and 1168px in their workspace and component views (20 combinations). All 20 designated text/background pairs reached at least 5.15:1 contrast. Idea creation, empty-name errors, long and special-character titles, slug validation/reset, dialogs, Escape, return focus, visible focus and reduced motion were exercised. Both catalog adaptations passed at 320, 390, 768, 1024 and 1440px with sample images loaded. All 31 theme transitions preserved search, filter and sort; stored selection, mobile navigation, dialogs and empty states were checked for the two additions. These checks apply to the supplied examples, not arbitrary future host apps.
 
 ## Use with an AI agent
 
