@@ -39,6 +39,10 @@ The default root page is the comparison shell. Both previews stay mounted, so sw
 
 The preview bridge accepts messages only from the known same-origin child windows or their own parent, and validates theme IDs against the registry. It sizes frames to their contents and forwards local anchors/back-to-top. These are demo mechanics. An existing app should adapt tokens and layout principles through its current provider, not embed the entire explorer.
 
+The shell dropdown is the single selection authority. Applying a theme inside a preview must not echo that selection back to the shell: delayed echoes can replay obsolete choices and cause an update loop. An explicit theme change reveals the new composition from the top while preserving project/filter state. Switching tabs without changing themes retains each tab's scroll position.
+
+The outer page owns scrolling. Embedded previews grow to fit their complete body, including a small rounding allowance, and do not have independent scrollbars. Hidden previews do not publish zero-width layout measurements. Verify the full content fits before suppressing embedded scrolling; standalone previews retain normal document scrolling.
+
 ## Seven experimental identity recipes
 
 ### Index Bureau — `index-bureau`

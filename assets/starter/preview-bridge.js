@@ -10,12 +10,14 @@
  document.documentElement.dataset.embedded='true';
  const send=message=>window.parent.postMessage(message,location.origin==='null'?'*':location.origin);
  let scheduled=false,lastHeight=0;
- function measure(){if(scheduled)return;scheduled=true;requestAnimationFrame(()=>{scheduled=false;const height=Math.ceil(document.body.getBoundingClientRect().height);if(height>=100&&height!==lastHeight){lastHeight=height;send({type:'theme-preview:height',height});}});}
+ function measure(){if(scheduled)return;scheduled=true;requestAnimationFrame(()=>{scheduled=false;if(!document.body.getClientRects().length||document.body.getBoundingClientRect().width===0)return;const height=Math.ceil(document.body.getBoundingClientRect().height)+2;if(height>=100&&height!==lastHeight){lastHeight=height;send({type:'theme-preview:height',theme:selector.value,height});}});}
  new ResizeObserver(measure).observe(document.body);window.addEventListener('load',measure);document.fonts.ready.then(measure);
- selector.addEventListener('change',()=>{send({type:'theme-preview:theme',theme:selector.value});measure();});
+ // The shell owns selection. Applying it here must never echo an older choice back.
+ selector.addEventListener('change',measure);
+ for(const type of ['wheel','touchstart'])window.addEventListener(type,()=>send({type:'theme-preview:scroll-intent',theme:selector.value}),{passive:true});
  window.addEventListener('message',event=>{
   if(event.source!==window.parent||event.origin!==location.origin||!event.data)return;const message=event.data;
-  if(message.type==='theme-explorer:theme'&&valid(message.theme)&&selector.value!==message.theme){selector.value=message.theme;selector.dispatchEvent(new Event('change',{bubbles:true}));}
+  if(message.type==='theme-explorer:theme'&&valid(message.theme)&&selector.value!==message.theme){selector.value=message.theme;selector.dispatchEvent(new Event('change',{bubbles:true}));lastHeight=0;}
   if(message.type==='theme-explorer:measure'){lastHeight=0;measure();}else if(message.type==='theme-explorer:theme')measure();
   if(message.type==='theme-explorer:viewport'&&Number.isFinite(message.top)&&message.top>=0&&message.top<100000&&Number.isFinite(message.height)&&message.height>=120&&message.height<10000){document.documentElement.style.setProperty('--preview-dialog-top',message.top+'px');document.documentElement.style.setProperty('--preview-dialog-height',message.height+'px');}
   if(message.type==='theme-explorer:anchor'&&typeof message.hash==='string'&&/^#[a-zA-Z][\w-]*$/.test(message.hash)){document.fonts.ready.then(()=>{const target=document.getElementById(message.hash.slice(1));if(target)send({type:'theme-preview:anchor',hash:message.hash,offset:target.getBoundingClientRect().top+window.scrollY});});}
