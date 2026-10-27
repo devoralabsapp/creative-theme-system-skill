@@ -1,12 +1,12 @@
-# Design Lab — all thirty-eight themes
+# Design Lab — all thirty-nine themes
 
-Use when the user wants to compare or adapt any theme in the all-theme Design Lab. The seven newest experimental directions retain their original compositions. The original 31 themes now have family-specific working layouts and their existing palettes, fonts and material cues. All interface copy is English.
+Use when the user wants to compare or adapt any theme in the all-theme Design Lab. The seven experimental directions retain their original compositions. The 28 non-holiday original styles retain their established identities; Halloween, Christmas, Tết and Black Friday have separate holiday compositions. All interface copy is English.
 
 ## Choose the right resource
 
-- **Working reference:** `assets/starter/lab/` is an original browser-local project workspace. Open `/?theme=<id>` on the hosted demo, or serve `assets/starter/` locally and open `/`. All 38 layouts share the same in-memory project records, filters, query, bookmarks and selection. The neighboring Website Demo tab uses the same selected theme and retains its own catalog state. The previous `/lab/` route still works. Refresh intentionally resets project changes. The workspace makes no network writes and does not read the filesystem, play audio or simulate unavailable services.
+- **Working reference:** `assets/starter/lab/` is an original browser-local project workspace. Open `/?theme=<id>` on the hosted demo, or serve `assets/starter/` locally and open `/`. All 39 layouts share the same in-memory project records, filters, query, bookmarks and selection. The neighboring Website Demo tab uses the same selected theme and retains its own catalog state. The previous `/lab/` route still works. Refresh intentionally resets project changes. The workspace makes no network writes and does not read the filesystem, play audio or simulate unavailable services.
 - **Existing shared catalog:** `assets/starter/avant-theme.css` adapts each direction to the existing product catalog while preserving its real controls and business state. Both views use the same stable theme IDs. The website remains accessible directly at `website.html`, or through the shell with `?view=website`.
-- **Canonical semantic tokens:** `assets/starter/lab/tokens.css` defines the common roles and seven newest palettes; `lab/profiles.css` defines the original 31 identities. These include canvas, surface, foreground, muted foreground, structural/soft borders, accent/on-accent, focus, radius, shadow, display/body/metadata type and motion. Import only the selected theme's tokens or translate them into the host provider.
+- **Canonical semantic tokens:** `assets/starter/lab/tokens.css` defines the common roles and seven experimental palettes; `lab/profiles.css` defines the original non-holiday identities. These include canvas, surface, foreground, muted foreground, structural/soft borders, accent/on-accent, focus, radius, shadow, display/body/metadata type and motion. Import only the selected theme's tokens or translate them into the host provider.
 - **Original layout examples:** `lab.css` and the named renderers in `lab.js` demonstrate composition. Their generic selectors are isolated to the Lab page. Do not import its global reset, session controller or HTML renderers into a production app wholesale.
 
 ## Original theme composition families
@@ -23,7 +23,10 @@ Use when the user wants to compare or adapt any theme in the all-theme Design La
 | Artboard workspace | Canva, Figma, Photoshop |
 | Folder collection | File Explorer |
 | Personal document | Notion |
-| Seasonal working collection | Halloween, Christmas, Tết Holiday |
+| Moonlit curiosity cabinet | Halloween |
+| Evergreen paper room and gift-wrapped notes | Christmas |
+| Lacquer-red house and lucky-envelope notes | Tết Holiday |
+| Typographic poster and receipt-shaped working index | Black Friday |
 | Publication specimens | Riso Post Office, Type Foundry |
 | Spatial construction | Tidal Atlas, Night Transit, Paper Circuit |
 | Loose note desk | Magnetic Poetry |
@@ -32,6 +35,8 @@ Use when the user wants to compare or adapt any theme in the all-theme Design La
 | Personal signature layouts | Devora Press, Devora Signal, Devora Folio |
 
 Read their existing entries in `theme-recipes.md` and the dedicated signature references for identity constraints. `profile-layouts.css` preserves differences inside a family: artboards vary from cyan/purple creative space to purple selection canvas to charcoal checkerboard; seasonal cues are static and never choose dates automatically. Command line remains monochrome. No layout implies real spreadsheet editing, executable shell commands, scanning, file access or third-party integrations.
+
+Read [holidays.md](holidays.md) for the four distinct holiday compositions and their canonical palette source, `holiday-tokens.css`.
 
 ## Two-tab preview behavior
 

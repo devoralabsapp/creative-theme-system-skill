@@ -4,8 +4,9 @@ import {spawnSync} from 'node:child_process';
 
 const args=process.argv.slice(2);if(args.length!==1){console.error('Usage: node scripts/validate_demo.mjs <demo-directory>');process.exit(2);}
 const root=path.resolve(args[0]),errors=[];
-const files=['index.html','website.html','explorer.css','explorer.js','theme-picker.js','assets/devoralabs-mark.svg','preview-bridge.css','preview-bridge.js','styles.css','themes.css','workspace-themes.css','additional-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css','devora-duo-theme.css','avant-theme.css','demo.css','theme-registry.js','theme-bootstrap.js','themes.js','demo.js','lab/index.html','lab/tokens.css','lab/profiles.css','lab/profile-layouts.css','lab/lab.css','lab/lab.js'];
+const files=['index.html','website.html','explorer.css','explorer.js','theme-picker.js','assets/devoralabs-mark.svg','preview-bridge.css','preview-bridge.js','styles.css','themes.css','workspace-themes.css','additional-themes.css','holiday-tokens.css','holiday-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css','devora-duo-theme.css','avant-theme.css','demo.css','theme-registry.js','theme-bootstrap.js','themes.js','demo.js','lab/index.html','lab/tokens.css','lab/profiles.css','lab/profile-layouts.css','lab/holiday-layouts.css','lab/lab.css','lab/lab.js'];
 for(const file of files)if(!existsSync(path.join(root,file)))errors.push(`Missing ${file}`);
+for(const id of ['halloween','christmas','tet','black-friday'])if(!existsSync(path.join(root,'assets/holidays',id+'.svg')))errors.push(`Missing holiday scene: ${id}`);
 let registry;
 try{
   const raw=readFileSync(path.join(root,'theme-registry.js'),'utf8'),match=raw.match(/^window\.STUDIO_THEMES\s*=\s*([\s\S]*);\s*$/);
@@ -15,7 +16,7 @@ try{
   if(ids.length!==new Set(ids).size)errors.push('Duplicate theme IDs.');
   if(!ids.includes(registry.defaultTheme))errors.push('Default theme missing from registry.');
   if(typeof registry.storageKey!=='string'||!registry.storageKey)errors.push('Storage key missing.');
-  const css=['themes.css','workspace-themes.css','additional-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css','devora-duo-theme.css','avant-theme.css'].map(file=>readFileSync(path.join(root,file),'utf8')).join('\n');
+  const css=['themes.css','workspace-themes.css','additional-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css','devora-duo-theme.css','avant-theme.css','holiday-themes.css'].map(file=>readFileSync(path.join(root,file),'utf8')).join('\n');
   for(const theme of registry.themes){
     if(!/^[a-z][a-z0-9-]*$/.test(theme.id))errors.push(`Invalid ID: ${theme.id}`);
     if(!theme.name||!theme.description||!/^#[a-f\d]{6}$/i.test(theme.color)||!['light','dark'].includes(theme.tone)||!['studio','workspace','seasonal','creative'].includes(theme.family))errors.push(`Invalid metadata: ${theme.id}`);

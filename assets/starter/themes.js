@@ -9,8 +9,18 @@
       const option=document.createElement('option');option.value=theme.id;option.textContent=theme.name;group.append(option);
     });select.append(group);
   }
+  const heroNodes=[document.querySelector('#hero-title'),document.querySelector('.hero-copy>.eyebrow'),document.querySelector('.hero-copy>p'),document.querySelector('.hero-note')];
+  const originalHero=heroNodes.map(node=>node.innerHTML);
+  const holidays={
+    halloween:['Little things.<br><em>A little strange.</em>','HALLOWEEN / THE CURIOSITY CABINET','For curious plans, peculiar discoveries and stories that stay with you after dark.','Keep the wonderfully unexpected.'],
+    christmas:['Good things.<br><em>Wrapped with care.</em>','CHRISTMAS / THE GIVING ROOM','Thoughtful resources for small moments, warm gatherings and a little room to create.','A little thought goes a long way.'],
+    tet:['Welcome<br><em>new beginnings.</em>','TẾT / A FRESH CHAPTER','Gather what matters. Make room for fresh plans, familiar warmth and good things to grow.','Fresh starts. Good fortune. Room to grow.'],
+    'black-friday':['BIG IDEAS.<br><em>BLACK FRIDAY.</em>','THE CREATIVE EDIT / DEVORA EDITION','A bold collection of tools for the plans you are making and the things you want to create.','Find your next good direction.']
+  };
+  function decorateHoliday(id){const copy=holidays[id];heroNodes.forEach((node,index)=>node.innerHTML=copy?copy[index]:originalHero[index]);if(copy)document.querySelector('.holiday-scene').src=`assets/holidays/${id}.svg`;}
   function applyTheme(id,{save=true,url=true}={}){
     const theme=byId.get(id)||byId.get(config.defaultTheme),root=document.documentElement;
+    decorateHoliday(theme.id);
     root.dataset.theme=theme.id;root.dataset.workspace=String(theme.family!=='studio');root.dataset.family=theme.family;root.dataset.tone=theme.tone;select.value=theme.id;
     document.querySelector('#design-description').textContent=theme.description;
     document.querySelector('#theme-status').textContent=`Selected theme: ${theme.name}`;

@@ -1,4 +1,4 @@
-# Thirty-eight theme recipes
+# Thirty-nine theme recipes
 
 Adapt these visual recipes to the host app. Executable references are in `assets/starter/`; names express inspiration, not exact third-party replicas.
 
@@ -18,9 +18,10 @@ Adapt these visual recipes to the host app. Executable references are in `assets
 | `file-explorer` | Light blue-white `#f3f6fb`, white panels, folder yellow `#f6d56b`, blue `#2865b1`; Manrope | Breadcrumb/address strip, yellow folder-tab hero, file-style tiles and restrained rounded controls. |
 | `notion` | Warm white `#fbfaf7`, charcoal `#32312e`, paper gray `#efede7`; Manrope | Quiet page breadcrumbs, minimal document cards, thin borders, two-column gallery and low visual noise. |
 | `burpsuite` | Charcoal `#202124`, panels `#2b2c30`, orange `#ff9868`; monospace headings | Utility tabs, orange selection rules, dense metadata and a resource preview frame. Visual styling only: no scanning, interception or network tooling. |
-| `halloween` | Midnight plum `#191322`, pumpkin orange `#ffb162`, purple panels `#352241`; Fredoka + Nunito | Original pumpkin line drawing, dotted night canvas, rounded autumn cards and playful stamps. No flashing or frightening effects. |
-| `christmas` | Ivory `#faf7ef`, evergreen `#23523e`, red `#a8493e`, gold `#dec58d`; Playfair Display | Golden stars, evergreen arch, warm paper previews and ribbon accents; static snow-like speckles. |
-| `tet` | Cream `#fff5e8`, lacquer red `#b53830`, gold `#f2cc6f`, blossom pink; Playfair Display | Vietnamese New Year red/gold arch, apricot/peach blossom cues and “CHÚC MỪNG NĂM MỚI”. Preserve accents and avoid a hard-coded year or date. |
+| `halloween` | Midnight plum `#151019`, pumpkin `#FFAB4A`, lilac; Fredoka + Nunito | Moonlit curiosity cabinet, original pumpkin/ghost illustration, arched note cards and orange count tile. See [holiday recipes](holidays.md). |
+| `christmas` | Paper `#F5F1E8`, forest `#183F35`, ribbon `#A92F3A`; Playfair Display + DM Sans | Evergreen paper-tree room, selected-note letter and gift-wrapped cards. See [holiday recipes](holidays.md). |
+| `tet` | Lacquer red `#A6222B`, cream `#FFF1D0`, gold `#F4D17B`; Playfair Display + Be Vietnam Pro | Apricot blossoms, lucky envelopes and bánh chưng artwork; gold-seal project notes and a cream selected panel. English demo copy; no fixed year. See [holiday recipes](holidays.md). |
+| `black-friday` | Black `#101010`, paper `#F5F3EB`, vivid red `#FF4B3E`; heavy Be Vietnam Pro | Oversized poster type, receipt-shaped notes, decorative barcode and ruled index. No invented offers, urgency or checkout. See [holiday recipes](holidays.md). |
 
 | `riso-post` | Riso Post Office: `#f6eddb`, accent `#c43e2d`; Manrope | Perforated stamp frames, diagonal ink hatching, offset type shadow and dashed postal cards. |
 | `tidal-atlas` | Tidal Atlas: `#eaf2ed`, accent `#236c77`; Playfair Display | Original SVG depth contours, calibrated chart grid, coordinates and double-rule borders. |

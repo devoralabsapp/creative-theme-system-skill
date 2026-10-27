@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 460" fill="none">
+ <circle cx="275" cy="208" r="169" fill="#D7B6E7"/>
+ <circle cx="313" cy="168" r="119" fill="#E8D0EB"/><path d="M426 98c-38 8-55 44-35 77-42-7-64-56-42-88 22-29 62-29 77 11Z" fill="#FFF0BC"/>
+ <path d="m94 122 22 11 8-24 13 32 34-4-22 26 1 27-26-18-26 8 10-26Z" fill="#24192D"/>
+ <path d="m347 80 18 3 2-17 12 20 22-4-13 18 5 17-19-8-16 10 2-19Z" fill="#24192D"/>
+ <path d="M156 351c-20-64 12-153 81-149 53-29 107 26 109 80 39 60-5 116-61 111-45 27-120 8-129-42Z" fill="#F78832" stroke="#3B2231" stroke-width="5"/>
+ <path d="M235 206c-30 38-43 134-6 184M267 206c33 42 45 139 12 186" stroke="#B74C26" stroke-width="5"/>
+ <path d="M237 207c-4-23 5-43 27-48l16 19c-18-1-28 10-26 29" fill="#788650" stroke="#3B2231" stroke-width="4"/>
+ <path d="m184 270 32-21 10 35Zm91 13 10-34 30 23Zm-64 53 22 10 16-14 18 13 24-13-14 31-49 1Z" fill="#3B2231"/>
+ <path d="M81 304c-3-36 48-44 54-9l11 63-19-7-12 15-17-16-15 7Z" fill="#FFF4DA" stroke="#3B2231" stroke-width="4"/>
+ <ellipse cx="102" cy="309" rx="3" ry="6" fill="#3B2231"/><ellipse cx="119" cy="307" rx="3" ry="6" fill="#3B2231"/>
+ <path d="m415 263 5 13 14 1-11 9 3 14-12-8-12 8 4-14-11-9 14-1Z" fill="#FFF0BC"/>
+ <path d="M77 398h356" stroke="#A580B2" stroke-width="2" stroke-dasharray="3 9"/>
+ <circle cx="169" cy="78" r="4" fill="#FFAB4A"/><circle cx="431" cy="205" r="4" fill="#FFAB4A"/><path d="M73 215v20m-10-10h20M376 363v20m-10-10h20" stroke="#FFF0BC" stroke-width="3"/>
+</svg>

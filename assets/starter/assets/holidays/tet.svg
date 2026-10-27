@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 460" fill="none">
+ <defs><g id="blossom"><ellipse cy="-13" rx="10" ry="15" fill="#F7D780"/><ellipse cy="-13" rx="10" ry="15" transform="rotate(72)" fill="#F7D780"/><ellipse cy="-13" rx="10" ry="15" transform="rotate(144)" fill="#F7D780"/><ellipse cy="-13" rx="10" ry="15" transform="rotate(216)" fill="#F7D780"/><ellipse cy="-13" rx="10" ry="15" transform="rotate(288)" fill="#F7D780"/><circle r="6" fill="#AC2832"/></g></defs>
+ <circle cx="260" cy="215" r="173" fill="#BD3B40" stroke="#E8B66C" stroke-width="2"/>
+ <circle cx="260" cy="215" r="155" stroke="#E8B66C" stroke-dasharray="3 9"/>
+ <path d="M332 365c-31-61-37-163 14-249m-28 132 77-52m-74-4-37-61m50 6 69-37m-79 164-59-29" stroke="#643025" stroke-width="10" stroke-linecap="round"/>
+ <use href="#blossom" transform="translate(346 116) scale(.8)"/><use href="#blossom" transform="translate(395 196)"/><use href="#blossom" transform="translate(283 131) scale(.72)"/><use href="#blossom" transform="translate(403 101) scale(.65)"/><use href="#blossom" transform="translate(265 237) scale(.75)"/><use href="#blossom" transform="translate(329 176) scale(.6)"/>
+ <path d="M117 188h115v177H117z" fill="#8C1924" stroke="#F7D780" stroke-width="3"/><path d="m117 188 58 55 57-55" stroke="#F7D780" stroke-width="2"/><path d="m175 263 32 32-32 32-32-32Z" fill="#F7D780"/><path d="m175 281 14 14-14 14-14-14Z" stroke="#8C1924" stroke-width="2"/>
+ <rect x="183" y="329" width="113" height="86" rx="8" fill="#46664B" stroke="#F7D780" stroke-width="3"/><path d="M218 329v86m41-86v86M183 357h113m-113 30h113" stroke="#D1D5A1" stroke-width="8"/>
+ <path d="M105 398c25 18 48 18 73 0M363 382c25 18 48 18 73 0" stroke="#F7D780" stroke-width="2"/>
+ <path d="m89 109 5 13 14 5-14 5-5 14-5-14-14-5 14-5Z" fill="#F7D780"/>
+ <path d="M66 433h388" stroke="#E8B66C" stroke-width="2"/>
+</svg>

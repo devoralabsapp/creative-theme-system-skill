@@ -162,25 +162,25 @@ window.STUDIO_THEMES = {
     {
       "id": "halloween",
       "name": "Halloween",
-      "description": "Midnight plum, pumpkin orange and playful autumn details",
-      "color": "#191322",
+      "description": "Moonlit curiosity cabinet, pumpkin illustration and arched specimen cards",
+      "color": "#151019",
       "tone": "dark",
       "family": "seasonal"
     },
     {
       "id": "christmas",
       "name": "Christmas",
-      "description": "Evergreen, warm ivory, red ribbons and golden stars",
-      "color": "#faf7ef",
+      "description": "Evergreen paper tree, ribbon-wrapped notes and a festive letter desk",
+      "color": "#F5F1E8",
       "tone": "light",
       "family": "seasonal"
     },
     {
       "id": "tet",
       "name": "Tết Holiday",
-      "description": "Vietnamese New Year: lacquer red, gold and apricot blossoms",
-      "color": "#fff5e8",
-      "tone": "light",
+      "description": "Lacquer red, golden apricot blossoms and lucky-envelope notes",
+      "color": "#A6222B",
+      "tone": "dark",
       "family": "seasonal"
     },
     {
@@ -350,6 +350,14 @@ window.STUDIO_THEMES = {
       "color": "#D9D9D9",
       "tone": "light",
       "family": "creative"
+    },
+    {
+      "id": "black-friday",
+      "name": "Black Friday",
+      "description": "Black-and-red poster typography, receipt notes and a bold working edit",
+      "color": "#101010",
+      "tone": "dark",
+      "family": "seasonal"
     }
   ]
 };

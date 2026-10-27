@@ -1,6 +1,6 @@
 # Creative Theme System — Design Lab
 
-**38 themes. One working collection. Two ways to explore.**
+**39 themes. One working collection. Two ways to explore.**
 
 A portable AI agent skill with original theme recipes, reusable CSS and interactive English demos. Design Lab is the default experience: compare each theme's layout, typography and color on the same project workspace.
 
@@ -10,11 +10,11 @@ A portable AI agent skill with original theme recipes, reusable CSS and interact
 
 ## Explore Design Lab
 
-Choose any of the 38 themes using the shared selector. Search projects, filter the collection, save ideas, read notes and add a project for the current session. Switching themes keeps your work. The adjacent **Website Demo** tab shows the same theme on the sample catalog and retains its own search, filters and sorting.
+Choose any of the 39 themes using the shared selector. Search projects, filter the collection, save ideas, read notes and add a project for the current session. Switching themes keeps your work. The adjacent **Website Demo** tab shows the same theme on the sample catalog and retains its own search, filters and sorting.
 
 Share a theme with `/?theme=vscode`, or open its catalog with `/?view=website&theme=vscode`. The URL selection takes priority over the saved theme. New visits open Design Lab by default; the previous `/lab/` entry remains available.
 
-## All 38 Design Lab previews
+## All 39 Design Lab previews
 
 Actual screenshots of the bundled Design Lab at the same desktop size. **Click a preview to open that theme live.** Each theme uses the same fictional projects, making differences in composition, type and color easier to compare.
 
@@ -42,12 +42,14 @@ Nine environments inspired by developer tools, documents, organization and creat
 
 ### Holiday collection
 
-Three manually selected seasonal identities. They share the same project session and never change automatically by date.
+Four distinct, manually selected seasonal identities. They share the same project session and never change automatically by date.
 
 | Design Lab | Design Lab |
 | --- | --- |
-| **15 · [Halloween](https://theme.devoralabs.tech/?theme=halloween)**<br>[![Halloween — Design Lab workspace](docs/screenshots/design-lab/halloween.jpg)](https://theme.devoralabs.tech/?theme=halloween)<br>Midnight plum, pumpkin orange and playful autumn details | **16 · [Christmas](https://theme.devoralabs.tech/?theme=christmas)**<br>[![Christmas — Design Lab workspace](docs/screenshots/design-lab/christmas.jpg)](https://theme.devoralabs.tech/?theme=christmas)<br>Evergreen, warm ivory, red ribbons and golden stars |
-| **17 · [Tết Holiday](https://theme.devoralabs.tech/?theme=tet)**<br>[![Tết Holiday — Design Lab workspace](docs/screenshots/design-lab/tet.jpg)](https://theme.devoralabs.tech/?theme=tet)<br>Vietnamese New Year: lacquer red, gold and apricot blossoms |  |
+| **15 · [Halloween](https://theme.devoralabs.tech/?theme=halloween)**<br>[![Halloween — moonlit curiosity cabinet](docs/screenshots/design-lab/halloween.jpg)](https://theme.devoralabs.tech/?theme=halloween)<br>Moonlit pumpkin illustration, arched curiosity cards and a warm orange index tile. | **16 · [Christmas](https://theme.devoralabs.tech/?theme=christmas)**<br>[![Christmas — the giving room](docs/screenshots/design-lab/christmas.jpg)](https://theme.devoralabs.tech/?theme=christmas)<br>Evergreen paper tree, a selected-note letter and ribbon-wrapped project cards. |
+| **17 · [Tết Holiday](https://theme.devoralabs.tech/?theme=tet)**<br>[![Tết Holiday — the house of new beginnings](docs/screenshots/design-lab/tet.jpg)](https://theme.devoralabs.tech/?theme=tet)<br>Lacquer red, golden apricot blossoms, lucky envelopes and a new-beginnings desk. | **39 · [Black Friday](https://theme.devoralabs.tech/?theme=black-friday)**<br>[![Black Friday — the creative edit](docs/screenshots/design-lab/black-friday.jpg)](https://theme.devoralabs.tech/?theme=black-friday)<br>Black-and-red poster type, an ivory receipt-shaped note and a ruled working index. |
+
+[Read the four holiday recipes](references/holidays.md). Each has its own Lab composition and catalog adaptation. Black Friday is a visual theme; the demo adds no discounts, scarcity claims or countdowns.
 
 ### Creative Lab collection
 
@@ -127,4 +129,4 @@ Use the intended Vercel account/team and existing project when already linked. T
 
 Static validation checks registry metadata, assets, UI hooks and script syntax. Browser review remains necessary; see [verification](references/verification.md).
 
-Explorer verification: all 38 Lab compositions and all 38 website themes passed layout checks at 320, 390, 768 and 1440px. Theme synchronization, default/deep-link behavior, keyboard tabs, retained drafts and filters, dialog placement, independent tab scroll positions, anchors and back-to-top were exercised. Static validation checks registry metadata, assets, UI hooks and script syntax. These checks cover the bundled samples and are not a full accessibility audit.
+Explorer verification: all 39 Lab compositions and all 39 website themes passed layout checks at 320, 390, 768 and 1440px. The four holiday identities were also checked at 1024px, with rendered-text contrast sampling and read/save/create/empty-state flows. Theme synchronization, 117 rapid selection changes, 80 real wheel-input checks, retained sessions, website filters/prices and restoration of default catalog copy were exercised. These checks cover the bundled samples and are not a full accessibility audit.

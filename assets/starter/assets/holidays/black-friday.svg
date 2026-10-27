@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 460" fill="none">
+ <path d="m58 47 392 23-19 340-392-23Z" fill="#F4F2EA"/>
+ <path d="m81 99 343 20M77 168l343 20M73 237l343 20M68 306l343 20" stroke="#D0CEC7" stroke-width="1"/>
+ <g fill="#111111" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="76" letter-spacing="-5"><text transform="rotate(3 90 170)" x="78" y="169">BLACK</text><text transform="rotate(3 85 242)" x="73" y="242">FRIDAY.</text></g>
+ <path d="m336 270 28-21 13 33 34-4-7 34 31 17-24 25 15 31-34 6-4 34-32-11-22 26-20-28-33 8 1-35-33-10 19-29-20-28 33-10 1-34 32 11Z" fill="#FF4B3E"/>
+ <path d="m332 309 41 3-3 42m-43-4 43-38" stroke="#111111" stroke-width="7"/>
+ <g stroke="#111111"><path d="m78 338 3-43m7 44 3-43m13 44 3-43m7 44 3-43m15 44 3-43m6 44 3-43m12 44 3-43m14 44 3-43m7 44 3-43m10 44 3-43m16 44 3-43m7 44 3-43m12 44 3-43" stroke-width="4"/><path d="m93 339 3-43m29 44 3-43m32 45 3-43m40 45 3-43m30 45 3-43" stroke-width="2"/></g>
+ <path d="m59 47 3-20 392 23-4 20" stroke="#FF4B3E" stroke-width="5"/>
+</svg>
