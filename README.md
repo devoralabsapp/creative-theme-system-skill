@@ -1,12 +1,18 @@
 # Creative Theme System — Design Lab
 
-**39 themes. One working collection. Two ways to explore.**
+**39 themes. One working collection. Three ways to explore.**
 
 A portable AI agent skill with original theme recipes, reusable CSS and interactive English demos. Design Lab is the default experience: compare each theme's layout, typography and color on the same project workspace.
 
-**[Open Design Lab →](https://theme.devoralabs.tech/)** · [Website Demo](https://theme.devoralabs.tech/?view=website) · [AI agent instructions](SKILL.md)
+**[Open Design Lab →](https://theme.devoralabs.tech/)** · [Browse All 39 Themes](https://theme.devoralabs.tech/?view=all) · [Website Demo](https://theme.devoralabs.tech/?view=website) · [AI agent instructions](SKILL.md)
 
 [![Devora Signal in Design Lab — white, red and black workbench with the Website Demo tab beside it](docs/screenshots/design-lab/devora-signal.jpg)](https://theme.devoralabs.tech/?theme=devora-signal)
+
+## Browse the complete collection
+
+The **[All](https://theme.devoralabs.tech/?view=all)** tab shows one real preview card per theme, grouped into Studio (5), Workspace (9), Holiday (4), and Creative Lab (21). Search by name or style, filter a collection, and open a card in Design Lab. Returning to All retains its filters and scroll position. Gallery images load lazily; the previews remain interactive in the two dedicated demo tabs.
+
+[![All themes overview with collection filters and preview cards](docs/screenshots/all-themes.png)](https://theme.devoralabs.tech/?view=all)
 
 ## Explore Design Lab
 
@@ -105,7 +111,7 @@ The generator refuses non-empty destinations. The preview server binds only to l
 
 ## Deploy the live gallery on Vercel
 
-The root `vercel.json` publishes `assets/starter/` as the website. It uses the Other framework preset, skips dependency installation and builds, and serves the two-tab explorer at `/`, defaulting to Design Lab. The retained catalog is `website.html`; the standalone Lab is `lab/index.html`. Import this GitHub repository into Vercel with the repository root as Root Directory; keep the included settings. No environment variables or backend are required.
+The root `vercel.json` publishes `assets/starter/` as the website. It uses the Other framework preset, skips dependency installation and builds, and serves the three-tab explorer at `/`, defaulting to Design Lab. The retained catalog is `website.html`; the standalone Lab is `lab/index.html`. Import this GitHub repository into Vercel with the repository root as Root Directory; keep the included settings. No environment variables or backend are required.
 
 The official demo is hosted at [theme.devoralabs.tech](https://theme.devoralabs.tech/). The theme dropdown preserves the shared demo state. Share a selected theme directly, such as [Devora Signal](https://theme.devoralabs.tech/?theme=devora-signal) or [Devora Folio](https://theme.devoralabs.tech/?theme=devora-folio), using `?theme=` with any registered theme ID. The catalog is an English fictional demonstration, with no checkout or real product sales. Standalone signature showcases remain available in the repository; the explorer, retained website catalog and all-theme Lab are published by this configuration.
 
@@ -123,7 +129,7 @@ Use the intended Vercel account/team and existing project when already linked. T
 
 - `SKILL.md` — agent instructions and routing.
 - `references/` — recipes, integration, validation and optional publishing.
-- `assets/starter/` — default two-tab explorer, retained website demo, all-theme Lab and original sample assets.
+- `assets/starter/` — default three-tab explorer, retained website demo, all-theme Lab and original sample assets.
 - `scripts/` — dependency-free generation, serving and static verification.
 - `agents/openai.yaml` — Codex discovery metadata.
 

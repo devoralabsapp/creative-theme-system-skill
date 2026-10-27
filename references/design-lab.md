@@ -38,9 +38,9 @@ Read their existing entries in `theme-recipes.md` and the dedicated signature re
 
 Read [holidays.md](holidays.md) for the four distinct holiday compositions and their canonical palette source, `holiday-tokens.css`.
 
-## Two-tab preview behavior
+## Three-tab preview behavior
 
-The default root page is the comparison shell. Both previews stay mounted, so switching tabs preserves project additions, bookmarks and queries in Lab and product filters/sorting in Website Demo. Only the selected theme is shared. `?view=website` is an explicit override; a fresh visit defaults to Lab. URL theme, saved selection, then registry default determine the theme. Storage failures should fall back cleanly.
+The default root page is the comparison shell. `?view=all` opens a categorized overview with one preview card per theme. Search and family filters belong to the overview; choosing a card opens its actual Lab theme, and browser Back returns to the same overview state. Both previews stay mounted, so switching tabs preserves project additions, bookmarks and queries in Lab and product filters/sorting in Website Demo. Only the selected theme is shared. `?view=website` is an explicit override; a fresh visit defaults to Lab. URL theme, saved selection, then registry default determine the theme. Storage failures should fall back cleanly.
 
 The preview bridge accepts messages only from the known same-origin child windows or their own parent, and validates theme IDs against the registry. It sizes frames to their contents and forwards local anchors/back-to-top. These are demo mechanics. An existing app should adapt tokens and layout principles through its current provider, not embed the entire explorer.
 

@@ -3,17 +3,18 @@
 <head>
  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
  <title>Design Lab — Devoralabs Theme Explorer</title>
- <meta name="description" content="Explore every Devoralabs theme in Design Lab, then compare the same theme in Website Demo. One collection, two ways to see it.">
+ <meta name="description" content="Browse all 39 Devoralabs themes by collection, open a working Design Lab, then compare the same theme in Website Demo.">
  <meta name="theme-color" content="#B91C30"><link rel="icon" type="image/svg+xml" href="assets/devoralabs-mark.svg">
  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="explorer.css"><script src="theme-registry.js"></script><script src="explorer.js" defer></script><script src="theme-picker.js" defer></script>
+ <link rel="stylesheet" href="explorer.css"><link rel="stylesheet" href="all-themes.css"><script src="theme-registry.js"></script><script src="explorer.js" defer></script><script src="theme-picker.js" defer></script><script src="all-themes.js" defer></script>
 </head>
 <body>
  <a class="explorer-skip" href="#preview-panels">Skip to preview</a>
  <header class="explorer-header">
   <a class="explorer-brand" href="./" aria-label="Devoralabs Theme Explorer home"><img class="explorer-logo" src="assets/devoralabs-mark.svg" width="40" height="40" alt=""><span class="explorer-wordmark">devoralabs<span>.</span><small>THEME EXPLORER</small></span></a>
   <div class="explorer-tabs" role="tablist" aria-label="Preview type">
+   <button id="all-tab" type="button" role="tab" aria-selected="false" aria-controls="all-panel" data-view="all" tabindex="-1">All</button>
    <button id="lab-tab" type="button" role="tab" aria-selected="true" aria-controls="lab-panel" data-view="lab">Design Lab</button>
    <button id="website-tab" type="button" role="tab" aria-selected="false" aria-controls="website-panel" data-view="website" tabindex="-1">Website Demo</button>
   </div>
@@ -33,6 +34,16 @@
  </div>
  <main id="preview-panels">
   <p id="preview-status" role="status" aria-live="polite">Loading Design Lab…</p>
+  <section id="all-panel" role="tabpanel" aria-labelledby="all-tab" hidden>
+   <div class="all-page">
+    <header class="all-intro"><div><span class="all-eyebrow">THE DEVORALABS COLLECTION</span><h1>Every theme.<br>All in one place<span>.</span></h1><p>Explore every theme, side by side. Find a direction that feels like you, then make it your own.</p></div><div class="all-summary"><strong id="all-total">39</strong><span>themes to explore</span><small>4 distinct collections</small></div></header>
+    <div class="all-toolbar"><div class="all-filters" role="group" aria-label="Filter theme collections" id="all-filters"></div><label class="all-search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="all-search" type="search" placeholder="Search themes…" aria-label="Search all themes" autocomplete="off"></label></div>
+    <div class="all-result-row"><p id="all-results" role="status" aria-live="polite"></p><span>Choose a card to open Design Lab ↗</span></div>
+    <div id="all-collections"></div>
+    <div id="all-empty" class="all-empty" hidden><span aria-hidden="true">↗</span><h2>A different search, a new direction.</h2><p>No themes match this view. Try another name or explore the full collection.</p><button type="button" id="all-reset">Show all themes</button></div>
+    <footer class="all-footer"><a href="https://github.com/devoralabsapp/creative-theme-system-skill" target="_blank" rel="noopener noreferrer">Made to be explored. Built to be yours. ↗</a><span>Devoralabs · Theme collection</span></footer>
+   </div>
+  </section>
   <section id="lab-panel" role="tabpanel" aria-labelledby="lab-tab"><iframe id="lab-preview" title="Design Lab workspace" height="900" scrolling="no"></iframe></section>
   <section id="website-panel" role="tabpanel" aria-labelledby="website-tab" hidden><iframe id="website-preview" title="Website demo" height="900" scrolling="no"></iframe></section>
  </main>
