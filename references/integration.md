@@ -6,6 +6,8 @@ For React/Next/Vue/Svelte, extend the existing provider/store and SSR/cookie/cli
 
 ## Standalone contract
 
+`index.html`, `explorer.css` and `explorer.js` form the demo-only two-tab shell. Design Lab is the default; `?view=website` selects Website Demo. The retained same-origin frames are `lab/index.html` and `website.html`, allowing each preview to preserve its in-memory content and filters. `preview-bridge.js` synchronizes only validated theme IDs, intrinsic content height and local anchor navigation, checking both origin and source window. This shell is for comparing demos, not a replacement theme provider for a host app.
+
 `theme-registry.js` is the single data registry. Records contain `id`, `name`, `description`, browser `color`, `tone`, `family` (`studio`, `workspace`, `seasonal` or `creative`), and optionally a three-string decorative `workspace` array for the workspace family.
 
 `theme-bootstrap.js` validates `?theme=`, then saved selection, then default before styles paint. Storage failure falls back cleanly. Invalid IDs never become selectors or executable code.
@@ -46,3 +48,5 @@ Fix overflow through wrapping, widths and grid minimums. Do not hide content def
 `devora-duo-theme.css` adds the scoped white/red/black Signal and Folio signatures. Portable per-theme tokens are in `assets/devora-signal/` and `assets/devora-folio/`, with shared component examples in `assets/devora-signatures/`. The separate original showcases use English copy and local-only interactions.
 
 `avant-theme.css` adapts the seven Design Lab directions to the shared catalog; `lab/tokens.css` is their canonical semantic palette. `lab/` is also a self-contained browser-local project workspace served at `/lab/`, with separate per-theme compositions and real demo interactions. Its state is independent of the catalog provider, never imported into a host app as production business logic. See `design-lab.md` for choosing the appropriate source.
+
+`lab/profiles.css` supplies the original 31 Lab palettes and typography, adapted from their catalog tokens with readable muted roles. `lab/profile-layouts.css` contains their family compositions. `lab/tokens.css` retains the seven newest palettes. All 38 IDs use the existing registry and selection storage key. The Lab picker groups the same four families as Website Demo.

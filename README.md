@@ -4,7 +4,17 @@ A portable skill for creating and integrating **38 selectable website themes**, 
 
 **Entry point: [SKILL.md](SKILL.md).** Any agent with filesystem access can read it; agents with an existing application should follow the integration path rather than replacing the app.
 
-**Live demo: [theme.devoralabs.tech](https://theme.devoralabs.tech/)** — explore all 38 themes in the interactive gallery.
+**Live demo: [theme.devoralabs.tech](https://theme.devoralabs.tech/)** — explore all 38 themes in Design Lab and Website Demo.
+
+## Preview modes
+
+**[Design Lab](https://theme.devoralabs.tech/)** is the default view and includes all 38 themes. **[Website Demo](https://theme.devoralabs.tech/?view=website)** sits beside it as a second tab. Select a theme in either preview to synchronize both views. The Lab project session and the website search/filter/sort state remain intact when switching tabs. Interface copy is in English.
+
+Share the Lab with `/?theme=vscode`, or the website with `/?view=website&theme=vscode`. An explicit URL theme takes priority over the saved theme; a fresh visit always opens Design Lab unless the URL asks for Website Demo. The previous `/lab/` entry remains available.
+
+[![All-theme Design Lab with adjacent Website Demo tab](docs/screenshots/theme-explorer.png)](https://theme.devoralabs.tech/)
+
+Explorer verification: all 38 Lab compositions and all 38 website themes passed layout checks at 320, 390, 768 and 1440px. Theme synchronization, default/deep-link behavior, keyboard tabs, retained project drafts and filters, dialog placement, independent tab scroll positions, website anchors and back-to-top were exercised. These checks cover the bundled sample content, not arbitrary host applications.
 
 ## Theme classification
 
@@ -89,17 +99,17 @@ Signal/Folio verification: both original showcases passed horizontal layout and 
 
 ## Seven experimental Design Lab directions
 
-[Open the Design Lab](https://theme.devoralabs.tech/lab/) to try seven substantially different workspaces with the same project collection. Search, filter, save, read and add session-only projects; switching themes preserves the session. All new interface copy is in English. Each direction also appears in the full 38-theme catalog.
+[Open the Design Lab](https://theme.devoralabs.tech/) to compare all 38 themes on the same working project collection. These seven experimental additions retain their original compositions. Search, filter, save, read and add session-only projects; switching themes preserves the session. All new interface copy is in English. Each direction also appears in the full 38-theme catalog.
 
 | Theme / original workspace | Design direction |
 | --- | --- |
-| [Index Bureau](https://theme.devoralabs.tech/lab/?theme=index-bureau) | A ruled monochrome archive with a three-column information hierarchy. |
-| [Specimen Press](https://theme.devoralabs.tech/lab/?theme=specimen-press) | Publication-like objects, metadata tables and outlined display type. |
-| [Grid Assembly](https://theme.devoralabs.tech/lab/?theme=grid-assembly) | Exposed structural cells and stepped architectural content modules. |
-| [Margin Notes](https://theme.devoralabs.tech/lab/?theme=margin-notes) | Layered editorial paper, serif notes and soft printed colors. |
-| [Afterhours FM](https://theme.devoralabs.tech/lab/?theme=afterhours-fm) | A dark creative queue with bright cover blocks and rounded controls. |
-| [Chapter Desk](https://theme.devoralabs.tech/lab/?theme=chapter-desk) | Warm reading desk, book-shaped records and compact annotations. |
-| [Mono OS](https://theme.devoralabs.tech/lab/?theme=mono-os) | A grayscale desktop with white window chrome and shallow ink edges. |
+| [Index Bureau](https://theme.devoralabs.tech/?theme=index-bureau) | A ruled monochrome archive with a three-column information hierarchy. |
+| [Specimen Press](https://theme.devoralabs.tech/?theme=specimen-press) | Publication-like objects, metadata tables and outlined display type. |
+| [Grid Assembly](https://theme.devoralabs.tech/?theme=grid-assembly) | Exposed structural cells and stepped architectural content modules. |
+| [Margin Notes](https://theme.devoralabs.tech/?theme=margin-notes) | Layered editorial paper, serif notes and soft printed colors. |
+| [Afterhours FM](https://theme.devoralabs.tech/?theme=afterhours-fm) | A dark creative queue with bright cover blocks and rounded controls. |
+| [Chapter Desk](https://theme.devoralabs.tech/?theme=chapter-desk) | Warm reading desk, book-shaped records and compact annotations. |
+| [Mono OS](https://theme.devoralabs.tech/?theme=mono-os) | A grayscale desktop with white window chrome and shallow ink edges. |
 
 [Read the agent design rules](references/design-lab.md). The reference images informed broad visual principles; their artwork, brands, quoted text and layouts are not reproduced. All preview projects and CSS graphics are original fictional samples.
 
@@ -133,9 +143,9 @@ The generator refuses non-empty destinations. The preview server binds only to l
 
 ## Deploy the live gallery on Vercel
 
-The root `vercel.json` publishes `assets/starter/` as the website. It uses the Other framework preset, skips dependency installation and builds, and serves the existing 38-theme demo at `/`. Import this GitHub repository into Vercel with the repository root as Root Directory; keep the included settings. No environment variables or backend are required.
+The root `vercel.json` publishes `assets/starter/` as the website. It uses the Other framework preset, skips dependency installation and builds, and serves the two-tab explorer at `/`, defaulting to Design Lab. The retained catalog is `website.html`; the standalone Lab is `lab/index.html`. Import this GitHub repository into Vercel with the repository root as Root Directory; keep the included settings. No environment variables or backend are required.
 
-The official demo is hosted at [theme.devoralabs.tech](https://theme.devoralabs.tech/). The theme dropdown preserves the shared demo state. Share a selected theme directly, such as [Devora Signal](https://theme.devoralabs.tech/?theme=devora-signal) or [Devora Folio](https://theme.devoralabs.tech/?theme=devora-folio), using `?theme=` with any registered theme ID. The catalog is an English fictional demonstration, with no checkout or real product sales. Standalone signature showcases remain available in the repository; the shared catalog and its `/lab/` workspace studies are published by this configuration.
+The official demo is hosted at [theme.devoralabs.tech](https://theme.devoralabs.tech/). The theme dropdown preserves the shared demo state. Share a selected theme directly, such as [Devora Signal](https://theme.devoralabs.tech/?theme=devora-signal) or [Devora Folio](https://theme.devoralabs.tech/?theme=devora-folio), using `?theme=` with any registered theme ID. The catalog is an English fictional demonstration, with no checkout or real product sales. Standalone signature showcases remain available in the repository; the explorer, retained website catalog and all-theme Lab are published by this configuration.
 
 For a CLI deployment from this repository root:
 
@@ -151,7 +161,7 @@ Use the intended Vercel account/team and existing project when already linked. T
 
 - `SKILL.md` — agent instructions and routing.
 - `references/` — recipes, integration, validation and optional publishing.
-- `assets/starter/` — reusable demo with original SVG sample assets.
+- `assets/starter/` — default two-tab explorer, retained website demo, all-theme Lab and original sample assets.
 - `scripts/` — dependency-free generation, serving and static verification.
 - `agents/openai.yaml` — Codex discovery metadata.
 

@@ -1,5 +1,5 @@
 /* Canonical Design Lab tokens. Scoped to the requested theme only. */
-:is([data-theme="index-bureau"],[data-theme="specimen-press"],[data-theme="grid-assembly"],[data-theme="margin-notes"],[data-theme="afterhours-fm"],[data-theme="chapter-desk"],[data-theme="mono-os"]) {
+[data-theme] {
  --lab-font:'Be Vietnam Pro',system-ui,sans-serif;
  --lab-mono:'IBM Plex Mono',ui-monospace,monospace;
  --lab-background:#FFFFFF;--lab-surface:#FFFFFF;--lab-foreground:#151515;--lab-muted:#5E5E5E;

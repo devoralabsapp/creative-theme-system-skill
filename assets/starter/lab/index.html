@@ -3,17 +3,20 @@
 <head>
  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
  <title>Devoralabs — Design Lab</title>
- <meta name="description" content="Seven experimental interface directions. One working collection. Explore the Devoralabs Design Lab.">
+ <meta name="description" content="Every visual theme. One working collection. Explore the Devoralabs Design Lab.">
  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
  <script src="../theme-registry.js"></script>
- <script>(()=>{const ids=["index-bureau", "specimen-press", "grid-assembly", "margin-notes", "afterhours-fm", "chapter-desk", "mono-os"];const id=new URLSearchParams(location.search).get('theme');document.documentElement.dataset.theme=ids.includes(id)?id:ids[0];})();</script>
- <link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="lab.css">
- <script src="lab.js" defer></script>
+ <script src="../theme-bootstrap.js"></script>
+ <script>if(new URLSearchParams(location.search).get("embed")==="1")document.documentElement.dataset.embedded="true";</script>
+ <link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="profiles.css"><link rel="stylesheet" href="lab.css"><link rel="stylesheet" href="profile-layouts.css"><link rel="stylesheet" href="../preview-bridge.css">
+ <script src="lab.js" defer></script><script src="../preview-bridge.js" defer></script>
 </head>
-<body>
+<body data-preview-base="../">
  <a class="skip-link" href="#workspace">Skip to workspace</a>
- <header class="lab-control"><a href="../" class="lab-back">← All themes</a><label for="lab-theme">DESIGN LAB <select id="lab-theme" aria-label="Select a Design Lab theme"></select></label><span class="lab-count">7 DIRECTIONS / ONE COLLECTION</span></header>
+ <header class="lab-control"><nav class="standalone-preview-nav" aria-label="Preview type"><a href="../" data-preview-link="lab" aria-current="page">Design Lab</a><a href="../?view=website" data-preview-link="website">Website Demo</a></nav><label for="lab-theme">THEME <select id="lab-theme" aria-label="Select a Design Lab theme"></select></label><span class="lab-count">38 THEMES / ONE COLLECTION</span></header>
  <main id="workspace" aria-label="Experimental workspace"></main>
  <footer class="lab-disclosure">Original interface studies by Devoralabs · Fictional projects · Changes last for this visit</footer>
  <dialog id="idea-dialog" aria-labelledby="idea-title"><form id="idea-form" novalidate><div class="dialog-meta">DEVORALABS / NEW ENTRY</div><h2 id="idea-title">Start with a thought.</h2><p>Add a project to this session. Switching themes keeps your work.</p><label for="idea-name">Project title<input id="idea-name" maxlength="80" autocomplete="off" aria-describedby="idea-error" required></label><label for="idea-note">A short note<textarea id="idea-note" rows="4" maxlength="1500" placeholder="What makes this idea worth keeping?"></textarea></label><p id="idea-error" class="error" role="alert"></p><div class="dialog-actions"><button type="button" data-action="close-create">Cancel</button><button type="submit" class="primary">Add project +</button></div></form></dialog>

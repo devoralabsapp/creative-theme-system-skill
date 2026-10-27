@@ -21,7 +21,7 @@ For Devora Press, read [devora-press.md](references/devora-press.md) for the war
 
 For the white/red/black Devora Signal and Devora Folio signatures, read [devora-signatures.md](references/devora-signatures.md). Their examples use English copy and distinct workbench/editorial layouts.
 
-For the seven experimental Design Lab directions (Index Bureau through Mono OS), read [design-lab.md](references/design-lab.md). Each includes an original interactive workspace and a separate adaptation to the shared catalog.
+For Design Lab, read [design-lab.md](references/design-lab.md). All thirty-eight themes have working Lab compositions, including the seven experimental directions (Index Bureau through Mono OS). The bundled explorer defaults to Design Lab and retains Website Demo in a neighboring tab. Theme selection is shared; each preview retains its own working state.
 
 ## Visual and integration rules
 

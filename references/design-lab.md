@@ -1,15 +1,45 @@
-# Design Lab — seven experimental directions
+# Design Lab — all thirty-eight themes
 
-Use when the user selects Index Bureau, Specimen Press, Grid Assembly, Margin Notes, Afterhours FM, Chapter Desk or Mono OS. These studies extend the collection with different composition rules, not just alternate palettes. All new interface copy is English.
+Use when the user wants to compare or adapt any theme in the all-theme Design Lab. The seven newest experimental directions retain their original compositions. The original 31 themes now have family-specific working layouts and their existing palettes, fonts and material cues. All interface copy is English.
 
 ## Choose the right resource
 
-- **Working reference:** `assets/starter/lab/` is an original browser-local project workspace. Open `/lab/?theme=<id>` on the hosted demo, or serve `assets/starter/` locally and open `/lab/index.html?theme=<id>`. Seven renderers share the same in-memory project records, filters, query, bookmarks and selection. Refresh intentionally resets project changes. The workspace makes no network writes and does not read the filesystem, play audio or simulate unavailable services.
-- **Existing shared catalog:** `assets/starter/avant-theme.css` adapts each direction to the existing product catalog while preserving its real controls and business state. Both views use the same stable theme IDs.
-- **Canonical semantic tokens:** `assets/starter/lab/tokens.css` defines canvas, surface, foreground, muted foreground, structural/soft borders, accent/on-accent, focus, radius, shadow, display/body/metadata type and motion. Import only the selected theme's tokens or translate them into the host provider.
+- **Working reference:** `assets/starter/lab/` is an original browser-local project workspace. Open `/?theme=<id>` on the hosted demo, or serve `assets/starter/` locally and open `/`. All 38 layouts share the same in-memory project records, filters, query, bookmarks and selection. The neighboring Website Demo tab uses the same selected theme and retains its own catalog state. The previous `/lab/` route still works. Refresh intentionally resets project changes. The workspace makes no network writes and does not read the filesystem, play audio or simulate unavailable services.
+- **Existing shared catalog:** `assets/starter/avant-theme.css` adapts each direction to the existing product catalog while preserving its real controls and business state. Both views use the same stable theme IDs. The website remains accessible directly at `website.html`, or through the shell with `?view=website`.
+- **Canonical semantic tokens:** `assets/starter/lab/tokens.css` defines the common roles and seven newest palettes; `lab/profiles.css` defines the original 31 identities. These include canvas, surface, foreground, muted foreground, structural/soft borders, accent/on-accent, focus, radius, shadow, display/body/metadata type and motion. Import only the selected theme's tokens or translate them into the host provider.
 - **Original layout examples:** `lab.css` and the named renderers in `lab.js` demonstrate composition. Their generic selectors are isolated to the Lab page. Do not import its global reset, session controller or HTML renderers into a production app wholesale.
 
-## Identity recipes
+## Original theme composition families
+
+| Layout grammar | Themes |
+| --- | --- |
+| Growing collection / glasshouse | Botanical, Solar Glasshouse |
+| Numbered editorial spread | Editorial, Porcelain Index |
+| Playful paper workspace | Playroom, Playful Retro Neo-Brutalism |
+| Curved night library | Midnight, Velvet Orbit |
+| Plain-text project terminal | Command line |
+| Record explorer and note editor | Visual Studio Code, Burp Suite |
+| Cell-based project workbook | Excel |
+| Artboard workspace | Canva, Figma, Photoshop |
+| Folder collection | File Explorer |
+| Personal document | Notion |
+| Seasonal working collection | Halloween, Christmas, Tết Holiday |
+| Publication specimens | Riso Post Office, Type Foundry |
+| Spatial construction | Tidal Atlas, Night Transit, Paper Circuit |
+| Loose note desk | Magnetic Poetry |
+| Technical specimen archive | Infrared Herbarium |
+| Paper desktop windows | SẮC / 01 |
+| Personal signature layouts | Devora Press, Devora Signal, Devora Folio |
+
+Read their existing entries in `theme-recipes.md` and the dedicated signature references for identity constraints. `profile-layouts.css` preserves differences inside a family: artboards vary from cyan/purple creative space to purple selection canvas to charcoal checkerboard; seasonal cues are static and never choose dates automatically. Command line remains monochrome. No layout implies real spreadsheet editing, executable shell commands, scanning, file access or third-party integrations.
+
+## Two-tab preview behavior
+
+The default root page is the comparison shell. Both previews stay mounted, so switching tabs preserves project additions, bookmarks and queries in Lab and product filters/sorting in Website Demo. Only the selected theme is shared. `?view=website` is an explicit override; a fresh visit defaults to Lab. URL theme, saved selection, then registry default determine the theme. Storage failures should fall back cleanly.
+
+The preview bridge accepts messages only from the known same-origin child windows or their own parent, and validates theme IDs against the registry. It sizes frames to their contents and forwards local anchors/back-to-top. These are demo mechanics. An existing app should adapt tokens and layout principles through its current provider, not embed the entire explorer.
+
+## Seven experimental identity recipes
 
 ### Index Bureau — `index-bureau`
 

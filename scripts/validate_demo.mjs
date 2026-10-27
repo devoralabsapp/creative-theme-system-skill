@@ -4,7 +4,7 @@ import {spawnSync} from 'node:child_process';
 
 const args=process.argv.slice(2);if(args.length!==1){console.error('Usage: node scripts/validate_demo.mjs <demo-directory>');process.exit(2);}
 const root=path.resolve(args[0]),errors=[];
-const files=['index.html','styles.css','themes.css','workspace-themes.css','additional-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css','devora-duo-theme.css','avant-theme.css','demo.css','theme-registry.js','theme-bootstrap.js','themes.js','demo.js','lab/index.html','lab/tokens.css','lab/lab.css','lab/lab.js'];
+const files=['index.html','website.html','explorer.css','explorer.js','preview-bridge.css','preview-bridge.js','styles.css','themes.css','workspace-themes.css','additional-themes.css','creative-themes.css','sac-theme.css','devora-press-theme.css','devora-duo-theme.css','avant-theme.css','demo.css','theme-registry.js','theme-bootstrap.js','themes.js','demo.js','lab/index.html','lab/tokens.css','lab/profiles.css','lab/profile-layouts.css','lab/lab.css','lab/lab.js'];
 for(const file of files)if(!existsSync(path.join(root,file)))errors.push(`Missing ${file}`);
 let registry;
 try{
@@ -25,8 +25,8 @@ try{
   if(!css.includes('prefers-reduced-motion'))errors.push('Reduced-motion support missing.');
 }catch(error){errors.push(error.message);}
 if(existsSync(path.join(root,'index.html'))){
-  const html=readFileSync(path.join(root,'index.html'),'utf8');
-  for(const relative of ['index.html','lab/index.html']){const source=path.join(root,relative);if(!existsSync(source))continue;for(const match of readFileSync(source,'utf8').matchAll(/(?:src|href)="([^"#?]+)"/g)){if(!/^[a-z]+:/i.test(match[1])&&!existsSync(path.resolve(path.dirname(source),match[1])))errors.push(`Broken local reference in ${relative}: ${match[1]}`);}}
+  const html=readFileSync(path.join(root,'website.html'),'utf8');
+  for(const relative of ['index.html','website.html','lab/index.html']){const source=path.join(root,relative);if(!existsSync(source))continue;for(const match of readFileSync(source,'utf8').matchAll(/(?:src|href)="([^"#?]+)"/g)){if(!/^[a-z]+:/i.test(match[1])&&!existsSync(path.resolve(path.dirname(source),match[1])))errors.push(`Broken local reference in ${relative}: ${match[1]}`);}}
   for(const id of ['theme-select','design-description','theme-status','products','search','sort','demo-dialog','demo-title','close-demo'])if(!html.includes(`id="${id}"`))errors.push(`Missing UI element #${id}`);
 }
 for(const file of ['planner','journal','ocean','garden','flowers','seed','water','sunflower','butterfly'])if(!existsSync(path.join(root,'assets',file+'.svg')))errors.push(`Missing sample SVG: ${file}`);
