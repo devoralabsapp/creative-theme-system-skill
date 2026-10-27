@@ -5,7 +5,8 @@
  const names={all:'All Themes',lab:'Design Lab',website:'Website Demo'};
  const ready={lab:false,website:false},scrollPositions={all:0,lab:0,website:0};let state={theme:config.defaultTheme,view:'lab'},scrollPending=false,pendingRestore=null,anchorApplied=false;
  const themeSelect=document.getElementById('explorer-theme');
- for(const [family,label] of [['studio','Studio themes'],['workspace','Workspace themes'],['seasonal','Holiday themes'],['creative','Creative Lab themes']]){const group=document.createElement('optgroup');group.label=label;for(const theme of config.themes.filter(t=>t.family===family)){const option=document.createElement('option');option.value=theme.id;option.textContent=theme.name;group.append(option);}themeSelect.append(group);}
+ const familyLabels={studio:'Studio themes',workspace:'Workspace themes',seasonal:'Holiday themes',creative:'Creative Lab themes'};
+ for(const family of config.familyOrder||Object.keys(familyLabels)){const group=document.createElement('optgroup');group.label=familyLabels[family];for(const theme of config.themes.filter(t=>t.family===family)){const option=document.createElement('option');option.value=theme.id;option.textContent=theme.name;group.append(option);}themeSelect.append(group);}
  const valid=id=>byId.has(id),validView=view=>views.includes(view)?view:'lab';
  function fromUrl(){const q=new URLSearchParams(location.search);let stored;try{stored=localStorage.getItem(config.storageKey);}catch{}return {theme:valid(q.get('theme'))?q.get('theme'):valid(stored)?stored:config.defaultTheme,view:validView(q.get('view'))};}
  function send(view,message){frames[view]?.contentWindow?.postMessage(message,location.origin==='null'?'*':location.origin);}

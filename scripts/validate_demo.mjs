@@ -12,7 +12,8 @@ try{
   const raw=readFileSync(path.join(root,'theme-registry.js'),'utf8'),match=raw.match(/^window\.STUDIO_THEMES\s*=\s*([\s\S]*);\s*$/);
   if(!match)throw new Error('Registry must be a JSON object assigned to window.STUDIO_THEMES.');
   registry=JSON.parse(match[1]);
-  const ids=registry.themes.map(theme=>theme.id);
+  const ids=registry.themes.map(theme=>theme.id),families=['studio','workspace','seasonal','creative'];
+  if(registry.familyOrder!==undefined&&(!Array.isArray(registry.familyOrder)||registry.familyOrder.length!==families.length||new Set(registry.familyOrder).size!==families.length||registry.familyOrder.some(family=>!families.includes(family))))errors.push('Family order must list each registered family once.');
   if(ids.length!==new Set(ids).size)errors.push('Duplicate theme IDs.');
   if(!ids.includes(registry.defaultTheme))errors.push('Default theme missing from registry.');
   if(typeof registry.storageKey!=='string'||!registry.storageKey)errors.push('Storage key missing.');
@@ -21,6 +22,7 @@ try{
     if(!existsSync(path.join(root,'assets/previews',theme.id+'.jpg')))errors.push(`Missing overview preview: ${theme.id}`);
     if(!/^[a-z][a-z0-9-]*$/.test(theme.id))errors.push(`Invalid ID: ${theme.id}`);
     if(!theme.name||!theme.description||!/^#[a-f\d]{6}$/i.test(theme.color)||!['light','dark'].includes(theme.tone)||!['studio','workspace','seasonal','creative'].includes(theme.family))errors.push(`Invalid metadata: ${theme.id}`);
+    if(theme.styleFamily!==undefined&&!families.includes(theme.styleFamily))errors.push(`Invalid style family: ${theme.id}`);
     if(theme.family==='workspace'&&(!Array.isArray(theme.workspace)||theme.workspace.length!==3||theme.workspace.some(value=>typeof value!=='string')))errors.push(`Invalid workspace: ${theme.id}`);
     if(theme.id!=='botanical'&&!css.includes(`[data-theme="${theme.id}"]`))errors.push(`Missing scoped CSS for ${theme.id}`);
   }

@@ -27,7 +27,8 @@
   const query=search.value.trim().toLowerCase();
   visible=config.themes.filter(theme=>`${theme.name} ${theme.id} ${theme.description} ${families[theme.family]} ${theme.tone}`.toLowerCase().includes(query));
   list.replaceChildren();
-  for(const [family,label] of Object.entries(families)){
+  for(const family of config.familyOrder||Object.keys(families)){
+   const label=families[family];
    const themes=visible.filter(theme=>theme.family===family);if(!themes.length)continue;
    const group=document.createElement('div');group.className='picker-group';group.setAttribute('role','group');group.setAttribute('aria-labelledby','picker-group-'+family);
    const heading=document.createElement('div');heading.className='picker-group-heading';heading.id='picker-group-'+family;heading.textContent=label;

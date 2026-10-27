@@ -3,7 +3,7 @@
   const byId=new Map(config.themes.map(theme=>[theme.id,theme]));
   select.replaceChildren();
   const familyLabels={studio:'Studio themes',workspace:'Creative workspace themes',seasonal:'Holiday themes',creative:'Creative Lab themes'};
-  for(const family of ['studio','workspace','seasonal','creative']){
+  for(const family of config.familyOrder||Object.keys(familyLabels)){
     const group=document.createElement('optgroup');group.label=familyLabels[family];
     config.themes.filter(theme=>theme.family===family).forEach(theme=>{
       const option=document.createElement('option');option.value=theme.id;option.textContent=theme.name;group.append(option);
@@ -21,7 +21,7 @@
   function applyTheme(id,{save=true,url=true}={}){
     const theme=byId.get(id)||byId.get(config.defaultTheme),root=document.documentElement;
     decorateHoliday(theme.id);
-    root.dataset.theme=theme.id;root.dataset.workspace=String(theme.family!=='studio');root.dataset.family=theme.family;root.dataset.tone=theme.tone;select.value=theme.id;
+    root.dataset.theme=theme.id;root.dataset.workspace=String((theme.styleFamily||theme.family)!=='studio');root.dataset.family=theme.styleFamily||theme.family;root.dataset.tone=theme.tone;select.value=theme.id;
     document.querySelector('#design-description').textContent=theme.description;
     document.querySelector('#theme-status').textContent=`Selected theme: ${theme.name}`;
     document.querySelector('meta[name="theme-color"]').setAttribute('content',theme.color);

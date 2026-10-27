@@ -7,14 +7,16 @@
   seasonal:{name:'Holiday',description:'Character for every occasion. Moonlit curiosities, wrapped gifts, fresh beginnings and a bold Black Friday edit.'},
   creative:{name:'Creative Lab',description:'A little less expected. Material studies, editorial experiments and the Devoralabs personal signatures.'}
  };
+ const familyOrder=config.familyOrder||Object.keys(families);
  let family='all';const entries=[];
  document.getElementById('all-total').textContent=config.themes.length;
- for(const [id,name] of [['all','All themes'],...Object.entries(families).map(([id,info])=>[id,info.name])]){
+ for(const [id,name] of [['all','All themes'],...familyOrder.map(id=>[id,families[id].name])]){
   const button=document.createElement('button');button.type='button';button.dataset.familyFilter=id;button.setAttribute('aria-pressed',String(id==='all'));button.append(document.createTextNode(name));
   const count=document.createElement('span');count.textContent=id==='all'?config.themes.length:config.themes.filter(theme=>theme.family===id).length;button.append(count);filters.append(button);
  }
  let index=0;
- for(const [id,info] of Object.entries(families)){
+ for(const id of familyOrder){
+  const info=families[id];
   const themes=config.themes.filter(theme=>theme.family===id),section=document.createElement('section');section.className='all-collection';section.setAttribute('aria-labelledby','all-heading-'+id);
   const heading=document.createElement('header');heading.className='all-collection-heading';
   const number=document.createElement('span');number.className='all-collection-index';number.textContent=String(++index).padStart(2,'0');number.setAttribute('aria-hidden','true');

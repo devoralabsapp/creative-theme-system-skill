@@ -3,6 +3,183 @@ window.STUDIO_THEMES = {
   "storageKey": "creative-theme-system",
   "themes": [
     {
+      "id": "retro",
+      "name": "Playful Retro Neo-Brutalism",
+      "description": "Pastels, black outlines, hard shadows",
+      "color": "#faf6e9",
+      "tone": "light",
+      "family": "creative",
+      "styleFamily": "studio"
+    },
+    {
+      "id": "mono-os",
+      "name": "Mono OS",
+      "description": "A grayscale desktop with white window chrome and shallow ink edges",
+      "color": "#D9D9D9",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "chapter-desk",
+      "name": "Chapter Desk",
+      "description": "Warm reading desk, book-shaped records and compact annotations",
+      "color": "#F4E9D5",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "afterhours-fm",
+      "name": "Afterhours FM",
+      "description": "A dark creative queue with bright cover blocks and rounded controls",
+      "color": "#101010",
+      "tone": "dark",
+      "family": "creative"
+    },
+    {
+      "id": "margin-notes",
+      "name": "Margin Notes",
+      "description": "Layered editorial paper, serif notes and soft printed colors",
+      "color": "#F0E9DF",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "grid-assembly",
+      "name": "Grid Assembly",
+      "description": "Exposed structural cells and stepped architectural content modules",
+      "color": "#F7F5EF",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "specimen-press",
+      "name": "Specimen Press",
+      "description": "Publication-like objects, metadata tables and outlined display type",
+      "color": "#F6F6F2",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "index-bureau",
+      "name": "Index Bureau",
+      "description": "A ruled monochrome archive with a three-column information hierarchy",
+      "color": "#FFFFFF",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "devora-folio",
+      "name": "Devora Folio",
+      "description": "White editorial space, red notebook spines, black feature band and soft corners",
+      "color": "#FFFFFF",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "devora-signal",
+      "name": "Devora Signal",
+      "description": "White workbench, red index tabs, black utility rail and square controls",
+      "color": "#FFFFFF",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "devora-press",
+      "name": "Devora Press",
+      "description": "Warm editorial paper, persimmon actions, cobalt details and a cut-corner signature",
+      "color": "#F4F1E8",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "sac-01",
+      "name": "SẮC / 01 — Paper / Brutalist",
+      "description": "Paper, black window frames, hard shadows and restrained red accents",
+      "color": "#F3F2EE",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "paper-circuit",
+      "name": "Paper Circuit",
+      "description": "Folded drafting paper, electric blue traces and lime contacts",
+      "color": "#f5f1e7",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "night-transit",
+      "name": "Night Transit",
+      "description": "Midnight navy, route diagrams and amber ticket details",
+      "color": "#101f2b",
+      "tone": "dark",
+      "family": "creative"
+    },
+    {
+      "id": "infrared",
+      "name": "Infrared Herbarium",
+      "description": "Hot pink specimen sheets and dark botanical registration marks",
+      "color": "#251d2e",
+      "tone": "dark",
+      "family": "creative"
+    },
+    {
+      "id": "magnetic-poetry",
+      "name": "Magnetic Poetry",
+      "description": "Scattered word tiles, fridge-silver surfaces and cherry magnets",
+      "color": "#e5e8e7",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "porcelain",
+      "name": "Porcelain Index",
+      "description": "Cobalt ceramic tiles, fine blue borders and museum labels",
+      "color": "#f2f4ef",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "velvet-orbit",
+      "name": "Velvet Orbit",
+      "description": "Aubergine velvet, copper orbital rings and curved gallery cards",
+      "color": "#201923",
+      "tone": "dark",
+      "family": "creative"
+    },
+    {
+      "id": "solar-glass",
+      "name": "Solar Glasshouse",
+      "description": "Transparent green panes, structural ribs and warm citrus",
+      "color": "#edf5dc",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "type-foundry",
+      "name": "Type Foundry",
+      "description": "Acid yellow, oversized type and a typesetter specimen grid",
+      "color": "#f0ff5b",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "tidal-atlas",
+      "name": "Tidal Atlas",
+      "description": "Deep sea contours, chart coordinates and tide-blue frames",
+      "color": "#eaf2ed",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
+      "id": "riso-post",
+      "name": "Riso Post Office",
+      "description": "Vermilion ink, postal perforations and offset paper",
+      "color": "#f6eddb",
+      "tone": "light",
+      "family": "creative"
+    },
+    {
       "id": "botanical",
       "name": "Botanical",
       "description": "Warm cream and olive",
@@ -32,14 +209,6 @@ window.STUDIO_THEMES = {
       "description": "Ink surfaces and warm gold",
       "color": "#181e24",
       "tone": "dark",
-      "family": "studio"
-    },
-    {
-      "id": "retro",
-      "name": "Playful Retro Neo-Brutalism",
-      "description": "Pastels, black outlines, hard shadows",
-      "color": "#faf6e9",
-      "tone": "light",
       "family": "studio"
     },
     {
@@ -184,174 +353,6 @@ window.STUDIO_THEMES = {
       "family": "seasonal"
     },
     {
-      "id": "riso-post",
-      "name": "Riso Post Office",
-      "description": "Vermilion ink, postal perforations and offset paper",
-      "color": "#f6eddb",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "tidal-atlas",
-      "name": "Tidal Atlas",
-      "description": "Deep sea contours, chart coordinates and tide-blue frames",
-      "color": "#eaf2ed",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "type-foundry",
-      "name": "Type Foundry",
-      "description": "Acid yellow, oversized type and a typesetter specimen grid",
-      "color": "#f0ff5b",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "solar-glass",
-      "name": "Solar Glasshouse",
-      "description": "Transparent green panes, structural ribs and warm citrus",
-      "color": "#edf5dc",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "velvet-orbit",
-      "name": "Velvet Orbit",
-      "description": "Aubergine velvet, copper orbital rings and curved gallery cards",
-      "color": "#201923",
-      "tone": "dark",
-      "family": "creative"
-    },
-    {
-      "id": "porcelain",
-      "name": "Porcelain Index",
-      "description": "Cobalt ceramic tiles, fine blue borders and museum labels",
-      "color": "#f2f4ef",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "magnetic-poetry",
-      "name": "Magnetic Poetry",
-      "description": "Scattered word tiles, fridge-silver surfaces and cherry magnets",
-      "color": "#e5e8e7",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "infrared",
-      "name": "Infrared Herbarium",
-      "description": "Hot pink specimen sheets and dark botanical registration marks",
-      "color": "#251d2e",
-      "tone": "dark",
-      "family": "creative"
-    },
-    {
-      "id": "night-transit",
-      "name": "Night Transit",
-      "description": "Midnight navy, route diagrams and amber ticket details",
-      "color": "#101f2b",
-      "tone": "dark",
-      "family": "creative"
-    },
-    {
-      "id": "paper-circuit",
-      "name": "Paper Circuit",
-      "description": "Folded drafting paper, electric blue traces and lime contacts",
-      "color": "#f5f1e7",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "sac-01",
-      "name": "SẮC / 01 — Paper / Brutalist",
-      "description": "Paper, black window frames, hard shadows and restrained red accents",
-      "color": "#F3F2EE",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "devora-press",
-      "name": "Devora Press",
-      "description": "Warm editorial paper, persimmon actions, cobalt details and a cut-corner signature",
-      "color": "#F4F1E8",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "devora-signal",
-      "name": "Devora Signal",
-      "description": "White workbench, red index tabs, black utility rail and square controls",
-      "color": "#FFFFFF",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "devora-folio",
-      "name": "Devora Folio",
-      "description": "White editorial space, red notebook spines, black feature band and soft corners",
-      "color": "#FFFFFF",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "index-bureau",
-      "name": "Index Bureau",
-      "description": "A ruled monochrome archive with a three-column information hierarchy",
-      "color": "#FFFFFF",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "specimen-press",
-      "name": "Specimen Press",
-      "description": "Publication-like objects, metadata tables and outlined display type",
-      "color": "#F6F6F2",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "grid-assembly",
-      "name": "Grid Assembly",
-      "description": "Exposed structural cells and stepped architectural content modules",
-      "color": "#F7F5EF",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "margin-notes",
-      "name": "Margin Notes",
-      "description": "Layered editorial paper, serif notes and soft printed colors",
-      "color": "#F0E9DF",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "afterhours-fm",
-      "name": "Afterhours FM",
-      "description": "A dark creative queue with bright cover blocks and rounded controls",
-      "color": "#101010",
-      "tone": "dark",
-      "family": "creative"
-    },
-    {
-      "id": "chapter-desk",
-      "name": "Chapter Desk",
-      "description": "Warm reading desk, book-shaped records and compact annotations",
-      "color": "#F4E9D5",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "mono-os",
-      "name": "Mono OS",
-      "description": "A grayscale desktop with white window chrome and shallow ink edges",
-      "color": "#D9D9D9",
-      "tone": "light",
-      "family": "creative"
-    },
-    {
       "id": "black-friday",
       "name": "Black Friday",
       "description": "Black-and-red poster typography, receipt notes and a bold working edit",
@@ -359,5 +360,11 @@ window.STUDIO_THEMES = {
       "tone": "dark",
       "family": "seasonal"
     }
+  ],
+  "familyOrder": [
+    "creative",
+    "studio",
+    "workspace",
+    "seasonal"
   ]
 };

@@ -9,6 +9,8 @@ Use when the user wants to compare or adapt any theme in the all-theme Design La
 - **Canonical semantic tokens:** `assets/starter/lab/tokens.css` defines the common roles and seven experimental palettes; `lab/profiles.css` defines the original non-holiday identities. These include canvas, surface, foreground, muted foreground, structural/soft borders, accent/on-accent, focus, radius, shadow, display/body/metadata type and motion. Import only the selected theme's tokens or translate them into the host provider.
 - **Original layout examples:** `lab.css` and the named renderers in `lab.js` demonstrate composition. Their generic selectors are isolated to the Lab page. Do not import its global reset, session controller or HTML renderers into a production app wholesale.
 
+The overview shows Creative Lab first (22 themes), led by Playful Retro Neo-Brutalism, then Mono OS, Chapter Desk and Afterhours FM. Studio has four themes, Workspace nine and Holiday four. Browse order comes from `familyOrder` and the registry theme array; it is separate from each composition’s visual grammar.
+
 ## Original theme composition families
 
 | Layout grammar | Themes |
