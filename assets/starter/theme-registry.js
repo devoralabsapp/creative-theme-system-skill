@@ -1172,6 +1172,82 @@ window.STUDIO_THEMES = {
       "cardLayout": "optical"
     },
     {
+      "id": "swiss-cut",
+      "name": "Swiss Cut",
+      "description": "Strict asymmetric red/white typographic slabs, oversized vertical index and raw ledger cuts rather than equal archival cells.",
+      "family": "creative",
+      "color": "#F6F3EB",
+      "tone": "light",
+      "expansion": true,
+      "phase": 7,
+      "style": "Swiss Brutalism",
+      "tags": [
+        "Swiss Brutalism",
+        "swiss",
+        "swiss"
+      ],
+      "composition": "swiss",
+      "material": "swiss",
+      "cardLayout": "swiss"
+    },
+    {
+      "id": "cloud-pet",
+      "name": "Cloud Pet",
+      "description": "Inflated original cloud forms with elevated stacked trays and sky-blue depth; not flat pink pockets or terracotta clay plinths.",
+      "family": "creative",
+      "color": "#E9EFF4",
+      "tone": "light",
+      "expansion": true,
+      "phase": 7,
+      "style": "Kawaii Claymorphism",
+      "tags": [
+        "Kawaii Claymorphism",
+        "cloud",
+        "cloud"
+      ],
+      "composition": "cloud",
+      "material": "cloud",
+      "cardLayout": "cloud"
+    },
+    {
+      "id": "quiet-current",
+      "name": "Quiet Current",
+      "description": "Water-cut negative-space bands, a flowing reading path and quiet round-edge records instead of botanical illustrations.",
+      "family": "creative",
+      "color": "#EDF2EF",
+      "tone": "light",
+      "expansion": true,
+      "phase": 7,
+      "style": "Organic Minimalism",
+      "tags": [
+        "Organic Minimalism",
+        "flow",
+        "current"
+      ],
+      "composition": "current",
+      "material": "flow",
+      "cardLayout": "flow"
+    },
+    {
+      "id": "atelier-array",
+      "name": "Atelier Array",
+      "description": "Unequal expressive ink-framed dashboard tiles, oversized editorial labels and actual collection facts rather than green compartment trays.",
+      "family": "creative",
+      "color": "#EEE9EF",
+      "tone": "light",
+      "expansion": true,
+      "phase": 7,
+      "style": "Playful Bento",
+      "tags": [
+        "Playful Bento",
+        "array",
+        "array"
+      ],
+      "composition": "array",
+      "material": "array",
+      "cardLayout": "array"
+    },
+    {
       "id": "botanical",
       "name": "Botanical",
       "description": "Warm cream and olive",

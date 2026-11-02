@@ -1,0 +1,54 @@
+{
+  "phase": 7,
+  "name": "Hybrid signatures",
+  "testedAt": "2026-11-02T18:39:17.788Z",
+  "total": 101,
+  "themes": [
+    {
+      "id": "swiss-cut",
+      "name": "Swiss Cut"
+    },
+    {
+      "id": "cloud-pet",
+      "name": "Cloud Pet"
+    },
+    {
+      "id": "quiet-current",
+      "name": "Quiet Current"
+    },
+    {
+      "id": "atelier-array",
+      "name": "Atelier Array"
+    }
+  ],
+  "checks": {
+    "responsiveCases": 40,
+    "viewports": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "views": [
+      "Lab",
+      "Website"
+    ],
+    "interactionFlows": [
+      "swiss-cut: Lab search/empty/reset/save/read/Escape",
+      "swiss-cut: Website search/reset/sort/dialog/Escape",
+      "cloud-pet: Lab search/empty/reset/save/read/Escape",
+      "cloud-pet: Website search/reset/sort/dialog/Escape",
+      "quiet-current: Lab search/empty/reset/save/read/Escape",
+      "quiet-current: Website search/reset/sort/dialog/Escape",
+      "atelier-array: Lab search/empty/reset/save/read/Escape",
+      "atelier-array: Website search/reset/sort/dialog/Escape",
+      "All style/ID search → Lab; real searchable picker → last addition"
+    ],
+    "errors": 0,
+    "contrastFindings": 0,
+    "consoleErrors": 0,
+    "missingAssets": 0
+  },
+  "visualReview": "Actual desktop Lab and Website contact sheets and representative 320px states inspected; static SVG artwork, no external assets. Contrast samples exclude decorative artwork; not a full WCAG audit."
+}
