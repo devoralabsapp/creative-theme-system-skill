@@ -1,0 +1,502 @@
+[
+  {
+    "id": "retro",
+    "background": "#FAF6E9",
+    "surface": "#FFFDF2",
+    "foreground": "#171714",
+    "accent": "#FFD21C",
+    "display": "'Fredoka','Nunito',sans-serif",
+    "radius": "10px",
+    "structure": "legacy-mast row / playful-hero / toolbar / section-heading row"
+  },
+  {
+    "id": "mono-os",
+    "background": "#D9D9D9",
+    "surface": "#FFFFFF",
+    "foreground": "#111111",
+    "accent": "#111111",
+    "display": "'IBM Plex Mono',ui-monospace,monospace",
+    "radius": "7px",
+    "structure": "os-mast row / os-desktop / screen-foot"
+  },
+  {
+    "id": "chapter-desk",
+    "background": "#F4E9D5",
+    "surface": "#FFF5E2",
+    "foreground": "#29271F",
+    "accent": "#A34018",
+    "display": "'Be Vietnam Pro',system-ui,sans-serif",
+    "radius": "0px",
+    "structure": "chapter-layout"
+  },
+  {
+    "id": "afterhours-fm",
+    "background": "#101010",
+    "surface": "#1D1D1D",
+    "foreground": "#FAF9F3",
+    "accent": "#F7D449",
+    "display": "'Be Vietnam Pro',system-ui,sans-serif",
+    "radius": "16px",
+    "structure": "fm-layout"
+  },
+  {
+    "id": "margin-notes",
+    "background": "#F0E9DF",
+    "surface": "#FFFCF5",
+    "foreground": "#30262B",
+    "accent": "#713346",
+    "display": "Georgia,serif",
+    "radius": "2px",
+    "structure": "row margin-mast / margin-desk / toolbar / section-heading row"
+  },
+  {
+    "id": "grid-assembly",
+    "background": "#F7F5EF",
+    "surface": "#F7F5EF",
+    "foreground": "#151515",
+    "accent": "#A92030",
+    "display": "'Be Vietnam Pro',system-ui,sans-serif",
+    "radius": "0px",
+    "structure": "row assembly-mast / assembly-scene / toolbar / section-heading row"
+  },
+  {
+    "id": "specimen-press",
+    "background": "#F6F6F2",
+    "surface": "#FFFFFF",
+    "foreground": "#151515",
+    "accent": "#212121",
+    "display": "'Be Vietnam Pro',system-ui,sans-serif",
+    "radius": "0px",
+    "structure": "row / specimen-mast / toolbar / section-heading row"
+  },
+  {
+    "id": "index-bureau",
+    "background": "#FFFFFF",
+    "surface": "#FFFFFF",
+    "foreground": "#151515",
+    "accent": "#151515",
+    "display": "'Be Vietnam Pro',system-ui,sans-serif",
+    "radius": "0px",
+    "structure": "bureau-mast row / bureau-ticker / bureau-layout / screen-foot"
+  },
+  {
+    "id": "devora-folio",
+    "background": "#FFFFFF",
+    "surface": "#FFFFFF",
+    "foreground": "#141414",
+    "accent": "#B91C30",
+    "display": "'Be Vietnam Pro',system-ui,-apple-system,'Segoe UI',sans-serif",
+    "radius": "12px",
+    "structure": "legacy-mast row / folio-hero / folio-feature / toolbar"
+  },
+  {
+    "id": "devora-signal",
+    "background": "#FFFFFF",
+    "surface": "#FFFFFF",
+    "foreground": "#141414",
+    "accent": "#C81E32",
+    "display": "'Be Vietnam Pro',system-ui,-apple-system,'Segoe UI',sans-serif",
+    "radius": "0px",
+    "structure": "signal-layout"
+  },
+  {
+    "id": "devora-press",
+    "background": "#F4F1E8",
+    "surface": "#FFFDF7",
+    "foreground": "#202A30",
+    "accent": "#F36643",
+    "display": "'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', sans-serif",
+    "radius": "8px",
+    "structure": "legacy-mast row / press-heading row / press-feature / toolbar"
+  },
+  {
+    "id": "sac-01",
+    "background": "#F3F2EE",
+    "surface": "#FFFFFF",
+    "foreground": "#111111",
+    "accent": "#111111",
+    "display": "'Arial Black','Manrope',Arial,sans-serif",
+    "radius": "0px",
+    "structure": "os-mast row / os-desktop / screen-foot"
+  },
+  {
+    "id": "redline-atelier",
+    "background": "#FAFAF7",
+    "surface": "#FFFFFF",
+    "foreground": "#181818",
+    "accent": "#BD2825",
+    "display": "'Be Vietnam Pro',Arial,sans-serif",
+    "radius": "0px",
+    "structure": "v5-mast / redline-plan / toolbar / v5-section"
+  },
+  {
+    "id": "cobalt-court",
+    "background": "#173CD7",
+    "surface": "#1231B5",
+    "foreground": "#FFFFFF",
+    "accent": "#F5FF70",
+    "display": "'Be Vietnam Pro',Arial,sans-serif",
+    "radius": "0px",
+    "structure": "v5-mast / court-banner / court-next / toolbar"
+  },
+  {
+    "id": "darkroom-zero",
+    "background": "#171715",
+    "surface": "#22221F",
+    "foreground": "#F5F1E8",
+    "accent": "#E8A273",
+    "display": "'DM Sans',Arial,sans-serif",
+    "radius": "1px",
+    "structure": "v5-mast / darkroom-stage / darkroom-focus / toolbar"
+  },
+  {
+    "id": "fold-theory",
+    "background": "#F6F4EF",
+    "surface": "#FFFDF8",
+    "foreground": "#252420",
+    "accent": "#C23224",
+    "display": "'Be Vietnam Pro',Arial,sans-serif",
+    "radius": "0px",
+    "structure": "v5-mast / fold-stage / fold-feature / toolbar"
+  },
+  {
+    "id": "motion-manifesto",
+    "background": "#F5F5F0",
+    "surface": "#F5F5F0",
+    "foreground": "#141414",
+    "accent": "#C22D28",
+    "display": "Impact,'Arial Narrow',Arial,sans-serif",
+    "radius": "0px",
+    "structure": "v5-mast / motion-stage / motion-feature / toolbar"
+  },
+  {
+    "id": "pixel-riot",
+    "background": "#F5F5ED",
+    "surface": "#FFFFFF",
+    "foreground": "#171B18",
+    "accent": "#BF302C",
+    "display": "'IBM Plex Mono',monospace",
+    "radius": "0px",
+    "structure": "v5-mast / pixel-heading / pixel-console / toolbar"
+  },
+  {
+    "id": "cutout-dept",
+    "background": "#D9EF73",
+    "surface": "#F8F7EB",
+    "foreground": "#1E2218",
+    "accent": "#22271B",
+    "display": "'Be Vietnam Pro',Arial,sans-serif",
+    "radius": "0px",
+    "structure": "v5-mast / cutout-title / cutout-board / toolbar"
+  },
+  {
+    "id": "overprint-studio",
+    "background": "#F5EEE2",
+    "surface": "#FFFBF2",
+    "foreground": "#242323",
+    "accent": "#BD3327",
+    "display": "Impact,'Arial Narrow',Arial,sans-serif",
+    "radius": "0px",
+    "structure": "v5-mast / overprint-poster / overprint-focus / toolbar"
+  },
+  {
+    "id": "carbon-bureau",
+    "background": "#E7E7E2",
+    "surface": "#FAFAF5",
+    "foreground": "#202322",
+    "accent": "#B32E2E",
+    "display": "'IBM Plex Mono',monospace",
+    "radius": "1px",
+    "structure": "v5-mast / carbon-intro / carbon-folder / toolbar"
+  },
+  {
+    "id": "foundry-floor",
+    "background": "#DDDCD5",
+    "surface": "#EBEAE3",
+    "foreground": "#272A24",
+    "accent": "#B34215",
+    "display": "Impact,'Arial Narrow',Arial,sans-serif",
+    "radius": "0px",
+    "structure": "v5-mast / foundry-stage / foundry-strip / foundry-feature"
+  },
+  {
+    "id": "frame-shift",
+    "background": "#141515",
+    "surface": "#202222",
+    "foreground": "#F4F2EB",
+    "accent": "#F37668",
+    "display": "'Be Vietnam Pro',Arial,sans-serif",
+    "radius": "2px",
+    "structure": "v5-mast / frameshift-heading / frameshift-room / toolbar"
+  },
+  {
+    "id": "paper-circuit",
+    "background": "#F5F1E7",
+    "surface": "#FFFDF7",
+    "foreground": "#263C48",
+    "accent": "#2454B4",
+    "display": "'Manrope',Arial,sans-serif",
+    "radius": "0px",
+    "structure": "row assembly-mast / assembly-scene / toolbar / section-heading row"
+  },
+  {
+    "id": "night-transit",
+    "background": "#101F2B",
+    "surface": "#192D3B",
+    "foreground": "#EDF2DF",
+    "accent": "#F6BF59",
+    "display": "'Manrope',Arial,sans-serif",
+    "radius": "8px",
+    "structure": "row assembly-mast / assembly-scene / toolbar / section-heading row"
+  },
+  {
+    "id": "infrared",
+    "background": "#251D2E",
+    "surface": "#38263F",
+    "foreground": "#FFE2EF",
+    "accent": "#FF9AC6",
+    "display": "'Manrope',Arial,sans-serif",
+    "radius": "0px",
+    "structure": "bureau-mast row / bureau-ticker / bureau-layout / screen-foot"
+  },
+  {
+    "id": "magnetic-poetry",
+    "background": "#E5E8E7",
+    "surface": "#FAFAF5",
+    "foreground": "#2E3334",
+    "accent": "#A52C3B",
+    "display": "'Nunito',Arial,sans-serif",
+    "radius": "3px",
+    "structure": "row margin-mast / margin-desk / toolbar / section-heading row"
+  },
+  {
+    "id": "porcelain",
+    "background": "#F2F4EF",
+    "surface": "#FFFFFF",
+    "foreground": "#263D73",
+    "accent": "#244D9C",
+    "display": "'Playfair Display',Georgia,serif",
+    "radius": "12px",
+    "structure": "legacy-mast row / editorial-spread / toolbar / project-grid legacy-cards editorial-cards"
+  },
+  {
+    "id": "velvet-orbit",
+    "background": "#201923",
+    "surface": "#2D2232",
+    "foreground": "#F3E2D7",
+    "accent": "#E4AF85",
+    "display": "'Playfair Display',Georgia,serif",
+    "radius": "28px",
+    "structure": "legacy-mast row / night-hero / toolbar / project-grid legacy-cards night-cards"
+  },
+  {
+    "id": "solar-glass",
+    "background": "#EDF5DC",
+    "surface": "#FAFFED",
+    "foreground": "#24412A",
+    "accent": "#366C3F",
+    "display": "'Manrope',Arial,sans-serif",
+    "radius": "24px",
+    "structure": "legacy-mast row / garden-hero / toolbar / section-heading row"
+  },
+  {
+    "id": "type-foundry",
+    "background": "#F0FF5B",
+    "surface": "#F9FFD8",
+    "foreground": "#232323",
+    "accent": "#232323",
+    "display": "'Manrope',Arial,sans-serif",
+    "radius": "0px",
+    "structure": "row / specimen-mast / toolbar / section-heading row"
+  },
+  {
+    "id": "tidal-atlas",
+    "background": "#EAF2ED",
+    "surface": "#F8FCF5",
+    "foreground": "#183F43",
+    "accent": "#236C77",
+    "display": "'Playfair Display',Georgia,serif",
+    "radius": "4px",
+    "structure": "row assembly-mast / assembly-scene / toolbar / section-heading row"
+  },
+  {
+    "id": "riso-post",
+    "background": "#F6EDDB",
+    "surface": "#FFF9ED",
+    "foreground": "#342E4A",
+    "accent": "#C43E2D",
+    "display": "'Manrope',Arial,sans-serif",
+    "radius": "2px",
+    "structure": "row / specimen-mast / toolbar / section-heading row"
+  },
+  {
+    "id": "botanical",
+    "background": "#F8F6EF",
+    "surface": "#FFFDF8",
+    "foreground": "#30382B",
+    "accent": "#4C5B3B",
+    "display": "'Playfair Display',Georgia,serif",
+    "radius": "4px",
+    "structure": "legacy-mast row / garden-hero / toolbar / section-heading row"
+  },
+  {
+    "id": "editorial",
+    "background": "#FAF9F6",
+    "surface": "#FFFFFF",
+    "foreground": "#202321",
+    "accent": "#202321",
+    "display": "'Playfair Display',Georgia,serif",
+    "radius": "0px",
+    "structure": "legacy-mast row / editorial-spread / toolbar / project-grid legacy-cards editorial-cards"
+  },
+  {
+    "id": "playroom",
+    "background": "#FFFAF1",
+    "surface": "#FFFFFF",
+    "foreground": "#35364B",
+    "accent": "#6653A0",
+    "display": "'Fredoka',Arial,sans-serif",
+    "radius": "24px",
+    "structure": "legacy-mast row / playful-hero / toolbar / section-heading row"
+  },
+  {
+    "id": "midnight",
+    "background": "#181E24",
+    "surface": "#222B31",
+    "foreground": "#EEE8DB",
+    "accent": "#D9BA7C",
+    "display": "'Playfair Display',Georgia,serif",
+    "radius": "12px",
+    "structure": "legacy-mast row / night-hero / toolbar / project-grid legacy-cards night-cards"
+  },
+  {
+    "id": "commandline",
+    "background": "#000000",
+    "surface": "#101010",
+    "foreground": "#F0F0F0",
+    "accent": "#1D1D1D",
+    "display": "'Cascadia Code','Consolas','Courier New',monospace",
+    "radius": "2px",
+    "structure": "legacy-mast row / terminal-window / screen-foot"
+  },
+  {
+    "id": "vscode",
+    "background": "#1E1E1E",
+    "surface": "#252526",
+    "foreground": "#DEDEDE",
+    "accent": "#3794FF",
+    "display": "'Consolas','Courier New',monospace",
+    "radius": "2px",
+    "structure": "legacy-mast row / editor-layout / screen-foot"
+  },
+  {
+    "id": "excel",
+    "background": "#F3F6F3",
+    "surface": "#FFFFFF",
+    "foreground": "#23352A",
+    "accent": "#107C41",
+    "display": "'Manrope',Arial,sans-serif",
+    "radius": "1px",
+    "structure": "legacy-mast row / sheet-workbook / screen-foot"
+  },
+  {
+    "id": "canva",
+    "background": "#F5F3FC",
+    "surface": "#FFFFFF",
+    "foreground": "#252340",
+    "accent": "#000000",
+    "display": "'Manrope',Arial,sans-serif",
+    "radius": "17px",
+    "structure": "legacy-mast row / canvas-layout / screen-foot"
+  },
+  {
+    "id": "figma",
+    "background": "#F2F2F3",
+    "surface": "#FFFFFF",
+    "foreground": "#252525",
+    "accent": "#7850D0",
+    "display": "'Manrope',Arial,sans-serif",
+    "radius": "5px",
+    "structure": "legacy-mast row / canvas-layout / screen-foot"
+  },
+  {
+    "id": "photoshop",
+    "background": "#242424",
+    "surface": "#303030",
+    "foreground": "#E4E4E4",
+    "accent": "#72B6FF",
+    "display": "'Manrope',Arial,sans-serif",
+    "radius": "3px",
+    "structure": "legacy-mast row / canvas-layout / screen-foot"
+  },
+  {
+    "id": "file-explorer",
+    "background": "#F3F6FB",
+    "surface": "#FFFFFF",
+    "foreground": "#253141",
+    "accent": "#2865B1",
+    "display": "'Manrope',Arial,sans-serif",
+    "radius": "9px",
+    "structure": "legacy-mast row / file-explorer / screen-foot"
+  },
+  {
+    "id": "notion",
+    "background": "#FBFAF7",
+    "surface": "#FFFEFA",
+    "foreground": "#32312E",
+    "accent": "#F0EDE6",
+    "display": "'Manrope',Arial,sans-serif",
+    "radius": "4px",
+    "structure": "legacy-mast row / document-layout / screen-foot"
+  },
+  {
+    "id": "burpsuite",
+    "background": "#202124",
+    "surface": "#2B2C30",
+    "foreground": "#E9E9EB",
+    "accent": "#FF9868",
+    "display": "'Consolas','Courier New',monospace",
+    "radius": "2px",
+    "structure": "legacy-mast row / editor-layout / screen-foot"
+  },
+  {
+    "id": "halloween",
+    "background": "#151019",
+    "surface": "#241B2C",
+    "foreground": "#FFF3DC",
+    "accent": "#FFAB4A",
+    "display": "'Fredoka',Arial,sans-serif",
+    "radius": "16px",
+    "structure": "legacy-mast row / hallow-hero / hallow-focus / toolbar"
+  },
+  {
+    "id": "christmas",
+    "background": "#F5F1E8",
+    "surface": "#FFFCF4",
+    "foreground": "#203D32",
+    "accent": "#214F3D",
+    "display": "'Playfair Display',Georgia,serif",
+    "radius": "4px",
+    "structure": "legacy-mast row / xmas-room / xmas-letter / toolbar"
+  },
+  {
+    "id": "tet",
+    "background": "#A6222B",
+    "surface": "#8F1A26",
+    "foreground": "#FFF1D0",
+    "accent": "#F4D17B",
+    "display": "'Playfair Display',Georgia,serif",
+    "radius": "3px",
+    "structure": "legacy-mast row / tet-hero / tet-feature / toolbar"
+  },
+  {
+    "id": "black-friday",
+    "background": "#101010",
+    "surface": "#1B1B1B",
+    "foreground": "#F5F3EB",
+    "accent": "#FF4B3E",
+    "display": "'Be Vietnam Pro',Arial,sans-serif",
+    "radius": "0px",
+    "structure": "legacy-mast row / bf-strip / bf-hero / bf-collection-head"
+  }
+]

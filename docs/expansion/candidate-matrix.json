@@ -1,0 +1,1362 @@
+[
+  {
+    "group": "A",
+    "groupName": "Brutalism & Experimental",
+    "style": "Digital Brutalism",
+    "classification": "EXISTING",
+    "reference": "sac-01 / retro",
+    "reason": "The existing restrained window signature and playful outlined pastel theme already cover this structural language."
+  },
+  {
+    "group": "A",
+    "groupName": "Brutalism & Experimental",
+    "style": "Soft Neo-Brutalism",
+    "classification": "EXISTING",
+    "reference": "sac-01 / retro",
+    "reason": "The existing restrained window signature and playful outlined pastel theme already cover this structural language."
+  },
+  {
+    "group": "A",
+    "groupName": "Brutalism & Experimental",
+    "style": "Anti-Design",
+    "classification": "OVERLAPPING",
+    "reference": "deconstruct-studio / xerox-club",
+    "reason": "Covered by the planned fractured composition and raw photocopied flyer wall; adding every umbrella label would duplicate them."
+  },
+  {
+    "group": "A",
+    "groupName": "Brutalism & Experimental",
+    "style": "Neo-Maximalism",
+    "classification": "OVERLAPPING",
+    "reference": "deconstruct-studio / xerox-club",
+    "reason": "Covered by the planned fractured composition and raw photocopied flyer wall; adding every umbrella label would duplicate them."
+  },
+  {
+    "group": "A",
+    "groupName": "Brutalism & Experimental",
+    "style": "Punk Design",
+    "classification": "NEW",
+    "reference": "xerox-club",
+    "reason": "Photocopied monochrome flyer wall, distressed black typography and torn long records instead of lime collage sheets."
+  },
+  {
+    "group": "A",
+    "groupName": "Brutalism & Experimental",
+    "style": "Grunge",
+    "classification": "NEW",
+    "reference": "xerox-club",
+    "reason": "Photocopied monochrome flyer wall, distressed black typography and torn long records instead of lime collage sheets."
+  },
+  {
+    "group": "A",
+    "groupName": "Brutalism & Experimental",
+    "style": "Deconstructivism",
+    "classification": "NEW",
+    "reference": "deconstruct-studio",
+    "reason": "Diagonal structural voids, offset opaque reading islands and faceted records rather than an exposed regular grid."
+  },
+  {
+    "group": "A",
+    "groupName": "Brutalism & Experimental",
+    "style": "Chaos Design",
+    "classification": "OVERLAPPING",
+    "reference": "deconstruct-studio / xerox-club",
+    "reason": "Covered by the planned fractured composition and raw photocopied flyer wall; adding every umbrella label would duplicate them."
+  },
+  {
+    "group": "A",
+    "groupName": "Brutalism & Experimental",
+    "style": "Acid Graphics",
+    "classification": "EXISTING",
+    "reference": "type-foundry / motion-manifesto / cutout-dept",
+    "reason": "Existing oversized type, acid stock and cut-paper editions provide this identity without adding another poster recolor."
+  },
+  {
+    "group": "A",
+    "groupName": "Brutalism & Experimental",
+    "style": "Experimental Typography",
+    "classification": "EXISTING",
+    "reference": "type-foundry / motion-manifesto / cutout-dept",
+    "reason": "Existing oversized type, acid stock and cut-paper editions provide this identity without adding another poster recolor."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "Neo-Retro",
+    "classification": "EXISTING",
+    "reference": "sac-01 / retro",
+    "reason": "The existing restrained window signature and playful outlined pastel theme already cover this structural language."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "Y2K Aesthetic",
+    "classification": "NEW",
+    "reference": "bubble-web",
+    "reason": "Chromatic star medallion, pearl capsule columns and a central portal rather than pastel paper blocks."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "70s Groovy",
+    "classification": "NEW",
+    "reference": "groove-cabinet",
+    "reason": "Concentric rainbow arches, rounded record sleeves and low horizontal cabinet navigation replace book objects."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "Vaporwave",
+    "classification": "NEW",
+    "reference": "sunset-disk",
+    "reason": "Coral striped sun, receding grid horizon and ticket rows, without copper gallery ellipses."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "Vintage",
+    "classification": "OVERLAPPING",
+    "reference": "cottage-ledger / petal-archive",
+    "reason": "The specific gingham cottage and vintage floral plates provide stronger identities than another generic aged-paper theme."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "80s Synthwave",
+    "classification": "OVERLAPPING",
+    "reference": "sunset-disk / neon-alley",
+    "reason": "The sunset grid and neon sign architecture already carry these adjacent nighttime cues."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "Retrofuturism",
+    "classification": "VARIANT",
+    "reference": "cassette-desk",
+    "reason": "The beige cassette hardware composition is the selected, bounded interpretation; no separate generic duplicate."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "90s Web",
+    "classification": "VARIANT",
+    "reference": "bubble-web",
+    "reason": "A possible later browser-era content variant. Deferred: it needs a distinct directory/content model, not fake counters or another window skin."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "Web 1.0",
+    "classification": "VARIANT",
+    "reference": "bubble-web",
+    "reason": "A possible later browser-era content variant. Deferred: it needs a distinct directory/content model, not fake counters or another window skin."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "Pixel Retro",
+    "classification": "EXISTING",
+    "reference": "pixel-riot",
+    "reason": "The real project inventory, stepped pixel character and red/black pixel surfaces already provide this theme."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "Arcade UI",
+    "classification": "EXISTING",
+    "reference": "pixel-riot",
+    "reason": "The real project inventory, stepped pixel character and red/black pixel surfaces already provide this theme."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "Memphis Design",
+    "classification": "NEW",
+    "reference": "memphis-workshop",
+    "reason": "Asymmetric primary-color shape matrix, zigzags and polka-dot tiles instead of pastel hard-shadow note cards."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "Mid-Century Modern",
+    "classification": "VARIANT",
+    "reference": "nordic-shelf / groove-cabinet",
+    "reason": "A later furniture-led variant is plausible; this release selects timber joinery and the period cabinet rather than adding a palette-only mid-century duplicate."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "Old-School Macintosh",
+    "classification": "EXISTING",
+    "reference": "mono-os",
+    "reason": "White window furniture and a gray desktop already exist; do not add a near-identical branded replica."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "Frutiger Aero",
+    "classification": "NEW",
+    "reference": "aero-garden",
+    "reason": "Blue sky sphere landscape and glossy aquatic panes instead of architectural green glasshouse ribs."
+  },
+  {
+    "group": "B",
+    "groupName": "Retro & Nostalgic",
+    "style": "Cassette Futurism",
+    "classification": "NEW",
+    "reference": "cassette-desk",
+    "reason": "Beige hardware chassis, tape-reel drawing and slotted inventory rather than a white-window desktop."
+  },
+  {
+    "group": "C",
+    "groupName": "Minimalism & Clean",
+    "style": "Ultra-Minimalism",
+    "classification": "NEW",
+    "reference": "zero-margin",
+    "reason": "Large intentionally empty field, tiny entry index and borderless single-column records instead of magazine spreads."
+  },
+  {
+    "group": "C",
+    "groupName": "Minimalism & Clean",
+    "style": "Soft Minimalism",
+    "classification": "EXISTING",
+    "reference": "notion / botanical / editorial",
+    "reason": "Existing quiet document, warm natural and editorial compositions sufficiently represent these directions."
+  },
+  {
+    "group": "C",
+    "groupName": "Minimalism & Clean",
+    "style": "Warm Minimalism",
+    "classification": "EXISTING",
+    "reference": "notion / botanical / editorial",
+    "reason": "Existing quiet document, warm natural and editorial compositions sufficiently represent these directions."
+  },
+  {
+    "group": "C",
+    "groupName": "Minimalism & Clean",
+    "style": "Flat Design",
+    "classification": "EXISTING",
+    "reference": "notion / botanical / editorial",
+    "reason": "Existing quiet document, warm natural and editorial compositions sufficiently represent these directions."
+  },
+  {
+    "group": "C",
+    "groupName": "Minimalism & Clean",
+    "style": "Material Design",
+    "classification": "TECHNIQUE",
+    "reference": "shared scoped surface primitives",
+    "reason": "Treat depth, translucency and elevation as bounded surface capabilities with opaque readable controls and fallbacks, not automatically separate themes."
+  },
+  {
+    "group": "C",
+    "groupName": "Minimalism & Clean",
+    "style": "Bauhaus",
+    "classification": "NEW",
+    "reference": "form-function",
+    "reason": "Primary red/yellow/blue geometry in architectural modular columns and a vertical title spine, not layered print poster ink."
+  },
+  {
+    "group": "C",
+    "groupName": "Minimalism & Clean",
+    "style": "Japanese Minimalism",
+    "classification": "VARIANT",
+    "reference": "tatami-house",
+    "reason": "The selected timber threshold/quiet house is the concrete direction; broad regional or material labels are not additional themes."
+  },
+  {
+    "group": "C",
+    "groupName": "Minimalism & Clean",
+    "style": "Japandi",
+    "classification": "NEW",
+    "reference": "tatami-house",
+    "reason": "Shoji threshold geometry and horizontal timber-slat records; no botanical leaf hero."
+  },
+  {
+    "group": "C",
+    "groupName": "Minimalism & Clean",
+    "style": "Wabi-Sabi",
+    "classification": "VARIANT",
+    "reference": "tatami-house",
+    "reason": "The selected timber threshold/quiet house is the concrete direction; broad regional or material labels are not additional themes."
+  },
+  {
+    "group": "C",
+    "groupName": "Minimalism & Clean",
+    "style": "Scandinavian Design",
+    "classification": "NEW",
+    "reference": "nordic-shelf",
+    "reason": "Pale wood pegboard, shelf rails and measured joinery objects rather than book jackets and reading strips."
+  },
+  {
+    "group": "C",
+    "groupName": "Minimalism & Clean",
+    "style": "Quiet Luxury",
+    "classification": "VARIANT",
+    "reference": "silk-review / zero-margin",
+    "reason": "Refine density or editorial tone within the planned quiet/luxury systems instead of duplicating their structure."
+  },
+  {
+    "group": "C",
+    "groupName": "Minimalism & Clean",
+    "style": "Corporate Minimalism",
+    "classification": "VARIANT",
+    "reference": "silk-review / zero-margin",
+    "reason": "Refine density or editorial tone within the planned quiet/luxury systems instead of duplicating their structure."
+  },
+  {
+    "group": "C",
+    "groupName": "Minimalism & Clean",
+    "style": "Swiss Design",
+    "classification": "VARIANT",
+    "reference": "swiss-cut",
+    "reason": "Approved hybrid: strict asymmetric type slabs, oversized vertical index and a raw red cut distinguish it from Index Bureau."
+  },
+  {
+    "group": "D",
+    "groupName": "Morphism & Depth",
+    "style": "Glassmorphism",
+    "classification": "NEW",
+    "reference": "lucent-room",
+    "reason": "Blue frosted overlapping rectangular panes and layered workspace column, with opaque text surfaces, no greenhouse arch."
+  },
+  {
+    "group": "D",
+    "groupName": "Morphism & Depth",
+    "style": "Neumorphism",
+    "classification": "NEW",
+    "reference": "concrete-calm",
+    "reason": "Embossed monochrome ring and recessed task islands, with explicitly outlined controls rather than colorful flat blocks."
+  },
+  {
+    "group": "D",
+    "groupName": "Morphism & Depth",
+    "style": "Claymorphism",
+    "classification": "NEW",
+    "reference": "clay-corner",
+    "reason": "Terracotta soft-volume objects, inflated inset surfaces and rounded sculptural project plinths replace folded paper."
+  },
+  {
+    "group": "D",
+    "groupName": "Morphism & Depth",
+    "style": "Skeuomorphism",
+    "classification": "VARIANT",
+    "reference": "cassette-desk",
+    "reason": "The beige cassette hardware composition is the selected, bounded interpretation; no separate generic duplicate."
+  },
+  {
+    "group": "D",
+    "groupName": "Morphism & Depth",
+    "style": "Soft UI",
+    "classification": "TECHNIQUE",
+    "reference": "shared scoped surface primitives",
+    "reason": "Treat depth, translucency and elevation as bounded surface capabilities with opaque readable controls and fallbacks, not automatically separate themes."
+  },
+  {
+    "group": "D",
+    "groupName": "Morphism & Depth",
+    "style": "Liquid Glass",
+    "classification": "TECHNIQUE",
+    "reference": "shared scoped surface primitives",
+    "reason": "Treat depth, translucency and elevation as bounded surface capabilities with opaque readable controls and fallbacks, not automatically separate themes."
+  },
+  {
+    "group": "D",
+    "groupName": "Morphism & Depth",
+    "style": "Acrylic UI",
+    "classification": "TECHNIQUE",
+    "reference": "shared scoped surface primitives",
+    "reason": "Treat depth, translucency and elevation as bounded surface capabilities with opaque readable controls and fallbacks, not automatically separate themes."
+  },
+  {
+    "group": "D",
+    "groupName": "Morphism & Depth",
+    "style": "Translucent UI",
+    "classification": "TECHNIQUE",
+    "reference": "shared scoped surface primitives",
+    "reason": "Treat depth, translucency and elevation as bounded surface capabilities with opaque readable controls and fallbacks, not automatically separate themes."
+  },
+  {
+    "group": "D",
+    "groupName": "Morphism & Depth",
+    "style": "Paper UI",
+    "classification": "EXISTING",
+    "reference": "margin-notes / cutout-dept",
+    "reason": "Paper stacks, cut edges and editorial notes already exist as working compositions."
+  },
+  {
+    "group": "D",
+    "groupName": "Morphism & Depth",
+    "style": "Layered UI",
+    "classification": "TECHNIQUE",
+    "reference": "shared scoped surface primitives",
+    "reason": "Treat depth, translucency and elevation as bounded surface capabilities with opaque readable controls and fallbacks, not automatically separate themes."
+  },
+  {
+    "group": "D",
+    "groupName": "Morphism & Depth",
+    "style": "Tactile Design",
+    "classification": "TECHNIQUE",
+    "reference": "shared scoped surface primitives",
+    "reason": "Treat depth, translucency and elevation as bounded surface capabilities with opaque readable controls and fallbacks, not automatically separate themes."
+  },
+  {
+    "group": "D",
+    "groupName": "Morphism & Depth",
+    "style": "3D UI",
+    "classification": "TECHNIQUE",
+    "reference": "shared scoped surface primitives",
+    "reason": "Treat depth, translucency and elevation as bounded surface capabilities with opaque readable controls and fallbacks, not automatically separate themes."
+  },
+  {
+    "group": "D",
+    "groupName": "Morphism & Depth",
+    "style": "Isometric UI",
+    "classification": "NEW",
+    "reference": "iso-studio",
+    "reason": "Isometric block study and orthographic project plinths; actual reading cards remain front-facing."
+  },
+  {
+    "group": "D",
+    "groupName": "Morphism & Depth",
+    "style": "Holographic UI",
+    "classification": "NEW",
+    "reference": "prism-desk",
+    "reason": "Faceted iridescent prism, foil-framed exhibition labels and skew-free silver sheets replace ceramic fretwork."
+  },
+  {
+    "group": "E",
+    "groupName": "Futuristic & Technology",
+    "style": "Cyberpunk",
+    "classification": "NEW",
+    "reference": "neon-alley",
+    "reason": "Acid-lime vertical neon architecture and offset sign-board project rows, rather than pink specimen sheets."
+  },
+  {
+    "group": "E",
+    "groupName": "Futuristic & Technology",
+    "style": "Sci-Fi HUD",
+    "classification": "NEW",
+    "reference": "mission-control",
+    "reason": "Clipped corner instrument panels and decorative radial diagrams with actual project facts; no simulated telemetry."
+  },
+  {
+    "group": "E",
+    "groupName": "Futuristic & Technology",
+    "style": "Dark Futurism",
+    "classification": "OVERLAPPING",
+    "reference": "sunset-disk / neon-alley",
+    "reason": "The sunset grid and neon sign architecture already carry these adjacent nighttime cues."
+  },
+  {
+    "group": "E",
+    "groupName": "Futuristic & Technology",
+    "style": "Solarpunk",
+    "classification": "EXISTING",
+    "reference": "solar-glass",
+    "reason": "The green ribbed glasshouse, sunlight and structural panes already supply the ecological technology identity."
+  },
+  {
+    "group": "E",
+    "groupName": "Futuristic & Technology",
+    "style": "Biopunk",
+    "classification": "NEW",
+    "reference": "bio-culture",
+    "reason": "Organic cell chambers, culture dish drawing and branching note cards instead of botanical technical registration frames."
+  },
+  {
+    "group": "E",
+    "groupName": "Futuristic & Technology",
+    "style": "Tech Noir",
+    "classification": "NEW",
+    "reference": "noir-dispatch",
+    "reason": "Venetian-blind light field, case-file selection and asymmetric news-desk notes rather than a film editing room."
+  },
+  {
+    "group": "E",
+    "groupName": "Futuristic & Technology",
+    "style": "Neon Futurism",
+    "classification": "OVERLAPPING",
+    "reference": "sunset-disk / neon-alley",
+    "reason": "The sunset grid and neon sign architecture already carry these adjacent nighttime cues."
+  },
+  {
+    "group": "E",
+    "groupName": "Futuristic & Technology",
+    "style": "AI-Native Aesthetic",
+    "classification": "OVERLAPPING",
+    "reference": "prism-desk / aurora-console",
+    "reason": "The concrete prism/clear software-panel compositions provide the visual language; these are broad positioning labels."
+  },
+  {
+    "group": "E",
+    "groupName": "Futuristic & Technology",
+    "style": "Matrix UI",
+    "classification": "VARIANT",
+    "reference": "mission-control",
+    "reason": "Possible scoped data/syntax accent variant; do not recolor the established monochrome Command line theme."
+  },
+  {
+    "group": "E",
+    "groupName": "Futuristic & Technology",
+    "style": "Wireframe Aesthetic",
+    "classification": "TECHNIQUE",
+    "reference": "redline-atelier / bounded SVG scenes",
+    "reason": "Wire traces and generated diagrams are reusable drawing techniques; they should not imply live telemetry or create a duplicate technical frame."
+  },
+  {
+    "group": "E",
+    "groupName": "Futuristic & Technology",
+    "style": "Space Age",
+    "classification": "NEW",
+    "reference": "lunar-supply",
+    "reason": "White capsule hardware, ringed orbital disc and rounded pod inventory; no dark gold gallery."
+  },
+  {
+    "group": "E",
+    "groupName": "Futuristic & Technology",
+    "style": "Holographic Futurism",
+    "classification": "OVERLAPPING",
+    "reference": "prism-desk / aurora-console",
+    "reason": "The concrete prism/clear software-panel compositions provide the visual language; these are broad positioning labels."
+  },
+  {
+    "group": "E",
+    "groupName": "Futuristic & Technology",
+    "style": "Generative Art UI",
+    "classification": "TECHNIQUE",
+    "reference": "redline-atelier / bounded SVG scenes",
+    "reason": "Wire traces and generated diagrams are reusable drawing techniques; they should not imply live telemetry or create a duplicate technical frame."
+  },
+  {
+    "group": "F",
+    "groupName": "Editorial & Typography",
+    "style": "Magazine Layout",
+    "classification": "EXISTING",
+    "reference": "notion / botanical / editorial",
+    "reason": "Existing quiet document, warm natural and editorial compositions sufficiently represent these directions."
+  },
+  {
+    "group": "F",
+    "groupName": "Editorial & Typography",
+    "style": "Newspaper Style",
+    "classification": "NEW",
+    "reference": "newsroom-daily",
+    "reason": "Newspaper masthead, lead story, unequal editorial columns and caption rules rather than a three-column archive database."
+  },
+  {
+    "group": "F",
+    "groupName": "Editorial & Typography",
+    "style": "Poster Design",
+    "classification": "EXISTING",
+    "reference": "type-foundry / motion-manifesto / cutout-dept",
+    "reason": "Existing oversized type, acid stock and cut-paper editions provide this identity without adding another poster recolor."
+  },
+  {
+    "group": "F",
+    "groupName": "Editorial & Typography",
+    "style": "Type Brutalism",
+    "classification": "EXISTING",
+    "reference": "type-foundry / motion-manifesto / cutout-dept",
+    "reason": "Existing oversized type, acid stock and cut-paper editions provide this identity without adding another poster recolor."
+  },
+  {
+    "group": "F",
+    "groupName": "Editorial & Typography",
+    "style": "Kinetic Typography",
+    "classification": "TECHNIQUE",
+    "reference": "typographic and motion primitives",
+    "reason": "Use intentional title scale, grid alignment and optional short interaction feedback; respect reduced motion and avoid duplicate typography themes."
+  },
+  {
+    "group": "F",
+    "groupName": "Editorial & Typography",
+    "style": "Oversized Typography",
+    "classification": "TECHNIQUE",
+    "reference": "typographic and motion primitives",
+    "reason": "Use intentional title scale, grid alignment and optional short interaction feedback; respect reduced motion and avoid duplicate typography themes."
+  },
+  {
+    "group": "F",
+    "groupName": "Editorial & Typography",
+    "style": "Monospace Design",
+    "classification": "EXISTING",
+    "reference": "commandline / vscode",
+    "reason": "The terminal/editor references already cover this visual identity and must keep their current behavior."
+  },
+  {
+    "group": "F",
+    "groupName": "Editorial & Typography",
+    "style": "Literary Web",
+    "classification": "NEW",
+    "reference": "sonnet-house",
+    "reason": "Narrow typeset reading column, hanging paragraph markers and a text-first chapter index instead of book-object cards."
+  },
+  {
+    "group": "F",
+    "groupName": "Editorial & Typography",
+    "style": "Typographic Grid",
+    "classification": "TECHNIQUE",
+    "reference": "typographic and motion primitives",
+    "reason": "Use intentional title scale, grid alignment and optional short interaction feedback; respect reduced motion and avoid duplicate typography themes."
+  },
+  {
+    "group": "F",
+    "groupName": "Editorial & Typography",
+    "style": "Luxury Editorial",
+    "classification": "NEW",
+    "reference": "silk-review",
+    "reason": "Oversized italic serif spread, satin-like drawn folds and margin-led contents rather than red notebook spines and black feature band."
+  },
+  {
+    "group": "F",
+    "groupName": "Editorial & Typography",
+    "style": "Typography-First",
+    "classification": "EXISTING",
+    "reference": "notion / botanical / editorial",
+    "reason": "Existing quiet document, warm natural and editorial compositions sufficiently represent these directions."
+  },
+  {
+    "group": "G",
+    "groupName": "Playful & Illustrated",
+    "style": "Kawaii Aesthetic",
+    "classification": "NEW",
+    "reference": "pocket-friends",
+    "reason": "Pocket-shaped containers, tiny original friend faces and a compact collection of invitations rather than a generic playful hero."
+  },
+  {
+    "group": "G",
+    "groupName": "Playful & Illustrated",
+    "style": "Hand-Drawn / Doodle",
+    "classification": "NEW",
+    "reference": "ink-sketch",
+    "reason": "Hand-drawn double outlines, pencil-like registration and open sketchbook margins instead of stacked serif paper."
+  },
+  {
+    "group": "G",
+    "groupName": "Playful & Illustrated",
+    "style": "Scrapbook Aesthetic",
+    "classification": "EXISTING",
+    "reference": "margin-notes / cutout-dept",
+    "reason": "Paper stacks, cut edges and editorial notes already exist as working compositions."
+  },
+  {
+    "group": "G",
+    "groupName": "Playful & Illustrated",
+    "style": "Cartoon UI",
+    "classification": "VARIANT",
+    "reference": "pocket-friends / clay-corner / ink-sketch",
+    "reason": "Use the selected original illustration/material language; a broader synonym is not another selectable identity."
+  },
+  {
+    "group": "G",
+    "groupName": "Playful & Illustrated",
+    "style": "Comic Book",
+    "classification": "NEW",
+    "reference": "panel-pop",
+    "reason": "Halftone panel montage, speech-caption blocks and angular comic gutters rather than pastel note surfaces."
+  },
+  {
+    "group": "G",
+    "groupName": "Playful & Illustrated",
+    "style": "Pop Art",
+    "classification": "OVERLAPPING",
+    "reference": "panel-pop / pocket-friends / memphis-workshop",
+    "reason": "Covered by the planned comic framing, pocket characters and primary patterned workshop; avoid a second bright recolor."
+  },
+  {
+    "group": "G",
+    "groupName": "Playful & Illustrated",
+    "style": "Sticker Design",
+    "classification": "VARIANT",
+    "reference": "cutout-dept / memphis-workshop",
+    "reason": "A bounded density/decorative variant of existing cut paper or primary geometry, not a new composition in this release."
+  },
+  {
+    "group": "G",
+    "groupName": "Playful & Illustrated",
+    "style": "Toy-Like UI",
+    "classification": "VARIANT",
+    "reference": "pocket-friends / clay-corner / ink-sketch",
+    "reason": "Use the selected original illustration/material language; a broader synonym is not another selectable identity."
+  },
+  {
+    "group": "G",
+    "groupName": "Playful & Illustrated",
+    "style": "Whimsical Design",
+    "classification": "OVERLAPPING",
+    "reference": "panel-pop / pocket-friends / memphis-workshop",
+    "reason": "Covered by the planned comic framing, pocket characters and primary patterned workshop; avoid a second bright recolor."
+  },
+  {
+    "group": "G",
+    "groupName": "Playful & Illustrated",
+    "style": "Storybook Design",
+    "classification": "NEW",
+    "reference": "story-grove",
+    "reason": "Illustrated woodland portal and chapter-path records rather than an editorial botanical catalog."
+  },
+  {
+    "group": "G",
+    "groupName": "Playful & Illustrated",
+    "style": "Illustrated Landing Page",
+    "classification": "TECHNIQUE",
+    "reference": "original illustrative SVG layer",
+    "reason": "Illustration is an optional medium used by many identities; actual layout/material still determines a theme."
+  },
+  {
+    "group": "G",
+    "groupName": "Playful & Illustrated",
+    "style": "Dopamine Design",
+    "classification": "VARIANT",
+    "reference": "cutout-dept / memphis-workshop",
+    "reason": "A bounded density/decorative variant of existing cut paper or primary geometry, not a new composition in this release."
+  },
+  {
+    "group": "G",
+    "groupName": "Playful & Illustrated",
+    "style": "Kidcore",
+    "classification": "OVERLAPPING",
+    "reference": "panel-pop / pocket-friends / memphis-workshop",
+    "reason": "Covered by the planned comic framing, pocket characters and primary patterned workshop; avoid a second bright recolor."
+  },
+  {
+    "group": "G",
+    "groupName": "Playful & Illustrated",
+    "style": "Paper Cutout",
+    "classification": "EXISTING",
+    "reference": "margin-notes / cutout-dept",
+    "reason": "Paper stacks, cut edges and editorial notes already exist as working compositions."
+  },
+  {
+    "group": "G",
+    "groupName": "Playful & Illustrated",
+    "style": "Handmade Aesthetic",
+    "classification": "VARIANT",
+    "reference": "pocket-friends / clay-corner / ink-sketch",
+    "reason": "Use the selected original illustration/material language; a broader synonym is not another selectable identity."
+  },
+  {
+    "group": "H",
+    "groupName": "Nature & Organic",
+    "style": "Organic Design",
+    "classification": "EXISTING",
+    "reference": "botanical",
+    "reason": "The warm botanical reference already supplies this light, natural editorial direction."
+  },
+  {
+    "group": "H",
+    "groupName": "Nature & Organic",
+    "style": "Bohemian / Boho",
+    "classification": "NEW",
+    "reference": "terra-workshop",
+    "reason": "Woven ruled layout, terracotta vessel silhouettes and raw stock tags instead of inflated soft clay objects."
+  },
+  {
+    "group": "H",
+    "groupName": "Nature & Organic",
+    "style": "Cottagecore",
+    "classification": "NEW",
+    "reference": "cottage-ledger",
+    "reason": "Gingham window panes, quilt-seam records and herb-pot illustration, without holiday symbols or evergreen gift ribbons."
+  },
+  {
+    "group": "H",
+    "groupName": "Nature & Organic",
+    "style": "Ethereal / Dreamy",
+    "classification": "VARIANT",
+    "reference": "reverie-room / terra-workshop / story-grove",
+    "reason": "Use the concrete dream, earthy workshop or story illustration; the broader adjective is not an additional skin."
+  },
+  {
+    "group": "H",
+    "groupName": "Nature & Organic",
+    "style": "Botanical Design",
+    "classification": "EXISTING",
+    "reference": "botanical",
+    "reason": "The warm botanical reference already supplies this light, natural editorial direction."
+  },
+  {
+    "group": "H",
+    "groupName": "Nature & Organic",
+    "style": "Eco-Minimalism",
+    "classification": "EXISTING",
+    "reference": "botanical",
+    "reason": "The warm botanical reference already supplies this light, natural editorial direction."
+  },
+  {
+    "group": "H",
+    "groupName": "Nature & Organic",
+    "style": "Earthy Aesthetic",
+    "classification": "VARIANT",
+    "reference": "reverie-room / terra-workshop / story-grove",
+    "reason": "Use the concrete dream, earthy workshop or story illustration; the broader adjective is not an additional skin."
+  },
+  {
+    "group": "H",
+    "groupName": "Nature & Organic",
+    "style": "Rustic Design",
+    "classification": "NEW",
+    "reference": "terra-workshop",
+    "reason": "Woven ruled layout, terracotta vessel silhouettes and raw stock tags instead of inflated soft clay objects."
+  },
+  {
+    "group": "H",
+    "groupName": "Nature & Organic",
+    "style": "Natural Luxury",
+    "classification": "VARIANT",
+    "reference": "tatami-house",
+    "reason": "The selected timber threshold/quiet house is the concrete direction; broad regional or material labels are not additional themes."
+  },
+  {
+    "group": "H",
+    "groupName": "Nature & Organic",
+    "style": "Biophilic Design",
+    "classification": "VARIANT",
+    "reference": "reverie-room / terra-workshop / story-grove",
+    "reason": "Use the concrete dream, earthy workshop or story illustration; the broader adjective is not an additional skin."
+  },
+  {
+    "group": "H",
+    "groupName": "Nature & Organic",
+    "style": "Floral Vintage",
+    "classification": "NEW",
+    "reference": "petal-archive",
+    "reason": "Pale botanical plate with flower-stem dividers and vintage labels rather than hot-pink technical specimen sheets."
+  },
+  {
+    "group": "H",
+    "groupName": "Nature & Organic",
+    "style": "Farmhouse Aesthetic",
+    "classification": "OVERLAPPING",
+    "reference": "cottage-ledger / petal-archive",
+    "reason": "The specific gingham cottage and vintage floral plates provide stronger identities than another generic aged-paper theme."
+  },
+  {
+    "group": "H",
+    "groupName": "Nature & Organic",
+    "style": "Soft Nature",
+    "classification": "EXISTING",
+    "reference": "botanical",
+    "reason": "The warm botanical reference already supplies this light, natural editorial direction."
+  },
+  {
+    "group": "I",
+    "groupName": "Grid & Layout",
+    "style": "Bento Grid",
+    "classification": "NEW",
+    "reference": "bento-kitchen",
+    "reason": "Unequal compartment grid, clear spanning feature and segmented green trays instead of repeated equal cards."
+  },
+  {
+    "group": "I",
+    "groupName": "Grid & Layout",
+    "style": "Asymmetric Layout",
+    "classification": "TECHNIQUE",
+    "reference": "shared responsive composition primitives",
+    "reason": "These are layout/interaction capabilities. Avoid forced horizontal body scrolling or fake canvas controls; choose a deliberate content composition instead."
+  },
+  {
+    "group": "I",
+    "groupName": "Grid & Layout",
+    "style": "Masonry Layout",
+    "classification": "NEW",
+    "reference": "mosaic-studio",
+    "reason": "Variable-height aligned mosaic columns and inset colored tesserae instead of blue ceramic equal-width tiles."
+  },
+  {
+    "group": "I",
+    "groupName": "Grid & Layout",
+    "style": "Split-Screen",
+    "classification": "TECHNIQUE",
+    "reference": "shared responsive composition primitives",
+    "reason": "These are layout/interaction capabilities. Avoid forced horizontal body scrolling or fake canvas controls; choose a deliberate content composition instead."
+  },
+  {
+    "group": "I",
+    "groupName": "Grid & Layout",
+    "style": "Modular Grid",
+    "classification": "TECHNIQUE",
+    "reference": "shared responsive composition primitives",
+    "reason": "These are layout/interaction capabilities. Avoid forced horizontal body scrolling or fake canvas controls; choose a deliberate content composition instead."
+  },
+  {
+    "group": "I",
+    "groupName": "Grid & Layout",
+    "style": "Broken Grid",
+    "classification": "VARIANT",
+    "reference": "deconstruct-studio",
+    "reason": "Implemented through the approved fractured reading islands, while opaque text and normal reading order remain intact."
+  },
+  {
+    "group": "I",
+    "groupName": "Grid & Layout",
+    "style": "Full-Bleed Layout",
+    "classification": "NEW",
+    "reference": "wide-story",
+    "reason": "Panoramic original landscape, bounded text label and wide horizontal narrative rows, no nautical coordinates."
+  },
+  {
+    "group": "I",
+    "groupName": "Grid & Layout",
+    "style": "Card-Based Design",
+    "classification": "TECHNIQUE",
+    "reference": "shared responsive composition primitives",
+    "reason": "These are layout/interaction capabilities. Avoid forced horizontal body scrolling or fake canvas controls; choose a deliberate content composition instead."
+  },
+  {
+    "group": "I",
+    "groupName": "Grid & Layout",
+    "style": "Dashboard Layout",
+    "classification": "TECHNIQUE",
+    "reference": "shared responsive composition primitives",
+    "reason": "These are layout/interaction capabilities. Avoid forced horizontal body scrolling or fake canvas controls; choose a deliberate content composition instead."
+  },
+  {
+    "group": "I",
+    "groupName": "Grid & Layout",
+    "style": "Single-Page Storytelling",
+    "classification": "TECHNIQUE",
+    "reference": "shared responsive composition primitives",
+    "reason": "These are layout/interaction capabilities. Avoid forced horizontal body scrolling or fake canvas controls; choose a deliberate content composition instead."
+  },
+  {
+    "group": "I",
+    "groupName": "Grid & Layout",
+    "style": "Horizontal Scrolling",
+    "classification": "TECHNIQUE",
+    "reference": "shared responsive composition primitives",
+    "reason": "These are layout/interaction capabilities. Avoid forced horizontal body scrolling or fake canvas controls; choose a deliberate content composition instead."
+  },
+  {
+    "group": "I",
+    "groupName": "Grid & Layout",
+    "style": "Infinite Canvas",
+    "classification": "TECHNIQUE",
+    "reference": "shared responsive composition primitives",
+    "reason": "These are layout/interaction capabilities. Avoid forced horizontal body scrolling or fake canvas controls; choose a deliberate content composition instead."
+  },
+  {
+    "group": "I",
+    "groupName": "Grid & Layout",
+    "style": "Immersive Layout",
+    "classification": "OVERLAPPING",
+    "reference": "constellation-desk / wide-story",
+    "reason": "Immersion is an outcome; the spatial node map and panoramic story are the selected concrete interpretations."
+  },
+  {
+    "group": "J",
+    "groupName": "Motion & Immersive",
+    "style": "Immersive 3D",
+    "classification": "TECHNIQUE",
+    "reference": "accessible spatial/motion layer",
+    "reason": "Optional progressive enhancement, not one theme per effect. This release keeps static readable SVG/CSS depth fallbacks and native controls; no fake playback, game scores or mandatory WebGL."
+  },
+  {
+    "group": "J",
+    "groupName": "Motion & Immersive",
+    "style": "Scrollytelling",
+    "classification": "TECHNIQUE",
+    "reference": "accessible spatial/motion layer",
+    "reason": "Optional progressive enhancement, not one theme per effect. This release keeps static readable SVG/CSS depth fallbacks and native controls; no fake playback, game scores or mandatory WebGL."
+  },
+  {
+    "group": "J",
+    "groupName": "Motion & Immersive",
+    "style": "Cinematic Design",
+    "classification": "EXISTING",
+    "reference": "frame-shift",
+    "reason": "The shot list, original graphic frame and director-note panel already provide a cinematic application composition."
+  },
+  {
+    "group": "J",
+    "groupName": "Motion & Immersive",
+    "style": "WebGL / Interactive Art",
+    "classification": "TECHNIQUE",
+    "reference": "accessible spatial/motion layer",
+    "reason": "Optional progressive enhancement, not one theme per effect. This release keeps static readable SVG/CSS depth fallbacks and native controls; no fake playback, game scores or mandatory WebGL."
+  },
+  {
+    "group": "J",
+    "groupName": "Motion & Immersive",
+    "style": "Parallax Design",
+    "classification": "TECHNIQUE",
+    "reference": "accessible spatial/motion layer",
+    "reason": "Optional progressive enhancement, not one theme per effect. This release keeps static readable SVG/CSS depth fallbacks and native controls; no fake playback, game scores or mandatory WebGL."
+  },
+  {
+    "group": "J",
+    "groupName": "Motion & Immersive",
+    "style": "Motion-First",
+    "classification": "TECHNIQUE",
+    "reference": "accessible spatial/motion layer",
+    "reason": "Optional progressive enhancement, not one theme per effect. This release keeps static readable SVG/CSS depth fallbacks and native controls; no fake playback, game scores or mandatory WebGL."
+  },
+  {
+    "group": "J",
+    "groupName": "Motion & Immersive",
+    "style": "Micro-Interaction UI",
+    "classification": "TECHNIQUE",
+    "reference": "accessible spatial/motion layer",
+    "reason": "Optional progressive enhancement, not one theme per effect. This release keeps static readable SVG/CSS depth fallbacks and native controls; no fake playback, game scores or mandatory WebGL."
+  },
+  {
+    "group": "J",
+    "groupName": "Motion & Immersive",
+    "style": "Scroll Animation",
+    "classification": "TECHNIQUE",
+    "reference": "accessible spatial/motion layer",
+    "reason": "Optional progressive enhancement, not one theme per effect. This release keeps static readable SVG/CSS depth fallbacks and native controls; no fake playback, game scores or mandatory WebGL."
+  },
+  {
+    "group": "J",
+    "groupName": "Motion & Immersive",
+    "style": "Interactive Storytelling",
+    "classification": "TECHNIQUE",
+    "reference": "accessible spatial/motion layer",
+    "reason": "Optional progressive enhancement, not one theme per effect. This release keeps static readable SVG/CSS depth fallbacks and native controls; no fake playback, game scores or mandatory WebGL."
+  },
+  {
+    "group": "J",
+    "groupName": "Motion & Immersive",
+    "style": "Spatial UI",
+    "classification": "NEW",
+    "reference": "constellation-desk",
+    "reason": "Connected-node map with readable planar labels and a side index, no copper concentric gallery rings."
+  },
+  {
+    "group": "J",
+    "groupName": "Motion & Immersive",
+    "style": "3D Product Showcase",
+    "classification": "TECHNIQUE",
+    "reference": "accessible spatial/motion layer",
+    "reason": "Optional progressive enhancement, not one theme per effect. This release keeps static readable SVG/CSS depth fallbacks and native controls; no fake playback, game scores or mandatory WebGL."
+  },
+  {
+    "group": "J",
+    "groupName": "Motion & Immersive",
+    "style": "Gamified Website",
+    "classification": "TECHNIQUE",
+    "reference": "accessible spatial/motion layer",
+    "reason": "Optional progressive enhancement, not one theme per effect. This release keeps static readable SVG/CSS depth fallbacks and native controls; no fake playback, game scores or mandatory WebGL."
+  },
+  {
+    "group": "J",
+    "groupName": "Motion & Immersive",
+    "style": "Motion Poster",
+    "classification": "TECHNIQUE",
+    "reference": "accessible spatial/motion layer",
+    "reason": "Optional progressive enhancement, not one theme per effect. This release keeps static readable SVG/CSS depth fallbacks and native controls; no fake playback, game scores or mandatory WebGL."
+  },
+  {
+    "group": "K",
+    "groupName": "Artistic & Historical",
+    "style": "Art Deco",
+    "classification": "NEW",
+    "reference": "deco-society",
+    "reason": "Stepped gold fan, symmetrical salon frame and long gilded records rather than an informal gold night gallery."
+  },
+  {
+    "group": "K",
+    "groupName": "Artistic & Historical",
+    "style": "Art Nouveau",
+    "classification": "NEW",
+    "reference": "nouveau-garden",
+    "reason": "Whiplash vine framing, stained-glass flower panel and arch-ended records rather than simple garden line art."
+  },
+  {
+    "group": "K",
+    "groupName": "Artistic & Historical",
+    "style": "Constructivism",
+    "classification": "NEW",
+    "reference": "construct-bureau",
+    "reason": "Red wedge / black beam typography and asymmetrical constructive panel grid, not a red arrow billboard."
+  },
+  {
+    "group": "K",
+    "groupName": "Artistic & Historical",
+    "style": "Dadaism",
+    "classification": "OVERLAPPING",
+    "reference": "deconstruct-studio / xerox-club",
+    "reason": "Covered by the planned fractured composition and raw photocopied flyer wall; adding every umbrella label would duplicate them."
+  },
+  {
+    "group": "K",
+    "groupName": "Artistic & Historical",
+    "style": "Psychedelic Art",
+    "classification": "VARIANT",
+    "reference": "groove-cabinet / petal-archive / silk-review",
+    "reason": "Possible later ornamental variants. Deferred rather than adding historical labels to essentially the same period-inspired surface."
+  },
+  {
+    "group": "K",
+    "groupName": "Artistic & Historical",
+    "style": "Victorian",
+    "classification": "VARIANT",
+    "reference": "groove-cabinet / petal-archive / silk-review",
+    "reason": "Possible later ornamental variants. Deferred rather than adding historical labels to essentially the same period-inspired surface."
+  },
+  {
+    "group": "K",
+    "groupName": "Artistic & Historical",
+    "style": "Gothic",
+    "classification": "NEW",
+    "reference": "cabinet-obscura",
+    "reason": "Restrained stone-like pointed arches and silver tracery instead of pumpkins, ghosts and curiosity-cabinet orange."
+  },
+  {
+    "group": "K",
+    "groupName": "Artistic & Historical",
+    "style": "Baroque",
+    "classification": "OVERLAPPING",
+    "reference": "deco-society",
+    "reason": "Do not equate period styles; a separate Baroque theme would require substantially more original ornament than this curated release. Deferred to avoid ornamental filler."
+  },
+  {
+    "group": "K",
+    "groupName": "Artistic & Historical",
+    "style": "Renaissance-Inspired",
+    "classification": "VARIANT",
+    "reference": "groove-cabinet / petal-archive / silk-review",
+    "reason": "Possible later ornamental variants. Deferred rather than adding historical labels to essentially the same period-inspired surface."
+  },
+  {
+    "group": "K",
+    "groupName": "Artistic & Historical",
+    "style": "Abstract Expressionism",
+    "classification": "NEW",
+    "reference": "gestural-field",
+    "reason": "Broad irregular brush gestures, open asymmetric text and raw edge record bands rather than registered geometric ink layers."
+  },
+  {
+    "group": "K",
+    "groupName": "Artistic & Historical",
+    "style": "Op Art",
+    "classification": "NEW",
+    "reference": "optic-interval",
+    "reason": "Static black/ivory interference bands and alternating visual intervals, rather than navigational sea-chart contours."
+  },
+  {
+    "group": "K",
+    "groupName": "Artistic & Historical",
+    "style": "Screenprint",
+    "classification": "EXISTING",
+    "reference": "overprint-studio / riso-post",
+    "reason": "The registered overprinted edition and riso postal surfaces already supply these print methods."
+  },
+  {
+    "group": "K",
+    "groupName": "Artistic & Historical",
+    "style": "Duotone",
+    "classification": "TECHNIQUE",
+    "reference": "decorative ink fields only",
+    "reason": "A bounded color/texture treatment can support a theme; do not alter supplied product artwork or create a gradient-only duplicate."
+  },
+  {
+    "group": "K",
+    "groupName": "Artistic & Historical",
+    "style": "Surrealism",
+    "classification": "NEW",
+    "reference": "reverie-room",
+    "reason": "Impossible staircase, floating arch and a dream-like vertical reading sequence on light mauve stock."
+  },
+  {
+    "group": "K",
+    "groupName": "Artistic & Historical",
+    "style": "Risograph",
+    "classification": "EXISTING",
+    "reference": "overprint-studio / riso-post",
+    "reason": "The registered overprinted edition and riso postal surfaces already supply these print methods."
+  },
+  {
+    "group": "L",
+    "groupName": "Modern Digital & SaaS",
+    "style": "Modern SaaS",
+    "classification": "OVERLAPPING",
+    "reference": "prism-desk / aurora-console",
+    "reason": "The concrete prism/clear software-panel compositions provide the visual language; these are broad positioning labels."
+  },
+  {
+    "group": "L",
+    "groupName": "Modern Digital & SaaS",
+    "style": "Aurora UI",
+    "classification": "NEW",
+    "reference": "aurora-console",
+    "reason": "Subtle bounded aurora ribbons, clear software panels and a left task rail rather than bright media cover blocks."
+  },
+  {
+    "group": "L",
+    "groupName": "Modern Digital & SaaS",
+    "style": "OLED Dark Minimal",
+    "classification": "NEW",
+    "reference": "obsidian-space",
+    "reason": "Large spatial sans-serif statement and borderless gallery on pure black, rather than terminal prompts and monospace rows."
+  },
+  {
+    "group": "L",
+    "groupName": "Modern Digital & SaaS",
+    "style": "Mesh Gradient / Grainy UI",
+    "classification": "TECHNIQUE",
+    "reference": "decorative ink fields only",
+    "reason": "A bounded color/texture treatment can support a theme; do not alter supplied product artwork or create a gradient-only duplicate."
+  },
+  {
+    "group": "L",
+    "groupName": "Modern Digital & SaaS",
+    "style": "Developer-First UI",
+    "classification": "EXISTING",
+    "reference": "commandline / vscode",
+    "reason": "The terminal/editor references already cover this visual identity and must keep their current behavior."
+  },
+  {
+    "group": "L",
+    "groupName": "Modern Digital & SaaS",
+    "style": "Technical Minimalism",
+    "classification": "EXISTING",
+    "reference": "commandline / vscode",
+    "reason": "The terminal/editor references already cover this visual identity and must keep their current behavior."
+  },
+  {
+    "group": "L",
+    "groupName": "Modern Digital & SaaS",
+    "style": "Data-Dense UI",
+    "classification": "NEW",
+    "reference": "signal-ledger",
+    "reason": "Compact side summary, actual category/state ledger and selected-note inspector; no workbook formula bar or spreadsheet mimicry."
+  },
+  {
+    "group": "L",
+    "groupName": "Modern Digital & SaaS",
+    "style": "Command Palette UI",
+    "classification": "TECHNIQUE",
+    "reference": "existing native searchable theme picker",
+    "reason": "Searchable keyboard-driven selection is an application capability, already present, rather than a standalone aesthetic."
+  },
+  {
+    "group": "L",
+    "groupName": "Modern Digital & SaaS",
+    "style": "Dashboard-First",
+    "classification": "OVERLAPPING",
+    "reference": "prism-desk / aurora-console",
+    "reason": "The concrete prism/clear software-panel compositions provide the visual language; these are broad positioning labels."
+  },
+  {
+    "group": "L",
+    "groupName": "Modern Digital & SaaS",
+    "style": "Gradient Minimalism",
+    "classification": "VARIANT",
+    "reference": "aurora-console / lucent-room",
+    "reason": "Optional surface/tone variants of the selected clear panels; not a new theme without further structural differentiation."
+  },
+  {
+    "group": "L",
+    "groupName": "Modern Digital & SaaS",
+    "style": "Monochrome SaaS",
+    "classification": "OVERLAPPING",
+    "reference": "zero-margin",
+    "reason": "The borderless quiet index is the selected minimal composition; SaaS is a product category rather than another visual identity."
+  },
+  {
+    "group": "L",
+    "groupName": "Modern Digital & SaaS",
+    "style": "Product-Led Design",
+    "classification": "TECHNIQUE",
+    "reference": "host product behavior",
+    "reason": "A product strategy, not a selectable visual style. Preserve the real host application and avoid fabricated conversion claims."
+  },
+  {
+    "group": "L",
+    "groupName": "Modern Digital & SaaS",
+    "style": "Dark Luxe",
+    "classification": "EXISTING",
+    "reference": "midnight / velvet-orbit",
+    "reason": "The dark gold library and copper velvet gallery already supply this identity."
+  },
+  {
+    "group": "L",
+    "groupName": "Modern Digital & SaaS",
+    "style": "AI Product Aesthetic",
+    "classification": "OVERLAPPING",
+    "reference": "prism-desk / aurora-console",
+    "reason": "The concrete prism/clear software-panel compositions provide the visual language; these are broad positioning labels."
+  },
+  {
+    "group": "M",
+    "groupName": "Hybrid Signature Themes",
+    "style": "Neo-Retro Brutalism",
+    "classification": "EXISTING",
+    "reference": "sac-01 / retro",
+    "reason": "The existing restrained window signature and playful outlined pastel theme already cover this structural language."
+  },
+  {
+    "group": "M",
+    "groupName": "Hybrid Signature Themes",
+    "style": "Soft Neo-Brutalism",
+    "classification": "EXISTING",
+    "reference": "sac-01 / retro",
+    "reason": "The existing restrained window signature and playful outlined pastel theme already cover this structural language."
+  },
+  {
+    "group": "M",
+    "groupName": "Hybrid Signature Themes",
+    "style": "Editorial Minimalism",
+    "classification": "EXISTING",
+    "reference": "notion / botanical / editorial",
+    "reason": "Existing quiet document, warm natural and editorial compositions sufficiently represent these directions."
+  },
+  {
+    "group": "M",
+    "groupName": "Hybrid Signature Themes",
+    "style": "Playful Bento",
+    "classification": "NEW",
+    "reference": "atelier-array",
+    "reason": "Unequal expressive ink-framed dashboard tiles, oversized editorial labels and actual collection facts rather than green compartment trays."
+  },
+  {
+    "group": "M",
+    "groupName": "Hybrid Signature Themes",
+    "style": "Retro Futurism",
+    "classification": "VARIANT",
+    "reference": "cassette-desk",
+    "reason": "The beige cassette hardware composition is the selected, bounded interpretation; no separate generic duplicate."
+  },
+  {
+    "group": "M",
+    "groupName": "Hybrid Signature Themes",
+    "style": "Organic Minimalism",
+    "classification": "VARIANT",
+    "reference": "quiet-current",
+    "reason": "Approved hybrid: water-cut negative-space bands and a flowing reading path distinguish it from leaf-based Botanical."
+  },
+  {
+    "group": "M",
+    "groupName": "Hybrid Signature Themes",
+    "style": "Scrapbook Editorial",
+    "classification": "EXISTING",
+    "reference": "margin-notes / cutout-dept",
+    "reason": "Paper stacks, cut edges and editorial notes already exist as working compositions."
+  },
+  {
+    "group": "M",
+    "groupName": "Hybrid Signature Themes",
+    "style": "Dark Glassmorphism",
+    "classification": "VARIANT",
+    "reference": "aurora-console / lucent-room",
+    "reason": "Optional surface/tone variants of the selected clear panels; not a new theme without further structural differentiation."
+  },
+  {
+    "group": "M",
+    "groupName": "Hybrid Signature Themes",
+    "style": "Kawaii Claymorphism",
+    "classification": "NEW",
+    "reference": "cloud-pet",
+    "reason": "Inflated original cloud forms with elevated stacked trays and sky-blue depth; not flat pink pockets or terracotta clay plinths."
+  },
+  {
+    "group": "M",
+    "groupName": "Hybrid Signature Themes",
+    "style": "Swiss Brutalism",
+    "classification": "VARIANT",
+    "reference": "swiss-cut",
+    "reason": "Approved hybrid: strict asymmetric type slabs, oversized vertical index and a raw red cut distinguish it from Index Bureau."
+  }
+]
