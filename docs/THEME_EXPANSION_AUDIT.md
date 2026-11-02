@@ -252,3 +252,7 @@ Every addition has a declared nearest neighbor and a structural difference in `e
 ## Roadmap
 
 See [master plan](THEME_EXPANSION_MASTER_PLAN.md), [implementation guide](THEME_IMPLEMENTATION_GUIDE.md) and [progress](THEME_EXPANSION_PROGRESS.md). Audit classifications do not claim that unimplemented techniques are available.
+
+## Release outcome
+
+All 51 approved additions are implemented, bringing the protected fifty-theme baseline to 101 actual themes. See the [complete catalog](THEME_CATALOG.md), [phase progress](THEME_EXPANSION_PROGRESS.md) and [final production evidence](expansion/release-8.json). The audit classifications remain the original selection rationale.

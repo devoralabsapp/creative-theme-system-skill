@@ -200,3 +200,5 @@ Expansion art is original SVG; depth/spatial studies have lightweight static fal
 <!-- expansion-links:end -->
 
 Final expansion verification: all 101 themes passed 1,010 Lab/catalog responsive checks at 320/390/768/1024/1440px and 203 interaction records. All 51 additions also passed long-title/escaped-content, retained-state and reduced-motion checks. All 50 original token/composition samples match the audit baseline. Excel keeps its existing bounded horizontal workbook on phones. See [final QA evidence](docs/expansion/qa-phase-8.json) and [phase/release progress](docs/THEME_EXPANSION_PROGRESS.md). These checks are not a full accessibility certification.
+
+Final implementation release: [`b0ec2ec`](https://github.com/devoralabsapp/creative-theme-system-skill/commit/b0ec2ec13761a635a1d8f8ece82355edc24108f3), [production verified](docs/expansion/release-8.json).

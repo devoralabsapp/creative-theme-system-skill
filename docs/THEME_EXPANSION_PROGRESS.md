@@ -1,5 +1,21 @@
 # Theme expansion progress
 
+The expansion is complete: **101 registered themes**, including 51 additions. All phases were committed/pushed and verified on [the existing production domain](https://theme.devoralabs.tech/). Full implementation and validation details follow.
+
+## Published phase overview
+
+| Phase | Registered themes | Published commit | Production |
+| --- | --- | --- | --- |
+| 0 | 50 | [`65d80a6`](https://github.com/devoralabsapp/creative-theme-system-skill/commit/65d80a66e8a0684636d74fdbff48b1805e2c0598) | [Verified](expansion/release-0.json) |
+| 1 | 58 | [`fd9fea1`](https://github.com/devoralabsapp/creative-theme-system-skill/commit/fd9fea1ee01a65a6a1ae6024f8d76710cdda555e) | [Verified](expansion/release-1.json) |
+| 2 | 66 | [`ed2856d`](https://github.com/devoralabsapp/creative-theme-system-skill/commit/ed2856d7ca73763b240d52f44fbe15263f23052c) | [Verified](expansion/release-2.json) |
+| 3 | 74 | [`da61d49`](https://github.com/devoralabsapp/creative-theme-system-skill/commit/da61d49fff65aa2cd8b717787ba6f440f8e25d8f) | [Verified](expansion/release-3.json) |
+| 4 | 81 | [`bc9c3a5`](https://github.com/devoralabsapp/creative-theme-system-skill/commit/bc9c3a5ff93d9fdfa3ad9fb0e98b134df78de2ba) | [Verified](expansion/release-4.json) |
+| 5 | 87 | [`753df9a`](https://github.com/devoralabsapp/creative-theme-system-skill/commit/753df9a84b01a31a80d4ed37589c546c11109265) | [Verified](expansion/release-5.json) |
+| 6 | 97 | [`0788c8a`](https://github.com/devoralabsapp/creative-theme-system-skill/commit/0788c8a8dcf96e88223500b538aa2abdbcd29840) | [Verified](expansion/release-6.json) |
+| 7 | 101 | [`14b0bab`](https://github.com/devoralabsapp/creative-theme-system-skill/commit/14b0bab07a113d95de12b9bac02374eb98b7991a) | [Verified](expansion/release-7.json) |
+| 8 | 101 | [`b0ec2ec`](https://github.com/devoralabsapp/creative-theme-system-skill/commit/b0ec2ec13761a635a1d8f8ece82355edc24108f3) | [Verified](expansion/release-8.json) |
+
 ## Phase 0 — audit and planning
 
 Status: completed, committed and pushed as `65d80a6`. Production verified: 50 themes, matching registry, All + original/latest deep links in both views; see [release evidence](expansion/release-0.json).
@@ -130,7 +146,7 @@ Status: completed, committed and pushed as `14b0bab`; existing production domain
 
 ## Phase 8 — final quality, documentation and release
 
-Status: final implementation and local validation completed. All feature phases 0–7 were committed, pushed and verified on the existing production domain; final release publication and attestation follow this commit.
+Status: **completed**. Final implementation release `b0ec2ec` was committed, pushed and verified on the existing production domain. [Final deployment evidence](expansion/release-8.json). The documentation attestation following that release changes no runtime files.
 
 - Actual registry: **101 themes** — 50 protected originals plus 51 additions; Creative Lab 84, Studio 4, Workspace 9, Holiday 4.
 - Audit: all 170 candidate entries classified; techniques/aliases were not counted as independent filler themes. All 51 approved directions now implemented.
@@ -143,4 +159,5 @@ Status: final implementation and local validation completed. All feature phases 
 - Visual QA: actual Lab and Website desktop contact sheets reviewed for every implementation batch; representative 320px Lab/catalog states inspected. All 101 Lab screenshots and overview thumbnails refreshed from the working app. README shows an actual All overview and a curated expansion contact sheet.
 - Agent handoff: README/SKILL/discovery metadata, original integration/reference links, complete catalog, practical recipes for all seven phases, audit/master plan/progress and detailed implementation/verification guide updated. Generated counts derive from the registry.
 - Implementation limits: bounded original SVG/CSS supplies spatial/depth fallbacks; reading surfaces remain opaque. Fonts have system fallbacks. Contrast sampling excludes decorative artwork and is not a complete WCAG/assistive-technology audit.
-- Evidence: [final QA record](expansion/qa-phase-8.json); phase release records link each published commit to its successful Vercel status and actual browser verification. Re-run `node scripts/verify_production.cjs 8` against committed HEAD after the final push.
+- Packaging: copied the complete starter into a fresh directory with `create_demo.mjs`; its generated 101-theme demo passed the static validator. `git diff --check` passed; Vercel configuration is unchanged.
+- Evidence: [final QA record](expansion/qa-phase-8.json) and [production attestation](expansion/release-8.json). All, both preview types, original/latest deep links, the legacy `/lab/` route, latest scene/thumbnail and exact committed expansion JS/CSS were verified. No known release blockers remain within the documented scope.
