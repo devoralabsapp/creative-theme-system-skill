@@ -735,6 +735,139 @@ window.STUDIO_THEMES = {
       "cardLayout": "folio"
     },
     {
+      "id": "pocket-friends",
+      "name": "Pocket Friends",
+      "description": "Pocket-shaped containers, tiny original friend faces and a compact collection of invitations rather than a generic playful hero.",
+      "family": "creative",
+      "color": "#F8E9E8",
+      "tone": "light",
+      "expansion": true,
+      "phase": 4,
+      "style": "Kawaii Aesthetic",
+      "tags": [
+        "Kawaii Aesthetic",
+        "cute",
+        "pocket"
+      ],
+      "composition": "pocket",
+      "material": "cute",
+      "cardLayout": "friend"
+    },
+    {
+      "id": "ink-sketch",
+      "name": "Ink Sketch",
+      "description": "Hand-drawn double outlines, pencil-like registration and open sketchbook margins instead of stacked serif paper.",
+      "family": "creative",
+      "color": "#F4F0DF",
+      "tone": "light",
+      "expansion": true,
+      "phase": 4,
+      "style": "Hand-Drawn / Doodle",
+      "tags": [
+        "Hand-Drawn / Doodle",
+        "sketch",
+        "sketch"
+      ],
+      "composition": "sketch",
+      "material": "sketch",
+      "cardLayout": "sketch"
+    },
+    {
+      "id": "panel-pop",
+      "name": "Panel Pop",
+      "description": "Halftone panel montage, speech-caption blocks and angular comic gutters rather than pastel note surfaces.",
+      "family": "creative",
+      "color": "#FFF2CB",
+      "tone": "light",
+      "expansion": true,
+      "phase": 4,
+      "style": "Comic Book",
+      "tags": [
+        "Comic Book",
+        "comic",
+        "comic"
+      ],
+      "composition": "comic",
+      "material": "comic",
+      "cardLayout": "panel"
+    },
+    {
+      "id": "story-grove",
+      "name": "Story Grove",
+      "description": "Illustrated woodland portal and chapter-path records rather than an editorial botanical catalog.",
+      "family": "creative",
+      "color": "#E9EEDC",
+      "tone": "light",
+      "expansion": true,
+      "phase": 4,
+      "style": "Storybook Design",
+      "tags": [
+        "Storybook Design",
+        "storybook",
+        "storybook"
+      ],
+      "composition": "storybook",
+      "material": "storybook",
+      "cardLayout": "story"
+    },
+    {
+      "id": "cottage-ledger",
+      "name": "Cottage Ledger",
+      "description": "Gingham window panes, quilt-seam records and herb-pot illustration, without holiday symbols or evergreen gift ribbons.",
+      "family": "creative",
+      "color": "#F3E9DB",
+      "tone": "light",
+      "expansion": true,
+      "phase": 4,
+      "style": "Cottagecore",
+      "tags": [
+        "Cottagecore",
+        "gingham",
+        "window"
+      ],
+      "composition": "window",
+      "material": "gingham",
+      "cardLayout": "quilt"
+    },
+    {
+      "id": "petal-archive",
+      "name": "Petal Archive",
+      "description": "Pale botanical plate with flower-stem dividers and vintage labels rather than hot-pink technical specimen sheets.",
+      "family": "creative",
+      "color": "#F0E5DF",
+      "tone": "light",
+      "expansion": true,
+      "phase": 4,
+      "style": "Floral Vintage",
+      "tags": [
+        "Floral Vintage",
+        "floral",
+        "herbarium"
+      ],
+      "composition": "herbarium",
+      "material": "floral",
+      "cardLayout": "botanic"
+    },
+    {
+      "id": "terra-workshop",
+      "name": "Terra Workshop",
+      "description": "Woven ruled layout, terracotta vessel silhouettes and raw stock tags instead of inflated soft clay objects.",
+      "family": "creative",
+      "color": "#E6DACA",
+      "tone": "light",
+      "expansion": true,
+      "phase": 4,
+      "style": "Rustic Design / Bohemian",
+      "tags": [
+        "Rustic Design / Bohemian",
+        "earth",
+        "workshop"
+      ],
+      "composition": "workshop",
+      "material": "earth",
+      "cardLayout": "earth"
+    },
+    {
       "id": "botanical",
       "name": "Botanical",
       "description": "Warm cream and olive",

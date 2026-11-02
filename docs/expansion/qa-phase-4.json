@@ -1,0 +1,72 @@
+{
+  "phase": 4,
+  "name": "Playful and organic",
+  "testedAt": "2026-11-02T18:32:13.385Z",
+  "total": 81,
+  "themes": [
+    {
+      "id": "pocket-friends",
+      "name": "Pocket Friends"
+    },
+    {
+      "id": "ink-sketch",
+      "name": "Ink Sketch"
+    },
+    {
+      "id": "panel-pop",
+      "name": "Panel Pop"
+    },
+    {
+      "id": "story-grove",
+      "name": "Story Grove"
+    },
+    {
+      "id": "cottage-ledger",
+      "name": "Cottage Ledger"
+    },
+    {
+      "id": "petal-archive",
+      "name": "Petal Archive"
+    },
+    {
+      "id": "terra-workshop",
+      "name": "Terra Workshop"
+    }
+  ],
+  "checks": {
+    "responsiveCases": 70,
+    "viewports": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "views": [
+      "Lab",
+      "Website"
+    ],
+    "interactionFlows": [
+      "pocket-friends: Lab search/empty/reset/save/read/Escape",
+      "pocket-friends: Website search/reset/sort/dialog/Escape",
+      "ink-sketch: Lab search/empty/reset/save/read/Escape",
+      "ink-sketch: Website search/reset/sort/dialog/Escape",
+      "panel-pop: Lab search/empty/reset/save/read/Escape",
+      "panel-pop: Website search/reset/sort/dialog/Escape",
+      "story-grove: Lab search/empty/reset/save/read/Escape",
+      "story-grove: Website search/reset/sort/dialog/Escape",
+      "cottage-ledger: Lab search/empty/reset/save/read/Escape",
+      "cottage-ledger: Website search/reset/sort/dialog/Escape",
+      "petal-archive: Lab search/empty/reset/save/read/Escape",
+      "petal-archive: Website search/reset/sort/dialog/Escape",
+      "terra-workshop: Lab search/empty/reset/save/read/Escape",
+      "terra-workshop: Website search/reset/sort/dialog/Escape",
+      "All style/ID search → Lab; real searchable picker → last addition"
+    ],
+    "errors": 0,
+    "contrastFindings": 0,
+    "consoleErrors": 0,
+    "missingAssets": 0
+  },
+  "visualReview": "Actual desktop Lab and Website contact sheets and representative 320px states inspected; static SVG artwork, no external assets. Contrast samples exclude decorative artwork; not a full WCAG audit."
+}

@@ -48,7 +48,7 @@ Status: completed, committed and pushed as `ed2856d`; existing production domain
 
 ## Phase 3 — Futuristic and typography
 
-Status: implementation and local validation completed; commit/push and production attestation follow in the next record.
+Status: completed, committed and pushed as `da61d49`; existing production domain verified. [Deployment evidence](expansion/release-3.json).
 
 - Themes added: Neon Alley (`neon-alley`), Mission Control (`mission-control`), Bio Culture (`bio-culture`), Noir Dispatch (`noir-dispatch`), Lunar Supply (`lunar-supply`), Sonnet House (`sonnet-house`), Newsroom Daily (`newsroom-daily`), Silk Review (`silk-review`).
 - Actual registered count: **74**.
@@ -59,3 +59,19 @@ Status: implementation and local validation completed; commit/push and productio
 - Visual review: actual Lab and Website screenshots inspected; fixed any recorded issues before release.
 - Limits: static bounded CSS/SVG depth, optional font fallbacks; sampled text contrast is not a full accessibility certification.
 - Next: Phase 4.
+
+- Release attestation for phase 3: `da61d49fff65aa2cd8b717787ba6f440f8e25d8f`, Vercel success status and exact live registry/assets verified at 2026-11-02T18:30:48.081Z.
+
+## Phase 4 — Playful and organic
+
+Status: implementation and local validation completed; commit/push and production attestation follow in the next record.
+
+- Themes added: Pocket Friends (`pocket-friends`), Ink Sketch (`ink-sketch`), Panel Pop (`panel-pop`), Story Grove (`story-grove`), Cottage Ledger (`cottage-ledger`), Petal Archive (`petal-archive`), Terra Workshop (`terra-workshop`).
+- Actual registered count: **81**.
+- Files: scoped canonical palettes, explicit Lab compositions/record grammars, original vector studies, catalog adaptations, real thumbnails, complete phase recipes, generated catalog/README/skill routing.
+- Static: `node scripts/validate_demo.mjs assets/starter` and `node scripts/validate_expansion.mjs` passed.
+- Browser: `node scripts/verify_expansion.cjs 4` — 70 responsive cases, both views at 320/390/768/1024/1440px; 15 interaction records; no overflow, missing assets, console errors or sampled text-contrast findings. See [portable evidence](expansion/qa-phase-4.json).
+- Shared explorer regression: `node scripts/verify_explorer.cjs` — create/validation/escaping, retained state, real keyboard picker, All search, original-theme switch and first-wheel parent scrolling passed.
+- Visual review: actual Lab and Website screenshots inspected; fixed any recorded issues before release.
+- Limits: static bounded CSS/SVG depth, optional font fallbacks; sampled text contrast is not a full accessibility certification.
+- Next: Phase 5.

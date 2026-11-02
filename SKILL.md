@@ -13,7 +13,7 @@ Build selectable visual themes that preserve the user's application, default the
 - **New demo or starting point:** run `node scripts/create_demo.mjs <new-empty-directory>` from this skill folder. Serve it with `node scripts/serve.mjs <directory> --port 4173`. No package installation or build step is needed.
 - **Requested styles:** read the relevant entries in [theme-recipes.md](references/theme-recipes.md). For “these themes,” include every registered theme; for a bounded addition, add only the requested themes.
 
-For the four theme families and workspace subgroups, see the [classification](README.md#all-74-design-lab-previews). The Creative Lab family adds material-led compositions; treat originality as a design aim, not a claim that no similar work exists.
+For the four theme families and workspace subgroups, see the [classification](README.md#all-81-design-lab-previews). The Creative Lab family adds material-led compositions; treat originality as a design aim, not a claim that no similar work exists.
 
 For Halloween, Christmas, Tết Holiday and Black Friday, read [holidays.md](references/holidays.md). Their compositions, shared palettes and original SVG scenes are distinct. Never invent promotions or countdowns for the Black Friday visual style.
 
@@ -59,4 +59,5 @@ Read [the catalog](docs/THEME_CATALOG.md) for every registered ID and style, the
 - [Expansion phase 1 recipes](references/expansion-1.md)
 - [Expansion phase 2 recipes](references/expansion-2.md)
 - [Expansion phase 3 recipes](references/expansion-3.md)
+- [Expansion phase 4 recipes](references/expansion-4.md)
 <!-- expansion-recipes:end -->
