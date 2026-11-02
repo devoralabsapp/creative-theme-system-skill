@@ -1,6 +1,6 @@
 # Creative Theme System — Design Lab
 
-**87 themes. One working collection. Three ways to explore.**
+**97 themes. One working collection. Three ways to explore.**
 
 A portable AI agent skill with original theme recipes, reusable CSS and interactive English demos. All is the default experience: browse every theme by collection, then open Design Lab to compare layout, typography and color on the same project workspace.
 
@@ -20,17 +20,17 @@ Serve the bundled starter locally to explore the same collection without a build
 
 ## Browse the complete collection
 
-The **[All](https://theme.devoralabs.tech/?view=all)** tab shows one real preview card per theme, grouped into Creative Lab (70), Studio (4), Workspace (9), and Holiday (4). Search by name or style, filter a collection, and open a card in Design Lab. Returning to All retains its filters and scroll position. Gallery images load lazily; the previews remain interactive in the two dedicated demo tabs.
+The **[All](https://theme.devoralabs.tech/?view=all)** tab shows one real preview card per theme, grouped into Creative Lab (80), Studio (4), Workspace (9), and Holiday (4). Search by name or style, filter a collection, and open a card in Design Lab. Returning to All retains its filters and scroll position. Gallery images load lazily; the previews remain interactive in the two dedicated demo tabs.
 
 [![All themes overview with collection filters and preview cards](docs/screenshots/all-themes.png)](https://theme.devoralabs.tech/?view=all)
 
 ## Explore Design Lab
 
-Choose any of the 87 themes using the shared selector. Search projects, filter the collection, save ideas, read notes and add a project for the current session. Switching themes keeps your work. The adjacent **Website Demo** tab shows the same theme on the sample catalog and retains its own search, filters and sorting.
+Choose any of the 97 themes using the shared selector. Search projects, filter the collection, save ideas, read notes and add a project for the current session. Switching themes keeps your work. The adjacent **Website Demo** tab shows the same theme on the sample catalog and retains its own search, filters and sorting.
 
 Share a theme with `/?theme=vscode`, or open its catalog with `/?view=website&theme=vscode`. The URL selection takes priority over the saved theme. New visits open All by default, even when a theme selection was saved. A direct `?theme=` link still opens that theme in Design Lab; the previous `/lab/` entry remains available.
 
-## All 87 Design Lab previews
+## All 97 Design Lab previews
 
 Actual screenshots of the working Design Lab. The original fifty IDs, designs and their relative order are preserved. Expansion studies follow the original Creative Lab collection; Volume Five remains immediately after SẮC / 01.
 
@@ -73,6 +73,11 @@ Actual screenshots of the working Design Lab. The original fifty IDs, designs an
 | **[Bento Kitchen](https://theme.devoralabs.tech/?theme=bento-kitchen)**<br>[![Bento Kitchen — actual Design Lab screenshot](docs/screenshots/design-lab/bento-kitchen.jpg)](https://theme.devoralabs.tech/?theme=bento-kitchen)<br>Bento Grid | **[Mosaic Studio](https://theme.devoralabs.tech/?theme=mosaic-studio)**<br>[![Mosaic Studio — actual Design Lab screenshot](docs/screenshots/design-lab/mosaic-studio.jpg)](https://theme.devoralabs.tech/?theme=mosaic-studio)<br>Masonry Layout |
 | **[Wide Story](https://theme.devoralabs.tech/?theme=wide-story)**<br>[![Wide Story — actual Design Lab screenshot](docs/screenshots/design-lab/wide-story.jpg)](https://theme.devoralabs.tech/?theme=wide-story)<br>Full-Bleed Layout | **[Depth Walk](https://theme.devoralabs.tech/?theme=depth-walk)**<br>[![Depth Walk — actual Design Lab screenshot](docs/screenshots/design-lab/depth-walk.jpg)](https://theme.devoralabs.tech/?theme=depth-walk)<br>Spatial Storytelling |
 | **[Constellation Desk](https://theme.devoralabs.tech/?theme=constellation-desk)**<br>[![Constellation Desk — actual Design Lab screenshot](docs/screenshots/design-lab/constellation-desk.jpg)](https://theme.devoralabs.tech/?theme=constellation-desk)<br>Spatial UI | **[Iso Studio](https://theme.devoralabs.tech/?theme=iso-studio)**<br>[![Iso Studio — actual Design Lab screenshot](docs/screenshots/design-lab/iso-studio.jpg)](https://theme.devoralabs.tech/?theme=iso-studio)<br>Isometric UI |
+| **[Deco Society](https://theme.devoralabs.tech/?theme=deco-society)**<br>[![Deco Society — actual Design Lab screenshot](docs/screenshots/design-lab/deco-society.jpg)](https://theme.devoralabs.tech/?theme=deco-society)<br>Art Deco | **[Nouveau Garden](https://theme.devoralabs.tech/?theme=nouveau-garden)**<br>[![Nouveau Garden — actual Design Lab screenshot](docs/screenshots/design-lab/nouveau-garden.jpg)](https://theme.devoralabs.tech/?theme=nouveau-garden)<br>Art Nouveau |
+| **[Construct Bureau](https://theme.devoralabs.tech/?theme=construct-bureau)**<br>[![Construct Bureau — actual Design Lab screenshot](docs/screenshots/design-lab/construct-bureau.jpg)](https://theme.devoralabs.tech/?theme=construct-bureau)<br>Constructivism | **[Cabinet Obscura](https://theme.devoralabs.tech/?theme=cabinet-obscura)**<br>[![Cabinet Obscura — actual Design Lab screenshot](docs/screenshots/design-lab/cabinet-obscura.jpg)](https://theme.devoralabs.tech/?theme=cabinet-obscura)<br>Gothic |
+| **[Reverie Room](https://theme.devoralabs.tech/?theme=reverie-room)**<br>[![Reverie Room — actual Design Lab screenshot](docs/screenshots/design-lab/reverie-room.jpg)](https://theme.devoralabs.tech/?theme=reverie-room)<br>Surrealism | **[Gestural Field](https://theme.devoralabs.tech/?theme=gestural-field)**<br>[![Gestural Field — actual Design Lab screenshot](docs/screenshots/design-lab/gestural-field.jpg)](https://theme.devoralabs.tech/?theme=gestural-field)<br>Abstract Expressionism |
+| **[Aurora Console](https://theme.devoralabs.tech/?theme=aurora-console)**<br>[![Aurora Console — actual Design Lab screenshot](docs/screenshots/design-lab/aurora-console.jpg)](https://theme.devoralabs.tech/?theme=aurora-console)<br>Aurora UI | **[Signal Ledger](https://theme.devoralabs.tech/?theme=signal-ledger)**<br>[![Signal Ledger — actual Design Lab screenshot](docs/screenshots/design-lab/signal-ledger.jpg)](https://theme.devoralabs.tech/?theme=signal-ledger)<br>Data-Dense UI |
+| **[Obsidian Space](https://theme.devoralabs.tech/?theme=obsidian-space)**<br>[![Obsidian Space — actual Design Lab screenshot](docs/screenshots/design-lab/obsidian-space.jpg)](https://theme.devoralabs.tech/?theme=obsidian-space)<br>OLED Dark Minimal | **[Optic Interval](https://theme.devoralabs.tech/?theme=optic-interval)**<br>[![Optic Interval — actual Design Lab screenshot](docs/screenshots/design-lab/optic-interval.jpg)](https://theme.devoralabs.tech/?theme=optic-interval)<br>Op Art |
 
 ### Studio collection
 
@@ -164,7 +169,7 @@ Explorer verification: the previous 39-theme release passed Lab and catalog layo
 ## Expansion audit and implementation
 
 <!-- expansion-links:start -->
-The registry currently contains **87 themes**, including 37 completed expansion studies. Counts and this gallery are generated with `node scripts/update_theme_docs.mjs`.
+The registry currently contains **97 themes**, including 47 completed expansion studies. Counts and this gallery are generated with `node scripts/update_theme_docs.mjs`.
 
 - [Audit and full candidate matrix](docs/THEME_EXPANSION_AUDIT.md)
 - [Master plan](docs/THEME_EXPANSION_MASTER_PLAN.md)
@@ -176,6 +181,7 @@ The registry currently contains **87 themes**, including 37 completed expansion 
 - [Expansion phase 3 recipes](references/expansion-3.md)
 - [Expansion phase 4 recipes](references/expansion-4.md)
 - [Expansion phase 5 recipes](references/expansion-5.md)
+- [Expansion phase 6 recipes](references/expansion-6.md)
 
 Expansion art is original SVG; depth/spatial studies have lightweight static fallbacks. No WebGL, audio playback, backend or infinite canvas is implied.
 <!-- expansion-links:end -->

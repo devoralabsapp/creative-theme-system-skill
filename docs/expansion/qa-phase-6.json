@@ -1,0 +1,90 @@
+{
+  "phase": 6,
+  "name": "Artistic and digital",
+  "testedAt": "2026-11-02T18:37:06.147Z",
+  "total": 97,
+  "themes": [
+    {
+      "id": "deco-society",
+      "name": "Deco Society"
+    },
+    {
+      "id": "nouveau-garden",
+      "name": "Nouveau Garden"
+    },
+    {
+      "id": "construct-bureau",
+      "name": "Construct Bureau"
+    },
+    {
+      "id": "cabinet-obscura",
+      "name": "Cabinet Obscura"
+    },
+    {
+      "id": "reverie-room",
+      "name": "Reverie Room"
+    },
+    {
+      "id": "gestural-field",
+      "name": "Gestural Field"
+    },
+    {
+      "id": "aurora-console",
+      "name": "Aurora Console"
+    },
+    {
+      "id": "signal-ledger",
+      "name": "Signal Ledger"
+    },
+    {
+      "id": "obsidian-space",
+      "name": "Obsidian Space"
+    },
+    {
+      "id": "optic-interval",
+      "name": "Optic Interval"
+    }
+  ],
+  "checks": {
+    "responsiveCases": 100,
+    "viewports": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "views": [
+      "Lab",
+      "Website"
+    ],
+    "interactionFlows": [
+      "deco-society: Lab search/empty/reset/save/read/Escape",
+      "deco-society: Website search/reset/sort/dialog/Escape",
+      "nouveau-garden: Lab search/empty/reset/save/read/Escape",
+      "nouveau-garden: Website search/reset/sort/dialog/Escape",
+      "construct-bureau: Lab search/empty/reset/save/read/Escape",
+      "construct-bureau: Website search/reset/sort/dialog/Escape",
+      "cabinet-obscura: Lab search/empty/reset/save/read/Escape",
+      "cabinet-obscura: Website search/reset/sort/dialog/Escape",
+      "reverie-room: Lab search/empty/reset/save/read/Escape",
+      "reverie-room: Website search/reset/sort/dialog/Escape",
+      "gestural-field: Lab search/empty/reset/save/read/Escape",
+      "gestural-field: Website search/reset/sort/dialog/Escape",
+      "aurora-console: Lab search/empty/reset/save/read/Escape",
+      "aurora-console: Website search/reset/sort/dialog/Escape",
+      "signal-ledger: Lab search/empty/reset/save/read/Escape",
+      "signal-ledger: Website search/reset/sort/dialog/Escape",
+      "obsidian-space: Lab search/empty/reset/save/read/Escape",
+      "obsidian-space: Website search/reset/sort/dialog/Escape",
+      "optic-interval: Lab search/empty/reset/save/read/Escape",
+      "optic-interval: Website search/reset/sort/dialog/Escape",
+      "All style/ID search → Lab; real searchable picker → last addition"
+    ],
+    "errors": 0,
+    "contrastFindings": 0,
+    "consoleErrors": 0,
+    "missingAssets": 0
+  },
+  "visualReview": "Actual desktop Lab and Website contact sheets and representative 320px states inspected; static SVG artwork, no external assets. Contrast samples exclude decorative artwork; not a full WCAG audit."
+}

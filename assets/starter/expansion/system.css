@@ -91,3 +91,5 @@ html[data-expansion="true"]{--paper:var(--lab-background);--ink:var(--lab-foregr
 .ex-fullbleed-landscape .ex-art img{height:560px;object-fit:cover}
 [data-expansion="true"][data-composition="fullbleed"] .expansion-scene{object-fit:cover}
 @media(max-width:600px){.ex-fullbleed-landscape .ex-art img{height:auto;object-fit:contain}[data-expansion="true"][data-composition="fullbleed"] .expansion-scene{object-fit:contain}}
+/* OLED records deliberately omit the number block; the real record spans its freed columns. */
+.ex-material-oled .ex-cards-minimal .ex-card-copy{grid-column:1/-1}

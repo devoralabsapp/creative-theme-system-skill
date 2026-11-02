@@ -80,7 +80,7 @@ Status: completed, committed and pushed as `bc9c3a5`; existing production domain
 
 ## Phase 5 — Layout and immersive
 
-Status: implementation and local validation completed; commit/push and production attestation follow in the next record.
+Status: completed, committed and pushed as `753df9a`; existing production domain verified. [Deployment evidence](expansion/release-5.json).
 
 - Themes added: Bento Kitchen (`bento-kitchen`), Mosaic Studio (`mosaic-studio`), Wide Story (`wide-story`), Depth Walk (`depth-walk`), Constellation Desk (`constellation-desk`), Iso Studio (`iso-studio`).
 - Actual registered count: **87**.
@@ -91,3 +91,21 @@ Status: implementation and local validation completed; commit/push and productio
 - Visual review: actual Lab and Website screenshots inspected; fixed any recorded issues before release.
 - Limits: static bounded CSS/SVG depth, optional font fallbacks; sampled text contrast is not a full accessibility certification.
 - Next: Phase 6.
+
+- Release attestation for phase 5: `753df9a84b01a31a80d4ed37589c546c11109265`, Vercel success status and exact live registry/assets verified at 2026-11-02T18:35:17.251Z.
+
+## Phase 6 — Artistic and digital
+
+Status: implementation and local validation completed; commit/push and production attestation follow in the next record.
+
+- Themes added: Deco Society (`deco-society`), Nouveau Garden (`nouveau-garden`), Construct Bureau (`construct-bureau`), Cabinet Obscura (`cabinet-obscura`), Reverie Room (`reverie-room`), Gestural Field (`gestural-field`), Aurora Console (`aurora-console`), Signal Ledger (`signal-ledger`), Obsidian Space (`obsidian-space`), Optic Interval (`optic-interval`).
+- Actual registered count: **97**.
+- Files: scoped canonical palettes, explicit Lab compositions/record grammars, original vector studies, catalog adaptations, real thumbnails, complete phase recipes, generated catalog/README/skill routing.
+- Static: `node scripts/validate_demo.mjs assets/starter` and `node scripts/validate_expansion.mjs` passed.
+- Browser: `node scripts/verify_expansion.cjs 6` — 100 responsive cases, both views at 320/390/768/1024/1440px; 21 interaction records; no overflow, missing assets, console errors or sampled text-contrast findings. See [portable evidence](expansion/qa-phase-6.json).
+- Shared explorer regression: `node scripts/verify_explorer.cjs` — create/validation/escaping, retained state, real keyboard picker, All search, original-theme switch and first-wheel parent scrolling passed.
+- Visual review: actual Lab and Website screenshots inspected; fixed any recorded issues before release.
+- Limits: static bounded CSS/SVG depth, optional font fallbacks; sampled text contrast is not a full accessibility certification.
+- Next: Phase 7.
+
+- Phase 6 correction: OLED records now span the grid after their decorative number block is omitted; rerun passed all 100 responsive cases and all interaction flows.

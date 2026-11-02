@@ -982,6 +982,196 @@ window.STUDIO_THEMES = {
       "cardLayout": "block"
     },
     {
+      "id": "deco-society",
+      "name": "Deco Society",
+      "description": "Stepped gold fan, symmetrical salon frame and long gilded records rather than an informal gold night gallery.",
+      "family": "creative",
+      "color": "#202A29",
+      "tone": "dark",
+      "expansion": true,
+      "phase": 6,
+      "style": "Art Deco",
+      "tags": [
+        "Art Deco",
+        "deco",
+        "salon"
+      ],
+      "composition": "salon",
+      "material": "deco",
+      "cardLayout": "deco"
+    },
+    {
+      "id": "nouveau-garden",
+      "name": "Nouveau Garden",
+      "description": "Whiplash vine framing, stained-glass flower panel and arch-ended records rather than simple garden line art.",
+      "family": "creative",
+      "color": "#EBEAD7",
+      "tone": "light",
+      "expansion": true,
+      "phase": 6,
+      "style": "Art Nouveau",
+      "tags": [
+        "Art Nouveau",
+        "nouveau",
+        "botanic"
+      ],
+      "composition": "botanic",
+      "material": "nouveau",
+      "cardLayout": "vine"
+    },
+    {
+      "id": "construct-bureau",
+      "name": "Construct Bureau",
+      "description": "Red wedge / black beam typography and asymmetrical constructive panel grid, not a red arrow billboard.",
+      "family": "creative",
+      "color": "#ECE4D3",
+      "tone": "light",
+      "expansion": true,
+      "phase": 6,
+      "style": "Constructivism",
+      "tags": [
+        "Constructivism",
+        "construct",
+        "diagonal"
+      ],
+      "composition": "diagonal",
+      "material": "construct",
+      "cardLayout": "construct"
+    },
+    {
+      "id": "cabinet-obscura",
+      "name": "Cabinet Obscura",
+      "description": "Restrained stone-like pointed arches and silver tracery instead of pumpkins, ghosts and curiosity-cabinet orange.",
+      "family": "creative",
+      "color": "#25262E",
+      "tone": "dark",
+      "expansion": true,
+      "phase": 6,
+      "style": "Gothic",
+      "tags": [
+        "Gothic",
+        "gothic",
+        "cathedral"
+      ],
+      "composition": "cathedral",
+      "material": "gothic",
+      "cardLayout": "arch"
+    },
+    {
+      "id": "reverie-room",
+      "name": "Reverie Room",
+      "description": "Impossible staircase, floating arch and a dream-like vertical reading sequence on light mauve stock.",
+      "family": "creative",
+      "color": "#E9DFE6",
+      "tone": "light",
+      "expansion": true,
+      "phase": 6,
+      "style": "Surrealism",
+      "tags": [
+        "Surrealism",
+        "surreal",
+        "dream"
+      ],
+      "composition": "dream",
+      "material": "surreal",
+      "cardLayout": "dream"
+    },
+    {
+      "id": "gestural-field",
+      "name": "Gestural Field",
+      "description": "Broad irregular brush gestures, open asymmetric text and raw edge record bands rather than registered geometric ink layers.",
+      "family": "creative",
+      "color": "#F1E9DD",
+      "tone": "light",
+      "expansion": true,
+      "phase": 6,
+      "style": "Abstract Expressionism",
+      "tags": [
+        "Abstract Expressionism",
+        "gestural",
+        "gesture"
+      ],
+      "composition": "gesture",
+      "material": "gestural",
+      "cardLayout": "gesture"
+    },
+    {
+      "id": "aurora-console",
+      "name": "Aurora Console",
+      "description": "Subtle bounded aurora ribbons, clear software panels and a left task rail rather than bright media cover blocks.",
+      "family": "creative",
+      "color": "#1D2635",
+      "tone": "dark",
+      "expansion": true,
+      "phase": 6,
+      "style": "Aurora UI",
+      "tags": [
+        "Aurora UI",
+        "aurora",
+        "aurora"
+      ],
+      "composition": "aurora",
+      "material": "aurora",
+      "cardLayout": "aurora"
+    },
+    {
+      "id": "signal-ledger",
+      "name": "Signal Ledger",
+      "description": "Compact side summary, actual category/state ledger and selected-note inspector; no workbook formula bar or spreadsheet mimicry.",
+      "family": "creative",
+      "color": "#ECEFE9",
+      "tone": "light",
+      "expansion": true,
+      "phase": 6,
+      "style": "Data-Dense UI",
+      "tags": [
+        "Data-Dense UI",
+        "data",
+        "ledger"
+      ],
+      "composition": "ledger",
+      "material": "data",
+      "cardLayout": "row"
+    },
+    {
+      "id": "obsidian-space",
+      "name": "Obsidian Space",
+      "description": "Large spatial sans-serif statement and borderless gallery on pure black, rather than terminal prompts and monospace rows.",
+      "family": "creative",
+      "color": "#000000",
+      "tone": "dark",
+      "expansion": true,
+      "phase": 6,
+      "style": "OLED Dark Minimal",
+      "tags": [
+        "OLED Dark Minimal",
+        "oled",
+        "blackout"
+      ],
+      "composition": "blackout",
+      "material": "oled",
+      "cardLayout": "minimal"
+    },
+    {
+      "id": "optic-interval",
+      "name": "Optic Interval",
+      "description": "Static black/ivory interference bands and alternating visual intervals, rather than navigational sea-chart contours.",
+      "family": "creative",
+      "color": "#F2F2E8",
+      "tone": "light",
+      "expansion": true,
+      "phase": 6,
+      "style": "Op Art",
+      "tags": [
+        "Op Art",
+        "optical",
+        "optical"
+      ],
+      "composition": "optical",
+      "material": "optical",
+      "cardLayout": "optical"
+    },
+    {
       "id": "botanical",
       "name": "Botanical",
       "description": "Warm cream and olive",
