@@ -1,0 +1,42 @@
+{
+  "verifiedAt": "2026-11-02T19:36:31.631670+00:00",
+  "themeCount": 101,
+  "sharedIdentitiesChecked": 101,
+  "canonicalRoles": [
+    "background",
+    "surface",
+    "foreground",
+    "muted",
+    "accent",
+    "on-accent",
+    "display",
+    "font",
+    "mono",
+    "radius",
+    "shadow"
+  ],
+  "websiteResponsiveCases": 505,
+  "viewports": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "catalogFlowsChecked": 101,
+  "catalogFlow": [
+    "planner/story filters",
+    "query",
+    "correct sample and artwork preview",
+    "session bookmark",
+    "alphabetical ordering",
+    "empty state",
+    "reset"
+  ],
+  "originalLabSamplesPreserved": 50,
+  "longTitleAndAdditionalChecks": 104,
+  "errors": [],
+  "consoleErrors": [],
+  "missingAssets": [],
+  "visualReview": "Actual side-by-side Lab/Website captures plus representative mobile and seasonal/artistic/catalog states inspected. Shared composition and semantic roles verified; no pixel-similarity percentage is claimed."
+}

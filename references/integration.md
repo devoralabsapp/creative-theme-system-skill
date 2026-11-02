@@ -62,3 +62,7 @@ The current browse order is Creative Lab, Studio, Workspace, Holiday. Creative L
 ## Volume Five extension
 
 The eleven additional Creative themes use `volume-five-tokens.css`, `lab/volume-five.js` and `lab/volume-five-layouts.css`. Catalog adaptation uses `volume-five-themes.css` and `volume-five-catalog.js`. Their optional registry `edition` value is reflected in the catalog root attribute and cleared when another theme is selected. Keep the same provider and storage key. Read [volume-five.md](volume-five.md) for composition constraints; edition metadata does not change the four collection families.
+
+## Current Website Demo composition sharing
+
+The current Website Demo loads the same Lab palette/layout stack and `shared-layouts.js`. Its product controller supplies catalog records and actions to the same composition factories, so the complete layout identity follows each theme. The earlier catalog-only CSS adapters remain available as historical integration resources. Read [demo-parity.md](demo-parity.md) for the current source map, adapter contract and verification. Preserve the host's data/controller when adopting these compositions.

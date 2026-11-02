@@ -1,7 +1,7 @@
 /* Eleven independent compositions; the Lab remains the sole owner of project state. */
 window.createVolumeFiveRenderers = function (ui) {
  const {brand,newButton,openButton,saveButton,toolbar,foot,visible,current,projects,esc,meta,badge,empty}=ui;
- const art=id=>`<img class="v5-art" src="../assets/volume-five/${id}.svg" alt="" aria-hidden="true">`;
+ const art=id=>`<img class="v5-art" src="${ui.assetBase||'../assets/'}volume-five/${id}.svg" alt="" aria-hidden="true">`;
  const header=(name,tag)=>`<header class="v5-mast">${brand()}<span class="meta">${name} / ${tag}</span>${newButton()}</header>`;
  const selected=(label)=>{const p=current();return `<article class="v5-selected"><span class="eyebrow">${label}</span><h2>${esc(p.title)}</h2><p>${esc(p.summary)}</p><div class="v5-actions">${openButton(p,'Open project ↗','primary')}${saveButton(p)}</div></article>`;};
  const collection=(kind)=>{const list=visible();return list.length?`<div class="v5-collection ${kind}" data-projects>${list.map((p,i)=>`<article class="v5-record" data-project-id="${p.id}"><div class="v5-record-art" aria-hidden="true"><span>${String(p.id).padStart(2,'0')}</span><i></i><small>DEVORA / WORKING EDIT</small></div><div class="v5-record-copy"><span class="meta">${meta(p)}</span><h3>${esc(p.title)}</h3><p>${esc(p.summary)}</p><div class="v5-actions">${openButton(p)}${saveButton(p)}</div></div></article>`).join('')}</div>`:empty();};

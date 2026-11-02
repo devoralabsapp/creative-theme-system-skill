@@ -57,3 +57,7 @@ node scripts/verify_collection.cjs
 The browser scripts accept `PLAYWRIGHT_MODULE`, `CHROMIUM_EXECUTABLE` and `DEMO_URL`. They do not install dependencies or change production. Screenshots and diagnostics go to ignored `.qa/`; actual gallery/README captures go to their public image folders. `verify_expansion.cjs <phase>` checks one batch. The full run checks every registered theme in both views at 320/390/768/1024/1440px. Contrast sampling covers expansion text and controls; decorative art is excluded. Native controls, font fallbacks, assistive technology and every possible product state still need a broader accessibility review.
 
 After an authorized Git push, `node scripts/verify_production.cjs <phase>` requires a successful Vercel commit status and compares the live registry and expansion files with **committed HEAD**, then opens original/latest deep links in both demo views. A pending deployment is a retry condition, not proof of release. Keep the current project/domain and never force-push.
+
+## Website Demo fidelity update
+
+Website Demo now consumes the same Lab composition factories rather than the earlier catalog-specific hero/card adapter. Read [demo parity](../references/demo-parity.md) for the maintained source map and caller-owned data contract. `shared-layouts.js` holds the original render functions; Lab projects and website products remain independent. Both pages load the same canonical style stack. The old catalog-only files remain packaged for existing integrations; the current HTML entries define the active implementation.

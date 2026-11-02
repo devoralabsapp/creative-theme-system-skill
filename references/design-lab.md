@@ -115,3 +115,7 @@ Exercise search, filters, save/unsave, read dialogs, empty results, missing-titl
 ## Expansion resources
 
 See the [complete catalog](../docs/THEME_CATALOG.md), [implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) and [phase evidence](../docs/THEME_EXPANSION_PROGRESS.md). Read the phase recipes linked from SKILL.md for semantic palettes, explicit layout trees, card grammars and responsive/interaction guidance. Register only completed definitions. Validate with the static validator and the browser runner; these checks do not replace visual inspection or a full accessibility audit.
+
+## Shared Website Demo compositions
+
+The original Lab render functions now live in `shared-layouts.js`, called by the unchanged project-state controller in `lab/lab.js`. Website Demo supplies its independent product data/actions to the same factories. Both pages load the same canonical styles and original art, with a relative `assetBase` supplied by each entry. See [demo-parity.md](demo-parity.md). The original Lab token and composition samples remain the preservation baseline.

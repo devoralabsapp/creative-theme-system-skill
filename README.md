@@ -40,6 +40,14 @@ Choose any of the 101 themes using the shared selector. Search projects, filter 
 
 Share a theme with `/?theme=vscode`, or open its catalog with `/?view=website&theme=vscode`. The URL selection takes priority over the saved theme. New visits open All by default, even when a theme selection was saved. A direct `?theme=` link still opens that theme in Design Lab; the previous `/lab/` entry remains available.
 
+## Website Demo follows the same design
+
+Website Demo now uses the same per-theme composition, canonical palettes, typography, original scenes and component styles as Design Lab. Its nine fictional product records have independent search, category filters, sorting, preview dialogs and session bookmarks. Changing a theme preserves the catalog state.
+
+[![Actual Design Lab and Website Demo comparisons](docs/screenshots/demo-parity.jpg)](https://theme.devoralabs.tech/?view=website&theme=retro)
+
+[Implementation and validation details](references/demo-parity.md). The requested 90% resemblance is a visual goal; shared compositions and tokens are verified directly rather than claiming a pixel-similarity percentage.
+
 ## All 101 Design Lab previews
 
 Actual screenshots of the working Design Lab. The original fifty IDs, designs and their relative order are preserved. Expansion studies follow the original Creative Lab collection; Volume Five remains immediately after SẮC / 01.

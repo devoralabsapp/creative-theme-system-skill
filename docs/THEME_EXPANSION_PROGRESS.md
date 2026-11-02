@@ -161,3 +161,12 @@ Status: **completed**. Final implementation release `b0ec2ec` was committed, pus
 - Implementation limits: bounded original SVG/CSS supplies spatial/depth fallbacks; reading surfaces remain opaque. Fonts have system fallbacks. Contrast sampling excludes decorative artwork and is not a complete WCAG/assistive-technology audit.
 - Packaging: copied the complete starter into a fresh directory with `create_demo.mjs`; its generated 101-theme demo passed the static validator. `git diff --check` passed; Vercel configuration is unchanged.
 - Evidence: [final QA record](expansion/qa-phase-8.json) and [production attestation](expansion/release-8.json). All, both preview types, original/latest deep links, the legacy `/lab/` route, latest scene/thumbnail and exact committed expansion JS/CSS were verified. No known release blockers remain within the documented scope.
+
+## Subsequent update — Website Demo follows Design Lab
+
+Website Demo now uses the same composition factories and canonical style stack for all 101 themes. Its nine sample products retain independent search, filters, order, preview dialogs and session bookmarks. Lab's original fifty token/structure samples remain unchanged after extracting the shared render functions.
+
+- `verify_catalog_parity.cjs`: 101 shared identities, eleven canonical roles per theme, 505 website responsive cases, 101 catalog flow checks; zero findings, JS errors or missing assets.
+- `verify_collection.cjs`: 104 long-title/retained-state/mobile navigation checks passed. Shared explorer regression passed; all first fifty Lab samples preserved.
+- The requested 90% resemblance is a visual goal; the implementation shares actual compositions rather than claiming a numerical screenshot score.
+- [Adapter/source guide](../references/demo-parity.md), [QA record](DEMO_PARITY_VALIDATION.json), [actual visual comparison](screenshots/demo-parity.jpg).
