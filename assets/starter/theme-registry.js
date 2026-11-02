@@ -868,6 +868,120 @@ window.STUDIO_THEMES = {
       "cardLayout": "earth"
     },
     {
+      "id": "bento-kitchen",
+      "name": "Bento Kitchen",
+      "description": "Unequal compartment grid, clear spanning feature and segmented green trays instead of repeated equal cards.",
+      "family": "creative",
+      "color": "#E8EDDF",
+      "tone": "light",
+      "expansion": true,
+      "phase": 5,
+      "style": "Bento Grid",
+      "tags": [
+        "Bento Grid",
+        "bento",
+        "bento"
+      ],
+      "composition": "bento",
+      "material": "bento",
+      "cardLayout": "bento"
+    },
+    {
+      "id": "mosaic-studio",
+      "name": "Mosaic Studio",
+      "description": "Variable-height aligned mosaic columns and inset colored tesserae instead of blue ceramic equal-width tiles.",
+      "family": "creative",
+      "color": "#F0E5DA",
+      "tone": "light",
+      "expansion": true,
+      "phase": 5,
+      "style": "Masonry Layout",
+      "tags": [
+        "Masonry Layout",
+        "mosaic",
+        "mosaic"
+      ],
+      "composition": "mosaic",
+      "material": "mosaic",
+      "cardLayout": "mosaic"
+    },
+    {
+      "id": "wide-story",
+      "name": "Wide Story",
+      "description": "Panoramic original landscape, bounded text label and wide horizontal narrative rows, no nautical coordinates.",
+      "family": "creative",
+      "color": "#E7E7DB",
+      "tone": "light",
+      "expansion": true,
+      "phase": 5,
+      "style": "Full-Bleed Layout",
+      "tags": [
+        "Full-Bleed Layout",
+        "landscape",
+        "fullbleed"
+      ],
+      "composition": "fullbleed",
+      "material": "landscape",
+      "cardLayout": "story"
+    },
+    {
+      "id": "depth-walk",
+      "name": "Depth Walk",
+      "description": "Stepped contour terraces, a side reading rail and layered section bands instead of one folded-paper sculpture.",
+      "family": "creative",
+      "color": "#E5E2DB",
+      "tone": "light",
+      "expansion": true,
+      "phase": 5,
+      "style": "Spatial Storytelling",
+      "tags": [
+        "Spatial Storytelling",
+        "depth",
+        "terrace"
+      ],
+      "composition": "terrace",
+      "material": "depth",
+      "cardLayout": "terrace"
+    },
+    {
+      "id": "constellation-desk",
+      "name": "Constellation Desk",
+      "description": "Connected-node map with readable planar labels and a side index, no copper concentric gallery rings.",
+      "family": "creative",
+      "color": "#1C2540",
+      "tone": "dark",
+      "expansion": true,
+      "phase": 5,
+      "style": "Spatial UI",
+      "tags": [
+        "Spatial UI",
+        "spatial",
+        "constellation"
+      ],
+      "composition": "constellation",
+      "material": "spatial",
+      "cardLayout": "node"
+    },
+    {
+      "id": "iso-studio",
+      "name": "Iso Studio",
+      "description": "Isometric block study and orthographic project plinths; actual reading cards remain front-facing.",
+      "family": "creative",
+      "color": "#E7ECEF",
+      "tone": "light",
+      "expansion": true,
+      "phase": 5,
+      "style": "Isometric UI",
+      "tags": [
+        "Isometric UI",
+        "isometric",
+        "isometric"
+      ],
+      "composition": "isometric",
+      "material": "isometric",
+      "cardLayout": "block"
+    },
+    {
       "id": "botanical",
       "name": "Botanical",
       "description": "Warm cream and olive",
