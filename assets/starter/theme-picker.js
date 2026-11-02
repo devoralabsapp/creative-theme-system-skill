@@ -11,7 +11,8 @@
  function swatch(element,theme){element.style.backgroundColor=theme.color;element.style.setProperty('--swatch-ink',theme.tone==='dark'?'#FFFFFF':'#181818');}
  function position(){
   if(!open)return;
-  const rect=trigger.getBoundingClientRect(),width=Math.min(424,innerWidth-24),top=Math.max(rect.bottom+10,(window.visualViewport?.offsetTop||0)+12);
+  const rect=trigger.getBoundingClientRect(),headerBottom=trigger.closest('.explorer-header')?.getBoundingClientRect().bottom||rect.bottom;
+  const width=Math.min(424,innerWidth-24),top=Math.max(rect.bottom+10,headerBottom+10,(window.visualViewport?.offsetTop||0)+12);
   const bottom=Math.min(innerHeight,window.visualViewport?visualViewport.offsetTop+visualViewport.height:innerHeight);
   panel.style.width=width+'px';panel.style.left=Math.max(12,Math.min(rect.right-width,innerWidth-width-12))+'px';
   panel.style.top=top+'px';panel.style.maxHeight=Math.max(100,bottom-top-12)+'px';
