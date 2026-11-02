@@ -1,0 +1,20 @@
+/* Shared dropdown affordance: theme colors stay inherited, with room for the arrow. */
+:root select:not([multiple]):not([size]) {
+ -webkit-appearance:none!important;
+ appearance:none!important;
+ padding-inline-end:44px!important;
+ background-image:linear-gradient(45deg,transparent 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,transparent 50%)!important;
+ background-position:right 22px center,right 16px center!important;
+ background-size:6px 6px!important;
+ background-repeat:no-repeat!important;
+ text-overflow:ellipsis;
+ cursor:pointer;
+}
+:root .theme-picker-trigger {padding-inline-end:16px}
+@media(forced-colors:active) {
+ :root select:not([multiple]):not([size]) {
+  -webkit-appearance:auto!important;
+  appearance:auto!important;
+  background-image:none!important;
+ }
+}
