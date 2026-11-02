@@ -141,7 +141,7 @@
       "background": "#DDF1F4",
       "surface": "#F5FCFC",
       "foreground": "#21464E",
-      "muted": "#4F7275",
+      "muted": "#4B6E71",
       "accent": "#21677B",
       "onAccent": "#FFFFFF",
       "secondary": "#92BC6F"
@@ -167,8 +167,8 @@
       "background": "#D4CBB6",
       "surface": "#E9E2D2",
       "foreground": "#34372E",
-      "muted": "#606353",
-      "accent": "#80502D",
+      "muted": "#505343",
+      "accent": "#754521",
       "onAccent": "#FFFFFF",
       "secondary": "#CF963F"
     },
@@ -245,7 +245,7 @@
       "background": "#EBE5D6",
       "surface": "#F8F3E8",
       "foreground": "#343A2E",
-      "muted": "#68705C",
+      "muted": "#5E6652",
       "accent": "#526047",
       "onAccent": "#FFFFFF",
       "secondary": "#B7A17E"
@@ -271,7 +271,7 @@
       "background": "#E3E8E5",
       "surface": "#E3E8E5",
       "foreground": "#283D36",
-      "muted": "#5A6F65",
+      "muted": "#52675D",
       "accent": "#3F6657",
       "onAccent": "#FFFFFF",
       "secondary": "#C7D8D0"
@@ -297,7 +297,7 @@
       "background": "#EADDD4",
       "surface": "#F9EFE7",
       "foreground": "#4D382F",
-      "muted": "#7C6256",
+      "muted": "#745A4E",
       "accent": "#954D36",
       "onAccent": "#FFFFFF",
       "secondary": "#C7A799"
@@ -323,7 +323,7 @@
       "background": "#E9EDF2",
       "surface": "#FAFCFF",
       "foreground": "#27364C",
-      "muted": "#607086",
+      "muted": "#59697F",
       "accent": "#3D558D",
       "onAccent": "#FFFFFF",
       "secondary": "#9FBEBB"
@@ -349,7 +349,7 @@
       "background": "#E2E9F4",
       "surface": "#F7FAFF",
       "foreground": "#273D58",
-      "muted": "#5F728B",
+      "muted": "#546780",
       "accent": "#315B8D",
       "onAccent": "#FFFFFF",
       "secondary": "#B9C3E2"
@@ -375,7 +375,7 @@
       "background": "#F2EAD7",
       "surface": "#FFFAEB",
       "foreground": "#242B30",
-      "muted": "#65696A",
+      "muted": "#646869",
       "accent": "#A73629",
       "onAccent": "#FFFFFF",
       "secondary": "#E5BE45"
@@ -401,7 +401,7 @@
       "background": "#EEE9DF",
       "surface": "#FFFDF5",
       "foreground": "#35433D",
-      "muted": "#68796E",
+      "muted": "#596A5F",
       "accent": "#466D5B",
       "onAccent": "#FFFFFF",
       "secondary": "#C9A67B"
@@ -531,7 +531,7 @@
       "background": "#EEEFEA",
       "surface": "#FFFFFF",
       "foreground": "#343D3E",
-      "muted": "#667575",
+      "muted": "#5D6C6C",
       "accent": "#506A70",
       "onAccent": "#FFFFFF",
       "secondary": "#D6A268"
@@ -557,7 +557,7 @@
       "background": "#F1ECE2",
       "surface": "#FFFCF4",
       "foreground": "#37352E",
-      "muted": "#716C60",
+      "muted": "#6D685C",
       "accent": "#804B3D",
       "onAccent": "#FFFFFF",
       "secondary": "#BFB7A0"
@@ -609,7 +609,7 @@
       "background": "#EEE8DF",
       "surface": "#FCF9F1",
       "foreground": "#43382F",
-      "muted": "#77695E",
+      "muted": "#716358",
       "accent": "#72523B",
       "onAccent": "#FFFFFF",
       "secondary": "#CAB99D"
@@ -635,7 +635,7 @@
       "background": "#F8E9E8",
       "surface": "#FFFAF4",
       "foreground": "#543C48",
-      "muted": "#856775",
+      "muted": "#7E606E",
       "accent": "#A84565",
       "onAccent": "#FFFFFF",
       "secondary": "#D6B7CF"
@@ -661,7 +661,7 @@
       "background": "#F4F0DF",
       "surface": "#FFFCED",
       "foreground": "#2E3A39",
-      "muted": "#69736A",
+      "muted": "#636D64",
       "accent": "#345C6D",
       "onAccent": "#FFFFFF",
       "secondary": "#D8BE6F"
@@ -713,7 +713,7 @@
       "background": "#E9EEDC",
       "surface": "#FCF9EB",
       "foreground": "#344735",
-      "muted": "#687B5F",
+      "muted": "#596C50",
       "accent": "#526B42",
       "onAccent": "#FFFFFF",
       "secondary": "#C9A76C"
@@ -739,7 +739,7 @@
       "background": "#F3E9DB",
       "surface": "#FFFBF0",
       "foreground": "#493F33",
-      "muted": "#786B5A",
+      "muted": "#726554",
       "accent": "#8E4B41",
       "onAccent": "#FFFFFF",
       "secondary": "#A9BC9A"
@@ -765,7 +765,7 @@
       "background": "#F0E5DF",
       "surface": "#FCF6EE",
       "foreground": "#4B3B3C",
-      "muted": "#7F696C",
+      "muted": "#755F62",
       "accent": "#8C4960",
       "onAccent": "#FFFFFF",
       "secondary": "#A8B29E"
@@ -791,7 +791,7 @@
       "background": "#E6DACA",
       "surface": "#F7EBDD",
       "foreground": "#4B392A",
-      "muted": "#7B6552",
+      "muted": "#705A47",
       "accent": "#865033",
       "onAccent": "#FFFFFF",
       "secondary": "#B3AA7E"
@@ -817,7 +817,7 @@
       "background": "#E8EDDF",
       "surface": "#FCFCF2",
       "foreground": "#304535",
-      "muted": "#64765F",
+      "muted": "#5A6C55",
       "accent": "#3E6745",
       "onAccent": "#FFFFFF",
       "secondary": "#D7C78D"
@@ -843,7 +843,7 @@
       "background": "#F0E5DA",
       "surface": "#FCF7EB",
       "foreground": "#3F3934",
-      "muted": "#746C62",
+      "muted": "#6B6359",
       "accent": "#7A4E40",
       "onAccent": "#FFFFFF",
       "secondary": "#9DB4AF"
@@ -869,7 +869,7 @@
       "background": "#E7E7DB",
       "surface": "#F8F7EC",
       "foreground": "#303B35",
-      "muted": "#687568",
+      "muted": "#5B685B",
       "accent": "#4A6051",
       "onAccent": "#FFFFFF",
       "secondary": "#B9A27D"
@@ -895,7 +895,7 @@
       "background": "#E5E2DB",
       "surface": "#F8F5EF",
       "foreground": "#41434A",
-      "muted": "#73747D",
+      "muted": "#60616A",
       "accent": "#4D5A86",
       "onAccent": "#FFFFFF",
       "secondary": "#B6A4BD"
@@ -947,7 +947,7 @@
       "background": "#E7ECEF",
       "surface": "#FBFDFD",
       "foreground": "#30464C",
-      "muted": "#667A80",
+      "muted": "#576B71",
       "accent": "#386B7B",
       "onAccent": "#FFFFFF",
       "secondary": "#B5C9BB"
@@ -973,7 +973,7 @@
       "background": "#202A29",
       "surface": "#2D3935",
       "foreground": "#F3E4BF",
-      "muted": "#C7BA99",
+      "muted": "#C9BC9B",
       "accent": "#E5C78C",
       "onAccent": "#302A1E",
       "secondary": "#8EA99A"
@@ -999,7 +999,7 @@
       "background": "#EBEAD7",
       "surface": "#FAF7E7",
       "foreground": "#354B3E",
-      "muted": "#6A7C64",
+      "muted": "#596B53",
       "accent": "#4B715A",
       "onAccent": "#FFFFFF",
       "secondary": "#C5A76C"
@@ -1025,7 +1025,7 @@
       "background": "#ECE4D3",
       "surface": "#FCF5E8",
       "foreground": "#24282A",
-      "muted": "#68665F",
+      "muted": "#65635C",
       "accent": "#B63628",
       "onAccent": "#FFFFFF",
       "secondary": "#AAA79B"
@@ -1077,7 +1077,7 @@
       "background": "#E9DFE6",
       "surface": "#FBF3F5",
       "foreground": "#493D52",
-      "muted": "#7B6A86",
+      "muted": "#6C5B77",
       "accent": "#85506E",
       "onAccent": "#FFFFFF",
       "secondary": "#AABBC4"
@@ -1103,7 +1103,7 @@
       "background": "#F1E9DD",
       "surface": "#FFFAF0",
       "foreground": "#3D3A32",
-      "muted": "#726D61",
+      "muted": "#6B665A",
       "accent": "#93503C",
       "onAccent": "#FFFFFF",
       "secondary": "#A0B6A2"
@@ -1155,7 +1155,7 @@
       "background": "#ECEFE9",
       "surface": "#FFFFFF",
       "foreground": "#263D35",
-      "muted": "#60736B",
+      "muted": "#5A6D65",
       "accent": "#2E6654",
       "onAccent": "#FFFFFF",
       "secondary": "#C9D8CA"
@@ -1207,7 +1207,7 @@
       "background": "#F2F2E8",
       "surface": "#FFFFFF",
       "foreground": "#242B2C",
-      "muted": "#646E6C",
+      "muted": "#636D6B",
       "accent": "#3C5B6A",
       "onAccent": "#FFFFFF",
       "secondary": "#B5C2BD"
@@ -1259,7 +1259,7 @@
       "background": "#E9EFF4",
       "surface": "#FAFCFF",
       "foreground": "#3A4A60",
-      "muted": "#6C7D93",
+      "muted": "#5A6B81",
       "accent": "#4A6FA2",
       "onAccent": "#FFFFFF",
       "secondary": "#D9C2CB"
@@ -1285,7 +1285,7 @@
       "background": "#EDF2EF",
       "surface": "#FCFFFD",
       "foreground": "#344C45",
-      "muted": "#6A7D74",
+      "muted": "#5C6F66",
       "accent": "#3F6F65",
       "onAccent": "#FFFFFF",
       "secondary": "#B9D4CC"
@@ -1311,7 +1311,7 @@
       "background": "#EEE9EF",
       "surface": "#FFF9FF",
       "foreground": "#41384B",
-      "muted": "#756680",
+      "muted": "#70617B",
       "accent": "#79476F",
       "onAccent": "#FFFFFF",
       "secondary": "#CAC39F"

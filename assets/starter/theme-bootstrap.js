@@ -10,4 +10,5 @@
   document.documentElement.dataset.family=theme.styleFamily||theme.family;
   document.documentElement.dataset.tone=theme.tone;
   document.documentElement.dataset.edition=theme.edition||'';
+  const root=document.documentElement;root.dataset.expansion=String(theme.expansion===true);root.dataset.composition=theme.composition||'';root.dataset.material=theme.material||'';root.dataset.cardLayout=theme.cardLayout||'';
 })();

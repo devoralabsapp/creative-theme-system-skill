@@ -7,7 +7,7 @@ const args=process.argv.slice(2);let rootArg='.',port=4173;
 for(let i=0;i<args.length;i++){if(args[i]==='--port'){port=Number(args[++i]);}else if(i===0){rootArg=args[i];}else{console.error('Usage: node scripts/serve.mjs <directory> [--port 4173]');process.exit(2);}}
 if(!Number.isInteger(port)||port<1||port>65535||!existsSync(rootArg)){console.error('Use an existing directory and a valid port.');process.exit(2);}
 const root=realpathSync(rootArg),inside=file=>{const rel=path.relative(root,file);return rel!==''&&!rel.startsWith('..'+path.sep)&&rel!=='..'&&!path.isAbsolute(rel);};
-const mime={'.html':'text/html; charset=utf-8','.js':'application/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.json':'application/json; charset=utf-8','.png':'image/png'};
+const mime={'.html':'text/html; charset=utf-8','.js':'application/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.json':'application/json; charset=utf-8','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg'};
 const server=http.createServer(async(req,res)=>{
   if(!['GET','HEAD'].includes(req.method)){res.writeHead(405,{'Allow':'GET, HEAD'});return res.end();}
   try{

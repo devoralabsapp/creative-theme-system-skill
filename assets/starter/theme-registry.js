@@ -279,6 +279,158 @@ window.STUDIO_THEMES = {
       "family": "creative"
     },
     {
+      "id": "xerox-club",
+      "name": "Xerox Club",
+      "description": "Photocopied monochrome flyer wall, distressed black typography and torn long records instead of lime collage sheets.",
+      "family": "creative",
+      "color": "#ECEBDD",
+      "tone": "light",
+      "expansion": true,
+      "phase": 1,
+      "style": "Punk Design / Grunge",
+      "tags": [
+        "Punk Design / Grunge",
+        "rough",
+        "wall"
+      ],
+      "composition": "wall",
+      "material": "rough",
+      "cardLayout": "flyer"
+    },
+    {
+      "id": "groove-cabinet",
+      "name": "Groove Cabinet",
+      "description": "Concentric rainbow arches, rounded record sleeves and low horizontal cabinet navigation replace book objects.",
+      "family": "creative",
+      "color": "#F1DFC0",
+      "tone": "light",
+      "expansion": true,
+      "phase": 1,
+      "style": "70s Groovy",
+      "tags": [
+        "70s Groovy",
+        "groove",
+        "cabinet"
+      ],
+      "composition": "cabinet",
+      "material": "groove",
+      "cardLayout": "sleeve"
+    },
+    {
+      "id": "bubble-web",
+      "name": "Bubble Web",
+      "description": "Chromatic star medallion, pearl capsule columns and a central portal rather than pastel paper blocks.",
+      "family": "creative",
+      "color": "#E6E8FA",
+      "tone": "light",
+      "expansion": true,
+      "phase": 1,
+      "style": "Y2K Aesthetic",
+      "tags": [
+        "Y2K Aesthetic",
+        "chrome",
+        "portal"
+      ],
+      "composition": "portal",
+      "material": "chrome",
+      "cardLayout": "capsule"
+    },
+    {
+      "id": "sunset-disk",
+      "name": "Sunset Disk",
+      "description": "Coral striped sun, receding grid horizon and ticket rows, without copper gallery ellipses.",
+      "family": "creative",
+      "color": "#28213B",
+      "tone": "dark",
+      "expansion": true,
+      "phase": 1,
+      "style": "Vaporwave",
+      "tags": [
+        "Vaporwave",
+        "neon",
+        "horizon"
+      ],
+      "composition": "horizon",
+      "material": "neon",
+      "cardLayout": "ticket"
+    },
+    {
+      "id": "memphis-workshop",
+      "name": "Memphis Workshop",
+      "description": "Asymmetric primary-color shape matrix, zigzags and polka-dot tiles instead of pastel hard-shadow note cards.",
+      "family": "creative",
+      "color": "#FFF3D9",
+      "tone": "light",
+      "expansion": true,
+      "phase": 1,
+      "style": "Memphis Design",
+      "tags": [
+        "Memphis Design",
+        "pattern",
+        "matrix"
+      ],
+      "composition": "matrix",
+      "material": "pattern",
+      "cardLayout": "tile"
+    },
+    {
+      "id": "aero-garden",
+      "name": "Aero Garden",
+      "description": "Blue sky sphere landscape and glossy aquatic panes instead of architectural green glasshouse ribs.",
+      "family": "creative",
+      "color": "#DDF1F4",
+      "tone": "light",
+      "expansion": true,
+      "phase": 1,
+      "style": "Frutiger Aero",
+      "tags": [
+        "Frutiger Aero",
+        "glass",
+        "panorama"
+      ],
+      "composition": "panorama",
+      "material": "glass",
+      "cardLayout": "glass"
+    },
+    {
+      "id": "cassette-desk",
+      "name": "Cassette Desk",
+      "description": "Beige hardware chassis, tape-reel drawing and slotted inventory rather than a white-window desktop.",
+      "family": "creative",
+      "color": "#D4CBB6",
+      "tone": "light",
+      "expansion": true,
+      "phase": 1,
+      "style": "Cassette Futurism",
+      "tags": [
+        "Cassette Futurism",
+        "hardware",
+        "console"
+      ],
+      "composition": "console",
+      "material": "hardware",
+      "cardLayout": "slot"
+    },
+    {
+      "id": "deconstruct-studio",
+      "name": "Deconstruct Studio",
+      "description": "Diagonal structural voids, offset opaque reading islands and faceted records rather than an exposed regular grid.",
+      "family": "creative",
+      "color": "#E9E7DF",
+      "tone": "light",
+      "expansion": true,
+      "phase": 1,
+      "style": "Deconstructivism",
+      "tags": [
+        "Deconstructivism",
+        "cut",
+        "fracture"
+      ],
+      "composition": "fracture",
+      "material": "cut",
+      "cardLayout": "fragment"
+    },
+    {
       "id": "botanical",
       "name": "Botanical",
       "description": "Warm cream and olive",

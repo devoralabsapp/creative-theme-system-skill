@@ -1,0 +1,78 @@
+{
+  "phase": 1,
+  "name": "Retro and experimental",
+  "testedAt": "2026-11-02T18:28:00.564Z",
+  "total": 58,
+  "themes": [
+    {
+      "id": "xerox-club",
+      "name": "Xerox Club"
+    },
+    {
+      "id": "groove-cabinet",
+      "name": "Groove Cabinet"
+    },
+    {
+      "id": "bubble-web",
+      "name": "Bubble Web"
+    },
+    {
+      "id": "sunset-disk",
+      "name": "Sunset Disk"
+    },
+    {
+      "id": "memphis-workshop",
+      "name": "Memphis Workshop"
+    },
+    {
+      "id": "aero-garden",
+      "name": "Aero Garden"
+    },
+    {
+      "id": "cassette-desk",
+      "name": "Cassette Desk"
+    },
+    {
+      "id": "deconstruct-studio",
+      "name": "Deconstruct Studio"
+    }
+  ],
+  "checks": {
+    "responsiveCases": 80,
+    "viewports": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "views": [
+      "Lab",
+      "Website"
+    ],
+    "interactionFlows": [
+      "xerox-club: Lab search/empty/reset/save/read/Escape",
+      "xerox-club: Website search/reset/sort/dialog/Escape",
+      "groove-cabinet: Lab search/empty/reset/save/read/Escape",
+      "groove-cabinet: Website search/reset/sort/dialog/Escape",
+      "bubble-web: Lab search/empty/reset/save/read/Escape",
+      "bubble-web: Website search/reset/sort/dialog/Escape",
+      "sunset-disk: Lab search/empty/reset/save/read/Escape",
+      "sunset-disk: Website search/reset/sort/dialog/Escape",
+      "memphis-workshop: Lab search/empty/reset/save/read/Escape",
+      "memphis-workshop: Website search/reset/sort/dialog/Escape",
+      "aero-garden: Lab search/empty/reset/save/read/Escape",
+      "aero-garden: Website search/reset/sort/dialog/Escape",
+      "cassette-desk: Lab search/empty/reset/save/read/Escape",
+      "cassette-desk: Website search/reset/sort/dialog/Escape",
+      "deconstruct-studio: Lab search/empty/reset/save/read/Escape",
+      "deconstruct-studio: Website search/reset/sort/dialog/Escape",
+      "All style/ID search → Lab; real searchable picker → last addition"
+    ],
+    "errors": 0,
+    "contrastFindings": 0,
+    "consoleErrors": 0,
+    "missingAssets": 0
+  },
+  "visualReview": "Actual desktop Lab and Website contact sheets and representative 320px states inspected; static SVG artwork, no external assets. Contrast samples exclude decorative artwork; not a full WCAG audit."
+}

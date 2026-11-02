@@ -32,13 +32,13 @@
    const tone=document.createElement('span');tone.className='theme-card-tone';tone.textContent=theme.tone==='dark'?'Dark':'Light';row.append(name,tone);
    const detail=document.createElement('p');detail.textContent=theme.description;
    const footer=document.createElement('span');footer.className='theme-card-link';footer.append(document.createTextNode('Open Design Lab'));const arrow=document.createElement('span');arrow.textContent='↗';arrow.setAttribute('aria-hidden','true');footer.append(arrow);
-   body.append(row,detail,footer);link.append(preview,body);article.append(link);grid.append(article);entries.push({theme,article,link,selected,section});
+   body.append(row);if(theme.style){const style=document.createElement('small');style.className='theme-style-label';style.textContent=theme.style;body.append(style);}body.append(detail,footer);link.append(preview,body);article.append(link);grid.append(article);entries.push({theme,article,link,selected,section});
   }
  }
  function syncSelection(){const selected=document.getElementById('explorer-theme').value;for(const entry of entries){const current=entry.theme.id===selected;entry.link.classList.toggle('is-selected',current);entry.selected.hidden=!current;if(current)entry.link.setAttribute('aria-current','true');else entry.link.removeAttribute('aria-current');}}
  function filter(){
   const query=search.value.trim().toLowerCase();let count=0,groupCount=0;
-  for(const {theme,article} of entries){const matches=(family==='all'||theme.family===family)&&`${theme.name} ${theme.id} ${theme.description} ${families[theme.family].name} ${theme.tone}`.toLowerCase().includes(query);article.hidden=!matches;if(matches)count++;}
+  for(const {theme,article} of entries){const matches=(family==='all'||theme.family===family)&&`${theme.name} ${theme.id} ${theme.description} ${families[theme.family].name} ${theme.tone} ${theme.style||''} ${(theme.tags||[]).join(' ')}`.toLowerCase().includes(query);article.hidden=!matches;if(matches)count++;}
   for(const section of collections.children){const shown=section.querySelectorAll('.theme-tile:not([hidden])').length;section.hidden=shown===0;section.querySelector('.all-collection-count').textContent=shown;if(shown)groupCount++;}
   for(const button of filters.children)button.setAttribute('aria-pressed',String(button.dataset.familyFilter===family));
   document.getElementById('all-empty').hidden=count!==0;

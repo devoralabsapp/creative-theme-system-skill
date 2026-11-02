@@ -25,7 +25,7 @@
  }
  function renderOptions(){
   const query=search.value.trim().toLowerCase();
-  visible=config.themes.filter(theme=>`${theme.name} ${theme.id} ${theme.description} ${families[theme.family]} ${theme.tone}`.toLowerCase().includes(query));
+  visible=config.themes.filter(theme=>`${theme.name} ${theme.id} ${theme.description} ${families[theme.family]} ${theme.tone} ${theme.style||''} ${(theme.tags||[]).join(' ')}`.toLowerCase().includes(query));
   list.replaceChildren();
   for(const family of config.familyOrder||Object.keys(families)){
    const label=families[family];

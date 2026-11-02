@@ -59,3 +59,7 @@ The seasonal family reuses `--ws-*` semantic surface tokens and hides workspace 
 Do not copy another project's products, screenshots, checkout URLs or customer information. Bundled SVGs are fictional original illustrations. Replace them only with authorized assets. Google Fonts are optional network-loaded typography; retain system fallbacks and the host app's font strategy.
 
 The `creative` family shares semantic surface tokens and hides workspace chrome. `creative-themes.css` contains its geometry and original SVG/CSS decorations. Reuse material cues on the host app’s actual screens rather than importing demo-only hero compositions. Decorative pseudo-element labels live inside an `aria-hidden` container. Preserve readable product artwork, visible focus, and reduced-motion behavior.
+
+## Expansion resources
+
+See the [complete catalog](../docs/THEME_CATALOG.md), [implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) and [phase evidence](../docs/THEME_EXPANSION_PROGRESS.md). Read the phase recipes linked from SKILL.md for semantic palettes, explicit layout trees, card grammars and responsive/interaction guidance. Register only completed definitions. Validate with the static validator and the browser runner; these checks do not replace visual inspection or a full accessibility audit.

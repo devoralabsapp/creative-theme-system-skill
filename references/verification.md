@@ -24,3 +24,7 @@ Use the environment's supported browser tools. When layout changes, sample 320px
 The sample dialog is a preview, not checkout/download functionality. Report actual checks and unverified limits. Save representative screenshots when useful. A successful hosting build does not prove a working browser UI.
 
 For All, confirm one card per registry ID, correct family counts, real images with no broken assets, search/filter/empty reset, and every card destination. Verify returning from Lab and browser Back preserve the overview state, keyboard arrows work across all three tabs, and a fresh root visit defaults to All even with a saved theme; direct `?theme=` links and explicit Lab/Website views must remain functional. Check a single outer scrollbar in the gallery and previews.
+
+## Expansion resources
+
+See the [complete catalog](../docs/THEME_CATALOG.md), [implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) and [phase evidence](../docs/THEME_EXPANSION_PROGRESS.md). Read the phase recipes linked from SKILL.md for semantic palettes, explicit layout trees, card grammars and responsive/interaction guidance. Register only completed definitions. Validate with the static validator and the browser runner; these checks do not replace visual inspection or a full accessibility audit.

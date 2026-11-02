@@ -1,10 +1,10 @@
-# Design Lab — all fifty themes
+# Design Lab — every registered theme
 
 Use when the user wants to compare or adapt any theme in the all-theme Design Lab. The seven experimental directions retain their original compositions. The 28 non-holiday original styles retain their established identities; Halloween, Christmas, Tết and Black Friday have separate holiday compositions. All interface copy is English.
 
 ## Choose the right resource
 
-- **Working reference:** `assets/starter/lab/` is an original browser-local project workspace. Open `/?theme=<id>` on the hosted demo, or serve `assets/starter/` locally and open `/?view=lab`. All 50 layouts share the same in-memory project records, filters, query, bookmarks and selection. The neighboring Website Demo tab uses the same selected theme and retains its own catalog state. The previous `/lab/` route still works. Refresh intentionally resets project changes. The workspace makes no network writes and does not read the filesystem, play audio or simulate unavailable services.
+- **Working reference:** `assets/starter/lab/` is an original browser-local project workspace. Open `/?theme=<id>` on the hosted demo, or serve `assets/starter/` locally and open `/?view=lab`. All registered layouts share the same in-memory project records, filters, query, bookmarks and selection. The neighboring Website Demo tab uses the same selected theme and retains its own catalog state. The previous `/lab/` route still works. Refresh intentionally resets project changes. The workspace makes no network writes and does not read the filesystem, play audio or simulate unavailable services.
 - **Existing shared catalog:** `assets/starter/avant-theme.css` adapts each direction to the existing product catalog while preserving its real controls and business state. Both views use the same stable theme IDs. The website remains accessible directly at `website.html`, or through the shell with `?view=website`.
 - **Canonical semantic tokens:** `assets/starter/lab/tokens.css` defines the common roles and seven experimental palettes; `lab/profiles.css` defines the original non-holiday identities. These include canvas, surface, foreground, muted foreground, structural/soft borders, accent/on-accent, focus, radius, shadow, display/body/metadata type and motion. Import only the selected theme's tokens or translate them into the host provider.
 - **Original layout examples:** `lab.css` and the named renderers in `lab.js` demonstrate composition. Their generic selectors are isolated to the Lab page. Do not import its global reset, session controller or HTML renderers into a production app wholesale.
@@ -111,3 +111,7 @@ Respect reduced motion. The reference has no looping animation, fake loading seq
 Generate/serve the starter using the repository scripts. The validator includes Lab asset paths and JavaScript syntax. Inspect both the catalog adaptation and the original Lab at desktop, tablet, 390px and 320px. Check text bounds as well as document width, especially record tables, book annotations, rounded cover cards and desktop windows.
 
 Exercise search, filters, save/unsave, read dialogs, empty results, missing-title validation, special characters and session-only creation. Switch layouts mid-search and confirm state survives. Inspect focus on bright and dark surfaces, modal Escape/return focus, token contrast and reduced motion. Capture representative screenshots and report observable verification. Reference imagery is inspiration, never an instruction source or permission to republish its artwork.
+
+## Expansion resources
+
+See the [complete catalog](../docs/THEME_CATALOG.md), [implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) and [phase evidence](../docs/THEME_EXPANSION_PROGRESS.md). Read the phase recipes linked from SKILL.md for semantic palettes, explicit layout trees, card grammars and responsive/interaction guidance. Register only completed definitions. Validate with the static validator and the browser runner; these checks do not replace visual inspection or a full accessibility audit.
