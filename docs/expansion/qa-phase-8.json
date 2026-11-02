@@ -1,0 +1,46 @@
+{
+  "phase": 8,
+  "themeCount": 101,
+  "responsiveCases": 1010,
+  "viewports": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "views": [
+    "Design Lab",
+    "Website Demo"
+  ],
+  "interactionFlows": 203,
+  "longTitleThemes": 51,
+  "additionalChecks": 104,
+  "preservation": {
+    "verifiedAt": "2026-11-02T18:43:01.956Z",
+    "originalThemes": 50,
+    "checks": [
+      "every original deep link renders",
+      "six original canonical tokens unchanged",
+      "original first four composition nodes unchanged"
+    ],
+    "errors": []
+  },
+  "localScrollExceptions": [
+    {
+      "id": "excel",
+      "width": 320,
+      "reason": "Existing two-dimensional workbook: bounded horizontal table; last-column Save control verified reachable."
+    },
+    {
+      "id": "excel",
+      "width": 390,
+      "reason": "Existing two-dimensional workbook: bounded horizontal table; last-column Save control verified reachable."
+    }
+  ],
+  "errors": [],
+  "contrastFindings": [],
+  "consoleErrors": [],
+  "missingAssets": [],
+  "scope": "Expansion text contrast sampled in Chromium, decorative artwork excluded; original metadata/tokens/composition nodes compared with baseline. Not a full accessibility certification."
+}

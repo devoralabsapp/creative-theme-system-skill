@@ -114,7 +114,7 @@ Status: completed, committed and pushed as `0788c8a`; existing production domain
 
 ## Phase 7 — Hybrid signatures
 
-Status: implementation and local validation completed; commit/push and production attestation follow in the next record.
+Status: completed, committed and pushed as `14b0bab`; existing production domain verified. [Deployment evidence](expansion/release-7.json).
 
 - Themes added: Swiss Cut (`swiss-cut`), Cloud Pet (`cloud-pet`), Quiet Current (`quiet-current`), Atelier Array (`atelier-array`).
 - Actual registered count: **101**.
@@ -125,3 +125,22 @@ Status: implementation and local validation completed; commit/push and productio
 - Visual review: actual Lab and Website screenshots inspected; fixed any recorded issues before release.
 - Limits: static bounded CSS/SVG depth, optional font fallbacks; sampled text contrast is not a full accessibility certification.
 - Next: Phase 8, full collection regression and final release documentation.
+
+- Release attestation for phase 7: `14b0bab07a113d95de12b9bac02374eb98b7991a`, Vercel success status and exact live registry/assets verified at 2026-11-02T18:40:18.878Z.
+
+## Phase 8 — final quality, documentation and release
+
+Status: final implementation and local validation completed. All feature phases 0–7 were committed, pushed and verified on the existing production domain; final release publication and attestation follow this commit.
+
+- Actual registry: **101 themes** — 50 protected originals plus 51 additions; Creative Lab 84, Studio 4, Workspace 9, Holiday 4.
+- Audit: all 170 candidate entries classified; techniques/aliases were not counted as independent filler themes. All 51 approved directions now implemented.
+- Final static checks: `node scripts/validate_demo.mjs assets/starter`, `node scripts/validate_expansion.mjs`, skill `quick_validate.py` — passed.
+- Full browser regression: `node scripts/verify_expansion.cjs all` — **1,010 responsive cases**, both views at 320/390/768/1024/1440px; **203 interaction records**; zero page overflow findings, missing assets, JS errors or expansion text-contrast findings.
+- Collection states: `node scripts/verify_collection.cjs` — 80-character escaped titles and retained projects/queries on all 51 additions at 320/1440px, native note dialogs, reduced motion, mobile catalog navigation, product/gallery filters, alphabetical sorting and FAQ; **104 checks**, no findings.
+- Shared shell: `node scripts/verify_explorer.cjs` — form validation, escaping, independent state, actual searchable keyboard picker, original-theme restoration, default All, retained gallery search, saved/active filters and first-wheel parent scrolling passed.
+- Preservation: `node scripts/verify_preservation.cjs` — all 50 original deep links, six canonical tokens per theme and original first composition nodes unchanged. Original IDs/metadata/order/default/storage key and Vercel configuration retained.
+- Intentional existing exception: Excel is a two-dimensional workbook with a bounded horizontal table at 320/390px; the last-column Save controls were verified reachable. The document itself fits the viewport. File Explorer retains Save inside its note dialog.
+- Visual QA: actual Lab and Website desktop contact sheets reviewed for every implementation batch; representative 320px Lab/catalog states inspected. All 101 Lab screenshots and overview thumbnails refreshed from the working app. README shows an actual All overview and a curated expansion contact sheet.
+- Agent handoff: README/SKILL/discovery metadata, original integration/reference links, complete catalog, practical recipes for all seven phases, audit/master plan/progress and detailed implementation/verification guide updated. Generated counts derive from the registry.
+- Implementation limits: bounded original SVG/CSS supplies spatial/depth fallbacks; reading surfaces remain opaque. Fonts have system fallbacks. Contrast sampling excludes decorative artwork and is not a complete WCAG/assistive-technology audit.
+- Evidence: [final QA record](expansion/qa-phase-8.json); phase release records link each published commit to its successful Vercel status and actual browser verification. Re-run `node scripts/verify_production.cjs 8` against committed HEAD after the final push.

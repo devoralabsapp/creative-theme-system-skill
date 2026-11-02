@@ -28,3 +28,11 @@ For All, confirm one card per registry ID, correct family counts, real images wi
 ## Expansion resources
 
 See the [complete catalog](../docs/THEME_CATALOG.md), [implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) and [phase evidence](../docs/THEME_EXPANSION_PROGRESS.md). Read the phase recipes linked from SKILL.md for semantic palettes, explicit layout trees, card grammars and responsive/interaction guidance. Register only completed definitions. Validate with the static validator and the browser runner; these checks do not replace visual inspection or a full accessibility audit.
+
+## Expansion release regression
+
+Run `node scripts/validate_expansion.mjs` in the repository to verify the protected fifty metadata records and relative order, four families, original default/storage key, explicit expansion compositions and all required original SVGs, screenshots and recipes. `node scripts/verify_preservation.cjs` compares actual browser tokens and the first composition nodes with the pre-expansion inventory.
+
+Use `node scripts/verify_expansion.cjs all` for both views of every registry entry at 320/390/768/1024/1440px, actual deep links and working read/save/search/reset/sort flows. The existing Excel workbook intentionally has a bounded horizontal table: verify that its final-column controls are reachable and that the page does not overflow. File Explorer saves through its note dialog, so do not assume every composition has an inline Save button.
+
+Use `node scripts/verify_collection.cjs` for 80-character escaped titles, retained query/project data, note dialogs and reduced motion across all expansion compositions, plus mobile catalog navigation, FAQ, product categories and all four gallery filters. Wait for native dialog close/render and a frame before inspecting newly selected layout styles. See `docs/expansion/` for actual phase evidence; `.qa/` holds local diagnostics only.

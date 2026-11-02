@@ -8,6 +8,16 @@ A portable AI agent skill with original theme recipes, reusable CSS and interact
 
 [![Devora Signal in Design Lab — white, red and black workbench with the Website Demo tab beside it](docs/screenshots/design-lab/devora-signal.jpg)](https://theme.devoralabs.tech/?theme=devora-signal)
 
+<!-- expansion-showcase:start -->
+## Expansion — 51 new directions
+
+The collection now spans punk print, Y2K, groovy archives, Japandi, tactile morphism, futuristic workspaces, literary pages, illustrated worlds, spatial layouts and artistic signatures. Every addition has its own original vector study, deliberate Lab composition and catalog adaptation.
+
+[![A selection of actual expansion Design Lab workspaces](docs/screenshots/expansion-overview.jpg)](https://theme.devoralabs.tech/?view=all)
+
+Read the [complete catalog](docs/THEME_CATALOG.md) for IDs, palettes, typography and layout identities, or follow the [phase reports](docs/THEME_EXPANSION_PROGRESS.md) for validation and deployment evidence. The original fifty themes and their deep links remain available.
+<!-- expansion-showcase:end -->
+
 ## Volume Five — eleven new directions
 
 Eleven new compositions, including five revised studies, complete the original fifty-theme release: Redline Atelier, Cobalt Court, Darkroom Zero, Fold Theory, Motion Manifesto, Pixel Riot, Cutout Dept., Overprint Studio, Carbon Bureau, Foundry Floor and Frame Shift. All copy is English; each study includes a working Lab and catalog adaptation.
@@ -166,7 +176,7 @@ Use the intended Vercel account/team and existing project when already linked. T
 
 Static validation checks registry metadata, assets, UI hooks and script syntax. Browser review remains necessary; see [verification](references/verification.md).
 
-Explorer verification: the previous 39-theme release passed Lab and catalog layout checks at 320, 390, 768 and 1440px. The eleven Volume Five additions passed 110 Lab/catalog checks at 320, 390, 768, 1024 and 1440px, with rendered-text contrast sampling. All 50 catalog themes passed 200 responsive checks. Read/save/create/empty-state flows, escaped special characters, the 50-option theme picker, retained sessions and independent catalog search/sort were exercised. The review page was checked at four widths. The five replacement compositions also passed long-title checks at desktop/320px and actual file/shot selection checks. These checks cover the bundled samples and are not a full accessibility audit.
+Original-release verification (historical): the previous 39-theme release passed Lab and catalog layout checks at 320, 390, 768 and 1440px. The eleven Volume Five additions passed 110 Lab/catalog checks at 320, 390, 768, 1024 and 1440px, with rendered-text contrast sampling. All 50 catalog themes passed 200 responsive checks. Read/save/create/empty-state flows, escaped special characters, the 50-option theme picker, retained sessions and independent catalog search/sort were exercised. The review page was checked at four widths. The five replacement compositions also passed long-title checks at desktop/320px and actual file/shot selection checks. These checks cover the bundled samples and are not a full accessibility audit.
 
 ## Expansion audit and implementation
 
@@ -188,3 +198,5 @@ The registry currently contains **101 themes**, including 51 completed expansion
 
 Expansion art is original SVG; depth/spatial studies have lightweight static fallbacks. No WebGL, audio playback, backend or infinite canvas is implied.
 <!-- expansion-links:end -->
+
+Final expansion verification: all 101 themes passed 1,010 Lab/catalog responsive checks at 320/390/768/1024/1440px and 203 interaction records. All 51 additions also passed long-title/escaped-content, retained-state and reduced-motion checks. All 50 original token/composition samples match the audit baseline. Excel keeps its existing bounded horizontal workbook on phones. See [final QA evidence](docs/expansion/qa-phase-8.json) and [phase/release progress](docs/THEME_EXPANSION_PROGRESS.md). These checks are not a full accessibility certification.

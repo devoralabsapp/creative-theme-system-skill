@@ -6,6 +6,7 @@ const config=JSON.parse(r('assets/starter/theme-registry.js').match(/=\s*([\s\S]
 const active=JSON.parse(r('assets/starter/expansion/themes.js').match(/=\s*([\s\S]*);/)[1]);
 const baseline=JSON.parse(r('docs/expansion/baseline-visual-inventory.json'));
 const recipeLinks=[...new Set(active.map(t=>t.phase))].map(n=>`- [Expansion phase ${n} recipes](references/expansion-${n}.md)`).join('\n');
+for(const p of ['references/volume-five.md','references/integration.md'])w(p,r(p).replace('The All gallery still covers all fifty themes.','The All gallery includes every registered theme.').replace('All 50 IDs','All registered IDs'));
 let readme=r('README.md');readme=readme.replace(/Creative Lab \(\d+\)/g,`Creative Lab (${themes.filter(t=>t.family==='creative').length})`).replace(/Choose any of the \d+ themes/g,`Choose any of the ${count} themes`);readme=readme.replace(/\*\*\d+ themes\./,`**${count} themes.`).replace('complete the bundled collection of fifty','complete the original fifty-theme release');
 readme=readme.replace(/## All \d+ Design Lab previews[\s\S]*?(?=## Theme recipes and original showcases)/,()=>{
  let s=`## All ${count} Design Lab previews\n\nActual screenshots of the working Design Lab. The original fifty IDs, designs and their relative order are preserved. Expansion studies follow the original Creative Lab collection; Volume Five remains immediately after SẮC / 01.\n\n`;
@@ -14,6 +15,18 @@ readme=readme.replace(/## All \d+ Design Lab previews[\s\S]*?(?=## Theme recipes
 });
 if(!readme.includes('## Expansion audit and implementation'))readme+='\n## Expansion audit and implementation\n\n<!-- expansion-links:start -->\n<!-- expansion-links:end -->\n';
 readme=readme.replace(/<!-- expansion-links:start -->[\s\S]*?<!-- expansion-links:end -->/,`<!-- expansion-links:start -->\nThe registry currently contains **${count} themes**, including ${active.length} completed expansion studies. Counts and this gallery are generated with \`node scripts/update_theme_docs.mjs\`.\n\n- [Audit and full candidate matrix](docs/THEME_EXPANSION_AUDIT.md)\n- [Master plan](docs/THEME_EXPANSION_MASTER_PLAN.md)\n- [Complete theme catalog](docs/THEME_CATALOG.md)\n- [Implementation guide](docs/THEME_IMPLEMENTATION_GUIDE.md)\n- [Phase progress and validation evidence](docs/THEME_EXPANSION_PROGRESS.md)\n${recipeLinks}\n\nExpansion art is original SVG; depth/spatial studies have lightweight static fallbacks. No WebGL, audio playback, backend or infinite canvas is implied.\n<!-- expansion-links:end -->`);
+const expansionBlock=`<!-- expansion-showcase:start -->
+## Expansion — ${active.length} new directions
+
+The collection now spans punk print, Y2K, groovy archives, Japandi, tactile morphism, futuristic workspaces, literary pages, illustrated worlds, spatial layouts and artistic signatures. Every addition has its own original vector study, deliberate Lab composition and catalog adaptation.
+
+[![A selection of actual expansion Design Lab workspaces](docs/screenshots/expansion-overview.jpg)](https://theme.devoralabs.tech/?view=all)
+
+Read the [complete catalog](docs/THEME_CATALOG.md) for IDs, palettes, typography and layout identities, or follow the [phase reports](docs/THEME_EXPANSION_PROGRESS.md) for validation and deployment evidence. The original fifty themes and their deep links remain available.
+<!-- expansion-showcase:end -->
+
+`;
+if(readme.includes('<!-- expansion-showcase:start -->'))readme=readme.replace(/<!-- expansion-showcase:start -->[\s\S]*?<!-- expansion-showcase:end -->\s*/,expansionBlock);else readme=readme.replace('## Volume Five',expansionBlock+'## Volume Five');
 w('README.md',readme);
 let skill=r('SKILL.md').replace('recreating this fifty-theme collection','applying this registry-driven collection').replace('includes fifty working reference themes','includes a registry-driven collection of working reference themes').replace('include all fifty','include every registered theme').replace('#all-50-design-lab-previews',`#all-${count}-design-lab-previews`).replace(/#all-\d+-design-lab-previews/g,`#all-${count}-design-lab-previews`).replace('All fifty themes','All registered themes');
 if(!skill.includes('## Expansion recipes'))skill+='\n## Expansion recipes\n\n<!-- expansion-recipes:start -->\n<!-- expansion-recipes:end -->\n';
