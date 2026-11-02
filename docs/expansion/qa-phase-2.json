@@ -1,0 +1,78 @@
+{
+  "phase": 2,
+  "name": "Minimalism and morphism",
+  "testedAt": "2026-11-02T18:29:30.196Z",
+  "total": 66,
+  "themes": [
+    {
+      "id": "zero-margin",
+      "name": "Zero Margin"
+    },
+    {
+      "id": "tatami-house",
+      "name": "Tatami House"
+    },
+    {
+      "id": "concrete-calm",
+      "name": "Concrete Calm"
+    },
+    {
+      "id": "clay-corner",
+      "name": "Clay Corner"
+    },
+    {
+      "id": "prism-desk",
+      "name": "Prism Desk"
+    },
+    {
+      "id": "lucent-room",
+      "name": "Lucent Room"
+    },
+    {
+      "id": "form-function",
+      "name": "Form Function"
+    },
+    {
+      "id": "nordic-shelf",
+      "name": "Nordic Shelf"
+    }
+  ],
+  "checks": {
+    "responsiveCases": 80,
+    "viewports": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "views": [
+      "Lab",
+      "Website"
+    ],
+    "interactionFlows": [
+      "zero-margin: Lab search/empty/reset/save/read/Escape",
+      "zero-margin: Website search/reset/sort/dialog/Escape",
+      "tatami-house: Lab search/empty/reset/save/read/Escape",
+      "tatami-house: Website search/reset/sort/dialog/Escape",
+      "concrete-calm: Lab search/empty/reset/save/read/Escape",
+      "concrete-calm: Website search/reset/sort/dialog/Escape",
+      "clay-corner: Lab search/empty/reset/save/read/Escape",
+      "clay-corner: Website search/reset/sort/dialog/Escape",
+      "prism-desk: Lab search/empty/reset/save/read/Escape",
+      "prism-desk: Website search/reset/sort/dialog/Escape",
+      "lucent-room: Lab search/empty/reset/save/read/Escape",
+      "lucent-room: Website search/reset/sort/dialog/Escape",
+      "form-function: Lab search/empty/reset/save/read/Escape",
+      "form-function: Website search/reset/sort/dialog/Escape",
+      "nordic-shelf: Lab search/empty/reset/save/read/Escape",
+      "nordic-shelf: Website search/reset/sort/dialog/Escape",
+      "All style/ID search → Lab; real searchable picker → last addition"
+    ],
+    "errors": 0,
+    "contrastFindings": 0,
+    "consoleErrors": 0,
+    "missingAssets": 0
+  },
+  "visualReview": "Actual desktop Lab and Website contact sheets and representative 320px states inspected; static SVG artwork, no external assets. Contrast samples exclude decorative artwork; not a full WCAG audit."
+}

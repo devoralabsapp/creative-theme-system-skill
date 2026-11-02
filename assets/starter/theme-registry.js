@@ -431,6 +431,158 @@ window.STUDIO_THEMES = {
       "cardLayout": "fragment"
     },
     {
+      "id": "zero-margin",
+      "name": "Zero Margin",
+      "description": "Large intentionally empty field, tiny entry index and borderless single-column records instead of magazine spreads.",
+      "family": "creative",
+      "color": "#FFFFFF",
+      "tone": "light",
+      "expansion": true,
+      "phase": 2,
+      "style": "Ultra-Minimalism",
+      "tags": [
+        "Ultra-Minimalism",
+        "quiet",
+        "void"
+      ],
+      "composition": "void",
+      "material": "quiet",
+      "cardLayout": "line"
+    },
+    {
+      "id": "tatami-house",
+      "name": "Tatami House",
+      "description": "Shoji threshold geometry and horizontal timber-slat records; no botanical leaf hero.",
+      "family": "creative",
+      "color": "#EBE5D6",
+      "tone": "light",
+      "expansion": true,
+      "phase": 2,
+      "style": "Japandi",
+      "tags": [
+        "Japandi",
+        "wood",
+        "threshold"
+      ],
+      "composition": "threshold",
+      "material": "wood",
+      "cardLayout": "slat"
+    },
+    {
+      "id": "concrete-calm",
+      "name": "Concrete Calm",
+      "description": "Embossed monochrome ring and recessed task islands, with explicitly outlined controls rather than colorful flat blocks.",
+      "family": "creative",
+      "color": "#E3E8E5",
+      "tone": "light",
+      "expansion": true,
+      "phase": 2,
+      "style": "Neumorphism",
+      "tags": [
+        "Neumorphism",
+        "inset",
+        "island"
+      ],
+      "composition": "island",
+      "material": "inset",
+      "cardLayout": "inset"
+    },
+    {
+      "id": "clay-corner",
+      "name": "Clay Corner",
+      "description": "Terracotta soft-volume objects, inflated inset surfaces and rounded sculptural project plinths replace folded paper.",
+      "family": "creative",
+      "color": "#EADDD4",
+      "tone": "light",
+      "expansion": true,
+      "phase": 2,
+      "style": "Claymorphism",
+      "tags": [
+        "Claymorphism",
+        "clay",
+        "objects"
+      ],
+      "composition": "objects",
+      "material": "clay",
+      "cardLayout": "clay"
+    },
+    {
+      "id": "prism-desk",
+      "name": "Prism Desk",
+      "description": "Faceted iridescent prism, foil-framed exhibition labels and skew-free silver sheets replace ceramic fretwork.",
+      "family": "creative",
+      "color": "#E9EDF2",
+      "tone": "light",
+      "expansion": true,
+      "phase": 2,
+      "style": "Holographic UI",
+      "tags": [
+        "Holographic UI",
+        "foil",
+        "display"
+      ],
+      "composition": "display",
+      "material": "foil",
+      "cardLayout": "foil"
+    },
+    {
+      "id": "lucent-room",
+      "name": "Lucent Room",
+      "description": "Blue frosted overlapping rectangular panes and layered workspace column, with opaque text surfaces, no greenhouse arch.",
+      "family": "creative",
+      "color": "#E2E9F4",
+      "tone": "light",
+      "expansion": true,
+      "phase": 2,
+      "style": "Glassmorphism",
+      "tags": [
+        "Glassmorphism",
+        "glass",
+        "layers"
+      ],
+      "composition": "layers",
+      "material": "glass",
+      "cardLayout": "glass"
+    },
+    {
+      "id": "form-function",
+      "name": "Form Function",
+      "description": "Primary red/yellow/blue geometry in architectural modular columns and a vertical title spine, not layered print poster ink.",
+      "family": "creative",
+      "color": "#F2EAD7",
+      "tone": "light",
+      "expansion": true,
+      "phase": 2,
+      "style": "Bauhaus",
+      "tags": [
+        "Bauhaus",
+        "primary",
+        "module"
+      ],
+      "composition": "module",
+      "material": "primary",
+      "cardLayout": "primary"
+    },
+    {
+      "id": "nordic-shelf",
+      "name": "Nordic Shelf",
+      "description": "Pale wood pegboard, shelf rails and measured joinery objects rather than book jackets and reading strips.",
+      "family": "creative",
+      "color": "#EEE9DF",
+      "tone": "light",
+      "expansion": true,
+      "phase": 2,
+      "style": "Scandinavian Design",
+      "tags": [
+        "Scandinavian Design",
+        "wood",
+        "shelf"
+      ],
+      "composition": "shelf",
+      "material": "wood",
+      "cardLayout": "shelf"
+    },
+    {
       "id": "botanical",
       "name": "Botanical",
       "description": "Warm cream and olive",

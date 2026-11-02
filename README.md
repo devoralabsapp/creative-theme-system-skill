@@ -1,6 +1,6 @@
 # Creative Theme System — Design Lab
 
-**58 themes. One working collection. Three ways to explore.**
+**66 themes. One working collection. Three ways to explore.**
 
 A portable AI agent skill with original theme recipes, reusable CSS and interactive English demos. All is the default experience: browse every theme by collection, then open Design Lab to compare layout, typography and color on the same project workspace.
 
@@ -20,17 +20,17 @@ Serve the bundled starter locally to explore the same collection without a build
 
 ## Browse the complete collection
 
-The **[All](https://theme.devoralabs.tech/?view=all)** tab shows one real preview card per theme, grouped into Creative Lab (41), Studio (4), Workspace (9), and Holiday (4). Search by name or style, filter a collection, and open a card in Design Lab. Returning to All retains its filters and scroll position. Gallery images load lazily; the previews remain interactive in the two dedicated demo tabs.
+The **[All](https://theme.devoralabs.tech/?view=all)** tab shows one real preview card per theme, grouped into Creative Lab (49), Studio (4), Workspace (9), and Holiday (4). Search by name or style, filter a collection, and open a card in Design Lab. Returning to All retains its filters and scroll position. Gallery images load lazily; the previews remain interactive in the two dedicated demo tabs.
 
 [![All themes overview with collection filters and preview cards](docs/screenshots/all-themes.png)](https://theme.devoralabs.tech/?view=all)
 
 ## Explore Design Lab
 
-Choose any of the 58 themes using the shared selector. Search projects, filter the collection, save ideas, read notes and add a project for the current session. Switching themes keeps your work. The adjacent **Website Demo** tab shows the same theme on the sample catalog and retains its own search, filters and sorting.
+Choose any of the 66 themes using the shared selector. Search projects, filter the collection, save ideas, read notes and add a project for the current session. Switching themes keeps your work. The adjacent **Website Demo** tab shows the same theme on the sample catalog and retains its own search, filters and sorting.
 
 Share a theme with `/?theme=vscode`, or open its catalog with `/?view=website&theme=vscode`. The URL selection takes priority over the saved theme. New visits open All by default, even when a theme selection was saved. A direct `?theme=` link still opens that theme in Design Lab; the previous `/lab/` entry remains available.
 
-## All 58 Design Lab previews
+## All 66 Design Lab previews
 
 Actual screenshots of the working Design Lab. The original fifty IDs, designs and their relative order are preserved. Expansion studies follow the original Creative Lab collection; Volume Five remains immediately after SẮC / 01.
 
@@ -58,7 +58,11 @@ Actual screenshots of the working Design Lab. The original fifty IDs, designs an
 | **[Groove Cabinet](https://theme.devoralabs.tech/?theme=groove-cabinet)**<br>[![Groove Cabinet — actual Design Lab screenshot](docs/screenshots/design-lab/groove-cabinet.jpg)](https://theme.devoralabs.tech/?theme=groove-cabinet)<br>70s Groovy | **[Bubble Web](https://theme.devoralabs.tech/?theme=bubble-web)**<br>[![Bubble Web — actual Design Lab screenshot](docs/screenshots/design-lab/bubble-web.jpg)](https://theme.devoralabs.tech/?theme=bubble-web)<br>Y2K Aesthetic |
 | **[Sunset Disk](https://theme.devoralabs.tech/?theme=sunset-disk)**<br>[![Sunset Disk — actual Design Lab screenshot](docs/screenshots/design-lab/sunset-disk.jpg)](https://theme.devoralabs.tech/?theme=sunset-disk)<br>Vaporwave | **[Memphis Workshop](https://theme.devoralabs.tech/?theme=memphis-workshop)**<br>[![Memphis Workshop — actual Design Lab screenshot](docs/screenshots/design-lab/memphis-workshop.jpg)](https://theme.devoralabs.tech/?theme=memphis-workshop)<br>Memphis Design |
 | **[Aero Garden](https://theme.devoralabs.tech/?theme=aero-garden)**<br>[![Aero Garden — actual Design Lab screenshot](docs/screenshots/design-lab/aero-garden.jpg)](https://theme.devoralabs.tech/?theme=aero-garden)<br>Frutiger Aero | **[Cassette Desk](https://theme.devoralabs.tech/?theme=cassette-desk)**<br>[![Cassette Desk — actual Design Lab screenshot](docs/screenshots/design-lab/cassette-desk.jpg)](https://theme.devoralabs.tech/?theme=cassette-desk)<br>Cassette Futurism |
-| **[Deconstruct Studio](https://theme.devoralabs.tech/?theme=deconstruct-studio)**<br>[![Deconstruct Studio — actual Design Lab screenshot](docs/screenshots/design-lab/deconstruct-studio.jpg)](https://theme.devoralabs.tech/?theme=deconstruct-studio)<br>Deconstructivism |  |
+| **[Deconstruct Studio](https://theme.devoralabs.tech/?theme=deconstruct-studio)**<br>[![Deconstruct Studio — actual Design Lab screenshot](docs/screenshots/design-lab/deconstruct-studio.jpg)](https://theme.devoralabs.tech/?theme=deconstruct-studio)<br>Deconstructivism | **[Zero Margin](https://theme.devoralabs.tech/?theme=zero-margin)**<br>[![Zero Margin — actual Design Lab screenshot](docs/screenshots/design-lab/zero-margin.jpg)](https://theme.devoralabs.tech/?theme=zero-margin)<br>Ultra-Minimalism |
+| **[Tatami House](https://theme.devoralabs.tech/?theme=tatami-house)**<br>[![Tatami House — actual Design Lab screenshot](docs/screenshots/design-lab/tatami-house.jpg)](https://theme.devoralabs.tech/?theme=tatami-house)<br>Japandi | **[Concrete Calm](https://theme.devoralabs.tech/?theme=concrete-calm)**<br>[![Concrete Calm — actual Design Lab screenshot](docs/screenshots/design-lab/concrete-calm.jpg)](https://theme.devoralabs.tech/?theme=concrete-calm)<br>Neumorphism |
+| **[Clay Corner](https://theme.devoralabs.tech/?theme=clay-corner)**<br>[![Clay Corner — actual Design Lab screenshot](docs/screenshots/design-lab/clay-corner.jpg)](https://theme.devoralabs.tech/?theme=clay-corner)<br>Claymorphism | **[Prism Desk](https://theme.devoralabs.tech/?theme=prism-desk)**<br>[![Prism Desk — actual Design Lab screenshot](docs/screenshots/design-lab/prism-desk.jpg)](https://theme.devoralabs.tech/?theme=prism-desk)<br>Holographic UI |
+| **[Lucent Room](https://theme.devoralabs.tech/?theme=lucent-room)**<br>[![Lucent Room — actual Design Lab screenshot](docs/screenshots/design-lab/lucent-room.jpg)](https://theme.devoralabs.tech/?theme=lucent-room)<br>Glassmorphism | **[Form Function](https://theme.devoralabs.tech/?theme=form-function)**<br>[![Form Function — actual Design Lab screenshot](docs/screenshots/design-lab/form-function.jpg)](https://theme.devoralabs.tech/?theme=form-function)<br>Bauhaus |
+| **[Nordic Shelf](https://theme.devoralabs.tech/?theme=nordic-shelf)**<br>[![Nordic Shelf — actual Design Lab screenshot](docs/screenshots/design-lab/nordic-shelf.jpg)](https://theme.devoralabs.tech/?theme=nordic-shelf)<br>Scandinavian Design |  |
 
 ### Studio collection
 
@@ -150,7 +154,7 @@ Explorer verification: the previous 39-theme release passed Lab and catalog layo
 ## Expansion audit and implementation
 
 <!-- expansion-links:start -->
-The registry currently contains **58 themes**, including 8 completed expansion studies. Counts and this gallery are generated with `node scripts/update_theme_docs.mjs`.
+The registry currently contains **66 themes**, including 16 completed expansion studies. Counts and this gallery are generated with `node scripts/update_theme_docs.mjs`.
 
 - [Audit and full candidate matrix](docs/THEME_EXPANSION_AUDIT.md)
 - [Master plan](docs/THEME_EXPANSION_MASTER_PLAN.md)
@@ -158,6 +162,7 @@ The registry currently contains **58 themes**, including 8 completed expansion s
 - [Implementation guide](docs/THEME_IMPLEMENTATION_GUIDE.md)
 - [Phase progress and validation evidence](docs/THEME_EXPANSION_PROGRESS.md)
 - [Expansion phase 1 recipes](references/expansion-1.md)
+- [Expansion phase 2 recipes](references/expansion-2.md)
 
 Expansion art is original SVG; depth/spatial studies have lightweight static fallbacks. No WebGL, audio playback, backend or infinite canvas is implied.
 <!-- expansion-links:end -->
