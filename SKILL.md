@@ -27,7 +27,7 @@ For Design Lab, read [design-lab.md](references/design-lab.md). All registered t
 
 For the eleven Volume Five themes (Redline Atelier through Frame Shift), read [volume-five.md](references/volume-five.md). These have independent compositions, shared canonical palettes and original vector studies. Their showcase page compares the eleven additions.
 
-For Website Demo fidelity to Design Lab, read [demo-parity.md](references/demo-parity.md). Both previews share the composition factories and canonical Lab styles; each owns its own data and interactions. Adapt the content through renderer helpers to preserve the theme's full layout identity.
+For Website Demo fidelity to Design Lab, read [demo-parity.md](references/demo-parity.md). Both previews share the composition factories and canonical Lab styles; each owns its own data and interactions. Website Demo has a distinct English subject per theme; use [the 101-topic catalog](docs/WEBSITE_TOPICS.md) to find its brand, content source and illustrations. Adapt the content through renderer helpers to preserve the theme's full layout identity.
 
 ## Visual and integration rules
 

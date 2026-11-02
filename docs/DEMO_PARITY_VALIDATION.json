@@ -1,6 +1,13 @@
 {
-  "verifiedAt": "2026-11-02T19:36:31.631670+00:00",
+  "verifiedAt": "2026-11-02T20:29:21.612159+00:00",
   "themeCount": 101,
+  "websiteSubjects": 101,
+  "uniqueBrands": 101,
+  "uniqueTopics": 101,
+  "uniqueHeadlines": 101,
+  "uniqueEntryTitles": 606,
+  "authoredEntries": 606,
+  "subjectIllustrationFiles": 707,
   "sharedIdentitiesChecked": 101,
   "canonicalRoles": [
     "background",
@@ -15,6 +22,7 @@
     "radius",
     "shadow"
   ],
+  "recordStylesChecked": 101,
   "websiteResponsiveCases": 505,
   "viewports": [
     320,
@@ -25,18 +33,37 @@
   ],
   "catalogFlowsChecked": 101,
   "catalogFlow": [
-    "planner/story filters",
-    "query",
-    "correct sample and artwork preview",
+    "two subject-specific category filters",
+    "subject brand and headline",
+    "entry query",
+    "authored details and matching subject artwork",
     "session bookmark",
-    "alphabetical ordering",
+    "alphabetical order",
     "empty state",
     "reset"
+  ],
+  "subjectSessionChecks": [
+    "native dropdown changes subject and content",
+    "fresh topic has independent query, order and bookmarks",
+    "returning topic restores query, order, bookmark and category",
+    "page refresh clears in-memory session"
   ],
   "originalLabSamplesPreserved": 50,
   "longTitleAndAdditionalChecks": 104,
   "errors": [],
   "consoleErrors": [],
   "missingAssets": [],
-  "visualReview": "Actual side-by-side Lab/Website captures plus representative mobile and seasonal/artistic/catalog states inspected. Shared composition and semantic roles verified; no pixel-similarity percentage is claimed."
+  "visualReview": "Actual desktop captures of twelve Website subjects, six Lab/Website pairs and representative mobile/holiday states inspected. Shared geometry, roles and record treatments are verified; no pixel-similarity percentage is claimed.",
+  "checks": [
+    "validate_demo.mjs on starter and a fresh create_demo copy",
+    "validate_expansion.mjs",
+    "verify_preservation.cjs",
+    "verify_collection.cjs",
+    "verify_explorer.cjs",
+    "verify_catalog_parity.cjs",
+    "verify_site_subjects.cjs",
+    "all 707 generated SVGs parse as XML",
+    "skill quick_validate.py",
+    "git diff --check"
+  ]
 }

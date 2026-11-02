@@ -36,13 +36,15 @@ The **[All](https://theme.devoralabs.tech/?view=all)** tab shows one real previe
 
 ## Explore Design Lab
 
-Choose any of the 101 themes using the shared selector. Search projects, filter the collection, save ideas, read notes and add a project for the current session. Switching themes keeps your work. The adjacent **Website Demo** tab shows the same theme on the sample catalog and retains its own search, filters and sorting.
+Choose any of the 101 themes using the shared selector. Search projects, filter the collection, save ideas, read notes and add a project for the current session. Switching themes keeps your work. The adjacent **Website Demo** tab keeps the visual style and opens a different website subject for each theme, with its own search, filters and saved entries.
 
 Share a theme with `/?theme=vscode`, or open its catalog with `/?view=website&theme=vscode`. The URL selection takes priority over the saved theme. New visits open All by default, even when a theme selection was saved. A direct `?theme=` link still opens that theme in Design Lab; the previous `/lab/` entry remains available.
 
 ## Website Demo follows the same design
 
-Website Demo now uses the same per-theme composition, canonical palettes, typography, original scenes and component styles as Design Lab. Its nine fictional product records have independent search, category filters, sorting, preview dialogs and session bookmarks. Changing a theme preserves the catalog state.
+Website Demo uses the same per-theme composition, palettes, typography and component styles as Design Lab, with **101 distinct English website subjects**: an arcade, reading club, radio station, astronomy academy, tea house, film festival and more. Each has its own brand, headline, categories, six entries, detailed previews and original subject illustrations. Search, filters, ordering and saved entries are independent for each website.
+
+[See all 101 website subjects and brands →](docs/WEBSITE_TOPICS.md) · [Preview twelve website concepts](docs/screenshots/website-subjects.jpg)
 
 [![Actual Design Lab and Website Demo comparisons](docs/screenshots/demo-parity.jpg)](https://theme.devoralabs.tech/?view=website&theme=retro)
 
