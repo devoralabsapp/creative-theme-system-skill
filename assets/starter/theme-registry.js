@@ -583,6 +583,158 @@ window.STUDIO_THEMES = {
       "cardLayout": "shelf"
     },
     {
+      "id": "neon-alley",
+      "name": "Neon Alley",
+      "description": "Acid-lime vertical neon architecture and offset sign-board project rows, rather than pink specimen sheets.",
+      "family": "creative",
+      "color": "#151B2C",
+      "tone": "dark",
+      "expansion": true,
+      "phase": 3,
+      "style": "Cyberpunk",
+      "tags": [
+        "Cyberpunk",
+        "neon",
+        "billboard"
+      ],
+      "composition": "billboard",
+      "material": "neon",
+      "cardLayout": "neon"
+    },
+    {
+      "id": "mission-control",
+      "name": "Mission Control",
+      "description": "Clipped corner instrument panels and decorative radial diagrams with actual project facts; no simulated telemetry.",
+      "family": "creative",
+      "color": "#102A30",
+      "tone": "dark",
+      "expansion": true,
+      "phase": 3,
+      "style": "Sci-Fi HUD",
+      "tags": [
+        "Sci-Fi HUD",
+        "instrument",
+        "control"
+      ],
+      "composition": "control",
+      "material": "instrument",
+      "cardLayout": "instrument"
+    },
+    {
+      "id": "bio-culture",
+      "name": "Bio Culture",
+      "description": "Organic cell chambers, culture dish drawing and branching note cards instead of botanical technical registration frames.",
+      "family": "creative",
+      "color": "#172E29",
+      "tone": "dark",
+      "expansion": true,
+      "phase": 3,
+      "style": "Biopunk",
+      "tags": [
+        "Biopunk",
+        "organic",
+        "culture"
+      ],
+      "composition": "culture",
+      "material": "organic",
+      "cardLayout": "cell"
+    },
+    {
+      "id": "noir-dispatch",
+      "name": "Noir Dispatch",
+      "description": "Venetian-blind light field, case-file selection and asymmetric news-desk notes rather than a film editing room.",
+      "family": "creative",
+      "color": "#22242B",
+      "tone": "dark",
+      "expansion": true,
+      "phase": 3,
+      "style": "Tech Noir",
+      "tags": [
+        "Tech Noir",
+        "noir",
+        "dispatch"
+      ],
+      "composition": "dispatch",
+      "material": "noir",
+      "cardLayout": "case"
+    },
+    {
+      "id": "lunar-supply",
+      "name": "Lunar Supply",
+      "description": "White capsule hardware, ringed orbital disc and rounded pod inventory; no dark gold gallery.",
+      "family": "creative",
+      "color": "#EEEFEA",
+      "tone": "light",
+      "expansion": true,
+      "phase": 3,
+      "style": "Space Age",
+      "tags": [
+        "Space Age",
+        "space",
+        "orbit"
+      ],
+      "composition": "orbit",
+      "material": "space",
+      "cardLayout": "pod"
+    },
+    {
+      "id": "sonnet-house",
+      "name": "Sonnet House",
+      "description": "Narrow typeset reading column, hanging paragraph markers and a text-first chapter index instead of book-object cards.",
+      "family": "creative",
+      "color": "#F1ECE2",
+      "tone": "light",
+      "expansion": true,
+      "phase": 3,
+      "style": "Literary Web",
+      "tags": [
+        "Literary Web",
+        "literary",
+        "reading"
+      ],
+      "composition": "reading",
+      "material": "literary",
+      "cardLayout": "chapter"
+    },
+    {
+      "id": "newsroom-daily",
+      "name": "Newsroom Daily",
+      "description": "Newspaper masthead, lead story, unequal editorial columns and caption rules rather than a three-column archive database.",
+      "family": "creative",
+      "color": "#F0EEE5",
+      "tone": "light",
+      "expansion": true,
+      "phase": 3,
+      "style": "Newspaper Style",
+      "tags": [
+        "Newspaper Style",
+        "newsprint",
+        "news"
+      ],
+      "composition": "news",
+      "material": "newsprint",
+      "cardLayout": "column"
+    },
+    {
+      "id": "silk-review",
+      "name": "Silk Review",
+      "description": "Oversized italic serif spread, satin-like drawn folds and margin-led contents rather than red notebook spines and black feature band.",
+      "family": "creative",
+      "color": "#EEE8DF",
+      "tone": "light",
+      "expansion": true,
+      "phase": 3,
+      "style": "Luxury Editorial",
+      "tags": [
+        "Luxury Editorial",
+        "silk",
+        "spread"
+      ],
+      "composition": "spread",
+      "material": "silk",
+      "cardLayout": "folio"
+    },
+    {
       "id": "botanical",
       "name": "Botanical",
       "description": "Warm cream and olive",

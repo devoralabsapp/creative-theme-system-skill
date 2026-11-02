@@ -32,7 +32,7 @@ Status: completed, committed and pushed as `fd9fea1`; existing production domain
 
 ## Phase 2 — Minimalism and morphism
 
-Status: implementation and local validation completed; commit/push and production attestation follow in the next record.
+Status: completed, committed and pushed as `ed2856d`; existing production domain verified. [Deployment evidence](expansion/release-2.json).
 
 - Themes added: Zero Margin (`zero-margin`), Tatami House (`tatami-house`), Concrete Calm (`concrete-calm`), Clay Corner (`clay-corner`), Prism Desk (`prism-desk`), Lucent Room (`lucent-room`), Form Function (`form-function`), Nordic Shelf (`nordic-shelf`).
 - Actual registered count: **66**.
@@ -43,3 +43,19 @@ Status: implementation and local validation completed; commit/push and productio
 - Visual review: actual Lab and Website screenshots inspected; fixed any recorded issues before release.
 - Limits: static bounded CSS/SVG depth, optional font fallbacks; sampled text contrast is not a full accessibility certification.
 - Next: Phase 3.
+
+- Release attestation for phase 2: `ed2856d7ca73763b240d52f44fbe15263f23052c`, Vercel success status and exact live registry/assets verified at 2026-11-02T18:29:53.794Z.
+
+## Phase 3 — Futuristic and typography
+
+Status: implementation and local validation completed; commit/push and production attestation follow in the next record.
+
+- Themes added: Neon Alley (`neon-alley`), Mission Control (`mission-control`), Bio Culture (`bio-culture`), Noir Dispatch (`noir-dispatch`), Lunar Supply (`lunar-supply`), Sonnet House (`sonnet-house`), Newsroom Daily (`newsroom-daily`), Silk Review (`silk-review`).
+- Actual registered count: **74**.
+- Files: scoped canonical palettes, explicit Lab compositions/record grammars, original vector studies, catalog adaptations, real thumbnails, complete phase recipes, generated catalog/README/skill routing.
+- Static: `node scripts/validate_demo.mjs assets/starter` and `node scripts/validate_expansion.mjs` passed.
+- Browser: `node scripts/verify_expansion.cjs 3` — 80 responsive cases, both views at 320/390/768/1024/1440px; 17 interaction records; no overflow, missing assets, console errors or sampled text-contrast findings. See [portable evidence](expansion/qa-phase-3.json).
+- Shared explorer regression: `node scripts/verify_explorer.cjs` — create/validation/escaping, retained state, real keyboard picker, All search, original-theme switch and first-wheel parent scrolling passed.
+- Visual review: actual Lab and Website screenshots inspected; fixed any recorded issues before release.
+- Limits: static bounded CSS/SVG depth, optional font fallbacks; sampled text contrast is not a full accessibility certification.
+- Next: Phase 4.
