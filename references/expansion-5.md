@@ -14,11 +14,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `bento` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-bento`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `bento` / `.ex-cards-bento`; material selector: `.ex-material-bento`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="bento"`, `data-material="bento"` and `data-card-layout="bento"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=bento-kitchen) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=bento-kitchen).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=bento-kitchen).
 
 ## Mosaic Studio — `mosaic-studio`
 
@@ -32,11 +30,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `mosaic` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-mosaic`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `mosaic` / `.ex-cards-mosaic`; material selector: `.ex-material-mosaic`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="mosaic"`, `data-material="mosaic"` and `data-card-layout="mosaic"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=mosaic-studio) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=mosaic-studio).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=mosaic-studio).
 
 ## Wide Story — `wide-story`
 
@@ -50,11 +46,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `fullbleed` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-fullbleed`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `story` / `.ex-cards-story`; material selector: `.ex-material-landscape`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="fullbleed"`, `data-material="landscape"` and `data-card-layout="story"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=wide-story) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=wide-story).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=wide-story).
 
 ## Depth Walk — `depth-walk`
 
@@ -68,17 +62,15 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `terrace` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-terrace`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `terrace` / `.ex-cards-terrace`; material selector: `.ex-material-depth`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="terrace"`, `data-material="depth"` and `data-card-layout="terrace"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=depth-walk) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=depth-walk).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=depth-walk).
 
 ## Constellation Desk — `constellation-desk`
 
 **Direction:** Spatial UI. A working constellation of thoughts worth following. The visual study uses the original constellation motif; it is decorative, not a service or tool.
 
-**Distinct from `velvet-orbit`:** Connected-node map with readable planar labels and a side index, no copper concentric gallery rings.
+**Distinct from `mission-control`:** A connected-node map with planar labels and a side index in place of Mission Control’s radial instrument panel.
 
 **Palette:** canvas #1C2540; surface #283451; text #E7EDFA; muted #B3C2E0; primary #B6C9FF; on-primary #253354; decorative secondary #C5B8DC. Use opaque surfaces for reading, and the primary/on-primary pair for actions. Secondary is not a text color.
 
@@ -86,11 +78,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `constellation` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-constellation`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `node` / `.ex-cards-node`; material selector: `.ex-material-spatial`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="constellation"`, `data-material="spatial"` and `data-card-layout="node"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=constellation-desk) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=constellation-desk).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=constellation-desk).
 
 ## Iso Studio — `iso-studio`
 
@@ -104,8 +94,6 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `isometric` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-isometric`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `block` / `.ex-cards-block`; material selector: `.ex-material-isometric`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="isometric"`, `data-material="isometric"` and `data-card-layout="block"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=iso-studio) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=iso-studio).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=iso-studio).

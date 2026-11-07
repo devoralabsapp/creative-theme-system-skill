@@ -1,14 +1,29 @@
 (() => {
  const config=window.STUDIO_THEMES,byId=new Map(config.themes.map(theme=>[theme.id,theme]));
- const frames={lab:document.getElementById('lab-preview'),website:document.getElementById('website-preview')};
+ const frames={lab:document.getElementById('lab-preview')};
  const tabs=[...document.querySelectorAll('.explorer-tabs [data-view]')],views=tabs.map(tab=>tab.dataset.view),status=document.getElementById('preview-status');
- const names={all:'All Themes',lab:'Design Lab',website:'Website Demo'};
- const ready={lab:false,website:false},scrollPositions={all:0,lab:0,website:0};let state={theme:config.defaultTheme,view:'all'},scrollPending=false,pendingRestore=null,anchorApplied=false;
+ const names={all:'All Themes',lab:'Design Lab'};
+ const ready={lab:false},scrollPositions={all:0,lab:0};let state={theme:config.defaultTheme,view:'all'},scrollPending=false,pendingRestore=null,anchorApplied=false;
  const themeSelect=document.getElementById('explorer-theme');
  const familyLabels={studio:'Studio themes',workspace:'Workspace themes',seasonal:'Holiday themes',creative:'Creative Lab themes'};
  for(const family of config.familyOrder||Object.keys(familyLabels)){const group=document.createElement('optgroup');group.label=familyLabels[family];for(const theme of config.themes.filter(t=>t.family===family)){const option=document.createElement('option');option.value=theme.id;option.textContent=theme.name;group.append(option);}themeSelect.append(group);}
  const valid=id=>byId.has(id),validView=view=>views.includes(view)?view:'all';
- function fromUrl(){const q=new URLSearchParams(location.search);let stored;try{stored=localStorage.getItem(config.storageKey);}catch{}return {theme:valid(q.get('theme'))?q.get('theme'):valid(stored)?stored:config.defaultTheme,view:views.includes(q.get('view'))?q.get('view'):valid(q.get('theme'))?'lab':'all'};}
+ const resolveTheme=id=>config.aliases?.[id]||id;
+ function fromUrl(){
+  const query=new URLSearchParams(location.search);
+  const requested=resolveTheme(query.get('theme'));
+  const view=query.get('view');
+  let stored;
+  try{stored=resolveTheme(localStorage.getItem(config.storageKey));}catch{}
+  return {
+   theme:valid(requested)?requested:valid(stored)?stored:config.defaultTheme,
+   view:view==='website'?'lab':views.includes(view)?view:valid(requested)?'lab':'all'
+  };
+ }
+ function normalizeLegacyUrl(){
+  const query=new URLSearchParams(location.search);
+  if(query.get('view')==='website'||config.aliases?.[query.get('theme')])updateUrl();
+ }
  function send(view,message){frames[view]?.contentWindow?.postMessage(message,location.origin==='null'?'*':location.origin);}
  function remember(){try{localStorage.setItem(config.storageKey,state.theme);}catch{}}
  function viewport(){const frame=frames[state.view];if(!frame)return;const rect=frame.getBoundingClientRect(),header=document.querySelector('.explorer-header').getBoundingClientRect().bottom;const top=Math.max(0,header-rect.top),bottom=Math.min(frame.clientHeight,innerHeight-rect.top);send(state.view,{type:'theme-explorer:viewport',top:top+16,height:Math.max(160,bottom-top-32)});}
@@ -21,7 +36,7 @@
   themeSelect.dispatchEvent(new Event('theme:sync'));
   document.title=`${names[state.view]} — Devoralabs Theme Explorer`;
   status.hidden=state.view==='all'||ready[state.view];status.textContent=`Loading ${names[state.view]}…`;
-  for(const view of ['lab','website'])if(ready[view])send(view,{type:'theme-explorer:theme',theme:state.theme});
+  if(ready.lab)send('lab',{type:'theme-explorer:theme',theme:state.theme});
   if(ready[state.view]&&!anchorApplied&&/^#[a-zA-Z][\w-]*$/.test(location.hash)){anchorApplied=true;send(state.view,{type:'theme-explorer:anchor',hash:location.hash});}
   requestAnimationFrame(()=>{
    if(state.view==='all'){if(pendingRestore!==null){window.scrollTo({top:pendingRestore,behavior:'instant'});pendingRestore=null;}return;}
@@ -32,7 +47,7 @@
  function chooseTheme(id,{view=state.view,push=false}={}){
   if(!valid(id))return;
   const next=validView(view);if(next!==state.view)scrollPositions[state.view]=scrollY;
-  state={theme:id,view:next};pendingRestore=next==='all'?null:0;scrollPositions.lab=0;scrollPositions.website=0;
+  state={theme:id,view:next};pendingRestore=next==='all'?null:0;scrollPositions.lab=0;
   window.scrollTo({top:0,behavior:'instant'});remember();render();updateUrl({push});
  }
  themeSelect.addEventListener('change',()=>chooseTheme(themeSelect.value));
@@ -60,9 +75,8 @@
  window.addEventListener('scroll',()=>{if(scrollPending||!frames[state.view])return;scrollPending=true;requestAnimationFrame(()=>{scrollPending=false;const frame=frames[state.view];if(!frame)return;const offset=Math.max(0,-frame.getBoundingClientRect().top);send(state.view,{type:'theme-explorer:scroll',offset});viewport();});},{passive:true});
  window.addEventListener('resize',viewport);
  for(const type of ['wheel','touchstart'])window.addEventListener(type,()=>{pendingRestore=null;},{passive:true});
- window.addEventListener('popstate',()=>{const next=fromUrl();scrollPositions[state.view]=scrollY;pendingRestore=scrollPositions[next.view];state=next;anchorApplied=false;remember();render();tabs.find(tab=>tab.dataset.view===state.view).focus({preventScroll:true});});
- history.scrollRestoration='manual';state=fromUrl();
+ window.addEventListener('popstate',()=>{const next=fromUrl();scrollPositions[state.view]=scrollY;pendingRestore=scrollPositions[next.view];state=next;anchorApplied=false;normalizeLegacyUrl();remember();render();tabs.find(tab=>tab.dataset.view===state.view).focus({preventScroll:true});});
+ history.scrollRestoration='manual';state=fromUrl();normalizeLegacyUrl();
  frames.lab.src=`lab/index.html?theme=${encodeURIComponent(state.theme)}&embed=1`;
- frames.website.src=`website.html?theme=${encodeURIComponent(state.theme)}&embed=1`;
  render();
 })();

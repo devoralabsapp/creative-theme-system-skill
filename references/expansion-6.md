@@ -14,11 +14,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `salon` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-salon`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `deco` / `.ex-cards-deco`; material selector: `.ex-material-deco`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="salon"`, `data-material="deco"` and `data-card-layout="deco"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=deco-society) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=deco-society).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=deco-society).
 
 ## Nouveau Garden — `nouveau-garden`
 
@@ -32,11 +30,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `botanic` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-botanic`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `vine` / `.ex-cards-vine`; material selector: `.ex-material-nouveau`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="botanic"`, `data-material="nouveau"` and `data-card-layout="vine"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=nouveau-garden) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=nouveau-garden).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=nouveau-garden).
 
 ## Construct Bureau — `construct-bureau`
 
@@ -50,11 +46,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `diagonal` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-diagonal`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `construct` / `.ex-cards-construct`; material selector: `.ex-material-construct`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="diagonal"`, `data-material="construct"` and `data-card-layout="construct"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=construct-bureau) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=construct-bureau).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=construct-bureau).
 
 ## Cabinet Obscura — `cabinet-obscura`
 
@@ -68,17 +62,15 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `cathedral` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-cathedral`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `arch` / `.ex-cards-arch`; material selector: `.ex-material-gothic`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="cathedral"`, `data-material="gothic"` and `data-card-layout="arch"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=cabinet-obscura) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=cabinet-obscura).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=cabinet-obscura).
 
 ## Reverie Room — `reverie-room`
 
 **Direction:** Surrealism. Ordinary thoughts. Unusual doors. The visual study uses the original reverie motif; it is decorative, not a service or tool.
 
-**Distinct from `velvet-orbit`:** Impossible staircase, floating arch and a dream-like vertical reading sequence on light mauve stock.
+**Distinct from `cabinet-obscura`:** An impossible staircase and a floating arch on light mauve stock, contrasting with Cabinet Obscura’s dark framed archive.
 
 **Palette:** canvas #E9DFE6; surface #FBF3F5; text #493D52; muted #6C5B77; primary #85506E; on-primary #FFFFFF; decorative secondary #AABBC4. Use opaque surfaces for reading, and the primary/on-primary pair for actions. Secondary is not a text color.
 
@@ -86,11 +78,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `dream` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-dream`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `dream` / `.ex-cards-dream`; material selector: `.ex-material-surreal`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="dream"`, `data-material="surreal"` and `data-card-layout="dream"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=reverie-room) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=reverie-room).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=reverie-room).
 
 ## Gestural Field — `gestural-field`
 
@@ -104,11 +94,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `gesture` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-gesture`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `gesture` / `.ex-cards-gesture`; material selector: `.ex-material-gestural`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="gesture"`, `data-material="gestural"` and `data-card-layout="gesture"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=gestural-field) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=gestural-field).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=gestural-field).
 
 ## Aurora Console — `aurora-console`
 
@@ -122,11 +110,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `aurora` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-aurora`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `aurora` / `.ex-cards-aurora`; material selector: `.ex-material-aurora`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="aurora"`, `data-material="aurora"` and `data-card-layout="aurora"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=aurora-console) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=aurora-console).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=aurora-console).
 
 ## Signal Ledger — `signal-ledger`
 
@@ -140,11 +126,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `ledger` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-ledger`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `row` / `.ex-cards-row`; material selector: `.ex-material-data`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="ledger"`, `data-material="data"` and `data-card-layout="row"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=signal-ledger) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=signal-ledger).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=signal-ledger).
 
 ## Obsidian Space — `obsidian-space`
 
@@ -158,11 +142,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `blackout` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-blackout`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `minimal` / `.ex-cards-minimal`; material selector: `.ex-material-oled`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="blackout"`, `data-material="oled"` and `data-card-layout="minimal"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=obsidian-space) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=obsidian-space).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=obsidian-space).
 
 ## Optic Interval — `optic-interval`
 
@@ -176,8 +158,6 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `optical` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-optical`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `optical` / `.ex-cards-optical`; material selector: `.ex-material-optical`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="optical"`, `data-material="optical"` and `data-card-layout="optical"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=optic-interval) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=optic-interval).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=optic-interval).

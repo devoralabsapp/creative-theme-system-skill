@@ -50,6 +50,16 @@
     "structure": "row margin-mast / margin-desk / toolbar / section-heading row"
   },
   {
+    "id": "sticker-sprint",
+    "background": "#FFF8EC",
+    "surface": "#FFFAF1",
+    "foreground": "#211B18",
+    "accent": "#FFD34E",
+    "display": "'Fredoka','Nunito',sans-serif",
+    "radius": "16px",
+    "structure": "sprint-mast row / sprint-stage / toolbar / sprint-board-heading row"
+  },
+  {
     "id": "grid-assembly",
     "background": "#F7F5EF",
     "surface": "#F7F5EF",
@@ -278,16 +288,6 @@
     "display": "'Playfair Display',Georgia,serif",
     "radius": "12px",
     "structure": "legacy-mast row / editorial-spread / toolbar / project-grid legacy-cards editorial-cards"
-  },
-  {
-    "id": "velvet-orbit",
-    "background": "#201923",
-    "surface": "#2D2232",
-    "foreground": "#F3E2D7",
-    "accent": "#E4AF85",
-    "display": "'Playfair Display',Georgia,serif",
-    "radius": "28px",
-    "structure": "legacy-mast row / night-hero / toolbar / project-grid legacy-cards night-cards"
   },
   {
     "id": "solar-glass",

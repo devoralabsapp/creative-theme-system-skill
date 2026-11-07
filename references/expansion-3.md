@@ -14,11 +14,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `billboard` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-billboard`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `neon` / `.ex-cards-neon`; material selector: `.ex-material-neon`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="billboard"`, `data-material="neon"` and `data-card-layout="neon"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=neon-alley) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=neon-alley).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=neon-alley).
 
 ## Mission Control — `mission-control`
 
@@ -32,11 +30,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `control` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-control`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `instrument` / `.ex-cards-instrument`; material selector: `.ex-material-instrument`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="control"`, `data-material="instrument"` and `data-card-layout="instrument"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=mission-control) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=mission-control).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=mission-control).
 
 ## Bio Culture — `bio-culture`
 
@@ -50,11 +46,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `culture` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-culture`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `cell` / `.ex-cards-cell`; material selector: `.ex-material-organic`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="culture"`, `data-material="organic"` and `data-card-layout="cell"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=bio-culture) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=bio-culture).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=bio-culture).
 
 ## Noir Dispatch — `noir-dispatch`
 
@@ -68,11 +62,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `dispatch` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-dispatch`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `case` / `.ex-cards-case`; material selector: `.ex-material-noir`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="dispatch"`, `data-material="noir"` and `data-card-layout="case"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=noir-dispatch) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=noir-dispatch).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=noir-dispatch).
 
 ## Lunar Supply — `lunar-supply`
 
@@ -86,11 +78,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `orbit` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-orbit`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `pod` / `.ex-cards-pod`; material selector: `.ex-material-space`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="orbit"`, `data-material="space"` and `data-card-layout="pod"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=lunar-supply) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=lunar-supply).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=lunar-supply).
 
 ## Sonnet House — `sonnet-house`
 
@@ -104,11 +94,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `reading` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-reading`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `chapter` / `.ex-cards-chapter`; material selector: `.ex-material-literary`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="reading"`, `data-material="literary"` and `data-card-layout="chapter"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=sonnet-house) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=sonnet-house).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=sonnet-house).
 
 ## Newsroom Daily — `newsroom-daily`
 
@@ -122,11 +110,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `news` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-news`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `column` / `.ex-cards-column`; material selector: `.ex-material-newsprint`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="news"`, `data-material="newsprint"` and `data-card-layout="column"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=newsroom-daily) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=newsroom-daily).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=newsroom-daily).
 
 ## Silk Review — `silk-review`
 
@@ -140,8 +126,6 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `spread` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-spread`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `folio` / `.ex-cards-folio`; material selector: `.ex-material-silk`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="spread"`, `data-material="silk"` and `data-card-layout="folio"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=silk-review) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=silk-review).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=silk-review).

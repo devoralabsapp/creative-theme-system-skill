@@ -27,7 +27,7 @@ Adapt these visual recipes to the host app. Executable references are in `assets
 | `tidal-atlas` | Tidal Atlas: `#eaf2ed`, accent `#236c77`; Playfair Display | Original SVG depth contours, calibrated chart grid, coordinates and double-rule borders. |
 | `type-foundry` | Type Foundry: `#f0ff5b`, accent `#232323`; Manrope | Oversized outline type, Aa specimen board, asymmetric hero and two-column ruled gallery. |
 | `solar-glass` | Solar Glasshouse: `#edf5dc`, accent `#366c3f`; Manrope | Ribbed glasshouse arch, citrus sun disc, translucent paper and arched product cards. |
-| `velvet-orbit` | Velvet Orbit: `#201923`, accent `#e4af85`; Playfair Display | Copper elliptical orbits, velvet radial surfaces and two-column arched gallery. |
+| `sticker-sprint` | Sticker Sprint: cream `#FFF8EC`, sunflower `#FFD34E`, ink `#211B18`, mint and lilac. Fredoka display with DM Sans body. | Dotted stage with original cut-paper SVG, an upright featured note, numbered cards and hard ink shadows. Reflow the stage and board into one column on phones. |
 | `porcelain` | Porcelain Index: `#f2f4ef`, accent `#244d9c`; Playfair Display | Cobalt fretwork, glazed ceramic borders, museum labels and asymmetric tile corners. |
 | `magnetic-poetry` | Magnetic Poetry: `#e5e8e7`, accent `#a52c3b`; Nunito | Magnetic word strip, silver fridge, red magnet and subtly rotated paper cards. |
 | `infrared` | Infrared Herbarium: `#251d2e`, accent `#ff9ac6`; Manrope | Pink registration frame, technical crosshairs, specimen labels and charcoal cards. Preserve artwork colors. |

@@ -36,7 +36,6 @@ html[data-theme="type-foundry"]{--paper:#f0ff5b;--ink:#232323;--olive:#232323;--
 html[data-theme="solar-glass"]{--paper:#edf5dc;--ink:#24412a;--olive:#366c3f;--muted:#60744c;--line:#afc48c;--ws-panel:#faffed;--ws-top:#edf5dc;--ws-soft:#dbe9bc;--ws-muted:#60744c;--ws-accent:#366c3f;--ws-on-accent:#fffdf4;--ws-radius:24px;--ws-shadow:0 12px 32px #4c663012;--serif:'Manrope',Arial,sans-serif;--sans:'DM Sans',Arial,sans-serif;--swatch-one:#366c3f;--swatch-two:#dbe9bc;--swatch-three:#edf5dc}
 
 /* Velvet Orbit */
-html[data-theme="velvet-orbit"]{--paper:#201923;--ink:#f3e2d7;--olive:#e4af85;--muted:#c4aebd;--line:#685164;--ws-panel:#2d2232;--ws-top:#201923;--ws-soft:#3d2c3d;--ws-muted:#c4aebd;--ws-accent:#e4af85;--ws-on-accent:#251d2e;--ws-radius:28px;--ws-shadow:0 15px 40px #0003;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;--swatch-one:#e4af85;--swatch-two:#3d2c3d;--swatch-three:#201923}
 
 /* Porcelain Index */
 html[data-theme="porcelain"]{--paper:#f2f4ef;--ink:#263d73;--olive:#244d9c;--muted:#647185;--line:#a9bad2;--ws-panel:#ffffff;--ws-top:#f2f4ef;--ws-soft:#dce5ed;--ws-muted:#647185;--ws-accent:#244d9c;--ws-on-accent:#fffdf4;--ws-radius:12px;--ws-shadow:inset 0 0 0 4px #ffffff;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;--swatch-one:#244d9c;--swatch-two:#dce5ed;--swatch-three:#f2f4ef}
@@ -110,20 +109,6 @@ html[data-theme="paper-circuit"]{--paper:#f5f1e7;--ink:#263c48;--olive:#2454b4;-
 [data-theme="solar-glass"] .product-label{left:50%;transform:translateX(-50%);white-space:nowrap;top:32px}
 [data-theme="solar-glass"] .how{background:#dfeac7}
 /* Orbital salon: velvet panels, elliptical orbits and copper edging. */
-[data-theme="velvet-orbit"] .hero h1{font-weight:400;letter-spacing:-3px}
-[data-theme="velvet-orbit"] .hero h1 em{font-style:italic}
-[data-theme="velvet-orbit"] .hero-art{border-radius:48% 48% 12px 12px;background:radial-gradient(ellipse at 40% 35%,#604054,#2b2033 72%);border:1px solid #8b6679}
-[data-theme="velvet-orbit"] .creative-mark:before{content:'';inset:44px -15%;border:1px solid #c28d6690;border-radius:50%;transform:rotate(-30deg)}
-[data-theme="velvet-orbit"] .creative-mark:after{content:'';inset:85px -19%;border:1px solid #c28d6690;border-radius:50%;transform:rotate(35deg)}
-[data-theme="velvet-orbit"] .hero-print{border-radius:120px 120px 4px 4px;overflow:hidden;background:#f4e2d0;border:1px solid #cca17e;transform:rotate(-5deg);top:85px}
-[data-theme="velvet-orbit"] .hero-print figcaption,[data-theme="velvet-orbit"] .hero-book figcaption{color:#735446}
-[data-theme="velvet-orbit"] .hero-book{border-radius:50%;overflow:hidden;background:#eed6c3;padding:12px;width:40%}
-[data-theme="velvet-orbit"] .hero-book figcaption{display:none}
-[data-theme="velvet-orbit"] .round-stamp{background:#392a3c;color:#e4af85;border:1px solid #b7866b}
-[data-theme="velvet-orbit"] .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px}
-[data-theme="velvet-orbit"] .product{border-radius:150px 150px 12px 12px}
-[data-theme="velvet-orbit"] .product-label{top:45px;left:50%;transform:translateX(-50%);white-space:nowrap}
-[data-theme="velvet-orbit"] .closing{background:linear-gradient(120deg,#473045,#2d2232)}
 /* Ceramic index: cobalt fretwork, white glazing and catalog numbers. */
 [data-theme="porcelain"] .header{border-bottom:4px double #244d9c}
 [data-theme="porcelain"] .hero h1{font-weight:400;letter-spacing:-3px}
@@ -259,9 +244,7 @@ html[data-theme="paper-circuit"]{--paper:#f5f1e7;--ink:#263c48;--olive:#2454b4;-
  [data-theme="magnetic-poetry"] .hero-book{top:237px}
  [data-theme="solar-glass"] .hero-art-label{top:34px;font-size:5px}
  [data-theme="solar-glass"] .product{border-radius:55px 55px 12px 12px}
- [data-theme="solar-glass"] .product-label,[data-theme="velvet-orbit"] .product-label{top:24px}
- [data-theme="velvet-orbit"] .product{border-radius:80px 80px 10px 10px}
- [data-theme="velvet-orbit"] .hero-book{border-radius:50%;overflow:hidden}
+ [data-theme="solar-glass"] .product-label{top:24px}
  [data-theme="infrared"] .hero-art-label{top:34px}
  [data-theme="porcelain"] .hero-art-label{top:29px}
 }

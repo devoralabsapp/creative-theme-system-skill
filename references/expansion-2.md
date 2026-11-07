@@ -14,11 +14,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `void` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-void`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `line` / `.ex-cards-line`; material selector: `.ex-material-quiet`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="void"`, `data-material="quiet"` and `data-card-layout="line"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=zero-margin) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=zero-margin).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=zero-margin).
 
 ## Tatami House — `tatami-house`
 
@@ -32,11 +30,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `threshold` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-threshold`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `slat` / `.ex-cards-slat`; material selector: `.ex-material-wood`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="threshold"`, `data-material="wood"` and `data-card-layout="slat"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=tatami-house) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=tatami-house).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=tatami-house).
 
 ## Concrete Calm — `concrete-calm`
 
@@ -50,11 +46,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `island` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-island`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `inset` / `.ex-cards-inset`; material selector: `.ex-material-inset`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="island"`, `data-material="inset"` and `data-card-layout="inset"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=concrete-calm) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=concrete-calm).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=concrete-calm).
 
 ## Clay Corner — `clay-corner`
 
@@ -68,11 +62,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `objects` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-objects`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `clay` / `.ex-cards-clay`; material selector: `.ex-material-clay`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="objects"`, `data-material="clay"` and `data-card-layout="clay"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=clay-corner) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=clay-corner).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=clay-corner).
 
 ## Prism Desk — `prism-desk`
 
@@ -86,11 +78,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `display` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-display`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `foil` / `.ex-cards-foil`; material selector: `.ex-material-foil`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="display"`, `data-material="foil"` and `data-card-layout="foil"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=prism-desk) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=prism-desk).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=prism-desk).
 
 ## Lucent Room — `lucent-room`
 
@@ -104,11 +94,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `layers` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-layers`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `glass` / `.ex-cards-glass`; material selector: `.ex-material-glass`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="layers"`, `data-material="glass"` and `data-card-layout="glass"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=lucent-room) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=lucent-room).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=lucent-room).
 
 ## Form Function — `form-function`
 
@@ -122,11 +110,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `module` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-module`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `primary` / `.ex-cards-primary`; material selector: `.ex-material-primary`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="module"`, `data-material="primary"` and `data-card-layout="primary"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=form-function) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=form-function).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=form-function).
 
 ## Nordic Shelf — `nordic-shelf`
 
@@ -140,8 +126,6 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `shelf` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-shelf`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `shelf` / `.ex-cards-shelf`; material selector: `.ex-material-wood`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="shelf"`, `data-material="wood"` and `data-card-layout="shelf"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=nordic-shelf) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=nordic-shelf).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=nordic-shelf).

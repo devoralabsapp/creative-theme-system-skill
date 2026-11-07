@@ -98,8 +98,8 @@ window.THEME_EXPANSION = [
     "font": "mono",
     "title": "Somewhere|after tomorrow.",
     "tagline": "Keep the ideas that arrived on a different wavelength.",
-    "nearest": "velvet-orbit",
-    "difference": "Coral striped sun, receding grid horizon and ticket rows, without copper gallery ellipses.",
+    "nearest": "night-transit",
+    "difference": "Coral striped sun and a receding grid horizon in place of Night Transit’s amber route map and stepped platform.",
     "material": "neon",
     "radius": 0,
     "space": 28
@@ -930,8 +930,8 @@ window.THEME_EXPANSION = [
     "font": "sans",
     "title": "Make a new|connection.",
     "tagline": "A working constellation of thoughts worth following.",
-    "nearest": "velvet-orbit",
-    "difference": "Connected-node map with readable planar labels and a side index, no copper concentric gallery rings.",
+    "nearest": "mission-control",
+    "difference": "A connected-node map with planar labels and a side index in place of Mission Control’s radial instrument panel.",
     "material": "spatial",
     "radius": 12,
     "space": 28
@@ -1086,8 +1086,8 @@ window.THEME_EXPANSION = [
     "font": "serif",
     "title": "An idea from|somewhere unexpected.",
     "tagline": "Ordinary thoughts. Unusual doors.",
-    "nearest": "velvet-orbit",
-    "difference": "Impossible staircase, floating arch and a dream-like vertical reading sequence on light mauve stock.",
+    "nearest": "cabinet-obscura",
+    "difference": "An impossible staircase and a floating arch on light mauve stock, contrasting with Cabinet Obscura’s dark framed archive.",
     "material": "surreal",
     "radius": 4,
     "space": 28

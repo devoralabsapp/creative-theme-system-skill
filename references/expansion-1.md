@@ -14,11 +14,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `wall` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-wall`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `flyer` / `.ex-cards-flyer`; material selector: `.ex-material-rough`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="wall"`, `data-material="rough"` and `data-card-layout="flyer"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=xerox-club) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=xerox-club).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=xerox-club).
 
 ## Groove Cabinet — `groove-cabinet`
 
@@ -32,11 +30,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `cabinet` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-cabinet`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `sleeve` / `.ex-cards-sleeve`; material selector: `.ex-material-groove`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="cabinet"`, `data-material="groove"` and `data-card-layout="sleeve"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=groove-cabinet) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=groove-cabinet).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=groove-cabinet).
 
 ## Bubble Web — `bubble-web`
 
@@ -50,17 +46,15 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `portal` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-portal`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `capsule` / `.ex-cards-capsule`; material selector: `.ex-material-chrome`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="portal"`, `data-material="chrome"` and `data-card-layout="capsule"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=bubble-web) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=bubble-web).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=bubble-web).
 
 ## Sunset Disk — `sunset-disk`
 
 **Direction:** Vaporwave. Keep the ideas that arrived on a different wavelength. The visual study uses the original sunset motif; it is decorative, not a service or tool.
 
-**Distinct from `velvet-orbit`:** Coral striped sun, receding grid horizon and ticket rows, without copper gallery ellipses.
+**Distinct from `night-transit`:** Coral striped sun and a receding grid horizon in place of Night Transit’s amber route map and stepped platform.
 
 **Palette:** canvas #28213B; surface #352A4A; text #FFEADA; muted #CDB7CA; primary #F5AB90; on-primary #302133; decorative secondary #A59ADB. Use opaque surfaces for reading, and the primary/on-primary pair for actions. Secondary is not a text color.
 
@@ -68,11 +62,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `horizon` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-horizon`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `ticket` / `.ex-cards-ticket`; material selector: `.ex-material-neon`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="horizon"`, `data-material="neon"` and `data-card-layout="ticket"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=sunset-disk) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=sunset-disk).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=sunset-disk).
 
 ## Memphis Workshop — `memphis-workshop`
 
@@ -86,11 +78,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `matrix` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-matrix`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `tile` / `.ex-cards-tile`; material selector: `.ex-material-pattern`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="matrix"`, `data-material="pattern"` and `data-card-layout="tile"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=memphis-workshop) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=memphis-workshop).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=memphis-workshop).
 
 ## Aero Garden — `aero-garden`
 
@@ -104,11 +94,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `panorama` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-panorama`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `glass` / `.ex-cards-glass`; material selector: `.ex-material-glass`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="panorama"`, `data-material="glass"` and `data-card-layout="glass"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=aero-garden) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=aero-garden).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=aero-garden).
 
 ## Cassette Desk — `cassette-desk`
 
@@ -122,11 +110,9 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `console` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-console`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `slot` / `.ex-cards-slot`; material selector: `.ex-material-hardware`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="console"`, `data-material="hardware"` and `data-card-layout="slot"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=cassette-desk) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=cassette-desk).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=cassette-desk).
 
 ## Deconstruct Studio — `deconstruct-studio`
 
@@ -140,8 +126,6 @@ Read [the implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) first. Ca
 
 **Composition:** `fracture` in `expansion/renderers.js` is the explicit component tree, styled by `.ex-layout-fracture`. The mast pairs a brand with the real New project action; project index controls select real records when present. The primary area combines the statement, bounded original SVG and an actual selected project. Preserve this hierarchy when adapting the host. Record grammar: `fragment` / `.ex-cards-fragment`; material selector: `.ex-material-cut`. Read the matching rules in `expansion/system.css` for placement, borders, panels and hierarchy instead of pasting the whole starter stylesheet.
 
-**Catalog translation:** semantic palette remains identical; `data-composition="fracture"`, `data-material="cut"` and `data-card-layout="fragment"` select the same composition and record grammar in both demos. Website Demo supplies six entries for its own distinct subject to the shared renderer through its own controller; preserve the canonical composition, topic artwork, search/filter/sort and preview behavior. Read [demo-parity.md](demo-parity.md) for the adapter contract.
-
 **Interaction and responsive:** shared Read/Save/New/filter/search actions retain real state; selected records use aria-pressed, all controls expose focus. Hover transitions last 160ms and stop under prefers-reduced-motion. Below 850px collapse secondary rails; below 600px use source-order single-column flow, 16px inputs and 44px targets, no required horizontal scrolling. Decorative depth uses static SVG/CSS; no WebGL, infinite canvas or media playback is implied. Dialogs use the same canonical tokens. Test 320/390/768/1024/1440px.
 
-**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=deconstruct-studio) · [Website Demo](https://theme.devoralabs.tech/?view=website&theme=deconstruct-studio).
+**Use:** [Design Lab](https://theme.devoralabs.tech/?theme=deconstruct-studio).

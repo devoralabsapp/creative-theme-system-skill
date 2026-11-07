@@ -3,7 +3,7 @@
 <head>
  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
  <title>All Themes — Devoralabs Theme Explorer</title>
- <meta name="description" content="Browse all 101 Devoralabs themes by collection, open a working Design Lab, then compare the same theme in Website Demo.">
+ <meta name="description" content="Browse all 101 Devoralabs themes and try each one in Design Lab.">
  <meta name="theme-color" content="#B91C30"><link rel="icon" type="image/svg+xml" href="assets/devoralabs-mark.svg">
  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -17,7 +17,6 @@
   <div class="explorer-tabs" role="tablist" aria-label="Preview type">
    <button id="all-tab" type="button" role="tab" aria-selected="true" aria-controls="all-panel" data-view="all">All</button>
    <button id="lab-tab" type="button" role="tab" aria-selected="false" aria-controls="lab-panel" data-view="lab" tabindex="-1">Design Lab</button>
-   <button id="website-tab" type="button" role="tab" aria-selected="false" aria-controls="website-panel" data-view="website" tabindex="-1">Website Demo</button>
   </div>
   <div class="explorer-context" hidden>
    <div class="explorer-context-label"><label for="explorer-theme">Theme library</label><small id="explorer-theme-count"></small></div>
@@ -46,8 +45,7 @@
    </div>
   </section>
   <section id="lab-panel" role="tabpanel" aria-labelledby="lab-tab" hidden><iframe id="lab-preview" title="Design Lab workspace" height="900" scrolling="no"></iframe></section>
-  <section id="website-panel" role="tabpanel" aria-labelledby="website-tab" hidden><iframe id="website-preview" title="Website demo" height="900" scrolling="no"></iframe></section>
  </main>
- <noscript>This interactive theme explorer needs JavaScript. You can also open the <a href="lab/index.html">Design Lab</a> or <a href="website.html">Website Demo</a> directly.</noscript>
+ <noscript>This interactive theme explorer needs JavaScript. You can also open the <a href="lab/index.html">Design Lab</a> directly.</noscript>
 </body>
 </html>

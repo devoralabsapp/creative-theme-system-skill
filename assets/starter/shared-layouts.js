@@ -34,7 +34,46 @@ window.createStudioRenderers=function(ui){
  function press(){return `${mast()}<div class="press-heading row"><div><span class="eyebrow">DEVORA PRESS / YOUR LITTLE LAB</span><h1>A place for<br>your next good idea.</h1><p class="legacy-intro">Small thoughts. Useful products. A little character in everything.</p></div></div><div class="press-feature">${selectedCard('ON THE WORKBENCH')}<div class="press-paper" aria-hidden="true"><small>DEVORA / NOTES</small><b>Small ideas.<br>Big start.</b></div></div>${toolbar()}<h2 class="section-heading">On your desk</h2>${table()}${foot()}`;}
  function signal(){return `<div class="signal-layout"><aside class="signal-rail">${brand()}<span class="eyebrow">YOUR WORK, IN FOCUS</span>${filters()}<span class="signal-rail-note">Less noise.<br>More signal.</span></aside><section class="signal-main"><header class="row"><div><span class="eyebrow">DEVORA SIGNAL / WORKBENCH</span><h1>Make your next move.</h1></div>${newButton()}</header><div class="signal-feature"><span class="signal-index" aria-hidden="true">01</span>${selectedCard('IN FOCUS')}</div><div class="toolbar">${search()}</div>${table()}${foot()}</section></div>`;}
  function folio(){return `${mast()}<div class="folio-hero"><section><span class="eyebrow">DEVORA FOLIO / YOUR PERSONAL EDITION</span><h1>Room for<br>your next chapter.</h1><p class="legacy-intro">A considered collection of ideas, experiments and things you are making your own.</p></section><div class="folio-book" aria-hidden="true"><span class="meta">THE DEVORA NOTEBOOK</span><b>Ideas<br>worth keeping.</b></div></div><div class="folio-feature">${selectedCard('FEATURED / WORK IN PROGRESS')}</div>${toolbar()}${cards('legacy-cards folio-cards',{art:false})}${foot()}`;}
- const renderers={'index-bureau':bureau,'specimen-press':specimen,'grid-assembly':assembly,'margin-notes':margin,'afterhours-fm':fm,'chapter-desk':chapter,'mono-os':os,botanical:garden,editorial,playroom:playful,midnight:night,retro:playful,commandline:terminal,vscode:editor,excel:sheet,canva:canvas,figma:canvas,photoshop:canvas,'file-explorer':explorer,notion:documentView,burpsuite:editor,halloween,christmas,tet,'black-friday':blackFriday,'riso-post':specimen,'tidal-atlas':assembly,'type-foundry':specimen,'solar-glass':garden,'velvet-orbit':night,porcelain:editorial,'magnetic-poetry':margin,infrared:bureau,'night-transit':assembly,'paper-circuit':assembly,'sac-01':os,'devora-press':press,'devora-signal':signal,'devora-folio':folio};
+ function stickerSprint(){
+  const project=current();
+  const entries=visible();
+  const board=entries.length?`
+   <div class="project-grid sprint-board" data-projects>
+    ${entries.map(p=>`
+     <article class="project-card sprint-card" data-project-id="${p.id}">
+      <span class="sprint-number" aria-hidden="true">${String(p.id).padStart(2,'0')}</span>
+      <div class="card-copy">
+       <span class="meta">${meta(p)}</span>
+       <h3>${esc(p.title)}</h3>
+       <p>${esc(p.summary)}</p>
+       <div class="card-actions">${openButton(p)}${saveButton(p)}</div>
+      </div>
+     </article>`).join('')}
+   </div>`:empty();
+  return `
+   <header class="sprint-mast row">
+    ${brand()}<span class="meta">CREATIVE LAB / 06</span>${newButton()}
+   </header>
+   <section class="sprint-stage">
+    <div class="sprint-intro">
+     <span class="sprint-chip">THE CUT-PAPER WORKBENCH</span>
+     <h1>Start small.<br><em>Make it bold.</em></h1>
+     <p>A bright little workbench for sketches, half-built ideas and the next thing you want to try.</p>
+    </div>
+    <img class="sprint-art" src="${assetBase}sticker-sprint.svg" alt="" width="470" height="380">
+    <article class="sprint-feature">
+     <span class="sprint-chip">ON THE DESK</span>
+     <span class="meta">${meta(project)}</span>
+     <h2>${esc(project.title)}</h2>
+     <p>${esc(project.summary)}</p>
+     <div class="card-actions">${openButton(project,'Open note ↗','primary')}${saveButton(project)}</div>
+    </article>
+   </section>
+   ${toolbar()}
+   <div class="sprint-board-heading row"><h2>The sprint board</h2><span class="meta">${entries.length} IN VIEW</span></div>
+   ${board}${foot()}`;
+ }
+ const renderers={'index-bureau':bureau,'specimen-press':specimen,'grid-assembly':assembly,'margin-notes':margin,'afterhours-fm':fm,'chapter-desk':chapter,'mono-os':os,botanical:garden,editorial,playroom:playful,midnight:night,retro:playful,commandline:terminal,vscode:editor,excel:sheet,canva:canvas,figma:canvas,photoshop:canvas,'file-explorer':explorer,notion:documentView,burpsuite:editor,halloween,christmas,tet,'black-friday':blackFriday,'riso-post':specimen,'tidal-atlas':assembly,'type-foundry':specimen,'solar-glass':garden,'sticker-sprint':stickerSprint,porcelain:editorial,'magnetic-poetry':margin,infrared:bureau,'night-transit':assembly,'paper-circuit':assembly,'sac-01':os,'devora-press':press,'devora-signal':signal,'devora-folio':folio};
  Object.assign(renderers,window.createVolumeFiveRenderers({brand,newButton,openButton,saveButton,toolbar,foot,visible,current,projects,esc,meta,badge,empty,assetBase}));
  Object.assign(renderers,window.createExpansionRenderers({brand,newButton,openButton,saveButton,toolbar,foot,visible,current,projects,esc,meta,badge,empty,assetBase}));
  return renderers;

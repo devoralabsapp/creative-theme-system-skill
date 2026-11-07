@@ -23,11 +23,9 @@ For Devora Press, read [devora-press.md](references/devora-press.md) for the war
 
 For the white/red/black Devora Signal and Devora Folio signatures, read [devora-signatures.md](references/devora-signatures.md). Their examples use English copy and distinct workbench/editorial layouts.
 
-For Design Lab, read [design-lab.md](references/design-lab.md). All registered themes have working Lab compositions, including the seven experimental directions (Index Bureau through Mono OS). The bundled explorer defaults to the All overview, with Design Lab and Website Demo in neighboring tabs. Direct theme links still open Design Lab. The overview groups one preview card per registry theme. Theme selection is shared; each preview retains its own working state. Keep the All gallery image at `assets/starter/assets/previews/<id>.jpg` in sync when adding or visually changing a theme; use an actual Lab capture.
+For Design Lab, read [design-lab.md](references/design-lab.md). All registered themes have working Lab compositions, including the seven experimental directions (Index Bureau through Mono OS). The bundled explorer defaults to the All overview, with Design Lab in the adjacent tab. Direct theme links still open Design Lab. The overview groups one preview card per registry theme. Theme selection is shared; each preview retains its own working state. Keep the All gallery image at `assets/starter/assets/previews/<id>.jpg` in sync when adding or visually changing a theme; use an actual Lab capture.
 
 For the eleven Volume Five themes (Redline Atelier through Frame Shift), read [volume-five.md](references/volume-five.md). These have independent compositions, shared canonical palettes and original vector studies. Their showcase page compares the eleven additions.
-
-For Website Demo fidelity to Design Lab, read [demo-parity.md](references/demo-parity.md). Both previews share the composition factories and canonical Lab styles; each owns its own data and interactions. Website Demo has a distinct English subject per theme; use [the 101-topic catalog](docs/WEBSITE_TOPICS.md) to find its brand, content source and illustrations. Adapt the content through renderer helpers to preserve the theme's full layout identity.
 
 ## Visual and integration rules
 

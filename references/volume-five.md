@@ -104,6 +104,6 @@ At intermediate widths move the notes beneath the list/preview. On phones stack 
 
 ## Verification
 
-Inspect both Lab and Website Demo at 1440, 1024, 768, 390 and 320 pixels. Check text bounds, decorative art loading, opaque reading surfaces, light-on-dark and dark-on-light focus, dialogs, keyboard dismissal and long names. Exercise the existing session controller: create an idea containing special characters, search, filter, save, read, change themes and return through All. Verify that catalog filtering and sorting survive the switch independently of the Lab state.
+Inspect Design Lab at 1440, 1024, 768, 390 and 320 pixels. Check text bounds, decorative art loading, opaque reading surfaces, light-on-dark and dark-on-light focus, dialogs, keyboard dismissal and long names. Exercise the existing session controller: create an idea containing special characters, search, filter, save, read, change themes and return through All. Verify that catalog filtering and sorting survive the switch independently of the Lab state.
 
 Refresh the actual Lab screenshot for every new theme in both the All preview assets and README captures. The default root experience remains All; existing direct theme links and the first Creative theme retain their behavior.

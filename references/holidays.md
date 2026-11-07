@@ -1,6 +1,6 @@
 # Holiday identities
 
-Use these recipes for Halloween, Christmas, Tết Holiday and Black Friday. Each has a distinct working composition in Design Lab and an adaptation to Website Demo. Preserve the stable IDs `halloween`, `christmas`, `tet` and `black-friday`.
+Use these recipes for Halloween, Christmas, Tết Holiday and Black Friday. Each has a distinct working composition in Design Lab. Preserve the stable IDs `halloween`, `christmas`, `tet` and `black-friday`.
 
 ## Sources
 

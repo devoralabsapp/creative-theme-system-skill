@@ -8,7 +8,7 @@ Use the current registry, provider, escaped Lab project helpers and catalog cont
 
 Each expansion design defines an ID/name/style/phase, seven semantic colors, typography, spacing, border/radius/shadow material, composition tree, record grammar, original motif, philosophical headline and similarity rationale. `docs/expansion/designs.json` is the reviewed plan; only completed batch definitions are installed in the runtime registry.
 
-Lab and Website Demo share canonical palette roles but translate composition for their different content models. Theme-specific art stays decorative and bounded. Data labels/counts come from actual records. Keep controls at least 44px, phone inputs 16px, visible focus, escaped text, close/cancel and reduced-motion fallbacks.
+Design Lab demonstrates canonical palette roles and one working composition per theme. Theme-specific art stays decorative and bounded. Data labels/counts come from actual records. Keep controls at least 44px, phone inputs 16px, visible focus, escaped text, close/cancel and reduced-motion fallbacks.
 
 ## Batch completion
 
@@ -58,6 +58,6 @@ The browser scripts accept `PLAYWRIGHT_MODULE`, `CHROMIUM_EXECUTABLE` and `DEMO_
 
 After an authorized Git push, `node scripts/verify_production.cjs <phase>` requires a successful Vercel commit status and compares the live registry and expansion files with **committed HEAD**, then opens original/latest deep links in both demo views. A pending deployment is a retry condition, not proof of release. Keep the current project/domain and never force-push.
 
-## Website Demo fidelity update
+## Design Lab composition source
 
-Website Demo now consumes the same Lab composition factories rather than the earlier catalog-specific hero/card adapter. Read [demo parity](../references/demo-parity.md) for the maintained source map and caller-owned data contract. `shared-layouts.js` holds the original render functions; Lab projects and website products remain independent. Both pages load the same canonical style stack. The old catalog-only files remain packaged for existing integrations; the current HTML entries define the active implementation.
+`shared-layouts.js` contains the Design Lab render functions. Their caller supplies project data and actions. Adapt the composition and styles to the host’s own controller.

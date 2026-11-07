@@ -44,6 +44,15 @@ window.STUDIO_THEMES = {
       "family": "creative"
     },
     {
+      "id": "sticker-sprint",
+      "name": "Sticker Sprint",
+      "description": "Sunflower dot grid, cut-paper stickers and bold ink shadows",
+      "color": "#FFD34E",
+      "tone": "light",
+      "family": "creative",
+      "style": "Sticker Neo-Brutalism"
+    },
+    {
       "id": "grid-assembly",
       "name": "Grid Assembly",
       "description": "Exposed structural cells and stepped architectural content modules",
@@ -236,14 +245,6 @@ window.STUDIO_THEMES = {
       "description": "Cobalt ceramic tiles, fine blue borders and museum labels",
       "color": "#f2f4ef",
       "tone": "light",
-      "family": "creative"
-    },
-    {
-      "id": "velvet-orbit",
-      "name": "Velvet Orbit",
-      "description": "Aubergine velvet, copper orbital rings and curved gallery cards",
-      "color": "#201923",
-      "tone": "dark",
       "family": "creative"
     },
     {
@@ -1434,5 +1435,8 @@ window.STUDIO_THEMES = {
     "studio",
     "workspace",
     "seasonal"
-  ]
+  ],
+  "aliases": {
+    "velvet-orbit": "sticker-sprint"
+  }
 };

@@ -169,15 +169,19 @@ Website Demo now uses the same composition factories and canonical style stack f
 - `verify_catalog_parity.cjs`: 101 shared identities, eleven canonical roles per theme, 505 website responsive cases, 101 catalog flow checks; zero findings, JS errors or missing assets.
 - `verify_collection.cjs`: 104 long-title/retained-state/mobile navigation checks passed. Shared explorer regression passed; all first fifty Lab samples preserved.
 - The requested 90% resemblance is a visual goal; the implementation shares actual compositions rather than claiming a numerical screenshot score.
-- [Adapter/source guide](../references/demo-parity.md), [QA record](DEMO_PARITY_VALIDATION.json), [actual visual comparison](screenshots/demo-parity.jpg).
+- [Historical QA record](DEMO_PARITY_VALIDATION.json).
 
 ## Subsequent update — 101 distinct Website Demo subjects
 
-Every registry theme now has its own English website subject, brand, headline, categories and six authored entries. Website Demo preserves the matching Lab composition, typography and palette while using original subject illustrations. The editorial source builds the runtime registry, 707 SVG files and [the complete topic catalog](WEBSITE_TOPICS.md). Each topic retains its own search, category, order, selected entry and bookmarks during the page session; refreshing clears them.
+Every registry theme now has its own English website subject, brand, headline, categories and six authored entries. Website Demo preserves the matching Lab composition, typography and palette while using original subject illustrations. The editorial source builds the runtime registry, 707 SVG files and the former topic catalog. Each topic retains its own search, category, order, selected entry and bookmarks during the page session; refreshing clears them.
 
 - 101 shared visual identities and canonical role sets checked; 505 responsive cases and 101 subject interaction flows passed, with no findings, missing assets or browser errors.
 - 101 record styles compared directly against Lab. Legacy catalog rules now exclude shared Lab records, fixing narrow bento columns and extra Pixel Riot padding. Mobile content width is checked in addition to overflow.
 - Native dropdown changes subject; returning to a topic restores its own query/order/bookmark/category. Shared picker, independent Lab sessions, long-title tests and first-wheel parent scrolling passed. All 50 original Lab samples remain unchanged.
 - 101 unique brands, topics and headlines; 606 unique entry titles. All 707 generated SVGs parse. The fresh demo package, static validators and skill metadata validator passed.
-- Updated [visual comparison](screenshots/demo-parity.jpg), [twelve-site overview](screenshots/website-subjects.jpg), README, skill routing and integration recipes. [Current QA record](DEMO_PARITY_VALIDATION.json).
+- The release included a visual comparison, README and integration recipes. [Historical QA record](DEMO_PARITY_VALIDATION.json).
 - Fictional brands/listings are identified in the demo footer; no live sales, bookings, downloads or streams are provided. Publishing uses the existing repository and Vercel project/domain.
+
+## Sticker Sprint and explorer update
+
+Sticker Sprint replaces Velvet Orbit as the sixth Creative Lab theme. The explorer now has All and Design Lab tabs. Earlier catalog links lead to the corresponding Design Lab theme.

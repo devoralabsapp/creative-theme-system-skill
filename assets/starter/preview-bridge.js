@@ -1,11 +1,9 @@
-/* Same-origin bridge for the two retained previews. No cross-origin data access. */
+/* Same-origin bridge for Design Lab. No cross-origin data access. */
 (() => {
  const embedded=window.parent!==window&&new URLSearchParams(location.search).get('embed')==='1';
- const selector=document.getElementById('lab-theme')||document.getElementById('theme-select');if(!selector)return;
+ const selector=document.getElementById('lab-theme');
+ if(!selector)return;
  const valid=id=>window.STUDIO_THEMES.themes.some(theme=>theme.id===id);
- const base=document.body.dataset.previewBase||'./';
- function updateLinks(){document.querySelectorAll('[data-preview-link]').forEach(link=>{const url=new URL(base,location.href);url.searchParams.set('theme',selector.value);if(link.dataset.previewLink==='website')url.searchParams.set('view','website');link.href=url.href;});}
- updateLinks();selector.addEventListener('change',updateLinks);
  if(!embedded)return;
  document.documentElement.dataset.embedded='true';
  const send=message=>window.parent.postMessage(message,location.origin==='null'?'*':location.origin);

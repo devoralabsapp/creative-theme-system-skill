@@ -1,8 +1,9 @@
 (() => {
   const config=window.STUDIO_THEMES;
+  const resolveTheme=id=>config.aliases?.[id]||id;
   const valid=id=>config.themes.some(theme=>theme.id===id);
-  let stored;try{stored=localStorage.getItem(config.storageKey);}catch{}
-  const requested=new URLSearchParams(location.search).get('theme');
+  let stored;try{stored=resolveTheme(localStorage.getItem(config.storageKey));}catch{}
+  const requested=resolveTheme(new URLSearchParams(location.search).get('theme'));
   const id=valid(requested)?requested:valid(stored)?stored:config.defaultTheme;
   const theme=config.themes.find(item=>item.id===id);
   document.documentElement.dataset.theme=id;

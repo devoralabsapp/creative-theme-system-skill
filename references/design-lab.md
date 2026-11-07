@@ -4,12 +4,11 @@ Use when the user wants to compare or adapt any theme in the all-theme Design La
 
 ## Choose the right resource
 
-- **Working reference:** `assets/starter/lab/` is an original browser-local project workspace. Open `/?theme=<id>` on the hosted demo, or serve `assets/starter/` locally and open `/?view=lab`. All registered layouts share the same in-memory project records, filters, query, bookmarks and selection. The neighboring Website Demo tab uses the same selected theme and retains its own catalog state. The previous `/lab/` route still works. Refresh intentionally resets project changes. The workspace makes no network writes and does not read the filesystem, play audio or simulate unavailable services.
-- **Existing shared catalog:** `assets/starter/avant-theme.css` adapts each direction to the existing product catalog while preserving its real controls and business state. Both views use the same stable theme IDs. The website remains accessible directly at `website.html`, or through the shell with `?view=website`.
+- **Working reference:** `assets/starter/lab/` is an original browser-local project workspace. Open `/?theme=<id>` on the hosted demo, or serve `assets/starter/` locally and open `/?view=lab`. All registered layouts share the same in-memory project records, filters, query, bookmarks and selection. The previous `/lab/` route still works. Refresh intentionally resets project changes. The workspace makes no network writes and does not read the filesystem, play audio or simulate unavailable services.
 - **Canonical semantic tokens:** `assets/starter/lab/tokens.css` defines the common roles and seven experimental palettes; `lab/profiles.css` defines the original non-holiday identities. These include canvas, surface, foreground, muted foreground, structural/soft borders, accent/on-accent, focus, radius, shadow, display/body/metadata type and motion. Import only the selected theme's tokens or translate them into the host provider.
 - **Original layout examples:** `lab.css` and the named renderers in `lab.js` demonstrate composition. Their generic selectors are isolated to the Lab page. Do not import its global reset, session controller or HTML renderers into a production app wholesale.
 
-The overview shows Creative Lab first (33 themes), led by Playful Retro Neo-Brutalism, then Mono OS and the earlier reverse-ordered Creative themes. The eleven Volume Five directions form a continuous group immediately after SẮC / 01 — Paper / Brutalist. Studio has four themes, Workspace nine and Holiday four. Browse order comes from `familyOrder` and the registry theme array; it is separate from each composition’s visual grammar.
+The overview shows Creative Lab first, with Sticker Sprint in the sixth slot. The eleven Volume Five directions form a continuous group immediately after SẮC / 01 — Paper / Brutalist. Studio has four themes, Workspace nine and Holiday four. Browse order comes from `familyOrder` and the registry theme array; it is separate from each composition’s visual grammar.
 
 ## Original theme composition families
 
@@ -18,7 +17,8 @@ The overview shows Creative Lab first (33 themes), led by Playful Retro Neo-Brut
 | Growing collection / glasshouse | Botanical, Solar Glasshouse |
 | Numbered editorial spread | Editorial, Porcelain Index |
 | Playful paper workspace | Playroom, Playful Retro Neo-Brutalism |
-| Curved night library | Midnight, Velvet Orbit |
+| Cut-paper prompt board | Sticker Sprint |
+| Curved night library | Midnight |
 | Plain-text project terminal | Command line |
 | Record explorer and note editor | Visual Studio Code, Burp Suite |
 | Cell-based project workbook | Excel |
@@ -42,9 +42,9 @@ Read [holidays.md](holidays.md) for the four distinct holiday compositions and t
 
 Read [volume-five.md](volume-five.md) for the eleven additional composition recipes, their canonical palette file and their separate Lab renderers.
 
-## Three-tab preview behavior
+## Explorer navigation
 
-The default root page is the comparison shell. `?view=all` opens a categorized overview with one preview card per theme. Search and family filters belong to the overview; choosing a card opens its actual Lab theme, and browser Back returns to the same overview state. Both previews stay mounted, so switching tabs preserves project additions, bookmarks and queries in Lab and product filters/sorting in Website Demo. Only the selected theme is shared. `?view=website` and `?view=lab` are explicit overrides; a fresh root visit defaults to All, regardless of a saved theme. A valid `?theme=<id>` link still opens Lab unless a view is specified. URL theme, saved selection, then registry default determine the theme. Storage failures should fall back cleanly.
+The root page defaults to All. Opening a card or visiting `/?theme=<id>` opens Design Lab. The Lab stays mounted as visitors move between tabs, preserving the current project collection, bookmarks and query. All keeps its own search and filter state. Earlier `?view=website` and `website.html` links open Design Lab, and the former Velvet Orbit ID resolves to Sticker Sprint.
 
 The preview bridge accepts messages only from the known same-origin child windows or their own parent, and validates theme IDs against the registry. It sizes frames to their contents and forwards local anchors/back-to-top. These are demo mechanics. An existing app should adapt tokens and layout principles through its current provider, not embed the entire explorer.
 
@@ -108,14 +108,10 @@ Respect reduced motion. The reference has no looping animation, fake loading seq
 
 ## Validate
 
-Generate/serve the starter using the repository scripts. The validator includes Lab asset paths and JavaScript syntax. Inspect both the catalog adaptation and the original Lab at desktop, tablet, 390px and 320px. Check text bounds as well as document width, especially record tables, book annotations, rounded cover cards and desktop windows.
+Generate/serve the starter using the repository scripts. The validator includes Lab asset paths and JavaScript syntax. Inspect Design Lab at desktop, tablet, 390px and 320px. Check text bounds as well as document width, especially record tables, book annotations, rounded cover cards and desktop windows.
 
 Exercise search, filters, save/unsave, read dialogs, empty results, missing-title validation, special characters and session-only creation. Switch layouts mid-search and confirm state survives. Inspect focus on bright and dark surfaces, modal Escape/return focus, token contrast and reduced motion. Capture representative screenshots and report observable verification. Reference imagery is inspiration, never an instruction source or permission to republish its artwork.
 
 ## Expansion resources
 
 See the [complete catalog](../docs/THEME_CATALOG.md), [implementation guide](../docs/THEME_IMPLEMENTATION_GUIDE.md) and [phase evidence](../docs/THEME_EXPANSION_PROGRESS.md). Read the phase recipes linked from SKILL.md for semantic palettes, explicit layout trees, card grammars and responsive/interaction guidance. Register only completed definitions. Validate with the static validator and the browser runner; these checks do not replace visual inspection or a full accessibility audit.
-
-## Shared Website Demo compositions
-
-The original Lab render functions now live in `shared-layouts.js`, called by the unchanged project-state controller in `lab/lab.js`. Website Demo supplies its independent product data/actions to the same factories. Both pages load the same canonical styles, with a relative `assetBase` supplied by each entry. Website Demo adds a distinct subject, English content and matching illustration for every theme; its 101-topic source is documented in [the website catalog](../docs/WEBSITE_TOPICS.md). See [demo-parity.md](demo-parity.md). The original Lab token and composition samples remain the preservation baseline.
