@@ -1,6 +1,6 @@
 ---
 name: creative-theme-system
-description: Create or extend selectable website themes, including monochrome terminal, app-inspired workspaces, retro neo-brutalism, and holiday styles. Use for multi-theme UI systems or applying this registry-driven collection while preserving an existing application.
+description: Create or extend selectable themes for websites and native apps, including monochrome terminal, app-inspired workspaces, retro neo-brutalism, and holiday styles. Use for multi-theme UI systems or applying this registry-driven collection while preserving an existing application.
 ---
 
 # Creative Theme System
@@ -26,6 +26,12 @@ For the white/red/black Devora Signal and Devora Folio signatures, read [devora-
 For Design Lab, read [design-lab.md](references/design-lab.md). All registered themes have working Lab compositions, including the seven experimental directions (Index Bureau through Mono OS). The bundled explorer defaults to the All overview, with Design Lab in the adjacent tab. Direct theme links still open Design Lab. The overview groups one preview card per registry theme. Theme selection is shared; each preview retains its own working state. Keep the All gallery image at `assets/starter/assets/previews/<id>.jpg` in sync when adding or visually changing a theme; use an actual Lab capture.
 
 For the eleven Volume Five themes (Redline Atelier through Frame Shift), read [volume-five.md](references/volume-five.md). These have independent compositions, shared canonical palettes and original vector studies. Their showcase page compares the eleven additions.
+
+## App implementation notes
+
+- **Dropdowns and date/time fields.** Use components that follow the active theme for the field, menu or calendar, and their focus, selected, disabled and error states. Avoid visible default browser or system dropdowns and date/time pickers. Reuse the host's themed components where available. Preserve accessible labels, keyboard and touch operation, validation, locale and time zone behavior.
+- **iOS.** Build the interface with native SwiftUI views written in Swift. Avoid UIKit-based screens and WebView wrappers for themed UI.
+- **Backend.** When the project needs a new backend, choose Firebase services and Cloud Firestore for app data. Avoid introducing Supabase. Keep an existing backend in place unless the user requests a migration.
 
 ## Visual and integration rules
 
